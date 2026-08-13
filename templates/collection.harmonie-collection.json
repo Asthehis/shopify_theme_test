@@ -1,0 +1,176 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collection-header": {
+      "type": "collection-page-header",
+      "settings": {
+        "container": "container-fluid",
+        "layout": "without_breadcrumb",
+        "header_height": "large",
+        "text_alignment": "center",
+        "vertical_alignment": "center",
+        "text_color": "dark",
+        "bg_color": "#ffffff",
+        "bg_image": "shopify://shop_images/toutes_nos_cures.webp",
+        "enable_parallax": false,
+        "upper_title": true,
+        "show_desc": true,
+        "collection_all_desc": "<p>Nos formules concentrent le meilleur de la nature pour révéler le meilleur en vous. Elles associent les dernières innovations en phytothérapie et nutricosmétique. Nous voulons que vous soyez en parfaite harmonie, à l'intérieur comme à l'extérieur, afin que vous puissiez être là pour les moments qui comptent.</p>",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "main": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "container": "container-fluid",
+        "grid_layout": "list",
+        "grid_columns": "2",
+        "show_columns_switcher": false,
+        "pagination_limit": 12,
+        "paginate_type": "paginate",
+        "show_sorting": false,
+        "show_filter": false,
+        "filters_type": "storefront_filters",
+        "sidebar": "leftColumn",
+        "sidebar_title": "Filters",
+        "limit_height_widget": false,
+        "limit_height": 300,
+        "change_product_variant_on_fitlering": true,
+        "show_product_count": true,
+        "collapsed_groups": "Brand, Vendor, Size",
+        "color_swatches": "color,colour,couleur,farbe"
+      }
+    },
+    "17200117935e59c690": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_all_reviews_text_ccyaQD": {
+          "type": "shopify://apps/judge-me-reviews/blocks/all_reviews_text/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "judge_me_reviews_featured_carousel_PcNERw": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_all_reviews_text_ccyaQD",
+        "judge_me_reviews_featured_carousel_PcNERw"
+      ],
+      "settings": {
+        "heading": "Ce sont nos clientes qui en parlent le mieux",
+        "subheading": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "#faf9f5",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "165720578806c09987": {
+      "type": "icon-box",
+      "blocks": {
+        "16572057881d5b2233-0": {
+          "type": "iconbox",
+          "settings": {
+            "image_by_url": "https://cdn.shopify.com/s/files/1/0602/7365/6017/files/Paiement_securise.png?v=1642861772",
+            "title": "Paiement sécurisé",
+            "description": "<p>Paiement sécurisé par carte bancaire ou avec le service de paiement votre choix. Paiement en 3x et 4x disponible.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        },
+        "16572057881d5b2233-1": {
+          "type": "iconbox",
+          "disabled": true,
+          "settings": {
+            "image_by_url": "https://cdn.shopify.com/s/files/1/0602/7365/6017/files/Livraison_offerte.png?v=1642861787",
+            "title": "Livraison offerte",
+            "description": "<p>Livraison gratuite pour toujours et partout !</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        },
+        "16572057881d5b2233-2": {
+          "type": "iconbox",
+          "settings": {
+            "image_by_url": "https://cdn.shopify.com/s/files/1/0602/7365/6017/files/Livraison_mondiale.png?v=1642861824",
+            "title": "Livraison mondiale",
+            "description": "<p>Nous livrons  dans plus de 200 destinations avec notre réseau de partenaires.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        },
+        "f541e32e-757f-409b-91b6-12e006d8346c": {
+          "type": "iconbox",
+          "settings": {
+            "image_by_url": "https://cdn.shopify.com/s/files/1/0602/7365/6017/files/On_vous_repond.png?v=1642861846",
+            "title": "On vous répond",
+            "description": "<p>En nous écrivant à bonjour@umawell.com, du lundi au vendredi de 9h à 18h.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "16572057881d5b2233-0",
+        "16572057881d5b2233-1",
+        "16572057881d5b2233-2",
+        "f541e32e-757f-409b-91b6-12e006d8346c"
+      ],
+      "settings": {
+        "heading": "Nous sommes là tout au long du voyage",
+        "subheading": "",
+        "description": "Ce que vous vivez pendant la périménopause et la ménopause peut avoir un impact sur le reste de votre vie. Notre mission est de vous aider à vivre plus longtemps et en meilleure santé avec des solutions naturelles, sûres et efficaces.",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "#f6f3ea",
+        "item_per_row": 3,
+        "item_gap": 30,
+        "item_gap_mobile": 14,
+        "card_style": "horizontal",
+        "image_max_width": "70px",
+        "content_alignment": "start",
+        "hover_effect": "zoom-in",
+        "enable_slider": false,
+        "show_pagination": false,
+        "show_navigation": false,
+        "use_scroll_mobile": true,
+        "use_grid_column_mb": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    }
+  },
+  "order": [
+    "collection-header",
+    "main",
+    "17200117935e59c690",
+    "165720578806c09987"
+  ]
+}

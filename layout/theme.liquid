@@ -1,0 +1,247 @@
+{%- capture body_classes -%}
+template-{{ template.name | handle }} {{ template.name }}-{{ template.suffix }} {{ template.name | append: '-' | append: handle }}
+{%- endcapture -%}
+
+{% liquid
+  assign enable_rtl = settings.enable_rtl
+  assign language_support_rtl = settings.language_support_rtl
+  if enable_rtl and language_support_rtl != blank
+    assign shop_locale = localization.language.iso_code
+    assign language_support_rtl_list = language_support_rtl | split: ','
+    assign is_rtl = language_support_rtl_list | where: shop_locale
+    if is_rtl.size > 0
+      assign enable_rtl = true
+    else
+      assign enable_rtl = false
+    endif
+  endif
+%}
+<!doctype html>
+<html
+  class="no-js supports-no-cookies{% if settings.page_transition %} overflow-hidden{% endif %}"
+  lang="{{ request.locale.iso_code }}"
+  data-template="{{ template.name }}"
+  {% if enable_rtl %}
+    dir="rtl"
+  {% endif %}
+>
+  <head>
+    {% include 'multi-store-hreflang-tags' %}
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
+    <meta name="theme-color" content="{{ settings.color_primary }}">
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-T6R5VJPX');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    {%- liquid
+      render 'preload'
+      render 'SEO'
+      render 'social-meta-tags'
+      render 'font-face'
+    -%}
+
+    {% render 'critical-css' %}
+    {% render 'critical-scripts' %}
+    {% render 'custom-code-head' %}
+
+    {{ 'theme.css' | asset_url | stylesheet_tag }}
+    {{ 'chunk.css' | asset_url | stylesheet_tag }}
+
+    {% render 'style-tags' %}
+
+    <script src="{{ 'vendor.min.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'theme-global.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'app.min.js' | asset_url }}" defer="defer"></script>
+
+    {%- if settings.animations != 'none' -%}
+      <script src="{{ 'animations.min.js' | asset_url }}" defer="defer"></script>
+    {%- endif -%}
+
+    {{ content_for_header }}
+    {% render 'smart-css' %}
+    {%- render 'foxify-head' -%}
+
+    {{ 'custom-hero.css' | asset_url | stylesheet_tag }}
+
+    {% comment %} <script>
+      window.addEventListener('CORNER_COMPONENT_CLASSES_READY', () => {
+        const customElementsMap = new Map();
+
+        class CornerCartLineItemExtended extends window.CORNER_COMPONENT_CLASSES.CornerCartLineItem {
+          constructor() {
+            super();
+          }
+
+          renderPercent() {
+            const item = this.item;
+
+            if (item?.sellingPlanAllocation?.compare_at_price) {
+              const originalTotal = item.properties._Prix_original;
+              const finalTotal = item.properties._Prix_final;
+
+              const discountPercentage = item.properties._Réduction;
+              return this.html`
+              <span class="corner-subscription-price-wrapper">
+                <span class="corner-subscription-price-content">
+                  <span class="corner-subscription-price-original">
+                    ${originalTotal}
+                  </span>
+                  <span class="corner-subscription-price-final">
+                    ${finalTotal}
+                  </span>
+                </span>
+
+                <div
+                  style="
+                    background: #ffc008;
+                    border-radius: 5px;
+                    padding: 4px 5px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-shrink: 0;
+                  "
+                >
+                  <div
+                    style="
+                      color: #322b81;
+                      font-size: 10px;
+                      line-height: 100%;
+                      font-weight: 700;
+                    "
+                  >
+                    -${discountPercentage}
+                  </div>
+                </div>
+              </span>
+            `;
+            } else if (item?.discounts[0]?.title) {
+              const title = String(item.discounts[0].title || '');
+              const match = title.match(/-?\d+%/);
+              const discountText = match ? match[0] : title;
+
+              return this.html`
+              <div class="text-xs mr-1 ml-3 bg-cowi-secondary-bg px-2 py-1 my-1 rounded-md flex items-center text-cowi-primary-type font-bold">
+                <span class="font-bold w-5 h-5 mr-1">
+                    <corner-icon type="tag"></corner-icon>
+                </span> 
+                <span>
+                    ${discountText}
+                </span>
+              </div>
+            `;
+            }
+          }
+
+          renderSubtitle() {
+            if (this.item?.properties?._Fréquence) {
+              
+              return this.html`
+                <p class="text-md leading-snug text-cowi-primary-type hover:text-[color:var(--corner-cowi-accent-bg)] transition-all" style="color: #322B81; font-family: Segoe UI !important; font-size: clamp(10px, 1.2vw, 14px); font-style: normal; font-weight: 400; line-height: normal !important;">
+                  ${this.item?.properties?._Fréquence}
+                </p>`
+              ;
+            }
+          }
+
+          renderTitle() {
+            return this.html`
+      <div>
+        ${super.renderTitle()}
+        ${this.renderSubtitle()}
+        </div>
+      `;
+            }
+
+            renderPrice() {
+              return this.html`
+              <div class="flex items-center gap-1">
+                ${super.renderPrice()}
+                ${this.renderPercent()}
+              </div>
+            `;
+            }
+          }
+
+          customElementsMap.set('corner-cart-line-item', CornerCartLineItemExtended);
+
+          window.CORNER_EXTENDED_CLASSES = customElementsMap;
+        });
+    </script> {% endcomment %}
+
+    <script src="{{ 'corner-cart-extended.js' | asset_url }}"  defer="defer"></script>
+    {{ 'corner-cart-extended.css' | asset_url | stylesheet_tag }}
+  </head>
+
+  <script src="{{ 'loop_bundle.js' | asset_url }}" defer="defer"></script>
+  <body
+    id="sf-theme"
+    class="{{ body_classes }} relative min-h-screen{% if customer %} customer-logged-in{% endif %}{% if settings.page_transition %} overflow-hidden{% endif %}"
+    {% if template.name == 'product' %}
+      data-product-id="{{ product.id }}"
+    {% endif %}
+  >
+    {% sections 'foxify-header-group' %}
+
+    {% if settings.page_transition %}
+      <div class="sf-page-transition">
+        <div class="sf-page-transition__spinner">
+          <div class="sf-page-transition__spinner-content">
+            <div></div>
+          </div>
+        </div>
+      </div>
+    {% endif %}
+    {%- liquid
+      render 'theme-data'
+      sections 'header-group'
+      render 'scroll-top-button'
+    -%}
+
+    <main role="main" id="MainContent">
+      {{ content_for_layout }}
+    </main>
+
+    {%- sections 'footer-group' -%}
+
+    {% render 'custom-code-body' %}
+    {% render 'script-tags' %}
+    {%- comment -%}
+      {% render 'cookie-banner' %}
+    {%- endcomment -%}
+
+    <script src="{{ 'quick-view.min.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'product-card-swatch.min.js' | asset_url }}" defer="defer"></script>
+    {%- if settings.enable_predictive_search -%}
+      <script src="{{ 'predictive-search.min.js' | asset_url }}" defer="defer"></script>
+    {%- endif -%}
+    {%- if linklists['gift-wrapping'].links != blank
+      and linklists['gift-wrapping'].links.first.type == 'product_link'
+    -%}
+      <script src="{{ 'gift-wrapping.min.js' | asset_url }}" defer="defer"></script>
+    {%- endif -%}
+    {%- unless template == 'cart' -%}
+      {% render 'cart-drawer' %}
+    {%- endunless -%}
+    {% render 'smartb-js' %}
+    {% render 'smarth-js' %}
+    {{ '//cdn.shopify.com/s/files/1/0194/1736/6592/t/1/assets/booster-page-speed-optimizer.js?23' | script_tag }}
+    {%- render 'foxify-footer' -%}
+    {% sections 'foxify-footer-group' %}
+    {{ 'custom-icon-titles.js' | asset_url | script_tag }}
+  </body>
+</html>

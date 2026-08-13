@@ -1,0 +1,41 @@
+[
+  {
+    "id": "gid://shopify/Metaobject/129753088161",
+    "handle": "pharmcie-ctgobnj2",
+    "name": "Pharmacie Test 5",
+    "address": "12 freres Lumière",
+    "city": "Brunstatt Didenheim",
+    "postal_code": "68555",
+    "country": "France",
+    "lat": "7.2676922",
+    "lng": "47.6767211",
+    "hours": "08h00 - 12h30 / 14h00 -19h00",
+    "url": "/pages/pharmcie-ctgobnj2"
+  },
+  {
+    "id": "gid://shopify/Metaobject/129804927137",
+    "handle": "la-paloma",
+    "name": "la Paloma",
+    "address": "22 Puente de Vallecas",
+    "city": "Madrid",
+    "postal_code": "28018",
+    "country": "Espagne",
+    "lat": "40.3836917",
+    "lng": "-3.6462895",
+    "hours": "",
+    "url": "/pages/la-paloma"
+  },
+  {
+    "id": "gid://shopify/Metaobject/132142268577",
+    "handle": "saint-gall",
+    "name": "Saint Gall",
+    "address": "",
+    "city": "Brunstatt Didenheim",
+    "postal_code": "68350",
+    "country": "France",
+    "lat": "48.8588897",
+    "lng": "2.320041",
+    "hours": "",
+    "url": "/pages/saint-gall"
+  }
+]

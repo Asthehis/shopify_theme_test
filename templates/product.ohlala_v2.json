@@ -1,0 +1,1197 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1642583437f365ed49": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"product-form-1\"></div>",
+        "custom_class": ""
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "c87c6e87-b82b-4ef0-8e7b-85ca44648866": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>OH LA LA MINCEUR®</h4>",
+            "text_style": "body"
+          }
+        },
+        "text_LTcmWN": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>Perte de poids ciblée et durable après 45 ans. Actions minceur 6 en 1 dans une cure de 30 jours.</h5>",
+            "text_style": "body"
+          }
+        },
+        "judge_me_reviews_preview_badge_rz4wcT": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "9843ea3b-cc4f-4812-8787-22a339f1aa56": {
+          "type": "text",
+          "settings": {
+            "text": "Oh La La Minceur est un programme minceur très puissant qui brûle les graisses, accroît les dépenses caloriques, régule l'appétit, favorise l'élimination des toxines et renforce le pouvoir détoxifiant des organes. Une formule exclusive qui allie 16 ingrédients actifs pour une silhouette affinée et un bien-être durable. Redécouvrez le plaisir de vous sentir légère et en harmonie avec votre corps.",
+            "text_style": "subtitle"
+          }
+        },
+        "px_trust_badges_icons_app_block_HwCg8B": {
+          "type": "shopify://apps/px-trust-badges-icons/blocks/app-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+          "settings": {
+            "block_id": "fe095741-d16b-4ef9-9e22-6c621083e208",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "spacing_left": 0,
+            "spacing_right": 0
+          }
+        },
+        "px_trust_badges_icons_app_block_QcdgJM": {
+          "type": "shopify://apps/px-trust-badges-icons/blocks/app-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+          "settings": {
+            "block_id": "9ec0eec5-7098-4715-bc52-73e343a9bb07",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "spacing_left": 0,
+            "spacing_right": 0
+          }
+        },
+        "561bea99-62ba-4d45-a431-eb5f5e7fa148": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_atc_button": true,
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "trust_badge_6bqdWX": {
+          "type": "trust_badge",
+          "settings": {
+            "trust_badges_text": "",
+            "trust_badges_image": "shopify://shop_images/payments_cardssmall.png",
+            "trust_badges_image_width": "100%",
+            "position": "below"
+          }
+        },
+        "0c727350-9dc5-46ae-a5df-e5f7c59cd070": {
+          "type": "shipping",
+          "settings": {
+            "show_delivery_times": true,
+            "deliver_text": "En stock, livré entre le",
+            "deliver_days": "5",
+            "date_format": "%d/%m",
+            "show_shipping_text": true,
+            "shipping_text": "<p><strong>Livraison suivie et sécurisée</strong></p>"
+          }
+        },
+        "6dabc8e2-e481-43e1-a790-7d86df26bfce": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "<b>Pourquoi prendre Oh La La Minceur</b>",
+            "content": "<p>Contrairement aux autres cures minceurs, Oh La La Minceur a été formulé pour répondre aux besoins spécifiques des femmes pendant la ménopause. Développé par des expertes en ménopause et soutenu par des études cliniques, notre formule innovante vous permet de remodeler votre silhouette, dompter votre appétit et booster votre énergie. Avec la cure Oh La La Minceur, vous pouvez vous sentir en confiance en optant pour une méthode de perte de poids durable sans produits chimiques ni effets secondaires indésirables.</p>",
+            "liquid": "",
+            "default_open": false
+          }
+        },
+        "43ebcdeb-5d8a-4aba-a64d-57be23c4c15c": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "<b>Résultats après 30 jours de cure</b>",
+            "content": "<p>Oh La La Minceur est une solution éprouvée scientifiquement pour combattre la prise de poids pendant de la ménopause. Son efficacité a été validé par 2 études cliniques indépendantes menées auprès de 120 femmes. </p><p><strong>Résultats après 30 jours de cures</strong></p><ul><li>94% des femmes ont constaté une perte de poids globale</li><li>90% des femmes ont perdu en moyenne 3 kilos.</li><li>88% des femmes ont constaté une réduction de 3.5% de la graisse abdominale.</li></ul><p>Les données issues de ces études cliniques révèlent une réduction significative de la prise de poids chez les femmes ayant intégré Oh La La Minceur dans leur routine quotidienne, soulignant ainsi le potentiel de notre formule innovante.</p><p><strong>Résultats à 6 et 12 mois de cures</strong></p><ul><li>89% des femmes ont perdu en moyenne 12 kilos après 5 mois de cure. Soit 2 tailles de vêtements en moins !</li><li>86% Des femmes ont connu une perte de poids durable : stabilisation du poids lors des 12 mois suivants l'arrêt la cure.</li></ul>",
+            "liquid": "",
+            "default_open": false
+          }
+        },
+        "65349e79-857f-4b28-8c94-02aa413ef499": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "<b>Composition et ingrédients</b>",
+            "content": "<p><strong>Oh La La Minceur</strong><br/><em>Complément alimentaire à base de plantes, de vitamine et minéraux.</em></p><p><strong>Ingrédients :</strong> Glucomannane (Amorphophallus Konjac), Enveloppe de la capsule : Hydroxypropyl Méthylcellulose (HPMC), Extrait de fruit de framboise (Rubus Idaeus), Extrait de feuille de thé vert (Camellia Sinensis), Caféine anhydre, Farine de riz brun (Oryza Sativa), L-Tyrosine, Extrait de riz (Oryza Sativa), Extrait de noyau de mangue africaine (Irvingia Gabonensis), Bitartrate de choline, Poudre de fruit entier d'orange amère (Citrus Aurantium), Vitamine B6 (Pyridoxine Hydrochloride), Extrait de poivre de Cayenne (Capsicum Annuum), Extrait de graine de guarana (Paullinia Cupana), Extrait de ginseng de Sibérie (Eleutherococcus Senticosus), Extrait de kelp (Laminaria Japonica), Gluconate de zinc, Pipérine Bioperine® (Extrait De Poivre Noir), Picolinate de chrome.</p>",
+            "liquid": "<img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/ohlala_Supplement_full_ingredients_list.png?v=1708504298\" alt=\"Composition\"><br><p>Ne pas dépasser la dose journalière recommandée. À consommer dans le cadre d'une alimentation variée et équilibrée et d'un mode de vie sain. Tenir hors de portée des enfants.Si vous êtes sous suivi médical ou si vous prenez des médicaments prescris dans le cadre d'un traitement lourd, veuillez consulter votre médecin avant toute utilisation.</p>",
+            "default_open": false
+          }
+        },
+        "collapsible_tab_Fp8YiA": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "<b>Combinez nos cures en toute confiance</b>",
+            "content": "<p>Chez les Laboratoires üma, nous comprenons que votre parcours de bien-être est unique, et vous cherchez peut-être à cibler plusieurs aspects de votre santé simultanément. C'est pourquoi nous avons conçu nos produits pour qu'ils puissent être pris ensemble, en toute sécurité et efficacité.</p><ul><li><strong>Synergie des ingrédients :</strong> Nos formules sont développées pour fonctionner en harmonie, maximisant les bienfaits grâce à la synergie des ingrédients. Cela signifie que combiner nos cures peut amplifier les effets positifs sur votre santé.</li><li><strong>Ciblage complet :</strong> Chaque produit cible différents aspects de votre bien-être. En les combinant, vous pouvez adresser plusieurs préoccupations de santé à la fois, pour une approche holistique de votre bien-être.</li><li><strong>Sécurité et qualité :</strong> La sécurité est notre priorité. Tous nos produits sont formulés en respectant strictement les normes de sécurité et de qualité, vous permettant de les combiner sans risque de surdosage ou d'interactions négatives.</li></ul><p><strong>Conseils pour l'association de nos produits :</strong></p><ul><li><strong>Suivez les instructions :</strong> Chaque produit vient avec des recommandations précises. Pour une expérience optimale, il est important de respecter ces dosages.</li><li><strong>Écoutez votre corps :</strong> Soyez attentif à vos réactions et ajustez l'utilisation des produits en fonction de vos ressentis et de vos objectifs de santé.</li><li><strong>Hydratation :</strong> L'eau facilite l'absorption des compléments et soutient leur efficacité. Veillez à bien vous hydrater tout au long de la journée.</li></ul><p><strong>Exemples d'associations recommandées :</strong></p><ul><li><strong>Gestion du poids et soutien hormonal :</strong> L'association d'Oh La La et Harmonie Daily offre une solution complète pour la gestion du poids tout en abordant les déséquilibres hormonaux.</li><li><strong>Pour un bien-être global :</strong> Harmonie Daily et Iconique Collagène forment un duo parfait pour soutenir l'équilibre hormonal et la beauté de la peau, des cheveux et des ongles.</li><li><strong>Soutien des articulations et des os :</strong> Ajouter Reneva à votre routine peut aider à soulager les douleurs articulaires et à renforcer les os, complétant ainsi l'action des autres produits pour un bien-être total.</li></ul>",
+            "liquid": "",
+            "default_open": false
+          }
+        },
+        "px_trust_badges_icons_app_block_W4eNXi": {
+          "type": "shopify://apps/px-trust-badges-icons/blocks/app-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+          "settings": {
+            "block_id": "affa9f09-bb2b-438a-a378-e7074ccdad8d",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "spacing_left": 0,
+            "spacing_right": 0
+          }
+        },
+        "judge_me_reviews_review_widget_9jEYJU": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        }
+      },
+      "block_order": [
+        "c87c6e87-b82b-4ef0-8e7b-85ca44648866",
+        "text_LTcmWN",
+        "judge_me_reviews_preview_badge_rz4wcT",
+        "9843ea3b-cc4f-4812-8787-22a339f1aa56",
+        "px_trust_badges_icons_app_block_HwCg8B",
+        "px_trust_badges_icons_app_block_QcdgJM",
+        "561bea99-62ba-4d45-a431-eb5f5e7fa148",
+        "trust_badge_6bqdWX",
+        "0c727350-9dc5-46ae-a5df-e5f7c59cd070",
+        "6dabc8e2-e481-43e1-a790-7d86df26bfce",
+        "43ebcdeb-5d8a-4aba-a64d-57be23c4c15c",
+        "65349e79-857f-4b28-8c94-02aa413ef499",
+        "collapsible_tab_Fp8YiA",
+        "px_trust_badges_icons_app_block_W4eNXi",
+        "judge_me_reviews_review_widget_9jEYJU"
+      ],
+      "settings": {
+        "container": "container-fluid",
+        "layout": "layout-4",
+        "show_atwl": false,
+        "enable_history_state": false,
+        "enable_variant_group_images": false,
+        "show_featured_media": true,
+        "show_zoom_button": true,
+        "enable_video_autoplay": false,
+        "show_nav_media_mobile": true,
+        "show_pagination_mobile": false,
+        "use_sticky_atc": true,
+        "use_sticky_atc_on_mobile": true,
+        "enable_dynamic_checkout": false,
+        "sticky_atc_wishtlist": false,
+        "sticky_atc_compare": false
+      }
+    },
+    "16950683130787a7c0": {
+      "type": "apps",
+      "blocks": {
+        "px_trust_badges_icons_app_block_TrxKth": {
+          "type": "shopify://apps/px-trust-badges-icons/blocks/app-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+          "settings": {
+            "block_id": "a963ea8c-4ca1-4ac8-bfb5-676c84f41c30",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "spacing_left": 0,
+            "spacing_right": 0
+          }
+        }
+      },
+      "block_order": [
+        "px_trust_badges_icons_app_block_TrxKth"
+      ],
+      "settings": {
+        "heading": "Les bienfaits de plusieurs compléments minceur dans une seule cure.",
+        "subheading": "LE SECRET DE D'OH LA LA MINCEUR",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "16530405356838123e": {
+      "type": "custom-content",
+      "blocks": {
+        "16530405358e9b5d79-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Harmonie_-la-cure-qui-vous-redonne-le-sourire.png",
+            "link": "#product-form-1",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "60c3f7e5-ebf2-43da-a0e2-258a2afca8fe": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__about-custom-list\">\n  <ul>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b>Perdre du poids pour de bon</b></h4>\n          <p class=\"text-color-subtext\">Nous utilisons la science pour vous aider à perdre du poids et à le garder pour de bon. Oh La La Minceur active les capacités naturelles de votre corps à brûler les graisses et à perdre du poids durablement.</p>\n      </div>\n    </li>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b>Formulation experte</b></h4>\n          <p class=\"text-color-subtext\">Il ne s'agit pas d'un régime de plus qui vous laisse un sentiment de frustration et sans résultats durables. C'est le dernier que vous ferez. Pourquoi ? Parce qu'il est conçu pour vous. Votre corps change. Nous comprenons les changements physiologiques et hormonaux que subit le corps féminin.</p>\n      </div>\n    </li>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b>Perte de poids après 45 ans</b></h4>\n          <p class=\"text-color-subtext\"> Notre complexe exclusif de 16 actifs cible spécifiquement la prise de poids hormonale liée à la ménopause, répondant aux besoins spécifiques des femmes traversant la ménopause, pour une prise en charge efficace de la gestion du poids après 45 ans.</p>\n      </div>\n    </li>\n  </ul>\n</div>",
+            "width": "50%",
+            "block_custom_class": "sf__about-custom-html",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "16530405358e9b5d79-1",
+        "60c3f7e5-ebf2-43da-a0e2-258a2afca8fe"
+      ],
+      "settings": {
+        "heading": "La dernière cure minceur que vous ferez",
+        "subheading": "BIEN DANS SON CORPS, BIEN DANS SA TÊTE",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "rgba(0,0,0,0)",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__page-about"
+      }
+    },
+    "175873777721c05c13": {
+      "type": "apps",
+      "blocks": {
+        "px_trust_badges_icons_app_block_UfCq9G": {
+          "type": "shopify://apps/px-trust-badges-icons/blocks/app-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+          "settings": {
+            "block_id": "3a0a62da-fbad-4b21-9343-bcff035c5b66",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "spacing_left": 0,
+            "spacing_right": 0
+          }
+        }
+      },
+      "block_order": [
+        "px_trust_badges_icons_app_block_UfCq9G"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "1695061161c626e25c": {
+      "type": "apps",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "remove-space my-10"
+      }
+    },
+    "4687afce-a067-4300-a252-cd51aaf403c3": {
+      "type": "custom-content",
+      "blocks": {
+        "template--20793445876053__4687afce-a067-4300-a252-cd51aaf403c3-text-1": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "template--20793445876053__4687afce-a067-4300-a252-cd51aaf403c3-text-1"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "remove-space my-10"
+      }
+    },
+    "1655561935289710ef": {
+      "type": "custom-content",
+      "blocks": {
+        "a7489ea0-e5d2-41ef-80c4-e1b03acad0ad": {
+          "type": "image_card",
+          "settings": {
+            "width": "25%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Raspberry_fruit_ohlala.png",
+            "link": "",
+            "title": "<h3>Cétone de Framboise</h3>",
+            "subtitle": "Stimule le métabolisme, la thermogenèse et dégradation des graisses",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": false,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "ebdabcdd-1a90-4dfd-850c-21c2f943cec8": {
+          "type": "image_card",
+          "settings": {
+            "width": "25%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Glucomannan_ohlala.png",
+            "link": "",
+            "title": "<h3>Konjac</h3>",
+            "subtitle": "Favorise la satiété, améliore le métabolisme des lipides, aide à contrôler la glycémie.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": false,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "f055c057-2357-4dda-87e6-d46d8a16295a": {
+          "type": "image_card",
+          "settings": {
+            "width": "25%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Ginseng_de_Coree_ohlala.png",
+            "link": "",
+            "title": "<h3>Panax Ginseng</h3>",
+            "subtitle": "Stimule le métabolisme, régule la glycémie, favorise la concentration et anti-fatigue.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": false,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "c2c634f2-0561-4802-b57c-15acfa068f7d": {
+          "type": "image_card",
+          "settings": {
+            "width": "25%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Green_tea_ohlala.png",
+            "link": "",
+            "title": "<h3>Thé Vert</h3>",
+            "subtitle": "Accélérer le métabolisme, soutient la synthèse hormonale, régule l'appétit et accélère la perte de poids.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": false,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "82b89900-0b60-46a8-b236-a74f840262be": {
+          "type": "image_card",
+          "settings": {
+            "width": "25%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Zinc_ohlala.png",
+            "link": "",
+            "title": "<h3>Zinc</h3>",
+            "subtitle": "Soutient le métabolisme lipidique, fonction hépatique et dégrade les lipides.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": false,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "87758313-092f-4d61-8238-ef8dccde748f": {
+          "type": "image_card",
+          "settings": {
+            "width": "25%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Choline_ohlala.png",
+            "link": "",
+            "title": "<h3>Choline</h3>",
+            "subtitle": "Stimule le métabolisme, favorise l'oxydation des graisses, augmente la dépense énergétique",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": false,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "5fee2343-da89-4c93-a55d-5cbe6703d70a": {
+          "type": "image_card",
+          "settings": {
+            "width": "25%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Iodine_ohlala.png",
+            "link": "",
+            "title": "<h3>Iode</h3>",
+            "subtitle": "Indispensable à la synthèse des hormones thyroïdiennes et régulation des dépenses énergétiques",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": false,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "e10f947f-5b3b-4c20-b10a-99b514ec2da1": {
+          "type": "image_card",
+          "settings": {
+            "width": "25%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Guarana_ohlala.png",
+            "link": "",
+            "title": "<h3>Guarana</h3>",
+            "subtitle": "Augmente la combustion des graisses, stimule le métabolisme, réduit l'appétit.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": false,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "129bf988-d0ad-49d3-a410-a4b899052f16": {
+          "type": "image_card",
+          "settings": {
+            "width": "25%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Capsicum_ohlala.png",
+            "link": "",
+            "title": "<h3>Capsicum</h3>",
+            "subtitle": "Renforce l'oxydation des graisses, augmente la thermogenèse, soutient le métabolisme",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": false,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "62ce34d3-a8e2-481d-b1d9-19d7e30a3098": {
+          "type": "image_card",
+          "settings": {
+            "width": "25%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Chromium_ohlala.png",
+            "link": "",
+            "title": "<h3>Chrome</h3>",
+            "subtitle": "Aide à contrôler la glycémie, favorise la satiété, améliore le métabolisme des lipides",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": false,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "4a7a0eed-be26-413a-aa00-82a59dea209c": {
+          "type": "image_card",
+          "settings": {
+            "width": "25%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Vitamine_B6_-_oh_lala.png",
+            "link": "",
+            "title": "<h3>Vitamine B6</h3>",
+            "subtitle": "Régule l'équilibre hormonal, participe au métabolisme des macronutriments, soutient le contrôle de l'appétit",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": false,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "edda056f-d2b1-4ead-a099-bc91a5e8353e": {
+          "type": "image_card",
+          "settings": {
+            "width": "25%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/African_Mango_ohlala.png",
+            "link": "",
+            "title": "<h3>Mangue d'Afrique</h3>",
+            "subtitle": "Régule la sensation de faim et satiété, aide à la digestion aide et au nettoyage du système digestif.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": false,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "c2e43a11-0d06-413f-a795-640ab737601c": {
+          "type": "image_card",
+          "settings": {
+            "width": "25%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Bioperine.png",
+            "link": "",
+            "title": "<h3>Piperine</h3>",
+            "subtitle": "Améliore l'absorption des nutriments, stimule la thermogenèse, favorise la gestion du poids.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": false,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "5071b862-ec87-45db-8eeb-d922d4bb598b": {
+          "type": "image_card",
+          "settings": {
+            "width": "25%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Coffee_bean_ohlala.png",
+            "link": "",
+            "title": "<h3>Caféine Anhydre</h3>",
+            "subtitle": "Accélère le métabolisme, favorise la perte de graisse, régule l'appétit et boost l'énergie.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": false,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "66a0dc1c-a20e-46e6-af1b-ef6f5c4d1bf4": {
+          "type": "image_card",
+          "settings": {
+            "width": "25%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Bitter_Orange_Ohlala.png",
+            "link": "",
+            "title": "<h3>Orange Amère</h3>",
+            "subtitle": "Soutient les hormones thyroïdiennes, améliore la résistance au stress et régule le poids.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": false,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "39ba7a1f-d4b3-43f6-b63e-383c485b4985": {
+          "type": "image_card",
+          "settings": {
+            "width": "25%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/L_Tyrosine_ohlala.png",
+            "link": "",
+            "title": "<h3>L-Tyrosine</h3>",
+            "subtitle": "Favorise le fonctionnement de la thyroïde, régule le métabolisme, stimule la dépense énergétique",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": false,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "16af9711-fcea-458e-987a-a9d120dae728": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "a7489ea0-e5d2-41ef-80c4-e1b03acad0ad",
+        "ebdabcdd-1a90-4dfd-850c-21c2f943cec8",
+        "f055c057-2357-4dda-87e6-d46d8a16295a",
+        "c2c634f2-0561-4802-b57c-15acfa068f7d",
+        "82b89900-0b60-46a8-b236-a74f840262be",
+        "87758313-092f-4d61-8238-ef8dccde748f",
+        "5fee2343-da89-4c93-a55d-5cbe6703d70a",
+        "e10f947f-5b3b-4c20-b10a-99b514ec2da1",
+        "129bf988-d0ad-49d3-a410-a4b899052f16",
+        "62ce34d3-a8e2-481d-b1d9-19d7e30a3098",
+        "4a7a0eed-be26-413a-aa00-82a59dea209c",
+        "edda056f-d2b1-4ead-a099-bc91a5e8353e",
+        "c2e43a11-0d06-413f-a795-640ab737601c",
+        "5071b862-ec87-45db-8eeb-d922d4bb598b",
+        "66a0dc1c-a20e-46e6-af1b-ef6f5c4d1bf4",
+        "39ba7a1f-d4b3-43f6-b63e-383c485b4985",
+        "16af9711-fcea-458e-987a-a9d120dae728"
+      ],
+      "settings": {
+        "heading": "16 actifs naturels pour une perte de poids durable",
+        "subheading": "NATUREL, SÛR ET TRANSPARENT",
+        "description": "Nous avons associé les propriétés exceptionnelles de principes 16 actifs dans une cure minceur unique. Chaque gélule est un concentré unique de superaliments, minéraux et vitamines, qui sont tous réputés pour leurs propriétés favorisant la combustion des graisses, la satiété et la perte de de poids.",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "rgba(0,0,0,0)",
+        "gap": 10,
+        "use_scroll_mobile": true,
+        "gap_mobile": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__index-custom-content sf-custom__content-above-image"
+      }
+    },
+    "bff4e0ee-5d3d-4406-a76e-5e587eef163e": {
+      "type": "testimonials",
+      "blocks": {
+        "template--20793445876053__bff4e0ee-5d3d-4406-a76e-5e587eef163e-testimonial-1": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Efficace pour la perte de poids",
+            "description": "<p>Excellent produit efficace pour perte de poids mais permet aussi de limiter les excès en cas de repas copieux. Déjà presque 2 boîtes utilisées mais le résultat pour le moment est concret et je continue...</p>",
+            "footer": "<p><strong>Sandrine O.</strong></p>",
+            "image": "shopify://shop_images/avis_cliente_51-14.png",
+            "image_text": "",
+            "image_link": "",
+            "product": "ohlala"
+          }
+        },
+        "template--20793445876053__bff4e0ee-5d3d-4406-a76e-5e587eef163e-testimonial-2": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Formidable",
+            "description": "<p>Pour moi c'est un produit formidable car il réunit toute une série d'ingrédients que j'utilisais déjà et qui fonctionnent très bien ensemble comme support à la perte de poids. Je donne aussi un + pour l'ajout de probiotiques qui aident à bien assimiler le produit sans endommager la flore de l'intestin.</p>",
+            "footer": "<p><strong>Gisèle M.</strong></p>",
+            "image": "shopify://shop_images/avis_cliente_51-19.png",
+            "image_text": "",
+            "image_link": "",
+            "product": "ohlala"
+          }
+        },
+        "template--20793445876053__bff4e0ee-5d3d-4406-a76e-5e587eef163e-testimonial-3": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Très efficace",
+            "description": "<p>Aptes quelques jours de prise, plus d'énergie lors des séances de sport, Ventre plus plat, envie de sucre largement diminuée. Un produit qui tient vraiment ses promesses</p>",
+            "footer": "<p><strong>Edith Y.</strong></p>",
+            "image": "shopify://shop_images/avis_cliente_51-17.png",
+            "image_text": "",
+            "image_link": "",
+            "product": "ohlala"
+          }
+        },
+        "template--20793445876053__bff4e0ee-5d3d-4406-a76e-5e587eef163e-testimonial-4": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Parfait pour la perte de poids",
+            "description": "<p>J’ai commandé ce produit pour m’aider à perdre du poids et je ne suis pas du tout déçue. En effet, les gélules m’aident à réduire la rétention d’eau, me servent de coupe faim, et agissent sur la masse graisseuse efficacement. J’ai déjà perdu du poids !! Je recommande vivement ce produit !</p>",
+            "footer": "<p><strong>Boriana S.</strong></p>",
+            "image": "shopify://shop_images/avis_cliente_51-18.png",
+            "image_text": "",
+            "image_link": "",
+            "product": "ohlala"
+          }
+        },
+        "template--20793445876053__bff4e0ee-5d3d-4406-a76e-5e587eef163e-testimonial-5": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Impeccable",
+            "description": "<p>Une aide formidable pour perte de poids , et perdre quelques centimètres taille et hanche . Résultats 2 cm de moins aux hanches 2 cm à la taille et perdu 2 kg 600 juste avec une alimentation adaptée.</p>",
+            "footer": "<p><strong>Karine L.</strong></p>",
+            "image": "shopify://shop_images/avis_cliente_51-15.png",
+            "image_text": "",
+            "image_link": "",
+            "product": "ohlala"
+          }
+        },
+        "template--20793445876053__bff4e0ee-5d3d-4406-a76e-5e587eef163e-testimonial-6": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Excellent produit qui tient toutes ses promesses",
+            "description": "<p>Produit très efficace. On me l'avait recommandé: je ne suis pas déçue du résultat et compte bien le recommander à mon tour :) Selon moi, le meilleur dans sa catégorie ! En plus de ça, livraison très rapide.<br/>Merci beaucoup !!</p>",
+            "footer": "<p><strong>Christine U.</strong></p>",
+            "image": "shopify://shop_images/avis_cliente_51-20.png",
+            "image_text": "",
+            "image_link": "",
+            "product": "ohlala"
+          }
+        }
+      },
+      "block_order": [
+        "template--20793445876053__bff4e0ee-5d3d-4406-a76e-5e587eef163e-testimonial-1",
+        "template--20793445876053__bff4e0ee-5d3d-4406-a76e-5e587eef163e-testimonial-2",
+        "template--20793445876053__bff4e0ee-5d3d-4406-a76e-5e587eef163e-testimonial-3",
+        "template--20793445876053__bff4e0ee-5d3d-4406-a76e-5e587eef163e-testimonial-4",
+        "template--20793445876053__bff4e0ee-5d3d-4406-a76e-5e587eef163e-testimonial-5",
+        "template--20793445876053__bff4e0ee-5d3d-4406-a76e-5e587eef163e-testimonial-6"
+      ],
+      "settings": {
+        "heading": "Pourquoi nos clientes adorent Oh La La Minceur",
+        "subheading": "",
+        "description": "Simple à prendre et facile à intégrer dans votre quotidien, Oh La La Minceur est une solution unique et adaptée aux besoins spécifiques des femmes traversant la ménopause, pour une prise en charge efficace et durable de la gestion du poids.",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "#f6f3ea",
+        "design": "testimonials-5",
+        "show_stars": true,
+        "autorotate": false,
+        "show_navigation": false,
+        "show_pagination": true,
+        "star_color": "#ffc107",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "1695051166db7774aa": {
+      "type": "apps",
+      "blocks": {
+        "pretty_comparison_tables_table_Hwzgc3": {
+          "type": "shopify://apps/pretty-comparison-tables/blocks/table/4ce14980-e26b-4398-92cd-f582d95d4f05",
+          "settings": {
+            "product": "{{product}}",
+            "title_text": "",
+            "title_font_tag": "h2",
+            "section_background_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "pretty_comparison_tables_table_Hwzgc3"
+      ],
+      "settings": {
+        "heading": "Vous hésitez avec une autre cure minceur?",
+        "subheading": "COMPAREZ OH LA LA MINCEUR®",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "#faf9f5",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "306d9c6f-a81a-4826-9295-1895d147a260": {
+      "type": "custom-content",
+      "blocks": {
+        "template--20793445876053__306d9c6f-a81a-4826-9295-1895d147a260-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ohlala_smart_capsule.png",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "fec58495-c853-4e0b-83c8-7f3fd5a73c54": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__about-custom-list\">\n  <ul>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b>Gélules  brevetées Nutri Genesis®\n</b></h4>\n          <p class=\"text-color-subtext\">Nos gélules à libération progressive ont été conçues pour se dissoudre dans l'intestin grêle, l’endroit idéal pour absorber les nutriments. Naturellement infusées de prébiotiques, elles favorisent une digestion confortable et une absorption supérieure des nutriments dans votre organisme.</p>\n      </div>\n    </li>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b>Un concentré d'actifs minceurs</b></h4>\n          <p class=\"text-color-subtext\">Une association unique de 16 actifs naturels rendue possible grâce à notre technique d'encapsulation novatrice.  Les composants secs et huileux sont intégrés dans une seule capsule, ce qui vous garantit un meilleur apport quotidien en principes actifs et des résultats garanties.</p>\n      </div>\n    </li>\n  </ul>\n</div>",
+            "width": "50%",
+            "block_custom_class": "sf__about-custom-html",
+            "animations": "inherit"
+          }
+        },
+        "71372467-752e-4a85-b369-6076b47a067c": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "template--20793445876053__306d9c6f-a81a-4826-9295-1895d147a260-image-1",
+        "fec58495-c853-4e0b-83c8-7f3fd5a73c54",
+        "71372467-752e-4a85-b369-6076b47a067c"
+      ],
+      "settings": {
+        "heading": "Pour une assimilation parfaite des nutriments",
+        "subheading": "CAPSULE INTÉLIGENTE",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "#f8f6f0",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__page-about"
+      }
+    },
+    "featured_collection_catiJ4": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "Pour un bien-être sans compromis",
+        "subheading": "COMPLÉTEZ VOTRE CURE",
+        "description": "La ménopause ne doit pas être un sujet tabou, ni une expérience que l'on traverse seule. Les compléments alimentaires üma® accompagnent les femmes dans les changements naturels qui surviennent à toutes les étapes de leur vie.",
+        "header_alignment": "left",
+        "container": "container",
+        "background_color": "rgba(0,0,0,0)",
+        "collection": "shopall",
+        "enable_flashsale": false,
+        "show_countdown": false,
+        "product_to_show": 12,
+        "items_per_row": 3,
+        "item_gap": 30,
+        "pcard_layout": "",
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "hide_title": false,
+        "enable_slider": true,
+        "show_pagination": false,
+        "show_navigation": true,
+        "button_type": "link",
+        "button_text": "Nos cures",
+        "button_style": "sf__btn-primary",
+        "button_size": "sf__btn-large",
+        "infinite_load": false,
+        "max_page_load": 3,
+        "mobile_disable_slider": true,
+        "use_scroll_mobile": true,
+        "item_gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "1655908857b14f63b3": {
+      "type": "custom-content",
+      "blocks": {
+        "78c8f010-59e5-474d-935a-5aa2b4371115": {
+          "type": "product",
+          "settings": {
+            "product": "harmonie-daily",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "product_bn4y4C": {
+          "type": "product",
+          "settings": {
+            "product": "reneva",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "c5de2d5f-e495-4b4d-9712-d5fdd7e62cf4": {
+          "type": "product",
+          "settings": {
+            "product": "iconique-collagen",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "7f72dc86-ec80-42f9-94a2-a333c49fca8e": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "product": "ohlala",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "78c8f010-59e5-474d-935a-5aa2b4371115",
+        "product_bn4y4C",
+        "c5de2d5f-e495-4b4d-9712-d5fdd7e62cf4",
+        "7f72dc86-ec80-42f9-94a2-a333c49fca8e"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Pour un bien-être sans compromis",
+        "subheading": "COMPLÉTEZ VOTRE CURE",
+        "description": "La ménopause ne doit pas être un sujet tabou, ni une expérience que l'on traverse seule.  Les produits üma® accompagnent les femmes dans les changements naturels qui surviennent à toutes les étapes de leur vie.",
+        "header_alignment": "left",
+        "container": "container",
+        "background_color": "#f6f3ea",
+        "gap": 80,
+        "use_scroll_mobile": true,
+        "gap_mobile": 30,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "9f9cca76-1a38-4137-9cee-2f8fd0803a9a": {
+      "type": "custom-content",
+      "blocks": {
+        "template--20793445876053__9f9cca76-1a38-4137-9cee-2f8fd0803a9a-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/laboratoire-francais.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "ebf57784-f1e3-43f2-864b-e17817f33113": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__about-custom-list\">\n  <ul>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0764/9581/4997/files/France.png?v=1692690421\"></span>\n      <div class=\"rte\">\n          <h4><b>Laboratoires Français</b></h4>\n          <p class=\"text-color-subtext\">Nous sommes un laboratoire français indépendant entièrement dédié à la santé et au bien-être des femmes. Pionnière de la micronutrition et de la phytothérapie, nous formulons des compléments alimentaires naturels, sains, efficaces et sans hormone pour préserver votre qualité de vie pendant et après la ménopause.\n</p>\n      </div>\n    </li>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0764/9581/4997/files/Approuvee_par_des_femmes.png?v=1692690451\"></span>\n      <div class=\"rte\">\n          <h4><b>Passion, engagement et expertise</b></h4>\n          <p class=\"text-color-subtext\">Nous sommes entourés d'experts ayant plus de 30 ans d'expérience dans la formulation de compléments alimentaires et la recherche clinique. Notre conseil consultatif scientifique, composé de médecins, de nutritionnistes et de scientifiques, contribue à orienter notre réflexion sur les dernières recherches et innovations en matière de produits.</p>\n      </div>\n    </li>\n  </ul>\n</div>",
+            "width": "50%",
+            "block_custom_class": "sf__about-custom-html",
+            "animations": "inherit"
+          }
+        },
+        "91ea0a95-e32d-49ef-8f71-1cd228808d95": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "template--20793445876053__9f9cca76-1a38-4137-9cee-2f8fd0803a9a-image-1",
+        "ebf57784-f1e3-43f2-864b-e17817f33113",
+        "91ea0a95-e32d-49ef-8f71-1cd228808d95"
+      ],
+      "settings": {
+        "heading": "Par une équipe de mères, de filles et de chercheurs",
+        "subheading": "",
+        "description": "<h5>Notre mission est d'aider les femmes à vivre plus longtemps et en meilleure santé.</h5>",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__page-about"
+      }
+    },
+    "product-details-tabs": {
+      "type": "product-details-tabs",
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "bg_color": "",
+        "default_open": false,
+        "animations": "inherit"
+      }
+    },
+    "164261608633fb1e22": {
+      "type": "custom-content",
+      "blocks": {
+        "16426160851865ef0e-0": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "Questions fréquentes",
+            "subheading": "",
+            "text": "<p>Voici les questions principales posées par nos clientes avant d’essayer notre cure Oh La La - Brûle Graisses.</p>",
+            "width": "33%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "71a41393-7458-490c-9599-d5f0e82b1703": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__tabs-custom\">\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck101\">\n        <label class=\"sf__tab-item-label\" for=\"chck101\">Qu'est-ce que Oh La La Minceur ?</label>\n        <div class=\"sf__tab-item-content\">\n          Oh La La Minceur est le premier brûle graisses formulé avec des ingrédients naturels véritablement efficaces pour vous aider dans votre perte de poids pendant et après la ménopause.\nOh La La Minceur agit en stimulant la façon dont votre corps utilise l'énergie stockée sous forme de graisse, en réduisant l'appétit et en augmentant votre métabolisme. Oh La La Minceur renferme des ingrédients naturels qui ont été cliniquement étudiés et éprouvés pour vous aider à éliminer les kilos superflus et à pérenniser la perte de poids.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck102\">\n        <label class=\"sf__tab-item-label\" for=\"chck102\">Comment Oh La La Minceur peut m’aider à perdre du poids après 45 ans ?</label>\n        <div class=\"sf__tab-item-content\">\n          La formulation unique d'Oh La Minceur La renferme un complexe unique d'ingrédients testés et éprouvés par des essais cliniques indépendants, conçus pour vous aider à perdre du poids en brûlant les graisses, en bloquant la production de nouvelles graisses, en contrôlant votre appétit et en stimulant votre tonus. En ciblant la perte de poids sur des ces points précis, vous obtiendrez avec Oh La La Minceur de meilleurs résultats que si vous utilisiez un produit minceur standard.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck103\">\n        <label class=\"sf__tab-item-label\" for=\"chck103\">Qui devrait utiliser Oh La La Minceur ?</label>\n        <div class=\"sf__tab-item-content\">\n          Oh La La Minceur est conçu pour vous aider à perdre du poids rapidement et durablement pendant et après la ménopause. Formulé spécifiquement pour les femmes périménopausées, ménopausées ou postménopausées, qui rencontrent des problèmes pour atteindre leur objectif de perte de poids.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck104\">\n        <label class=\"sf__tab-item-label\" for=\"chck104\">Comment dois-je prendre Oh La La Minceur </label>\n        <div class=\"sf__tab-item-content\">\n          Prendre deux gélules avec un grand verre d'eau, trois fois par jour, 30 minutes avant le petit déjeuner, le déjeuner et le dîner :\n<br><br>- Deux avant le petit-déjeuner\n<br>- Deux avant le déjeuner\n<br>- Deux avant le dîner\n<br><br>Il est important de prendre Oh La La Minceur de façon régulière et constante pour obtenir des résultats.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck105\">\n        <label class=\"sf__tab-item-label\" for=\"chck105\">En combien de temps aurais-je des résultats ?</label>\n        <div class=\"sf__tab-item-content\">\n          Oh La La Minceur est conçu pour fonctionner en complément d'un régime alimentaire sain et d'une activité physique régulière. Sans cela, il vous sera plus difficile de maximiser vos résultats. Il est également conçu pour une utilisation continue, et nous vous suggérons de le prendre pendant au moins 2 mois pour vous assurer que votre corps bénéficie des ingrédients brûleurs thermogéniques contenus dans notre formule.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck106\">\n        <label class=\"sf__tab-item-label\" for=\"chck106\">Pendant combien de temps puis-je prendre Oh La La Minceur ?</label>\n        <div class=\"sf__tab-item-content\">\n          Parce que Oh La La Minceur est élaboré avec des ingrédients 100% naturels, efficaces et sans effets secondaires, vous pouvez continuer à le prendre aussi longtemps que vous le souhaitez, quels que soient vos objectifs de perte de poids. Une perte de poids saine et durable est estimée à 1 kilos par semaine, en fonction de votre apport calorique et de votre niveau d'activité. <br><br>Une fois que vous aurez atteint votre objectif de perte de poids, vous pourrez en toute tranquillité continuer à prendre Oh La La Minceur pour vous aider à maintenir votre nouveau poids ou vous pourrez l'arrêter complètement si vous le désirez. Si vous remarquez que vous reprenez du poids, il vous suffira de recommencer à prendre Oh La La Minceur jusqu'à ce que vous ayez repris votre poids de forme.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck107\">\n        <label class=\"sf__tab-item-label\" for=\"chck107\">Est-ce que Oh La La Minceur contient des hormones ?</label>\n        <div class=\"sf__tab-item-content\">\n          Oh La La Minceur ne contient pas d'hormones.\n        </div>\n      </div>\n<div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck111\">\n        <label class=\"sf__tab-item-label\" for=\"chck111\">Est-ce que Oh La La Minceur entraîne des effets secondaires ? </label>\n        <div class=\"sf__tab-item-content\">\n          Au cours des études cliniques, les femmes ayant bénéficié des ingrédients d’Oh La La n'ont signalé aucun effet secondaire ni aucun événement indésirable. Si vous avez des inquiétudes particulières, nous vous recommandons d'en parler à votre médecin. \n        </div>\n      </div>\n<div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck112\">\n        <label class=\"sf__tab-item-label\" for=\"chck112\">Puis-je prendre Oh La La Minceur avec d'autres compléments alimentaires ? </label>\n        <div class=\"sf__tab-item-content\">\n          Bien qu'il n'y ait aucune interaction négative connue ou suspectée avec d'autres compléments, aucune étude clinique n'a été réalisée sur la prise de nos produits avec d'autres compléments. Nous vous recommandons de consulter votre médecin si vous avez des questions spécifiques. \n        </div>\n      </div>\n<div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck113\">\n        <label class=\"sf__tab-item-label\" for=\"chck113\">Oh La La Minceur peut-il être utilisé par les végétariens et les végétaliens ? </label>\n        <div class=\"sf__tab-item-content\">\n          Oui ! Oh La La Minceur est fabriqué à partir d'ingrédients 100 % véganes. \n        </div>\n      </div>\n</div>",
+            "width": "100%",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "66c850cb-6f03-4c73-9629-62d79f6f0f4f": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "16426160851865ef0e-0",
+        "71a41393-7458-490c-9599-d5f0e82b1703",
+        "66c850cb-6f03-4c73-9629-62d79f6f0f4f"
+      ],
+      "custom_css": [
+        ".sf__tab-item-label {font-weight: normal;}"
+      ],
+      "settings": {
+        "heading": "Vous avez des questions. Nous adorons y répondre",
+        "subheading": "",
+        "description": "Voici les questions principales posées par nos clientes avant d’essayer notre cure Oh La La Minceur.",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "#f8f6f0",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "1642583437f365ed49",
+    "main",
+    "16950683130787a7c0",
+    "16530405356838123e",
+    "175873777721c05c13",
+    "1695061161c626e25c",
+    "4687afce-a067-4300-a252-cd51aaf403c3",
+    "1655561935289710ef",
+    "bff4e0ee-5d3d-4406-a76e-5e587eef163e",
+    "1695051166db7774aa",
+    "306d9c6f-a81a-4826-9295-1895d147a260",
+    "featured_collection_catiJ4",
+    "1655908857b14f63b3",
+    "9f9cca76-1a38-4137-9cee-2f8fd0803a9a",
+    "product-details-tabs",
+    "164261608633fb1e22"
+  ]
+}

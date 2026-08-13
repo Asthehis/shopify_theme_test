@@ -1,0 +1,995 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1642583437f365ed49": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"product-form-1\"></div>",
+        "custom_class": ""
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "c87c6e87-b82b-4ef0-8e7b-85ca44648866": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Fleur de minuit®</h4>",
+            "text_style": "uppercase"
+          }
+        },
+        "d62298a0-6546-491b-8197-17e0859dd23c": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>Redécouvrez le plaisir de bien dormir.</h5>",
+            "text_style": "body"
+          }
+        },
+        "judge_me_reviews_preview_badge_aPAxPq": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "9d6c5ebd-14a3-403d-9c3c-17cc52876cb5": {
+          "type": "text",
+          "settings": {
+            "text": "Conçu spécialement pour les femmes en ménopause, Fleur de Minuit vous aide à retrouver un sommeil paisible et à améliorer votre moral en un temps record. Fleur de Minuit combine 13 actifs naturels, soigneusement sélectionnés pour répondre aux défis de la ménopause. ",
+            "text_style": "subtitle"
+          }
+        },
+        "px_trust_badges_icons_app_block_bCGeyD": {
+          "type": "shopify://apps/px-trust-badges-icons/blocks/app-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+          "settings": {
+            "block_id": "9972ac26-438a-44af-b9a0-b0d6955f2861",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "spacing_left": 0,
+            "spacing_right": 0
+          }
+        },
+        "px_trust_badges_icons_app_block_73HqtP": {
+          "type": "shopify://apps/px-trust-badges-icons/blocks/app-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+          "settings": {
+            "block_id": "59cb5484-63db-44cf-a24c-1ecae907c043",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "spacing_left": 0,
+            "spacing_right": 0
+          }
+        },
+        "561bea99-62ba-4d45-a431-eb5f5e7fa148": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_atc_button": true,
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "trust_badge_mQw3bq": {
+          "type": "trust_badge",
+          "settings": {
+            "trust_badges_text": "",
+            "trust_badges_image": "shopify://shop_images/payments_cardssmall.png",
+            "trust_badges_image_width": "100%",
+            "position": "below"
+          }
+        },
+        "0c727350-9dc5-46ae-a5df-e5f7c59cd070": {
+          "type": "shipping",
+          "settings": {
+            "show_delivery_times": true,
+            "deliver_text": "En stock, livré entre le",
+            "deliver_days": "5",
+            "date_format": "%d/%m",
+            "show_shipping_text": true,
+            "shipping_text": "<p><strong>Livraison suivie et sécurisée</strong></p>"
+          }
+        },
+        "111d3e08-0c34-4040-a3cc-7bcc92b56620": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "<b>Pourquoi prendre Fleur de minuit ?</b>",
+            "content": "<p>Fleur de minuit® est différent des autres suppléments de sommeil car il est spécialement adapté aux femmes ménopausées. Avec sa formule naturelle et sans hormone, il calme efficacement les symptômes de sommeil associés à la ménopause, vous permettant de dire adieu aux insomnies et aux troubles du sommeil.Vous allez pouvoir retrouver votre sérénité, votre énergie, ainsi qu'un quotidien paisible.</p>",
+            "liquid": "",
+            "default_open": false
+          }
+        },
+        "eb884e3d-33a8-4f53-8502-0527c3f1027b": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "<b>Résultats dès 30 jours de cure</b>",
+            "content": "<p>Chez üma, nos solutions reposent sur une base scientifique solide et font l'objet de tests rigoureux. Fondée sur une étude de 40 jours impliquant 150 femmes de notre communauté, nous avons constaté des bienfaits notables en seulement 30 jours :</p><ul><li>89% ont rapporté une amélioration du sommeil.</li><li>86% ont rapporté un sommeil moins agité et plus réparateur</li><li>83% ont signalé moins de réveils nocturnes.</li><li>70% ont ressenti une diminution de l'anxiété.</li><li>76% ont mentionné moins de maux de tête matinaux.</li><li>88% se sont réveillées en se sentant rafraîchies.</li><li>67% ont noté une amélioration de leur capacité à se rendormir après des réveils nocturnes.</li></ul>",
+            "liquid": "",
+            "default_open": false
+          }
+        },
+        "65349e79-857f-4b28-8c94-02aa413ef499": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "<b>Composition et ingrédients</b>",
+            "content": "<p><strong>Fleur de minuit </strong><br/><em>Complément alimentaire à base de plantes, d'acides aminés, de vitamines et de minéraux. </em></p><p><strong>Ingrédients : </strong>Poudre de Passiflore (biologique) (Passiflora incarnata) ; Enveloppe de la gélule : Hydroxypropyl Methylcellulose (HPMC) ; Magnésium (Oxyde de Magnésium) ; Acide Pantothénique (D-calcium Pantothenate) ; Feuilles de Mélisse en poudre (Melissa officinalis) ; L-Taurine (Vegan) ; L-Théanine (Vegan) ; Extrait de Cerise Montmorency (Prunus cerasus montmorency) ; Extrait d'Ashwagandha KSM66 (Withania somnifera) ; Poudre d'Herbe de Lavande (Lavandula angustifolia) ; Extrait de Fleur de Camomille Allemande (Matricaria Recuitit ) ; Niacine (Nicotinamide) ; Concentré et Extrait de Riz (Oryza Sativa) ; Vitamine B6 (Chlorhydrate de Pyridoxine) ; Biotine (D-Biotine).</p>",
+            "liquid": "<img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/Bain-de-minuit_Supplement_full_ingredients_list.jpg?v=1716995286\"><br><p>Veillez à respecter la dose journalière prescrite. En complément d’un mode de vie sain, à ajouter à une alimentation équilibrée et diversifiée. Tenir hors de portée des enfants. Dans le cas d’un suivi médical ou d’un traitement lourd, consultez votre médecin avant toute prise.</p>",
+            "default_open": false
+          }
+        },
+        "collapsible_tab_nRtxMD": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "<b>Combinez nos cures en toute confiance</b>",
+            "content": "<p>Chez les Laboratoires üma, nous comprenons que votre parcours de bien-être est unique, et vous cherchez peut-être à cibler plusieurs aspects de votre santé simultanément. C'est pourquoi nous avons conçu nos produits pour qu'ils puissent être pris ensemble, en toute sécurité et efficacité.</p><ul><li><strong>Synergie des ingrédients :</strong> Nos formules sont développées pour fonctionner en harmonie, maximisant les bienfaits grâce à la synergie des ingrédients. Cela signifie que combiner nos cures peut amplifier les effets positifs sur votre santé.</li><li><strong>Ciblage complet :</strong> Chaque produit cible différents aspects de votre bien-être. En les combinant, vous pouvez adresser plusieurs préoccupations de santé à la fois, pour une approche holistique de votre bien-être.</li><li><strong>Sécurité et qualité :</strong> La sécurité est notre priorité. Tous nos produits sont formulés en respectant strictement les normes de sécurité et de qualité, vous permettant de les combiner sans risque de surdosage ou d'interactions négatives.</li></ul><p><strong>Exemples de combinaisons recommandées :</strong></p><p><em><strong>Support Total pour la Ménopause : Fleur de Minuit + Harmonie Daily</strong></em></p><ul><li><strong>Problème à Résoudre :</strong> Symptômes Ménopausiques Sévères et Perturbations du Sommeil</li><li><strong>Avantage de la Combinaison :</strong> Harmonie Daily traite les symptômes ménopausiques diurnes tels que les bouffées de chaleur, les sautes d'humeur et les douleurs articulaires. Combiné avec Fleur de Minuit, qui favorise un sommeil réparateur et réduit l'anxiété nocturne, cette combinaison assure un soutien complet 24 heures sur 24 pour les femmes ménopausées.</li></ul><p><em><strong>Gestion du Poids et Sommeil Réparateur : Fleur de Minuit + Oh La La</strong></em></p><ul><li><strong>Problème à Résoudre :</strong> Prise de Poids et Problèmes de Sommeil pendant la Ménopause</li><li><strong>Avantage de la Combinaison :</strong> Oh La La aide à la gestion du poids et stimule le métabolisme, ce qui peut être particulièrement difficile pendant la ménopause. En l'associant avec Fleur de Minuit, les femmes peuvent non seulement gérer leur poids efficacement, mais aussi bénéficier d'un sommeil de qualité, crucial pour maintenir un métabolisme sain et un bien-être général.</li></ul><p><em><strong>Peau Jeune et Sommeil Amélioré : Fleur de Minuit + Iconique Collagène</strong></em></p><ul><li><strong>Problème à Résoudre :</strong> Vieillissement de la Peau et Insomnie</li><li><strong>Avantage de la Combinaison :</strong> Iconique Collagène améliore l'élasticité de la peau et réduit les signes de vieillissement, qui sont des préoccupations courantes pendant la ménopause. Combiné avec Fleur de Minuit, ce duo garantit non seulement un meilleur sommeil et un réveil rafraîchi, mais aussi que votre peau reçoive les nutriments nécessaires pour rester jeune et éclatante.</li></ul><p><em><strong>Confort Digestif et Sommeil Profond : Fleur de Minuit + Symbiotic</strong></em></p><ul><li><strong>Problème à Résoudre :</strong> Problèmes Digestifs et Troubles du Sommeil</li><li><strong>Avantage de la Combinaison :</strong> Symbiotic soutient la santé intestinale en fournissant des probiotiques bénéfiques, ce qui peut soulager les problèmes digestifs comme les ballonnements et la constipation souvent exacerbés pendant la ménopause. Associé à Fleur de Minuit, cette combinaison améliore non seulement la santé intestinale mais assure aussi un sommeil réparateur, traitant à la fois le confort digestif et la qualité du sommeil.</li></ul><p><em><strong>Os Solides et Sommeil Paisible : Fleur de Minuit + Reneva</strong></em></p><ul><li><strong>Problème à Résoudre :</strong> Douleurs Osseuses et Articulaires avec Privation de Sommeil</li><li><strong>Avantage de la Combinaison :</strong> Reneva est conçu pour soutenir la densité osseuse et la santé des articulations, cruciales pour les femmes éprouvant des symptômes ménopausiques. Combiné avec Fleur de Minuit, qui aide à améliorer la qualité du sommeil, cette combinaison assure la santé des os tout en procurant le repos nécessaire pour la récupération et la santé globale.</li></ul><p><strong>Conseils pour l'association de nos produits :</strong></p><ul><li><strong>Suivez les instructions :</strong> Chaque produit vient avec des recommandations précises. Pour une expérience optimale, il est important de respecter ces dosages.</li><li><strong>Écoutez votre corps :</strong> Soyez attentive à vos réactions et ajustez l'utilisation des produits en fonction de vos ressentis et de vos objectifs de santé.</li><li><strong>Hydratation :</strong> L'eau facilite l'absorption des compléments et soutient leur efficacité. Veillez à bien vous hydrater tout au long de la journée.</li></ul>",
+            "liquid": "",
+            "default_open": false
+          }
+        },
+        "px_trust_badges_icons_app_block_thj8tX": {
+          "type": "shopify://apps/px-trust-badges-icons/blocks/app-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+          "settings": {
+            "block_id": "affa9f09-bb2b-438a-a378-e7074ccdad8d",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "spacing_left": 0,
+            "spacing_right": 0
+          }
+        },
+        "judge_me_reviews_review_widget_ijfVpP": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200
+          }
+        },
+        "complementary_UQBVjt": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Les combinaisons idéales",
+            "make_collapsible_row": false,
+            "product_list_limit": 2,
+            "products_per_page": 2,
+            "pcard_image_ratio": "1/1",
+            "enable_variant_options": false,
+            "enable_quick_view": true,
+            "enable_quick_add": true,
+            "enable_compare": false,
+            "enable_wishlist": false
+          }
+        }
+      },
+      "block_order": [
+        "c87c6e87-b82b-4ef0-8e7b-85ca44648866",
+        "d62298a0-6546-491b-8197-17e0859dd23c",
+        "judge_me_reviews_preview_badge_aPAxPq",
+        "9d6c5ebd-14a3-403d-9c3c-17cc52876cb5",
+        "px_trust_badges_icons_app_block_bCGeyD",
+        "px_trust_badges_icons_app_block_73HqtP",
+        "561bea99-62ba-4d45-a431-eb5f5e7fa148",
+        "trust_badge_mQw3bq",
+        "0c727350-9dc5-46ae-a5df-e5f7c59cd070",
+        "111d3e08-0c34-4040-a3cc-7bcc92b56620",
+        "eb884e3d-33a8-4f53-8502-0527c3f1027b",
+        "65349e79-857f-4b28-8c94-02aa413ef499",
+        "collapsible_tab_nRtxMD",
+        "px_trust_badges_icons_app_block_thj8tX",
+        "judge_me_reviews_review_widget_ijfVpP",
+        "complementary_UQBVjt"
+      ],
+      "settings": {
+        "container": "container-fluid",
+        "layout": "layout-4",
+        "show_atwl": false,
+        "enable_history_state": false,
+        "enable_variant_group_images": false,
+        "show_featured_media": true,
+        "show_zoom_button": true,
+        "enable_video_autoplay": false,
+        "show_nav_media_mobile": true,
+        "show_pagination_mobile": false,
+        "use_sticky_atc": true,
+        "use_sticky_atc_on_mobile": true,
+        "enable_dynamic_checkout": false,
+        "sticky_atc_wishtlist": false,
+        "sticky_atc_compare": false
+      }
+    },
+    "1694235462507497b3": {
+      "type": "apps",
+      "blocks": {
+        "px_trust_badges_icons_app_block_UM9rfD": {
+          "type": "shopify://apps/px-trust-badges-icons/blocks/app-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+          "settings": {
+            "block_id": "b61a9831-52d8-44df-8bc9-55330c97b44e",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "spacing_left": 0,
+            "spacing_right": 0
+          }
+        }
+      },
+      "block_order": [
+        "px_trust_badges_icons_app_block_UM9rfD"
+      ],
+      "settings": {
+        "heading": "Et partez en vacances tous les jours grâce à Fleur de Minuit",
+        "subheading": "NE LOUPEZ PLUS JAMAIS LE TRAIN DU SOMMEIL",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "rgba(0,0,0,0)",
+        "padding_top": 50,
+        "padding_bottom": 0,
+        "custom_class": "remove-space my-10"
+      }
+    },
+    "16530405356838123e": {
+      "type": "custom-content",
+      "blocks": {
+        "16530405358e9b5d79-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bain-de-minuit_photo-with_woman.png",
+            "link": "#product-form-1",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "60c3f7e5-ebf2-43da-a0e2-258a2afca8fe": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__about-custom-list\">\n  <ul>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b>Dire adieu aux troubles du sommeil</b></h4>\n          <p class=\"text-color-subtext\">Oubliez les réveils intempestifs causés par les sueurs nocturnes et l'anxiété. Redécouvrez le bonheur des nuits paisibles grâce à notre formule unique.\n</p>\n      </div>\n    </li>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b>Renouer avec la sérénité et la légèreté</b></h4>\n          <p class=\"text-color-subtext\">Ne craignez plus d'aller au lit sans réussir à vous endormir ou de vous réveiller sans parvenir à émerger. Laissez-vous emporter par cette vague de sérénité.\n </p>\n      </div>\n    </li>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b>Retrouver toute votre énergie </b></h4>\n          <p class=\"text-color-subtext\"> Retrouvez une énergie débordante, redonnez le sourire à votre quotidien et démarrez chaque journée du bon pied grâce à des nuits vraiment réparatrices. </p>\n      </div>\n    </li>\n  </ul>\n</div>",
+            "width": "50%",
+            "block_custom_class": "sf__about-custom-html",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "16530405358e9b5d79-1",
+        "60c3f7e5-ebf2-43da-a0e2-258a2afca8fe"
+      ],
+      "settings": {
+        "heading": "Découvrez ce que signifie vraiment avoir un sommeil réparateur",
+        "subheading": "BIEN DORMIR, C'EST MIEUX VIVRE",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "rgba(0,0,0,0)",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__page-about"
+      }
+    },
+    "16945938772d351bb6": {
+      "type": "apps",
+      "blocks": {
+        "px_trust_badges_icons_app_block_qxYXVT": {
+          "type": "shopify://apps/px-trust-badges-icons/blocks/app-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+          "settings": {
+            "block_id": "9570dda8-09cb-471b-8888-36259afe3966",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "spacing_left": 0,
+            "spacing_right": 0
+          }
+        }
+      },
+      "block_order": [
+        "px_trust_badges_icons_app_block_qxYXVT"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "remove-space my-10"
+      }
+    },
+    "7be1ed15-712e-49d8-ac46-156803796eb7": {
+      "type": "custom-content",
+      "blocks": {
+        "template--20708136321365__7be1ed15-712e-49d8-ac46-156803796eb7-text-1": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "template--20708136321365__7be1ed15-712e-49d8-ac46-156803796eb7-text-1"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "rgba(0,0,0,0)",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "remove-space my-10"
+      }
+    },
+    "16564020326250e5b4": {
+      "type": "custom-content",
+      "blocks": {
+        "f572ae61-5a22-47ff-84f5-9df17abde08a": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Ashwagandha_Menopause.png",
+            "link": "#product-form-1",
+            "title": "<h3>Ashwagandha</h3>",
+            "subtitle": "Réduit le stress, facilite la détente et favorise l'endormissement.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "b5d8a0fa-8b87-48dd-a2c1-7de0e0deaad9": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/8-passiflore.png",
+            "link": "#product-form-1",
+            "title": "<h3>Passiflore</h3>",
+            "subtitle": "Apaise l’esprit au moment du coucher et soulage l’anxiété.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "d0de405e-f102-47d5-957b-fb839aad76ad": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/9-camomille.png",
+            "link": "#product-form-1",
+            "title": "<h3>Camomille</h3>",
+            "subtitle": "La camomille est un calmant naturel qui aide à mieux dormir.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "cd083630-1a9f-4b62-843f-937c1cd37d1f": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Montmorency_Cherry.png",
+            "link": "#product-form-1",
+            "title": "<h3>Cerise Montmorency</h3>",
+            "subtitle": "Aide votre corps à comprendre quand il doit dormir et quand il doit se réveiller.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "d1185582-f7f1-4416-a0de-00c3776d9fbc": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/13-lavande.png",
+            "link": "#product-form-1",
+            "title": "<h3>Lavande</h3>",
+            "subtitle": "Favorise le sommeil et soulage les douleurs, pour offrir des nuits reposantes.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": false,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "157aff24-76c8-43c0-a5f8-e19c2323018a": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/10-citronelle.png",
+            "link": "",
+            "title": "<h3>Mélisse</h3>",
+            "subtitle": "Améliore l'humeur, soulage l'insomnie et réduit l'agitation pour un sommeil paisible.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": false,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "ffe449e7-78c3-42ad-bb2a-b54704d03bb7": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/11-taurine.png",
+            "link": "#product-form-1",
+            "title": "<h3>L-Taurine</h3>",
+            "subtitle": "Favorise la relaxation et la transition vers un sommeil profond et réparateur.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_card_CdkWyP": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/12-theanine.png",
+            "link": "#product-form-1",
+            "title": "<h3>L-Théanine</h3>",
+            "subtitle": "Offre un sommeil plus profond et réparateur grâce à son effet apaisant",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "170b5600-d58b-46b5-8fdf-1926f0109fbe": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Vitamine_B6_-_oh_lala.png",
+            "link": "#product-form-1",
+            "title": "<h3>Vitamine B6</h3>",
+            "subtitle": "Améliore l’énergie, régule l’équilibre hormonal et soutient le système nerveux.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "sf-custom__content-above-image",
+            "animations": "inherit"
+          }
+        },
+        "5693c97f-e2f3-4bdd-a25d-33df14536408": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Biotin.png",
+            "link": "#product-form-1",
+            "title": "<h3>Biotine</h3>",
+            "subtitle": "Favorise un métabolisme énergétique, un système nerveux et des macronutriments sains.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "5979ae8b-0f35-4820-8493-c8a5549e8101": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/1-niacine.png",
+            "link": "#product-form-1",
+            "title": "<h3>Niacine</h3>",
+            "subtitle": "Favorise la santé globale du système nerveux et augmente la qualité de sommeil.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_card_6wpHCB": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/2-pantothenic.png",
+            "link": "#product-form-1",
+            "title": "<h3>Acide pantothénique</h3>",
+            "subtitle": "Soutient le métabolisme énergétique, les performances mentales, et réduit la fatigue.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_card_CmmHNC": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/5-magnesium.png",
+            "link": "#product-form-1",
+            "title": "<h3>Magnésium</h3>",
+            "subtitle": "Réduit la fatigue et favorise le fonctionnement normal du système nerveux et des muscles.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "44b02075-b572-4284-bd68-e2e009d15814": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "f572ae61-5a22-47ff-84f5-9df17abde08a",
+        "b5d8a0fa-8b87-48dd-a2c1-7de0e0deaad9",
+        "d0de405e-f102-47d5-957b-fb839aad76ad",
+        "cd083630-1a9f-4b62-843f-937c1cd37d1f",
+        "d1185582-f7f1-4416-a0de-00c3776d9fbc",
+        "157aff24-76c8-43c0-a5f8-e19c2323018a",
+        "ffe449e7-78c3-42ad-bb2a-b54704d03bb7",
+        "image_card_CdkWyP",
+        "170b5600-d58b-46b5-8fdf-1926f0109fbe",
+        "5693c97f-e2f3-4bdd-a25d-33df14536408",
+        "5979ae8b-0f35-4820-8493-c8a5549e8101",
+        "image_card_6wpHCB",
+        "image_card_CmmHNC",
+        "44b02075-b572-4284-bd68-e2e009d15814"
+      ],
+      "settings": {
+        "heading": "Une formule naturelle, douce et efficace",
+        "subheading": "LAISSEZ-VOUS BERCER PAR LES CARESSES DE MORPHEE",
+        "description": "Contrairement à la mélatonine, Fleur de minuit soutient un cycle naturel de sommeil et d'éveil. Il favorise l’endormissement, régule le cycle circadien et offre un sommeil réparateur. La synergie de 13 ingrédients naturels pour vous aider à mieux dormir et à retrouver le sourire au quotidien.",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "rgba(0,0,0,0)",
+        "gap": 10,
+        "use_scroll_mobile": true,
+        "gap_mobile": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__index-custom-content sf-custom__content-above-image"
+      }
+    },
+    "169347094851f71002": {
+      "type": "apps",
+      "blocks": {
+        "pretty_comparison_tables_table_xfnAjH": {
+          "type": "shopify://apps/pretty-comparison-tables/blocks/table/4ce14980-e26b-4398-92cd-f582d95d4f05",
+          "settings": {
+            "product": "{{product}}",
+            "title_text": "",
+            "title_font_tag": "h2",
+            "section_background_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "pretty_comparison_tables_table_xfnAjH"
+      ],
+      "settings": {
+        "heading": "Vous hésitez avec une autre cure de sommeil ?",
+        "subheading": "COMPAREZ FLEUR DE MINUIT®",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "#faf9f5",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "cb22f6f1-5ddc-476b-a97b-103fa00aace2": {
+      "type": "custom-content",
+      "blocks": {
+        "3b945de9-b4f1-4734-b6ab-8a7f0f305cc4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bain-de-minuit_smart_capsule.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "f9e6519e-3c1e-4091-906b-5703458bc21c": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__about-custom-list\">\n  <ul>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b>Gélules  brevetées Nutri Genesis®\n</b></h4>\n          <p class=\"text-color-subtext\">Grâce à notre innovation technologique, nos gélules se dissolvent dans l'intestin grêle, favorisant ainsi une absorption idéale des nutriments. Renforcées en prébiotiques, elles améliorent le confort digestif et optimisent l'assimilation des nutriments dans l'organisme</p>\n      </div>\n    </li>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b>2 petites gélules journalières suffisent</b></h4>\n          <p class=\"text-color-subtext\">Pour une vie plus facile, Fleur de minuit intègre une technologie d'encapsulation innovante. En combinant les 13 ingrédients naturels dans une seule capsule, vous avez seulement besoin de prendre deux gélules avant le coucher.</p>\n      </div>\n    </li>\n  </ul>\n</div>",
+            "width": "50%",
+            "block_custom_class": "sf__about-custom-html",
+            "animations": "inherit"
+          }
+        },
+        "e0ebf446-ab45-454e-b1e1-fbeec2a68084": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "large",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "3b945de9-b4f1-4734-b6ab-8a7f0f305cc4",
+        "f9e6519e-3c1e-4091-906b-5703458bc21c",
+        "e0ebf446-ab45-454e-b1e1-fbeec2a68084"
+      ],
+      "settings": {
+        "heading": "Une absorption optimale des nutriments",
+        "subheading": "DES CAPSULES INTELLIGENTES POUR UN CONFORT MAXIMAL",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__page-about"
+      }
+    },
+    "1656431367e3def286": {
+      "type": "custom-content",
+      "blocks": {
+        "product_YFakTB": {
+          "type": "product",
+          "settings": {
+            "product": "bouquet-de-flore",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "797afe61-f1df-41e7-bef9-736d30311d11": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "product": "harmonie-daily",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "21686130-6f14-447f-b0d9-001c69db23ee": {
+          "type": "product",
+          "settings": {
+            "product": "iconique-collagen",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "68b2f4dc-8069-4e53-a212-a04fc7a79f64": {
+          "type": "product",
+          "settings": {
+            "product": "ohlala",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "product_YFakTB",
+        "797afe61-f1df-41e7-bef9-736d30311d11",
+        "21686130-6f14-447f-b0d9-001c69db23ee",
+        "68b2f4dc-8069-4e53-a212-a04fc7a79f64"
+      ],
+      "settings": {
+        "heading": "Offrez-vous le bien-être total",
+        "subheading": "ENVIE DE COMPLÉTER VOTRE CURE ?",
+        "description": "La ménopause reste encore un sujet tabou, alors qu’elle exige une prise en charge sérieuse et un dialogue décomplexé. Chez üma®, nous tenons à vous accompagner dans chaque changement, afin que vous ne vous sentiez plus jamais seule.",
+        "header_alignment": "left",
+        "container": "container-fluid",
+        "background_color": "#f6f3ea",
+        "gap": 80,
+        "use_scroll_mobile": true,
+        "gap_mobile": 30,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "8d915f30-110a-4fa1-863c-86e0bf0113af": {
+      "type": "custom-content",
+      "blocks": {
+        "template--19175345783125__8d915f30-110a-4fa1-863c-86e0bf0113af-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/laboratoire-francais.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "5a173e95-8f54-4cd1-88e3-c7d67de110eb": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__about-custom-list\">\n  <ul>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0764/9581/4997/files/France.png?v=1692690421\"></span>\n      <div class=\"rte\">\n          <h4><b>Laboratoires Français</b></h4>\n          <p class=\"text-color-subtext\">üma® est un laboratoire français totalement consacré à la santé et au bien-être des femmes. Pionnière dans la phytothérapie et la micronutrition, nos compléments alimentaires sont entièrement naturels, sans hormone, efficaces et sains, afin que chaque femme puisse maintenir la même qualité de vie avant, pendant et après la ménopause.\n</p>\n      </div>\n    </li>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0764/9581/4997/files/Approuvee_par_des_femmes.png?v=1692690451\"></span>\n      <div class=\"rte\">\n          <h4><b>Nos valeurs : passion, sécurité et expertise</b></h4>\n          <p class=\"text-color-subtext\">Une association unique de 13 actifs naturels rendue possible grâce à notre technique d'encapsulation novatrice. Les composants secs et huileux sont intégrés dans une seule capsule, ce qui vous garantit un meilleur apport quotidien en principes actifs et des résultats garanties.</p>\n      </div>\n    </li>\n  </ul>\n</div>",
+            "width": "50%",
+            "block_custom_class": "sf__about-custom-html",
+            "animations": "inherit"
+          }
+        },
+        "78c74610-af0f-4faf-9c34-786df650d6a4": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "template--19175345783125__8d915f30-110a-4fa1-863c-86e0bf0113af-image-1",
+        "5a173e95-8f54-4cd1-88e3-c7d67de110eb",
+        "78c74610-af0f-4faf-9c34-786df650d6a4"
+      ],
+      "settings": {
+        "heading": "Une équipe de mères, de filles et de scientifiques",
+        "subheading": "",
+        "description": "<h5>Notre mission première est de permettre aux femmes de vivre plus longtemps et d’être en meilleure santé.</h5>",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__page-about"
+      }
+    },
+    "product-details-tabs": {
+      "type": "product-details-tabs",
+      "blocks": {
+        "fa490a38-97a7-4b71-ad47-3c86b4a582cd": {
+          "type": "description",
+          "settings": {
+            "header": "Product description"
+          }
+        },
+        "e31689fb-9b98-4f5b-977d-075a8d1a123f": {
+          "type": "tab",
+          "settings": {
+            "header": "Shipping & Return",
+            "content": "<p>Shipping cost is based on weight. Just add products to your cart and use the Shipping Calculator to see the shipping price.</p><p>We want you to be 100% satisfied with your purchase. Items can be returned or exchanged within 30 days of delivery.</p>",
+            "content_page": ""
+          }
+        },
+        "9e06b3e6-843f-4451-9137-03b92b248b49": {
+          "type": "liquid",
+          "settings": {
+            "header": "Tab heading",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "fa490a38-97a7-4b71-ad47-3c86b4a582cd",
+        "e31689fb-9b98-4f5b-977d-075a8d1a123f",
+        "9e06b3e6-843f-4451-9137-03b92b248b49"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "bg_color": "",
+        "default_open": true,
+        "animations": "inherit"
+      }
+    },
+    "164261608633fb1e22": {
+      "type": "custom-content",
+      "blocks": {
+        "71a41393-7458-490c-9599-d5f0e82b1703": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__tabs-custom\">\n <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck01\">\n        <label class=\"sf__tab-item-label\" for=\"chck01\">\nQu’est-ce que Fleur de minuit ? </label>\n        <div class=\"sf__tab-item-content\">\n          Fleur de minuit est une cure de compléments alimentaires totalement naturels. Elle a été formulée spécialement pour les femmes en période de ménopause, périménopause et postménopause. Elle aide à mieux dormir, à calmer le mental et à retrouver toute sa vitalité et sa sérénité.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck1\">\n        <label class=\"sf__tab-item-label\" for=\"chck1\">Est-ce que Fleur de minuit a des effets secondaires ?</label>\n        <div class=\"sf__tab-item-content\">\n          Les femmes ayant suivi les études cliniques de Fleur de minuit n’ont signalé aucun effet secondaire, ni événement indésirable. Si cela vous rassure, n’hésitez pas à en discuter avec votre médecin.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck2\">\n        <label class=\"sf__tab-item-label\" for=\"chck2\">Comment se prend Fleur de minuit ?\n</label>\n        <div class=\"sf__tab-item-content\">\n          Faire une cure de Fleur de minuit est d’une simplicité enfantine. Il vous suffit de prendre 1 à 2 gélules le soir, de préférence 30 minutes avant le coucher. Pour vous assurer la meilleure efficacité, il est conseillé de garder une bonne régularité dans les prises et d’éviter les oublis répétés.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck3\">\n        <label class=\"sf__tab-item-label\" for=\"chck3\">Qui peut prendre Fleur de minuit ?\n</label>\n        <div class=\"sf__tab-item-content\">\n          Fleur de minuit est conçu pour aider les femmes à mieux dormir pendant et après la ménopause. Et s'il se concentre sur la période de périménopause, ménopause et postménopause, il offre surtout un sommeil comme vous n'en avez jamais connu auparavant.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck4\">\n        <label class=\"sf__tab-item-label\" for=\"chck4\">Fleur de minuit est-il efficace pour mieux dormir ? \n</label>\n        <div class=\"sf__tab-item-content\">\n          Les études menées sur Fleur de minuit montrent qu’il a un effet positif sur la qualité du sommeil dès le premier mois de cure. \n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck5\">\n        <label class=\"sf__tab-item-label\" for=\"chck5\">Peut-on faire plusieurs cures de compléments alimentaires en même temps ? </label>\n        <div class=\"sf__tab-item-content\">\n          Nos produits ont tous été conçus pour pouvoir se cumuler. Leur efficacité augmente même lorsqu’on combine les cures, car elles sont complémentaires et fonctionnent en synergie. Aucune contre-indication n’interdit la prise de Fleur de minuit en même temps que d’autres compléments. Mais aucune étude clinique n’a été réalisée à ce sujet. Nous vous conseillons donc de demander l’avis de votre médecin.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck6\">\n        <label class=\"sf__tab-item-label\" for=\"chck6\">Est-ce que Fleur de minuit contient des hormones ?</label>\n        <div class=\"sf__tab-item-content\">\n          Fleur de minuit ne contient pas d’hormone. C’est une formule 100% naturelle et végétale.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck7\">\n        <label class=\"sf__tab-item-label\" for=\"chck7\">Quel est l’avantage de Fleur de minuit par rapport à d’autres compléments alimentaires pour mieux dormir ?</label>\n        <div class=\"sf__tab-item-content\">\n          Contrairement aux autres cures de sommeil, Fleur de minuit a été conçu pour les femmes en situation de ménopause, périménopause et postménopause. Il répond donc aux besoins spécifiques de cette période de vie qui chamboule le quotidien. Grâce à sa formule unique sans hormone, il permet de retrouver rapidement et durablement un sommeil réparateur.\n        </div>\n      </div>\n</div>",
+            "width": "100%",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "66c850cb-6f03-4c73-9629-62d79f6f0f4f": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "71a41393-7458-490c-9599-d5f0e82b1703",
+        "66c850cb-6f03-4c73-9629-62d79f6f0f4f"
+      ],
+      "custom_css": [
+        ".sf__tab-item-label {font-weight: normal;}"
+      ],
+      "settings": {
+        "heading": "Vous avez des questions ? Nous y répondrons avec plaisir",
+        "subheading": "",
+        "description": "Voici les questions les plus fréquemment posées par nos clientes avant d’essayer Fleur de minuit®.",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "#f6f3ea",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "1642583437f365ed49",
+    "main",
+    "1694235462507497b3",
+    "16530405356838123e",
+    "16945938772d351bb6",
+    "7be1ed15-712e-49d8-ac46-156803796eb7",
+    "16564020326250e5b4",
+    "169347094851f71002",
+    "cb22f6f1-5ddc-476b-a97b-103fa00aace2",
+    "1656431367e3def286",
+    "8d915f30-110a-4fa1-863c-86e0bf0113af",
+    "product-details-tabs",
+    "164261608633fb1e22"
+  ]
+}

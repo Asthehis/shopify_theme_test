@@ -1,0 +1,22 @@
+/* Fix header icons hidden by other elements at 1024-1210px */
+@media (min-width: 1024px) and (max-width: 1210px) {
+  /* Force visibility and stacking order */
+  .sf-options-wrapper__desktop {
+    position: relative !important;
+    z-index: 100 !important;
+    flex-shrink: 0 !important;
+    overflow: visible !important;
+  }
+  
+  /* Ensure parent containers don't hide overflow */
+  .sf__header-main-menu,
+  header,
+  .sf-header__desktop {
+    overflow: visible !important;
+  }
+  
+  /* Force display if hidden */
+  .sf-header header.sf-header__desktop.logo-center__2l .sf__header-main-menu .sf-options-wrapper__desktop {
+    display: flex !important;
+  }
+}

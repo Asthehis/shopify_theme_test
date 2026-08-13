@@ -1,0 +1,616 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1644038194dcd1cc66": {
+      "type": "image-with-text-2",
+      "settings": {
+        "container": "w-full",
+        "hero_size": "medium",
+        "show_overlay": true,
+        "image": "shopify://shop_images/Vos-questions-sont-uniques-mais-certaines-sont-frequemment-posees..jpg",
+        "bg_position": "center",
+        "image_link": "",
+        "parallax": false,
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "white",
+        "title": "Vos questions sont uniques mais certaines sont fréquemment posées.",
+        "subtitle": "",
+        "text": "<p>Vous avez des questions ? Nous sommes là pour vous aider. Parcourez notre rubrique FAQ pour trouver les réponses aux questions que vous vous posez.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-primary",
+        "button_size": "",
+        "mb_image": "shopify://shop_images/Vos_questions_sont_uniques_mais_certaines_sont_frequemment_posees_-min.png",
+        "use_content_above": true,
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "1643993972242dcd48": {
+      "type": "icon-box",
+      "blocks": {
+        "1643993972aa1d5c6b-0": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify://shop_images/Paiement_securise.png",
+            "image_by_url": "",
+            "title": "Paiement sécurisé",
+            "description": "<p>Paiement sécurisé avec le service de paiement votre choix.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        },
+        "1643993972aa1d5c6b-1": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify://shop_images/Livraison_offerte.png",
+            "image_by_url": "",
+            "title": "Livraison offerte",
+            "description": "<p>Livraison gratuite pour toujours et partout !</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        },
+        "1643993972aa1d5c6b-2": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify://shop_images/Livraison_mondiale.png",
+            "image_by_url": "",
+            "title": "Livraison mondiale",
+            "description": "<p>Livraison suivie dans plus de 200 pays.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        },
+        "05cd6705-6d10-436f-9547-b0270cfb9470": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify://shop_images/On_vous_repond.png",
+            "image_by_url": "",
+            "title": "On vous repond",
+            "description": "<p>En 2 heures sur bonjour@umawell.com Du lundi au vendredi de 9h à 18h.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "1643993972aa1d5c6b-0",
+        "1643993972aa1d5c6b-1",
+        "1643993972aa1d5c6b-2",
+        "05cd6705-6d10-436f-9547-b0270cfb9470"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "rgba(0,0,0,0)",
+        "item_per_row": 4,
+        "item_gap": 30,
+        "item_gap_mobile": 10,
+        "card_style": "vertical",
+        "image_max_width": "70px",
+        "content_alignment": "center",
+        "hover_effect": "none",
+        "enable_slider": false,
+        "show_pagination": false,
+        "show_navigation": false,
+        "use_scroll_mobile": true,
+        "use_grid_column_mb": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "reduce-my",
+        "animations": "inherit"
+      }
+    },
+    "16493248790101ca5d": {
+      "type": "custom-content",
+      "blocks": {
+        "164932487904fbb292-0": {
+          "type": "text",
+          "settings": {
+            "title": "Commandes et livraisons",
+            "subheading": "",
+            "text": "<p>Toutes les informations utiles à votre commande, pour effectuer vos achats en toute sérénité.</p>",
+            "width": "33%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "92eb2e66-7214-4602-8b1e-54d91aca561e": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__tabs-custom\">\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck37\" checked>\n        <label class=\"sf__tab-item-label\" for=\"chck37\"><b>Combien coûte la livraison ?</b>\n</label>\n        <div class=\"sf__tab-item-content\">\n          Bonne nouvelle ! La livraison standard est gratuite dans le monde entier et elle le restera pour toujours! Vous pouvez également, moyennant 10€ choisir une livraison suivie en choisissant la livraison contre signature avec accusé de réception.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck38\">\n        <label class=\"sf__tab-item-label\" for=\"chck38\"><b>Expédiez-vous depuis la France ?</b>\n</label>\n        <div class=\"sf__tab-item-content\">\n          Nos compléments alimentaires sont expédiés depuis la France pour les livraisons en Union Européenne. Les livraisons pour le Royaume-Uni, le Canada et les États-Unis sont expédiées depuis nos entrepôts de Londres.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck39\">\n        <label class=\"sf__tab-item-label\" for=\"chck39\"><b>comment savoir si ma commande a été expédié ?</b>\n</label>\n        <div class=\"sf__tab-item-content\">\n          Lorsque votre commande est expédiée, vous recevez un e-mail de confirmation d'expédition avec votre numéro de suivi.\n        </div>\n      </div>\n<div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck41\">\n        <label class=\"sf__tab-item-label\" for=\"chck41\"><b>Quand vais-je recevoir ma commande ?</b>\n</label>\n        <div class=\"sf__tab-item-content\">\n          Pour la France et l'Union Européenne, la Suisse incluse, le délai de livraison est de 5 jours ouvrés. Les livraisons pour le Royaume-Uni sont livrées en 2 jours ouvrés. Pour les DROM COM, le Canada, les Etats-Unis et le reste du monde, les délais de livraison sont de 7-10 jours ouvrés. Veuillez noter que si vous commandez après 15h un vendredi, ou que vous passez commande un samedi ou un dimanche, votre commande sera préparé et emballés le lundi.\n        </div>\n      </div>\n<div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck42\">\n        <label class=\"sf__tab-item-label\" for=\"chck42\"><b>Je n’ai pas encore reçu mon colis, que faire ?</b>\n</label>\n        <div class=\"sf__tab-item-content\">\n          Les délais sont donnés à titre indicatif. Si vous n’avez pas encore reçu votre commande, nous vous invitons à patienter quelques jours supplémentaires.<br><br>Nous faisons le maximum pour respecter les délais de livraison. Lors de périodes de fortes activités ces délais peuvent être allongés. Par ailleurs, certains événements, tels que des problèmes informatiques ou les conditions climatiques, peuvent entraîner un allongement du délai de livraison.<br><br>Pour déclencher une enquête approfondie sur le statut de votre livraison auprès du transporteur, nous vous invitons à contactez-nous à bonjour@umawell.com\n        </div>\n      </div>\n<div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck43\">\n        <label class=\"sf__tab-item-label\" for=\"chck43\"><b>Mon colis a été retourné à l'expéditeur, que faire ?</b>\n</label>\n        <div class=\"sf__tab-item-content\">\n          Si  vous n'avez pu récupérer votre colis et que celui-ci est en retour à notre entrepôt, il vous sera remboursé à réception. Si vous souhaitez une nouvelle expédition, contactez-nous à bonjour@umawell.com en précisant le numéro de commande.\n        </div>\n      </div>\n</div>",
+            "width": "66%",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "164932487904fbb292-0",
+        "92eb2e66-7214-4602-8b1e-54d91aca561e"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "#f6f3ea",
+        "gap": 100,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__index-custom-content-1"
+      }
+    },
+    "16439913164b6166cb": {
+      "type": "custom-content",
+      "blocks": {
+        "164399131619195744-0": {
+          "type": "text",
+          "settings": {
+            "title": "Nos ingrédients",
+            "subheading": "",
+            "text": "<p>Toutes les questions que vous posez à propos des ingrédients que nous utilisons. </p>",
+            "width": "33%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "91251f2b-53a4-4a99-8b32-ed1e077ab618": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__tabs-custom\">\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck1\" checked>\n        <label class=\"sf__tab-item-label\" for=\"chck1\"><b>Pourquoi tous vos ingrédients ne sont-ils pas bios ?</b></label>\n        <div class=\"sf__tab-item-content\">\n          Nous utilisons des ingrédients biologiques, dans la mesure du possible. Et à mesure que nous nous développons, notre ambition est d'obtenir la certification biologique dans tous les domaines de notre activité.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck2\">\n        <label class=\"sf__tab-item-label\" for=\"chck2\"><b>Il existe un certain nombre de plantes couramment utilisées pour la ménopause qui ne figurent pas dans votre formule. Pourquoi cela ?</b></label>\n        <div class=\"sf__tab-item-content\">\n          La transition vers la ménopause peut durer de 8 à 10 ans. Mais, de nombreuses plantes recommandées pendant la ménopause ne doivent pas être prises pendant de longues périodes. Nos ingrédients sont soigneusement sélectionnés pour être pris, quotidiennement, aussi longtemps que vous en avez besoin.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck3\">\n        <label class=\"sf__tab-item-label\" for=\"chck3\"><b>Vos produits sont-ils sans OGM ?</b></label>\n        <div class=\"sf__tab-item-content\">\n          Oui, tous les ingrédients utilisés dans la formulation de nos compléments alimentaires sont sans OGM.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck4\">\n        <label class=\"sf__tab-item-label\" for=\"chck4\"><b>Vos compléments alimentaires sont-ils sans gluten ?</b></label>\n        <div class=\"sf__tab-item-content\">\n          Oui, tous les ingrédients utilisés dans la formulation de nos compléments alimentaires sont entièrement sans gluten.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck5\">\n        <label class=\"sf__tab-item-label\" for=\"chck5\"><b>Vos compléments alimentaires conviennent-ils aux végétaliens ?</b></label>\n        <div class=\"sf__tab-item-content\">\n          Hormis notre cure Iconique Collagène qui contient du collagène marin, tous les ingrédients utilisés dans la formulation de nos compléments alimentaires sont entièrement végétaliens.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck6\">\n        <label class=\"sf__tab-item-label\" for=\"chck6\"><b>Puis-je prendre vos produits avec mes médicaments sur ordonnance ?</b></label>\n        <div class=\"sf__tab-item-content\">\n          Cela peut dépendre du ou des médicaments que vous prenez. En cas de doute, n'hésitez pas à nous contacter à l'adresse bonjour@umawell.com et consultez également votre médecin traitant.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck7\">\n        <label class=\"sf__tab-item-label\" for=\"chck7\"><b>Où puis-je trouver la liste d’ingrédients de vos différents produits ?</b></label>\n        <div class=\"sf__tab-item-content\">\n          Vous trouverez <a href=\"https://umawell.fr/pages/ingredients\"> <mark>ici</mark></a> la liste complète des ingrédients.\n        </div>\n      </div>\n</div>",
+            "width": "66%",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "164399131619195744-0",
+        "91251f2b-53a4-4a99-8b32-ed1e077ab618"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "rgba(0,0,0,0)",
+        "gap": 100,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__index-custom-content-1"
+      }
+    },
+    "164399316109e02a11": {
+      "type": "custom-content",
+      "blocks": {
+        "16439931612dbdd647-0": {
+          "type": "text",
+          "settings": {
+            "title": "Moyens de paiement",
+            "subheading": "",
+            "text": "<p>Nous vous proposons les moyens de paiements les plus sûrs. Essayer Harmonie en toute sécurité.</p>",
+            "width": "33%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "7d3b164a-a48b-4820-821b-1f08ecb6255d": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__tabs-custom\">\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck8\" checked>\n        <label class=\"sf__tab-item-label\" for=\"chck8\"><b>Quels modes de paiement acceptez-vous ?</b></label>\n        <div class=\"sf__tab-item-content\">\n          Nous acceptons actuellement les paiements par toutes les principales cartes de crédit (Visa, Visa Débit, Mastercard et American Express.). Nous vous proposons également les paiements via Paypal, Apple Pay ainsi que Google Pay.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck9\">\n        <label class=\"sf__tab-item-label\" for=\"chck9\"><b>Quand ma carte sera-t-elle débitée ?</b></label>\n<div class=\"sf__tab-item-content\">\n          Votre carte sera débitée lorsque votre commande quittera notre entrepôt.\nVeuillez noter que si vous avez passé une précommande, votre carte sera débitée au moment du paiement. Nous vous informerons ensuite de l'expédition de votre commande depuis notre entrepôt.\n        </div>\n      </div>\n</div>",
+            "width": "66%",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "16439931612dbdd647-0",
+        "7d3b164a-a48b-4820-821b-1f08ecb6255d"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "#f6f3ea",
+        "gap": 100,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__index-custom-content-1"
+      }
+    },
+    "16439934228199a13e": {
+      "type": "custom-content",
+      "blocks": {
+        "1643993421f5649fc8-0": {
+          "type": "text",
+          "settings": {
+            "title": "Remises et codes de réduction",
+            "subheading": "",
+            "text": "<p>Vos questions sur l'utilisation les remises et les codes de réductions.</p>",
+            "width": "33%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "5a089579-1392-4af8-8607-c7381dd3062b": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__tabs-custom\">\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck10\" checked>\n        <label class=\"sf__tab-item-label\" for=\"chck10\"><b>J'ai un code de réduction. Comment puis-je l'utiliser ?</b></label>\n        <div class=\"sf__tab-item-content\">\n          Il vous suffit d'ajouter votre code de réduction lorsque vous passerez au paiement de votre commande.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck11\">\n        <label class=\"sf__tab-item-label\" for=\"chck11\"><b>Puis-je utiliser un code de réduction sur un abonnement ?</b></label>\n        <div class=\"sf__tab-item-content\">\n          Malheureusement, les codes de réduction ne s'appliquent pas aux abonnements. En vous abonnant vous bénéficiez de 15 % ainsi que la livraison gratuite dans le monde entier.\n        </div>\n      </div>\n</div>",
+            "width": "66%",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "1643993421f5649fc8-0",
+        "5a089579-1392-4af8-8607-c7381dd3062b"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "rgba(0,0,0,0)",
+        "gap": 100,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__index-custom-content-1"
+      }
+    },
+    "1643993520d4ecb5f3": {
+      "type": "custom-content",
+      "blocks": {
+        "16439935209275474c-0": {
+          "type": "text",
+          "settings": {
+            "title": "Harmonie",
+            "subheading": "",
+            "text": "<p>Nous répondons à toutes vos questions sur la cure Harmonie. Démarrez en toute sérénité. </p>",
+            "width": "33%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "3ce5971d-58ac-4b73-82e4-93e106aa3ae6": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__tabs-custom\">\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck12\" checked>\n        <label class=\"sf__tab-item-label\" for=\"chck12\">Qu'est-ce qu’Harmonie des Laboratoires üma® ?</label>\n        <div class=\"sf__tab-item-content\">\n          Harmonie est un dispositif non hormonal, formulé avec 13 ingrédients naturels et destiné à traiter les symptômes associés à la ménopause. Pris quotidiennement Harmonie soulage efficacement et durablement les symptômes visibles et invisibles de la ménopause.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck13\">\n        <label class=\"sf__tab-item-label\" for=\"chck13\">Qui peut prendre Harmonie ?</label>\n        <div class=\"sf__tab-item-content\">\n          Harmonie est destinée aux femmes qui souffrent d’un ou plusieurs symptômes associés à la ménopause. Plus que des formules, nous avons créé un complément intelligent capable de répondre aux besoins individuels de toutes les femmes.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck14\">\n        <label class=\"sf__tab-item-label\" for=\"chck14\">Comment prendre Harmonie ?</label>\n        <div class=\"sf__tab-item-content\">\n          Prendre <strong>2 gélules par jour, de préférence le matin pendant le petit déjeuner</strong>. Une troisième gélule peut être prise dans l’après-midi si vous faites face à des symptômes ménopausiques plus intenses.\n        </div>\n<strong>\n      </strong>\n</div>\n  <div class=\"sf__tab-item\">\n      <input type=\"checkbox\" id=\"chck15\">\n        <label class=\"sf__tab-item-label\" for=\"chck15\">Pendant combien de temps dois-je prendre Harmonie ?</label>\n        <div class=\"sf__tab-item-content\">\n          Lors des études cliniques, la majorité des femmes ont ressenti une amélioration significative de la fréquence et de l'intensité de leurs symptômes à partir du deuxième mois d’utilisation, et les données des études montrent que le soulagement s'améliore avec une utilisation prolongée. Nous vous recommandons de prendre Harmonie tous les jours pendant au moins deux mois pour obtenir de meilleurs résultats.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck16\">\n        <label class=\"sf__tab-item-label\" for=\"chck16\">Est-ce qu’Harmonie entraîne des effets secondaires ?</label>\n        <div class=\"sf__tab-item-content\">\n          Nous utilisons uniquement des actifs naturels, des vitamines et des minéraux. Il n’y a donc pas d’effets secondaires hormonaux. Dans les études cliniques, les effets secondaires signalés n'étaient pas différents de ceux signalés par les personnes prenant des comprimés placebo (pilules de sucre). Si vous avez des incertitudes particulières, nous vous recommandons d'en parler à votre médecin.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck17\">\n        <label class=\"sf__tab-item-label\" for=\"chck17\">Ai-je besoin d'une prescription médicale pour consommer vos compléments ?</label>\n        <div class=\"sf__tab-item-content\">\n          Vous pouvez commander Harmonie sans prescription médicale. Harmonie est un complément alimentaire formulé avec des ingrédients naturels à des doses cliniques. Leur efficacité et innocuité ont été attestées par des experts indépendant lors de plusieurs essais cliniques. Nous vous recommandons toujours de discuter du choix de votre cure avec votre médecin.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck18\">\n        <label class=\"sf__tab-item-label\" for=\"chck18\">Est-ce que c’est efficace ?</label>\n        <div class=\"sf__tab-item-content\">\n          Lors d'études menées auprès de plus de 400 femmes, les participantes ont indiqué qu’Harmonie avait eu un impact positif sur la qualité de leur vie dès le premier mois de cure.<br><br>94% des femmes ont constaté une amélioration significative de leur qualité de vie<br><br> \n72% des femmes ont constaté une amélioration de la qualité de leur sommeil<br><br>\n74% des femmes ont constaté une diminution importante de la fatigue<br><br>\n66% des femmes ont constaté une diminution de l’irritabilité<br><br> \n82% des femmes ont constaté une réduction de leurs bouffées de chaleur<br><br> \n89% des femmes ont constaté une réduction des sueurs nocturnes\n        </div>\n      </div>\n<div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck20\">\n        <label class=\"sf__tab-item-label\" for=\"chck20\">Puis-je prendre Harmonie si je suis enceinte ou si j'allaite ?</label>\n        <div class=\"sf__tab-item-content\">\n          Harmonie a été conçue pour accompagner les changements hormonaux liés à la ménopause. La prise d’Harmonie est formellement déconseillée pendant la grossesse et/ou l'allaitement.\n        </div>\n      </div>\n<div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck21\">\n        <label class=\"sf__tab-item-label\" for=\"chck21\">Pourquoi utilisez-vous des phytoœstrogènes dans Harmonie ?</label>\n        <div class=\"sf__tab-item-content\">\n          Quoi de commun entre les myrtilles, le persil, les fruits secs et le soja ? Ils partagent, entre autres, un contenu élevé en phytoœstrogènes, des métabolites secondaires de plantes, soit des « hormones » végétales. Leur structure ressemble à celle des œstrogènes féminins, ce qui leur permet de se fixer sur le récepteur des œstrogènes du corps humain. \n<br><br>Les phytoœstrogènes sont bénéfiques pour les femmes qui cherchent à rééquilibrer naturellement leur système hormonal à l'approche de la ménopause. \n<br><br>Pendant la périménopause, qui est la période précédant la ménopause et l'arrêt des menstruations, les niveaux d'hormones dans l'organisme fluctuent et provoquent divers symptômes désagréables. Les phytoœstrogènes offrent une alternative naturelle et sans danger aux œstrogènes synthétiques utilisés dans les traitements hormonaux de substitution. \n<br><br>Les Laboratoires üma® ont développé un savoir-faire unique dans l’extraction et l’utilisation de phytoœstrogènes pour soulager efficacement et durablement les symptômes de la ménopause. \n<br><br>Grâce à cette innovation végétale exclusive, Harmonie peut soulager les symptômes de la ménopause sans augmenter les risques de cancer ou d’incidents cardiovasculaires, comme c’est souvent le cas avec l’hormonothérapie. \n        </div>\n      </div>\n<div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck22\">\n        <label class=\"sf__tab-item-label\" for=\"chck22\">Que sont les extraits isoflavones utilisés dans Harmonie ?</label>\n        <div class=\"sf__tab-item-content\">\n          Les isoflavones sont une catégorie de phytoœstrogènes que l’on retrouve uniquement dans les plantes ; leur composition, qui ressemble à celle des œstrogènes humains, contribue à soulager les symptômes de la ménopause.<br><br>Les isoflavones ont une intensité beaucoup plus faible que l'hormonothérapie substitutive traditionnelle (HRT) et préfèrent se lier aux récepteurs bêta d'œstrogènes plutôt qu'aux récepteurs alpha. Ce qui permet de réduire considérablement les risques potentiels de cancers du sein.\n        </div>\n      </div>\n<div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck23\">\n        <label class=\"sf__tab-item-label\" for=\"chck23\">Dans quels cas je ne dois pas prendre Harmonie ?</label>\n        <div class=\"sf__tab-item-content\">\n          Harmonie n’est pas recommandée pendant la grossesse ou l'allaitement, et n’est pas destinée aux enfants. Utilisez le produit uniquement comme indiqué sur l’emballage.\n        </div>\n      </div>\n<div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck24\">\n        <label class=\"sf__tab-item-label\" for=\"chck24\">Est-ce qu’Harmonie contient des allergènes ?</label>\n        <div class=\"sf__tab-item-content\">\n          Le processus de fabrication d’Harmonie a été conçu pour réduire le risque de présence d'allergènes. Aucune réaction allergique significative n'a été signalée à ce jour. Cependant, aucune étude formelle n'a été menée chez les femmes souffrant d'allergies. Si vous avez des doutes, veuillez consulter votre médecin avant de prendre Harmonie.\n        </div>\n      </div>\n<div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck40\">\n        <label class=\"sf__tab-item-label\" for=\"chck40\">Harmonie et Cancer du sein</label>\n        <div class=\"sf__tab-item-content\">\n          Les avantages des protéines végétales sont avérés. Tofu, tempeh, fèves de soya sont de plus en plus populaires. Certaines femmes redoutent d’en consommer puisque les produits du soja contiennent des phytoestrogènes.\n<br><br>Comme ces molécules sont semblables aux œstrogènes, il a été proposé qu’elles aient un effet prolifératif sur les cellules du sein.\n<br><br>C’est faux. Les études ont montré qu’il est sécuritaire de consommer les produits du soya avec modération sans augmenter le risque de récidive de cancer. Les phytoestrogènes ont 1000 fois moins d’affinités pour les récepteurs des œstrogènes que les hormones naturelles ou de synthèse\n<br><br><b>Toutefois, il faut noter que les suppléments de phytoestrogènes sont contre-indiqués si vous avez reçu un diagnostic de cancer hormono-dépendant.\n        </b>\n</div>\n<b><b>\n      </b></b>\n</div>\n<b><b>\n</b></b>\n\n</div>",
+            "width": "66%",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "16439935209275474c-0",
+        "3ce5971d-58ac-4b73-82e4-93e106aa3ae6"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "#f6f3ea",
+        "gap": 100,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__index-custom-content-1"
+      }
+    },
+    "16576974989e669853": {
+      "type": "custom-content",
+      "blocks": {
+        "1657697498983cde89-0": {
+          "type": "text",
+          "settings": {
+            "title": "Iconique Collagène",
+            "subheading": "",
+            "text": "",
+            "width": "33%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "be1c4b4c-4550-48ac-8efa-475f56142c0f": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__tabs-custom\">\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck01\" checked>\n        <label class=\"sf__tab-item-label\" for=\"chck01\">Qu’est-ce que Iconique Collagène des Laboratoires üma®?</label>\n        <div class=\"sf__tab-item-content\">\n          Iconique Collagène® est conçu pour restaurer et protéger les cheveux, les ongles et la peau affectés par la baisse des œstrogènes. Formulé spécifiquement pour les femmes périménopausées, ménopausées ou postménopausées, qui rencontrent des problèmes de cheveux, d’ongles et de peau tels que la sécheresse cutanée, les ridules, les rides, les cheveux fins, secs ou rêches, les ongles cassants et en mauvaise santé.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck02\">\n        <label class=\"sf__tab-item-label\" for=\"chck02\">Pourquoi Iconique Collagène est différent ?</label>\n        <div class=\"sf__tab-item-content\">\n          Cette nouvelle génération de complément alimentaire associe les dernières avancées scientifiques à la puissance de la nature pour un résultat garanti sur la peau, les cheveux et les ongles. Sa capsule entérique brevetée, ainsi que son système de libération garantissent une absorption optimale des actifs, pour une efficacité maximale.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck03\">\n        <label class=\"sf__tab-item-label\" for=\"chck03\">Quels sont les bénéfices de la cure Iconique Collagène ?</label>\n        <div class=\"sf__tab-item-content\">\n          - Réduction de l'apparence des rides et ridules<br>\n- Une peau plus hydratée\n<br>- Meilleure élasticité de la peau\n<br>- Protection contre les dommages causés par les rayons UV\n<br>- Renforcement des cheveux et des ongles\n<br>- Réduction des douleurs articulaires.\n        </div>\n<strong>\n      </strong>\n</div>\n  <div class=\"sf__tab-item\">\n      <input type=\"checkbox\" id=\"chck05\">\n        <label class=\"sf__tab-item-label\" for=\"chck05\">Comment prendre Iconique Collagène ?</label>\n        <div class=\"sf__tab-item-content\">\n          Nous recommandons de prendre deux gélules par jour. Le meilleur moment pour les prendre est avant le coucher. Pendant que vous dormez, votre corps passe en \"mode réparation\", c'est donc le moment idéal pour que les ingrédients exercent leur magie.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck06\">\n        <label class=\"sf__tab-item-label\" for=\"chck06\">Est-ce que Iconique Collagène est fait pour moi ?</label>\n        <div class=\"sf__tab-item-content\">\n          La réponse est oui si vous :<br>\n<br>- Vous voulez ralentir les signes du vieillissement\n<br>- Améliorer l'éclat et la texture de votre peau\n<br>- Vous avez une peau sèche ou irritable\n<br>- Vous êtes en périménopause ou en ménopause.\n<br>- Vous voulez renforcer vos cheveux et vos ongles\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck07\">\n        <label class=\"sf__tab-item-label\" for=\"chck07\">Comment conserver mon pot d’Iconique Collagène ?</label>\n        <div class=\"sf__tab-item-content\">\n          Conserver à température ambiante, ne pas réfrigérer. Conservez les capsules dans le flacon hermétique avec le couvercle bien fermé.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck08\">\n        <label class=\"sf__tab-item-label\" for=\"chck08\">Y a-t-il des effets secondaires ?</label>\n        <div class=\"sf__tab-item-content\">\n          Il n'y a pas d'effets secondaires connus, mais si vous avez des inquiétudes, veuillez demander conseil à votre médecin avant de commencer votre cure. Iconique Collagène n'est pas recommandé aux femmes enceintes ou qui allaitent. Bien qu’Iconique Collagène n'interfère pas avec d'autres médicaments ou complément alimentaire, vous devriez demander conseil à votre nutritionniste ou à votre médecin si vous avez des inquiétudes. \n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck09\">\n        <label class=\"sf__tab-item-label\" for=\"chck09\">Combien de temps met Iconique Collagène pour agir ?</label>\n        <div class=\"sf__tab-item-content\">\n          Pour obtenir les meilleurs résultats, nous vous recommandons de suivre la cure Iconique Collagène tous les jours pendant au moins 3 mois. Les bienfaits d’Iconique Collagène augmentent avec le temps. D'après nos études, Iconique Collagène commence à restaurer votre peau dès le premier mois. Vous commencerez à voir plus de volume dans vos cheveux et un teint d'apparence plus jeune vers le troisième mois, puis vous constaterez des améliorations encore plus importantes de la qualité de vos cheveux et de votre peau vers le sixième mois. \n        </div>\n      </div>\n</div>",
+            "width": "66%",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "1657697498983cde89-0",
+        "be1c4b4c-4550-48ac-8efa-475f56142c0f"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "rgba(0,0,0,0)",
+        "gap": 100,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__index-custom-content-1"
+      }
+    },
+    "1643993594307c39a3": {
+      "type": "custom-content",
+      "blocks": {
+        "1643993594a414a326-0": {
+          "type": "text",
+          "settings": {
+            "title": "Abonnement",
+            "subheading": "",
+            "text": "<p>L'abonnement üma c'est l'assurance de toujours avoir vos produits préférés à portée de main. </p>",
+            "width": "33%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "32b0aabf-3ef2-40ef-a707-5b813ba32ed2": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__tabs-custom\">\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck25\" checked>\n        <label class=\"sf__tab-item-label\" for=\"chck25\"><b>Quels sont les avantages de l'abonnement Laboratoires üma® ?</b></label>\n        <div class=\"sf__tab-item-content\">\n          En vous abonnant à vos produits préférés, vous bénéficierez à chaque livraison d'une réduction de 15 % sur tous nos produits et la livraison offerte dans le monde entier. \n<br><br>Vous pouvez modifier ou annuler votre abonnement facilement, à tout moment après le premier trimestre. Veillez à activer votre compte en créant un mot de passe lorsque vous passez votre commande, afin de pouvoir gérer facilement votre abonnement à l'avenir en vous connectant à votre compte.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck26\">\n        <label class=\"sf__tab-item-label\" for=\"chck26\"><b>Comment puis-je modifier mon abonnement ?</b></label>\n        <div class=\"sf__tab-item-content\">\n          Vous pouvez apporter les modifications suivantes à votre abonnement, à tout moment après la réception de votre deuxième commande :\n<br><br>- Reporter la date de votre prochain colis, et modifier votre adresse de livraison\n<br><br>- Modifier vos coordonnées bancaires\n<br><br>- Modifier la durée de la cure (1, 2 ou 3 mois) ou le produit que vous recevez \n<br><br>- Annuler votre abonnement.<br><br>Il vous suffit de vous connecter à Mon compte avec votre adresse e-mail et votre mot de passe, puis de sélectionner Gérer les abonnements.\n<br><br>Si vous n'avez pas créé de mot de passe lors de votre commande, il est facile de créer un compte. Pour accéder à votre abonnement, sélectionnez COMPTE en haut de la page du site, puis « Besoin d'aide » pour accéder aux abonnements\" et \"Demande d'invitation à un compte\". Veuillez utiliser uniquement l'adresse électronique que vous avez utilisée pour effectuer votre achat.\n\n\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck27\">\n        <label class=\"sf__tab-item-label\" for=\"chck27\"><b>Quand mon abonnement sera-t-il débité  ?</b></label>\n        <div class=\"sf__tab-item-content\">\n          Votre date de prélèvement est fixée par la date à laquelle vous avez passé votre première commande d'abonnement. Par la suite, vous serez facturé à cette date tous les 1 2, ou 3 mois sauf si vous décidez de la modifier.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck28\">\n        <label class=\"sf__tab-item-label\" for=\"chck28\"><b>Puis-je reporter la date de ma prochaine livraison ?</b></label>\n        <div class=\"sf__tab-item-content\">\n          Vous pouvez facilement modifier la date de votre prochaine livraison dans Mon compte :\n<br><br>1. Connectez-vous à Mon compte avec votre e-mail et votre mot de passe.\n<br><br>2. Sélectionnez \"Gérer les abonnements\".\n<br><br>3. Vous verrez votre abonnement répertorié dans les MES ABONNEMENTS - sélectionnez EDITER.\n<br><br>4. Cliquez ensuite sur la flèche située à côté de \" Prochaines échéances\" pour choisir une date dans le calendrier.\n<br><br>5. Sélectionnez \" METTRE À JOUR LA DATE DE LA PROCHAINE LIVRAISON \". La prochaine livraison de votre abonnement sera expédiée et facturée à la nouvelle date que vous avez choisie.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck29\">\n        <label class=\"sf__tab-item-label\" for=\"chck29\"><b>Puis-je modifier mon mode de paiement ?</b></label>\n        <div class=\"sf__tab-item-content\">\n          Vous pouvez modifier les informations de paiement utilisées pour votre abonnement dans Mon compte :\n\n<br><br>1. Connectez-vous à Mon compte avec votre adresse e-mail et votre mot de passe.\n<br><br>2. Sélectionnez \"Gérer les abonnements\".\n<br><br>3. Vous verrez votre abonnement répertorié dans les commandes d'abonnement - sélectionnez EDITER.\n<br><br>4. Allez dans la section \" Coordonnées bancaires \" et cliquez sur la flèche pour modifier les détails de votre carte.\n<br><br>5. Sélectionnez \"MISE À JOUR DE LA CARTE\".\n<br><br>6. La prochaine livraison de votre abonnement sera facturée sur la carte bancaire que vous avez choisie.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck30\">\n        <label class=\"sf__tab-item-label\" for=\"chck30\"><b>Puis-je changer la durée de la cure ou le produit auquel je suis abonnée ?</b></label>\n        <div class=\"sf__tab-item-content\">\n          Vous pouvez modifier la durée de la cure ou le produit que vous recevrez lors de votre prochaine livraison par abonnement, via Mon compte :\n<br><br>1. Connectez-vous à Mon compte avec votre adresse électronique et votre mot de passe.\n<br><br>2. Cliquez sur \"Gérer les abonnements\".\n<br><br>3. Allez à \" Calendrier de livraison \".\n<br><br>4. La durée de la cure ou le produit auquel vous êtes abonné apparaîtra dans la liste - cliquez sur la flèche, puis sur ÉCHANGER LE PRODUIT.\n<br><br>5. Choisissez la durée de la cure ou le produit que vous voulez et cliquez sur SÉLECTIONNER.\n<br><br>La prochaine livraison de votre abonnement contiendra la durée de la cure ou le produit que vous avez choisi.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck31\">\n        <label class=\"sf__tab-item-label\" for=\"chck31\"><b>Comment modifier l'adresse à laquelle je souhaite que ma prochaine commande en abonnement soit livrée ?</b></label>\n        <div class=\"sf__tab-item-content\">\n          Pour modifier l'adresse de livraison de votre prochaine commande en abonnement, veuillez-vous connecter à Mon compte avec votre adresse e-mail et votre mot de passe.\n\n<br><br>Sélectionnez \"Gérer les abonnements\", puis \"Adresses de livraison\", où vous pourrez modifier les détails de l'adresse pour les futures livraisons d'abonnements.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck32\">\n        <label class=\"sf__tab-item-label\" for=\"chck32\"><b>Que faire si je veux annuler mon abonnement ?</b></label>\n        <div class=\"sf__tab-item-content\">\n          Vous pouvez annuler votre abonnement dans Mon compte :\n\n<br><br>1. Connectez-vous en utilisant votre adresse e-mail et votre mot de passe.\n<br><br>2. Sélectionnez \"Gérer les abonnements\".\n<br><br>3. Cliquez sur MODIFIER.\n<br><br>4. En bas de la page, vous trouverez l'option ANNULER L'ABONNEMENT.\n<br><br>La livraison de vos commandes en abonnement seront annulées et il n'y aura plus de frais récurrents.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck33\">\n        <label class=\"sf__tab-item-label\" for=\"chck33\"><b>Pourquoi ne puis-je pas accéder à mon compte ?</b></label>\n        <div class=\"sf__tab-item-content\">\n          Si vous n'avez pas défini de mot de passe lorsque vous avez passé votre commande, il est facile de créer un compte. Vous pouvez demander une invitation qui vous permettra d'activer votre compte et d'accéder à votre abonnement. Il suffit de sélectionner COMPTE en haut de page du site, puis « Besoin d'aide ». Saisissez simplement l'adresse électronique que vous avez utilisée pour effectuer votre achat.\n<br><br>Si vous avez créé un mot de passe lorsque vous avez passé votre commande, mais que vous ne parvenez pas à vous connecter à votre compte, il se peut que vous utilisiez une mauvaise adresse e-mail ou un mauvais mot de passe. Veuillez essayer ce qui suit :\n<br><br>- Vous pouvez demander la réinitialisation de votre mot de passe si vous l'avez oublié.\n<br><br>- Si vous avez essayé d'utiliser une adresse e-mail qui n'est pas enregistrée dans votre compte, le message suivant s'affichera : \"Aucun compte n'a été trouvé avec cette adresse e-mail\". <br><br>Pour identifier l'adresse e-mail enregistrée dans votre compte, recherchez nos e-mails de confirmation de commande qui auront été envoyés à cette adresse e-mail.\n<br><br>Si vous avez encore besoin d'aide, veuillez contacter bonjour@umawell.com qui se fera un plaisir de vous aider. Nous vous demanderons simplement de confirmer vos coordonnées auprès de nous, afin de vérifier que vous êtes bien le titulaire du compte.\n        </div>\n      </div>\n</div>",
+            "width": "66%",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "1643993594a414a326-0",
+        "32b0aabf-3ef2-40ef-a707-5b813ba32ed2"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "#f6f3ea",
+        "gap": 100,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__index-custom-content-1"
+      }
+    },
+    "16440381917a9cb272": {
+      "type": "custom-content",
+      "blocks": {
+        "16440381913767fa3f-0": {
+          "type": "text",
+          "settings": {
+            "title": "Politique de retours",
+            "subheading": "",
+            "text": "<p>Parce que les bons comptes font les bons amis. Votre satisfaction est notre priorité.</p>",
+            "width": "33%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "27f92f0a-3747-4a11-9d03-9a3b338b4944": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__tabs-custom\">\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck34\" checked>\n        <label class=\"sf__tab-item-label\" for=\"chck34\"><b>Quel est votre politique de retour ?</b></label>\n        <div class=\"sf__tab-item-content\">\n          Oui, sans vous poser de questions. Notre délai est de 60 jours à compter de la date d'expédition. Pour organiser un retour, contactez bonjour@umawell.com pour recevoir un formulaire de retour.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck35\">\n        <label class=\"sf__tab-item-label\" for=\"chck35\"><b>Annulation de commande</b></label>\n        <div class=\"sf__tab-item-content\">\n          Comme nous travaillons rapidement pour que vos commandes soient envoyées aussi vite que possible, une fois une commande passée et payée, nous ne pouvons pas l’annuler ou la modifier. Cela inclut les changements de produits, d’adresses, ou de moyens de paiement. Vous pouvez toujours nous renvoyer une commande pour un remboursement.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck36\">\n        <label class=\"sf__tab-item-label\" for=\"chck36\"><b>Dans quels délais mon remboursement est-il traité ?</b></label>\n        <div class=\"sf__tab-item-content\">\n          Le remboursement des produits restitués sera effectué dans les 14 jours suivant la réception du ou des produits. Celui-ci sera effectué sur le mode de paiement utilisé lors de votre achat.\n        </div>\n      </div>\n</div>",
+            "width": "66%",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "16440381913767fa3f-0",
+        "27f92f0a-3747-4a11-9d03-9a3b338b4944"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "rgba(0,0,0,0)",
+        "gap": 100,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__index-custom-content-1"
+      }
+    },
+    "16577056006aedf692": {
+      "type": "custom-content",
+      "blocks": {
+        "21d26b4c-ad0b-40c3-9d8a-5d5d9c408aa2": {
+          "type": "product",
+          "settings": {
+            "product": "iconique-collagen",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "760ddf99-882a-4756-b2a0-89a1399168f5": {
+          "type": "product",
+          "settings": {
+            "product": "harmonie-daily",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "80d07a2c-252f-40bc-a6d5-1657621246d6": {
+          "type": "product",
+          "settings": {
+            "product": "ohlala",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "21d26b4c-ad0b-40c3-9d8a-5d5d9c408aa2",
+        "760ddf99-882a-4756-b2a0-89a1399168f5",
+        "80d07a2c-252f-40bc-a6d5-1657621246d6"
+      ],
+      "settings": {
+        "heading": "La marque des femmes qui veulent vivre leur ménopause sereinement",
+        "subheading": "",
+        "description": "Avec les cures des Laboratoires üma, vous optez pour une solution naturelle pour vous sentir mieux. Reprenez le contrôle de votre vie avec des produits naturels, sûrs et efficaces qui correspondent aux besoins de votre corps.",
+        "header_alignment": "left",
+        "container": "container",
+        "background_color": "#f6f3ea",
+        "gap": 100,
+        "use_scroll_mobile": true,
+        "gap_mobile": 30,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "reduce-my"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1644038194dcd1cc66",
+    "1643993972242dcd48",
+    "16493248790101ca5d",
+    "16439913164b6166cb",
+    "164399316109e02a11",
+    "16439934228199a13e",
+    "1643993520d4ecb5f3",
+    "16576974989e669853",
+    "1643993594307c39a3",
+    "16440381917a9cb272",
+    "16577056006aedf692"
+  ]
+}

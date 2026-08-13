@@ -1,0 +1,408 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {}
+    },
+    "16441293803438481b": {
+      "type": "image-with-text-2",
+      "settings": {
+        "container": "w-full",
+        "hero_size": "medium",
+        "show_overlay": true,
+        "image": "shopify://shop_images/Cancer-du-sein-et-hormonotherapie.jpg",
+        "bg_position": "center",
+        "image_link": "",
+        "parallax": false,
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "white",
+        "title": "Cancer du sein et hormonothérapie",
+        "subtitle": "",
+        "text": "<p>Depuis des décennies, l’hormonothérapie substitutive (HTS) a été prescrite pour soulager les symptômes de la ménopause. Toutefois, des données solides indiquent que les femmes qui ont recours à l’HTS courent un risque accru de cancer du sein, de l’ovaire et de l’utérus.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-primary",
+        "button_size": "",
+        "mb_image": "shopify://shop_images/Cancer_du_sein_et_hormonotherapie-min.png",
+        "use_content_above": true,
+        "custom_class": ""
+      }
+    },
+    "9f7b1184-22dd-4465-a959-a5f56f74038f": {
+      "type": "image-with-text",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "container": "container-fluid",
+        "background_color": "rgba(0,0,0,0)",
+        "item_gap": 100,
+        "item_gap_mobile": 30,
+        "image": "shopify://shop_images/1-femme-sur-50-concernee.jpg",
+        "link": "",
+        "layout": "right",
+        "image_column_size": "6",
+        "hover_effect": false,
+        "title": "1 femme sur 50 concernée",
+        "sub_title": "",
+        "text": "<p>Une étude effectuée en 2002 et 2004 intitulée Women's Health Initiative (WHI) a démontré que plus une femme était exposée au traitement, plus le risque de cancer était élevé. Malheureusement, 1 femme sur 50 qui suit une hormonothérapie substitutive combinée sera un jour atteinte du cancer du sein.</p>",
+        "text_size": "medium",
+        "content_alignment": "left",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-link",
+        "button_size": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "16462383124a184841": {
+      "type": "custom-content",
+      "disabled": true,
+      "blocks": {
+        "16462383121cf518e9-0": {
+          "type": "text",
+          "settings": {
+            "title": "1 femme sur 50 concernée",
+            "subheading": "",
+            "text": "<p>Une étude effectuée en 2002 et 2004 intitulée Women's Health Initiative (WHI) a démontré que plus une femme était exposée au traitement, plus le risque de cancer était élevé. Malheureusement, 1 femme sur 50 qui suit une hormonothérapie substitutive combinée sera un jour atteinte du cancer du sein.</p>",
+            "width": "50%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": ""
+          }
+        },
+        "16462383121cf518e9-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1-femme-sur-50-concernee.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "16462383121cf518e9-0",
+        "16462383121cf518e9-1"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "gap": 100,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "1644040912908fc533": {
+      "type": "image-with-text-2",
+      "settings": {
+        "container": "container-fluid",
+        "hero_size": "medium",
+        "show_overlay": false,
+        "image": "shopify://shop_images/yellow-box-uma_1b53e4e4-cc1a-48ec-916f-a3c617b3c22b.png",
+        "bg_position": "center",
+        "image_link": "",
+        "parallax": false,
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "dark",
+        "title": "<h2> Qu'est-ce que l’hormonothérapie substitutive ?</h2>",
+        "subtitle": "",
+        "text": "<p>L’hormonothérapie substitutive est un traitement qui permet de réduire les symptômes de la ménopause en modifiant les niveaux d'hormones dans l'organisme. Les hormones sont des messagers chimiques. Elles peuvent influer sur des éléments tels que la croissance, la fertilité et notre humeur.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-primary",
+        "button_size": "",
+        "mb_image": "shopify://shop_images/bloc_color_yellow_mobile.png",
+        "use_content_above": true,
+        "custom_class": ""
+      }
+    },
+    "164421387957b98a43": {
+      "type": "image-with-text-2",
+      "settings": {
+        "container": "container-fluid",
+        "hero_size": "medium",
+        "show_overlay": false,
+        "image": "shopify://shop_images/gray-box-uma.png",
+        "bg_position": "center",
+        "image_link": "",
+        "parallax": false,
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "dark",
+        "title": "",
+        "subtitle": "",
+        "text": "<p>Pendant la ménopause, les ovaires commencent à produire moins d'œstrogènes, qui sont des hormones. Cela signifie que certaines femmes peuvent ressentir les symptômes de la ménopause, comme des bouffées de chaleur et des changements d'humeur. Pour beaucoup, ces symptômes sont très inconfortables, et l’hormonothérapie substitutive peut contribuer à les réduire.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-primary",
+        "button_size": "",
+        "mb_image": "shopify://shop_images/bloc_color_main_color_mobile.png",
+        "use_content_above": true,
+        "custom_class": ""
+      }
+    },
+    "1646844365cdf8e4ac": {
+      "type": "custom-content",
+      "blocks": {
+        "43605fea-0e55-4758-bc31-4da1e9e37f0a": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"rte\">\n<div class=\"block__content-body\">\n<h3>Traitement combiné ou à base d’œstrogènes seuls </h3>\n<p class=\"text-color-subtext\"> L’hormonothérapie substitutive peut être prise sous forme d'œstrogènes uniquement ou sous forme d'une combinaison d'œstrogènes et de progestérone (THS combiné). <br><br>L’hormonothérapie substitutive combinée est le plus souvent utilisée. Le THS à base d'œstrogènes seuls peut augmenter le risque de cancer de l'utérus, c'est pourquoi il n'est généralement recommandé qu'aux femmes qui ont subi une hystérectomie pour retirer leur utérus.</p>\n</div>\n<div class=\"block__content-body\">\n<h3>Le THS combiné est le plus utilisé</h3>\n<p class=\"text-color-subtext\"> La prise d'œstrogènes seuls peut provoquer un cancer de la paroi de l'utérus, mais les femmes qui ont subi une ablation de l'utérus (hystérectomie) peuvent prendre des œstrogènes seuls car elles ne présentent plus ce risque de cancer. Le THS combiné est plus souvent utilisé par les femmes ayant un utérus.<br></p>\n</div>\n</div>",
+            "width": "50%",
+            "block_custom_class": "sf__index-custom-html"
+          }
+        },
+        "1646844365a141f803-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/hormonotherapie-substitutive.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "43605fea-0e55-4758-bc31-4da1e9e37f0a",
+        "1646844365a141f803-1"
+      ],
+      "settings": {
+        "heading": "<h2>Il existe deux types d’hormonothérapie substitutive</h2>",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "gap": 100,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "16442209291c0ea8cd": {
+      "type": "image-with-text-2",
+      "settings": {
+        "container": "container-fluid",
+        "hero_size": "medium",
+        "show_overlay": true,
+        "image": "shopify://shop_images/les-risques-de-l_hormonotherapie-substitutive.jpg",
+        "bg_position": "center",
+        "image_link": "",
+        "parallax": false,
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "white",
+        "title": "Le THS accroît le risque d'accidents vasculaires cérébraux, de crises cardiaques et de cancer du sein.",
+        "subtitle": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-primary",
+        "button_size": "",
+        "mb_image": "shopify://shop_images/Quels_sont_les_risques_de_l_hormonotherapie_substitutive__-min.png",
+        "use_content_above": true,
+        "custom_class": ""
+      }
+    },
+    "1646844906794a606e": {
+      "type": "custom-content",
+      "blocks": {
+        "15bd493e-2be2-4953-9732-c4abf95f5f05": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"rte\">\n<div class=\"block__content-body\">\n<h3>Pourquoi les femmes choisissent-elles l'hormonothérapie substitutive ?</h3>\n<p class=\"text-color-subtext\"> Le traitement hormonal substitutif (THS) est un traitement médical prescrit sur ordonnance destiné à soulager les symptômes de la ménopause. Il remplace les hormones qui sont à un niveau plus bas à l'approche de la ménopause.</p>\n</div>\n<div class=\"block__content-body\">\n<h3>Quels sont les risques de l’hormonothérapie substitutive ?</h3>\n<p class=\"text-color-subtext\"> Les recherches montrent que l'utilisation à long terme d'un THS combiné (pendant 5 ans ou plus) augmente le risque de cancer du sein et de l'ovaire, de maladie cardiaque, d'accident vasculaire cérébral et d'embolie pulmonaire (caillots de sang dans les poumons). <br><br>Ces recherches suggèrent que les risques liés à l'utilisation d'un THS combiné à long terme l'emportent sur les avantages pour la plupart des femmes.<br></p>\n</div>\n</div>\n<div class=\"block__content-footer grid grid-cols-1\">\n<div class=\"block__item\">\n<h3>Les effets secondaires de l’hormonothérapie substitutive</h3>\n<p>Saignements mensuels, pertes irrégulières, sensibilité des seins, rétention d'eau, maux de tête et migraines, irritation et décoloration de la peau, hausse de la densité mammaire.\n</p>\n</div>\n</div>",
+            "width": "50%",
+            "block_custom_class": "sf__index-custom-html"
+          }
+        },
+        "1646844905fa17f291-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/traitement-hormonal-substitutif.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "15bd493e-2be2-4953-9732-c4abf95f5f05",
+        "1646844905fa17f291-1"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "rgba(0,0,0,0)",
+        "gap": 100,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "164424905164f109ca": {
+      "type": "image-with-text-2",
+      "settings": {
+        "container": "container-fluid",
+        "hero_size": "medium",
+        "show_overlay": false,
+        "image": "shopify://shop_images/yellow-box-uma_1b53e4e4-cc1a-48ec-916f-a3c617b3c22b.png",
+        "bg_position": "center",
+        "image_link": "",
+        "parallax": false,
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "dark",
+        "title": "<h2>Choisissez Harmonie, <br>une cure 100% naturelle</h2>",
+        "subtitle": "",
+        "text": "<p>Harmonie est un complément entièrement naturel qui ne présente aucun des risques de cancer du sein associés aux hormonothérapies ou leurs effets indésirables.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-primary",
+        "button_size": "",
+        "mb_image": "shopify://shop_images/bloc_color_yellow_mobile.png",
+        "use_content_above": true,
+        "custom_class": ""
+      }
+    },
+    "1646844909d8b2239b": {
+      "type": "image-with-text",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "container": "container-fluid",
+        "background_color": "rgba(0,0,0,0)",
+        "item_gap": 100,
+        "item_gap_mobile": 30,
+        "image": "shopify://shop_images/innocuite-des-isoflavones.jpg",
+        "link": "",
+        "layout": "left",
+        "image_column_size": "6",
+        "hover_effect": false,
+        "title": "Sûres et efficaces",
+        "sub_title": "",
+        "text": "<p>De nombreux études sur l’innocuité des isoflavones, (l'ingrédient actif que nous utilisons dans Harmonie) n'ont révélé aucun effet indésirable dans les cas suivants : mammographies et densité des tissus mammaires, activation des gènes incitateurs de tumeur, biopsies ou épaisseur de l'endomètre, maturation de l'épithélium vaginal, niveau des hormones (E2, LH, FSH, SHBG) ou hormones thyroïdiennes.</p>",
+        "text_size": "medium",
+        "content_alignment": "left",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-link",
+        "button_size": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "16443190743621924f": {
+      "type": "custom-content",
+      "blocks": {
+        "fcba489c-76c6-43e2-9274-91a3b78cbd6d": {
+          "type": "product",
+          "settings": {
+            "product": "iconique-collagen",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        },
+        "976da397-3f1c-406b-b806-b561a14304c1": {
+          "type": "product",
+          "settings": {
+            "product": "harmonie-daily",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        },
+        "319363a9-c19d-4fa5-b8ed-1d1ce8bc6461": {
+          "type": "product",
+          "settings": {
+            "product": "ohlala",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "fcba489c-76c6-43e2-9274-91a3b78cbd6d",
+        "976da397-3f1c-406b-b806-b561a14304c1",
+        "319363a9-c19d-4fa5-b8ed-1d1ce8bc6461"
+      ],
+      "settings": {
+        "heading": "#PensezTraitementNaturel",
+        "subheading": "",
+        "description": "Les Laboratoires üma aident des milliers de femmes à se sentir mieux avant, pendant et après la ménopause. N'hésitez donc pas à découvrir nos cures ou à lire les témoignages d'autres femmes comme vous. Nous voulons simplement que vous sachiez que vous n'êtes plus seule !",
+        "header_alignment": "left",
+        "container": "container",
+        "background_color": "#f6f3ea",
+        "gap": 100,
+        "use_scroll_mobile": true,
+        "gap_mobile": 20,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16441293803438481b",
+    "9f7b1184-22dd-4465-a959-a5f56f74038f",
+    "16462383124a184841",
+    "1644040912908fc533",
+    "164421387957b98a43",
+    "1646844365cdf8e4ac",
+    "16442209291c0ea8cd",
+    "1646844906794a606e",
+    "164424905164f109ca",
+    "1646844909d8b2239b",
+    "16443190743621924f"
+  ]
+}

@@ -1,0 +1,1281 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1642583437f365ed49": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"product-form-1\"></div>",
+        "custom_class": ""
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "c87c6e87-b82b-4ef0-8e7b-85ca44648866": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Bonjour® - Vitamines & Superaliments</h4>",
+            "text_style": "uppercase"
+          }
+        },
+        "d62298a0-6546-491b-8197-17e0859dd23c": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>Vitalité, immunité, digestion – l’essentiel au quotidien. </h5>",
+            "text_style": "body"
+          }
+        },
+        "judge_me_reviews_preview_badge_6dAKQe": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "9d6c5ebd-14a3-403d-9c3c-17cc52876cb5": {
+          "type": "text",
+          "settings": {
+            "text": "Imaginez commencer chaque journée avec une énergie renouvelée. Avec Bonjour, 23 actifs dont vitamines, minéraux, fibres et probiotiques s’unissent pour vous offrir exactement ça : vitalité, immunité renforcée, et un coup de pouce contre la fatigue.",
+            "text_style": "subtitle"
+          }
+        },
+        "px_trust_badges_icons_app_block_jFaQ98": {
+          "type": "shopify://apps/px-trust-badges-icons/blocks/app-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+          "settings": {
+            "block_id": "9d56421d-fad3-4d57-8397-05f6d27032a0",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "spacing_left": 0,
+            "spacing_right": 0
+          }
+        },
+        "px_trust_badges_icons_app_block_p6Vpdm": {
+          "type": "shopify://apps/px-trust-badges-icons/blocks/app-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+          "settings": {
+            "block_id": "099585df-95b2-45d4-b571-92873f2cc5ec",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "spacing_left": 0,
+            "spacing_right": 0
+          }
+        },
+        "561bea99-62ba-4d45-a431-eb5f5e7fa148": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_atc_button": true,
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "trust_badge_mQw3bq": {
+          "type": "trust_badge",
+          "settings": {
+            "trust_badges_text": "",
+            "trust_badges_image": "shopify://shop_images/payments_cardssmall.png",
+            "trust_badges_image_width": "100%",
+            "position": "below"
+          }
+        },
+        "0c727350-9dc5-46ae-a5df-e5f7c59cd070": {
+          "type": "shipping",
+          "settings": {
+            "show_delivery_times": true,
+            "deliver_text": "En stock, livré entre le",
+            "deliver_days": "5",
+            "date_format": "%d/%m",
+            "show_shipping_text": true,
+            "shipping_text": "<p><strong>Livraison suivie et sécurisée</strong></p>"
+          }
+        },
+        "111d3e08-0c34-4040-a3cc-7bcc92b56620": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "<b>Pourquoi prendre Bonjour ?</b>",
+            "content": "<h3><strong>Pourquoi Choisir Bonjour ?</strong></h3><p><strong>Bonjour</strong> est votre complément multivitaminé complet pour une énergie durable et un bien-être optimal, spécialement conçu pour les femmes en ménopause. Voici pourquoi vous devriez l’adopter dès maintenant :</p><ul><li><strong>Booste l'Énergie et la Vitalité</strong> : Dites adieu à la fatigue quotidienne et retrouvez une énergie durable.</li><li><strong>Renforce le Système Immunitaire</strong> : Soutient vos défenses naturelles pour mieux résister aux infections.</li><li><strong>Équilibre Hormonal</strong> : Aide à stabiliser les variations hormonales liées à la ménopause, pour plus de sérénité.</li><li><strong>Améliore la Digestion</strong> : Grâce aux fibres et probiotiques, favorise une digestion fluide et un confort intestinal accru.</li><li><strong>Soutient la Peau, les Cheveux et les Ongles</strong> : Apporte des nutriments essentiels pour une peau plus éclatante, des cheveux et des ongles renforcés.</li><li><strong>Comble les Carences Nutritionnelles</strong> : Optimise l'absorption des vitamines et minéraux essentiels à votre bien-être global.</li><li><strong>Réduit la Fatigue Mentale</strong> : Améliore la concentration et aide à maintenir un esprit clair et alerte.</li><li><strong>Résultats Progressifs et Durables</strong> : Ressentez les premiers effets dès le premier mois, avec des résultats qui s'amplifient au fil du temps.</li></ul><p><strong>Adoptez Bonjour</strong> pour une vitalité retrouvée et une qualité de vie améliorée. Ne laissez plus la fatigue perturber votre quotidien !</p>",
+            "liquid": "",
+            "default_open": false
+          }
+        },
+        "eb884e3d-33a8-4f53-8502-0527c3f1027b": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "<b>Résultats dès le premier mois de cure</b>",
+            "content": "<p><strong>Bonjour</strong> est soutenu par une recherche scientifique approfondie. Nous avons mené deux études cliniques rigoureuses, impliquant plus de 122 femmes en ménopause dans une étude randomisée, en double aveugle et contrôlée de 60 jours. Voici les résultats concluants que nous sommes fiers de partager avec vous :</p><ul><li><strong>77%</strong> : Augmentation de l’énergie dès les premières semaines.</li><li><strong>66%</strong> : Réduction significative de la fatigue mentale et physique.</li><li><strong>73%</strong> : Amélioration de la concentration et des capacités cognitives.</li><li><strong>59%</strong> : Réduction des symptômes de carences nutritionnelles.</li><li><strong>79%</strong> : Amélioration du bien-être général et du métabolisme.</li><li><strong>69%</strong> : Réduction des sensations de fatigue chronique.</li><li><strong>51%</strong> : Amélioration de l’équilibre hormonal et diminution des bouffées de chaleur.</li><li><strong>73%</strong> : Amélioration de l’endurance physique</li></ul><p>Ces résultats soulignent notre engagement à fournir des solutions scientifiquement prouvées pour améliorer votre énergie et votre bien-être quotidien.</p>",
+            "liquid": "",
+            "default_open": false
+          }
+        },
+        "65349e79-857f-4b28-8c94-02aa413ef499": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "<b>Composition et ingrédients</b>",
+            "content": "<p><strong>Bonjour® - Multivitamines et Superaliments </strong><br/>Complément alimentaire à base de vitamines, de minéraux, de plantes et de ferments lactiques.</p><p><strong>Ingrédients : </strong>Gélule végétale : Hydroxypropylméthylcellulose (HPMC), Farine de riz brun moulue (sans gluten) (Oryza Sativa), Poudre d'acide ascorbique, Poudre d'alfalfa (Medicago Sativa), Poudre de tégument de psyllium (Plantago Ovata), Poudre de fibre de betterave sucrière (Beta Vulgaris), Poudre de Seagreens® (Fucus Vesiculosus), Fer (sous forme de bisglycinate ferreux), Zinc (sous forme de citrate de zinc), Vitamine B3 (Nicotinamide), Vitamine E (succinate de D-alpha-tocophérol), Citrate de manganèse, Vitamine B5 (pantothénate de calcium), Sélénométhionine (phosphate de calcium), Vitamine K2 (sous forme de ménaquinone-7), Poudre de Lactobacillus acidophilus, Vitamine B6 (chlorhydrate de pyridoxine), Vitamine B2 (riboflavine), Vitamine B1 (sous forme de chlorhydrate de thiamine), Vitamine D3 (cholécalciférol), Poudre de Bifidobacterium Lactis, Acide folique, Iode (sous forme d’iodure de potassium), Biotine (sous forme de d-biotine), Vitamine B12 (sous forme de cyanocobalamine pure).</p>",
+            "liquid": "<img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/Bonjour_Supplement_full_ingredients_list.jpg?v=1728231910\"><br><p>Respecter la dose recommandée. Cure conseillée en supplément d’une alimentation équilibrée et variée, ainsi qu’un rythme de vie sain. Tenir hors de portée des enfants. Dans le cas d’un suivi médical soutenu ou de la prise d’autres médicaments, nous vous invitons à en parler à votre médecin avant toute ingestion.</p>",
+            "default_open": false
+          }
+        },
+        "collapsible_tab_nRtxMD": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "<b>Combinez nos cures en toute confiance<b></b></b>",
+            "content": "<p>Nous avons conçu des associations de produits pour maximiser les bienfaits de <strong>Bonjour</strong> sur votre vitalité, digestion, et équilibre hormonal. Découvrez comment nos formules travaillent ensemble pour cibler vos besoins spécifiques.</p><h3><strong>Soulagement total</strong></h3><p><strong>Produits : Harmonie Daily + Fleur de Minuit + Bonjour</strong></p><p>Bouffées de chaleur intense, sueurs nocturnes, sautes d’humeur sévères, fatigue extrême.</p><p><strong>Objectifs :</strong></p><ul><li><strong>Harmonie Daily</strong> – Pour équilibrer les hormones et soulager les symptômes principaux de la ménopause.</li><li><strong>Fleur de Minuit</strong> – Pour calmer le stress nocturne, améliorer le sommeil et réduire les sueurs nocturnes.</li><li><strong>Bonjour</strong> – Pour un apport quotidien en nutriments essentiels qui soutiennent l’énergie et l’équilibre hormonal.</li></ul><p><strong>Bénéfices :</strong></p><ul><li>Cible les bouffées de chaleur, les sueurs nocturnes, les changements d'humeur, et la fatigue qui affectent le quotidien des femmes en ménopause. </li><li>Ce pack assure une gestion complète des hormones, un meilleur sommeil et une énergie durable.</li></ul><h3><strong>Détox et vitalité</strong></h3><p><strong>Produits : Bonjour + Bouquet de Flore</strong></p><p><strong>Objectifs :</strong></p><ul><li><strong>Bonjour :</strong> Renforce l’énergie et soutient l’immunité avec une formule complète en vitamines et minéraux.</li><li><strong>Bouquet de Flore :</strong> Élimine les toxines et restaure un équilibre digestif optimal, favorisant une digestion fluide et légère.</li></ul><p><strong>Bénéfices :</strong></p><ul><li>Énergie accrue grâce à une meilleure absorption des nutriments.</li><li>Réduction des ballonnements et inconforts digestifs pour un ventre plus plat.</li><li>Amélioration de la vitalité et bien-être digestif.</li></ul><h3><strong>Peau rayonnante et cheveux forts</strong></h3><p><strong>Produits : Bonjour + Iconique Collagène</strong></p><p><strong>Objectifs :</strong></p><ul><li><strong>Bonjour :</strong> Nourrit votre peau, vos cheveux et vos ongles grâce à un apport complet en vitamines et nutriments essentiels.</li><li><strong>Iconique Collagène :</strong> Stimule la production de collagène pour une peau plus ferme et lumineuse, et des cheveux plus forts.</li></ul><p><strong>Bénéfices :</strong></p><ul><li>Peau plus éclatante et revitalisée.</li><li>Cheveux et ongles renforcés pour une apparence plus saine.</li><li>Réduction des signes visibles de vieillissement.</li></ul><h3><strong>Digestion et immunité</strong></h3><p><strong>Produits : Bonjour + Symbiotic</strong></p><p><strong>Objectifs :</strong></p><ul><li><strong>Bonjour :</strong> Énergie renforcée et bien-être général avec un soutien complet en vitamines et minéraux.</li><li><strong>Symbiotic :</strong> Rééquilibre la flore intestinale, soutient la digestion et renforce le système immunitaire.</li></ul><p><strong>Bénéfices :</strong></p><ul><li>Réduction des ballonnements et des inconforts digestifs.</li><li>Amélioration de l’absorption des nutriments et de la digestion.</li><li>Système immunitaire plus fort pour une meilleure résistance aux infections.</li></ul><h3><strong>Énergie et perte de poids</strong></h3><p><strong>Produits : Bonjour + Oh La La</strong></p><p><strong>Objectifs :</strong></p><ul><li><strong>Bonjour :</strong> Apport complet en nutriments essentiels pour soutenir l'énergie quotidienne et combattre la fatigue.</li><li><strong>Oh La La :</strong> Accélère le métabolisme, favorise la combustion des graisses et aide à gérer le poids de manière naturelle.</li></ul><p><strong>Bénéfices :</strong></p><ul><li>Amélioration de l’énergie et réduction de la fatigue liée à la ménopause.</li><li>Gestion efficace du poids et réduction des fringales.</li><li>Métabolisme optimisé pour une perte de poids saine.</li></ul><p>Ces combinaisons de <strong>Bonjour</strong> avec nos autres produits répondent aux besoins spécifiques de la ménopause, en boostant énergie, digestion et éclat de la peau pour un bien-être optimal.</p><p></p>",
+            "liquid": "",
+            "default_open": false
+          }
+        },
+        "px_trust_badges_icons_app_block_Hh73Ft": {
+          "type": "shopify://apps/px-trust-badges-icons/blocks/app-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+          "settings": {
+            "block_id": "affa9f09-bb2b-438a-a378-e7074ccdad8d",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "spacing_left": 0,
+            "spacing_right": 0
+          }
+        },
+        "judge_me_reviews_review_widget_xPpyMM": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200
+          }
+        },
+        "complementary_hgHxxG": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Les combinaisons idéales",
+            "make_collapsible_row": false,
+            "product_list_limit": 2,
+            "products_per_page": 2,
+            "pcard_image_ratio": "original",
+            "enable_variant_options": false,
+            "enable_quick_view": false,
+            "enable_quick_add": false,
+            "enable_compare": false,
+            "enable_wishlist": false
+          }
+        }
+      },
+      "block_order": [
+        "c87c6e87-b82b-4ef0-8e7b-85ca44648866",
+        "d62298a0-6546-491b-8197-17e0859dd23c",
+        "judge_me_reviews_preview_badge_6dAKQe",
+        "9d6c5ebd-14a3-403d-9c3c-17cc52876cb5",
+        "px_trust_badges_icons_app_block_jFaQ98",
+        "px_trust_badges_icons_app_block_p6Vpdm",
+        "561bea99-62ba-4d45-a431-eb5f5e7fa148",
+        "trust_badge_mQw3bq",
+        "0c727350-9dc5-46ae-a5df-e5f7c59cd070",
+        "111d3e08-0c34-4040-a3cc-7bcc92b56620",
+        "eb884e3d-33a8-4f53-8502-0527c3f1027b",
+        "65349e79-857f-4b28-8c94-02aa413ef499",
+        "collapsible_tab_nRtxMD",
+        "px_trust_badges_icons_app_block_Hh73Ft",
+        "judge_me_reviews_review_widget_xPpyMM",
+        "complementary_hgHxxG"
+      ],
+      "settings": {
+        "container": "container-fluid",
+        "layout": "layout-4",
+        "show_atwl": false,
+        "enable_history_state": false,
+        "enable_variant_group_images": false,
+        "show_featured_media": true,
+        "show_zoom_button": true,
+        "enable_video_autoplay": false,
+        "show_nav_media_mobile": true,
+        "show_pagination_mobile": false,
+        "use_sticky_atc": true,
+        "use_sticky_atc_on_mobile": true,
+        "enable_dynamic_checkout": false,
+        "sticky_atc_wishtlist": false,
+        "sticky_atc_compare": false
+      }
+    },
+    "1694235462507497b3": {
+      "type": "apps",
+      "blocks": {
+        "px_trust_badges_icons_app_block_B7RzHW": {
+          "type": "shopify://apps/px-trust-badges-icons/blocks/app-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+          "settings": {
+            "block_id": "d768628b-87a8-47cc-bec9-bc787df415e6",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "spacing_left": 0,
+            "spacing_right": 0
+          }
+        }
+      },
+      "block_order": [
+        "px_trust_badges_icons_app_block_B7RzHW"
+      ],
+      "settings": {
+        "heading": "Faites le plein d’énergie et de vitalité chaque jour",
+        "subheading": "UNE FORMULE COMPLÈTE ET CIBLÉE",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "rgba(0,0,0,0)",
+        "padding_top": 50,
+        "padding_bottom": 0,
+        "custom_class": "remove-space my-10"
+      }
+    },
+    "16530405356838123e": {
+      "type": "custom-content",
+      "blocks": {
+        "16530405358e9b5d79-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bonjour_photo-with_woman_a000a6f2-3b4d-46de-a28a-90e68d8fb3f0.jpg",
+            "link": "#product-form-1",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "60c3f7e5-ebf2-43da-a0e2-258a2afca8fe": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__about-custom-list\">\n  <ul>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b>Régénère naturellement l’énergie</b></h4>\n          <p class=\"text-color-subtext\">Grâce à ses nutriments essentiels, Bonjour booste vos niveaux d’énergie tout en soutenant la régénération des tissus corporels, pour une vitalité continue.\n</p>\n      </div>\n    </li>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b>Renforce votre protection naturelle</b></h4>\n          <p class=\"text-color-subtext\">Avec ses vitamines et probiotiques, Bonjour améliore vos défenses naturelles, aidant à prévenir les infections et inflammations récurrentes.\n </p>\n      </div>\n    </li>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b> Maintient un équilibre parfait</b></h4>\n          <p class=\"text-color-subtext\">Bonjour favorise un équilibre optimal des nutriments dans le corps, essentiel pour une digestion harmonieuse, un bon métabolisme et une santé renforcée.\n </p>\n</div>\n    </li>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b>Réduit le stress et apaise l'esprit</b></h4>\n          <p class=\"text-color-subtext\"> Bonjour soutient votre bien-être mental en vous aidant à mieux gérer le stress quotidien grâce à une combinaison de vitamines et minéraux qui favorisent la relaxation et l'équilibre émotionnel. </p>\n      </div>\n    </li>\n  </ul>\n</div>",
+            "width": "50%",
+            "block_custom_class": "sf__about-custom-html",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "16530405358e9b5d79-1",
+        "60c3f7e5-ebf2-43da-a0e2-258a2afca8fe"
+      ],
+      "settings": {
+        "heading": "Tournez la page des fatigues chroniques, ouvrez celle de l'énergie durable.",
+        "subheading": "LE BIEN-ÊTRE À CHAQUE GÉLULE",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "rgba(0,0,0,0)",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__page-about"
+      }
+    },
+    "16945938772d351bb6": {
+      "type": "apps",
+      "blocks": {
+        "px_trust_badges_icons_app_block_yXwXqx": {
+          "type": "shopify://apps/px-trust-badges-icons/blocks/app-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+          "settings": {
+            "block_id": "4838a7ba-7d8b-4ddb-a828-bf888d872e96",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "spacing_left": 0,
+            "spacing_right": 0
+          }
+        }
+      },
+      "block_order": [
+        "px_trust_badges_icons_app_block_yXwXqx"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "remove-space my-10"
+      }
+    },
+    "7be1ed15-712e-49d8-ac46-156803796eb7": {
+      "type": "custom-content",
+      "blocks": {
+        "template--20708136321365__7be1ed15-712e-49d8-ac46-156803796eb7-text-1": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "template--20708136321365__7be1ed15-712e-49d8-ac46-156803796eb7-text-1"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "rgba(0,0,0,0)",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "remove-space my-10"
+      }
+    },
+    "16564020326250e5b4": {
+      "type": "custom-content",
+      "blocks": {
+        "image_card_GertAF": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/1-vitamineB1.jpg",
+            "link": "",
+            "title": "<h3>Vitamine B1</h3>",
+            "subtitle": "Essentielle pour le métabolisme des glucides, elle aide à transformer les aliments en énergie, tout en soutenant le bon fonctionnement du système nerveux.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": false,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "f572ae61-5a22-47ff-84f5-9df17abde08a": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/2-vitamineB2.jpg",
+            "link": "#product-form-1",
+            "title": "<h3>Vitamine B2</h3>",
+            "subtitle": "Elle soutient le métabolisme énergétique et aide à réduire la fatigue, tout en contribuant à la santé de la peau et des muqueuses.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "157aff24-76c8-43c0-a5f8-e19c2323018a": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/3-niacine.jpg",
+            "link": "#product-form-1",
+            "title": "<h3>Niacine</h3>",
+            "subtitle": "Essentielle pour la conversion des aliments en énergie, elle favorise également la santé cardiovasculaire et le bon fonctionnement du système nerveux.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": false,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "b5d8a0fa-8b87-48dd-a2c1-7de0e0deaad9": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/4-acide_panthotenique.jpg",
+            "link": "#product-form-1",
+            "title": "<h3>Acide Pantothénique</h3>",
+            "subtitle": "Connu pour son rôle dans la production d'énergie, il aide à réduire la fatigue et contribue à une peau saine.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "d0de405e-f102-47d5-957b-fb839aad76ad": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/5-vitamineB6.jpg",
+            "link": "#product-form-1",
+            "title": "<h3>Vitamine B6</h3>",
+            "subtitle": "Indispensable pour la synthèse des neurotransmetteurs, elle soutient l'humeur et aide à réduire l'irritabilité.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "d1185582-f7f1-4416-a0de-00c3776d9fbc": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/6-vitamineD3.jpg",
+            "link": "#product-form-1",
+            "title": "<h3>Vitamine D3</h3>",
+            "subtitle": "Joue un rôle clé dans la santé osseuse et renforce le système immunitaire, tout en améliorant l'absorption du calcium.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": false,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "cd083630-1a9f-4b62-843f-937c1cd37d1f": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/7-vitamineE.jpg",
+            "link": "#product-form-1",
+            "title": "<h3>Vitamine E</h3>",
+            "subtitle": "Antioxydante puissante, elle protège les cellules contre le stress oxydatif et soutient la santé de la peau.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "170b5600-d58b-46b5-8fdf-1926f0109fbe": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/8-acide-folique.jpg",
+            "link": "#product-form-1",
+            "title": "<h3>Acide Folique</h3>",
+            "subtitle": "Essentiel pour la formation des globules rouges et la santé cellulaire, il est particulièrement important pour les femmes en période de ménopause.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "sf-custom__content-above-image",
+            "animations": "inherit"
+          }
+        },
+        "ffe449e7-78c3-42ad-bb2a-b54704d03bb7": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/9-vitamineB12.jpg",
+            "link": "#product-form-1",
+            "title": "<h3>Vitamine B12</h3>",
+            "subtitle": "Indispensable pour la production d'énergie et le maintien du système nerveux, elle aide à combattre la fatigue.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_card_XT6cf8": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/10-vitamineK2.jpg",
+            "link": "#product-form-1",
+            "title": "<h3>Vitamine K2</h3>",
+            "subtitle": "Essentielle pour la santé osseuse et cardiovasculaire, elle aide à la régulation du calcium dans l'organisme.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": false,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_card_CdkWyP": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/11-biotine.jpg",
+            "link": "#product-form-1",
+            "title": "<h3>Biotine</h3>",
+            "subtitle": "Contribue à la santé des cheveux, de la peau et des ongles, tout en soutenant le métabolisme des macronutriments.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_card_6wpHCB": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/12-vitamineC.jpg",
+            "link": "#product-form-1",
+            "title": "<h3>Vitamine C</h3>",
+            "subtitle": "Antioxydante, elle booste le système immunitaire, aide à l'absorption du fer et favorise la santé de la peau.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "5693c97f-e2f3-4bdd-a25d-33df14536408": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/13-iode.jpg",
+            "link": "#product-form-1",
+            "title": "<h3>Iode</h3>",
+            "subtitle": "Essentiel pour la production d'hormones thyroïdiennes, il régule le métabolisme et soutient la fonction cognitive.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "5979ae8b-0f35-4820-8493-c8a5549e8101": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/14-fer.jpg",
+            "link": "#product-form-1",
+            "title": "<h3>Fer</h3>",
+            "subtitle": "Joue un rôle crucial dans le transport de l'oxygène et aide à prévenir la fatigue en soutenant la production de globules rouges.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_card_7rM7QJ": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/15-zinc.jpg",
+            "link": "#product-form-1",
+            "title": "<h3>Zinc</h3>",
+            "subtitle": "Contribue à une fonction immunitaire optimale et aide à la guérison des plaies, tout en soutenant la santé de la peau.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_card_CmmHNC": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/16-manganese.jpg",
+            "link": "#product-form-1",
+            "title": "<h3>Manganèse</h3>",
+            "subtitle": "Participe à la formation des os et soutient le métabolisme, tout en ayant des propriétés antioxydantes.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_card_NwWr4G": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/17-selenium.jpg",
+            "link": "#product-form-1",
+            "title": "<h3>Sélénium</h3>",
+            "subtitle": "Antioxydant important, il aide à protéger les cellules et soutient le système immunitaire.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_card_dAPkXy": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/18-alfalfa.jpg",
+            "link": "#product-form-1",
+            "title": "<h3>Alfalfa</h3>",
+            "subtitle": "Riche en nutriments, elle contribue à la santé digestive et à l'équilibre hormonal.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": false,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_card_Jym4rq": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/19-psyllium.jpg",
+            "link": "#product-form-1",
+            "title": "<h3>Psyllium Husk</h3>",
+            "subtitle": "Riche en fibres, elle aide à réguler la digestion et à maintenir une bonne santé intestinale.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": false,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_card_VtGEcf": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/20-betterave.jpg",
+            "link": "#product-form-1",
+            "title": "<h3>Fibre de betterave</h3>",
+            "subtitle": "Soutient la santé digestive et aide à réguler le taux de sucre dans le sang, tout en favorisant la détoxification.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": false,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_card_PGVCcD": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/21-seagreens.jpg",
+            "link": "#product-form-1",
+            "title": "<h3>Fucus vésiculeux</h3>",
+            "subtitle": "Source naturelle d'iode et de minéraux, elle favorise la santé thyroïdienne et digestive.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": false,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_card_4nG3hj": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/22-bifidobacterium.jpg",
+            "link": "#product-form-1",
+            "title": "<h3>Bifidobacterium Lactis</h3>",
+            "subtitle": "Renforce la flore intestinale et soutient la santé digestive, aidant à lutter contre les déséquilibres gastro-intestinaux.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": false,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_card_RzpgFW": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/23-lactobacillus-acido.jpg",
+            "link": "#product-form-1",
+            "title": "<h3>Lactobacillus Acidophilus</h3>",
+            "subtitle": "Probiotique qui favorise une flore intestinale saine, améliorant la digestion et renforçant l'immunité.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": false,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "44b02075-b572-4284-bd68-e2e009d15814": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "image_card_GertAF",
+        "f572ae61-5a22-47ff-84f5-9df17abde08a",
+        "157aff24-76c8-43c0-a5f8-e19c2323018a",
+        "b5d8a0fa-8b87-48dd-a2c1-7de0e0deaad9",
+        "d0de405e-f102-47d5-957b-fb839aad76ad",
+        "d1185582-f7f1-4416-a0de-00c3776d9fbc",
+        "cd083630-1a9f-4b62-843f-937c1cd37d1f",
+        "170b5600-d58b-46b5-8fdf-1926f0109fbe",
+        "ffe449e7-78c3-42ad-bb2a-b54704d03bb7",
+        "image_card_XT6cf8",
+        "image_card_CdkWyP",
+        "image_card_6wpHCB",
+        "5693c97f-e2f3-4bdd-a25d-33df14536408",
+        "5979ae8b-0f35-4820-8493-c8a5549e8101",
+        "image_card_7rM7QJ",
+        "image_card_CmmHNC",
+        "image_card_NwWr4G",
+        "image_card_dAPkXy",
+        "image_card_Jym4rq",
+        "image_card_VtGEcf",
+        "image_card_PGVCcD",
+        "image_card_4nG3hj",
+        "image_card_RzpgFW",
+        "44b02075-b572-4284-bd68-e2e009d15814"
+      ],
+      "settings": {
+        "heading": "Redonnez à votre corps tout ce dont il a besoin",
+        "subheading": "LA CLÉ D’UNE FORMULE ÉNERGISANTE ET ÉQUILIBRANTE",
+        "description": "Avec Bonjour, nous avons combiné 23 actifs, incluant vitamines, minéraux, plantes, fibres et probiotiques, choisis pour leurs bienfaits prouvés. Chaque ingrédient est essentiel pour stimuler votre énergie, renforcer votre immunité et optimiser votre digestion.",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "rgba(0,0,0,0)",
+        "gap": 10,
+        "use_scroll_mobile": true,
+        "gap_mobile": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__index-custom-content sf-custom__content-above-image"
+      }
+    },
+    "169347094851f71002": {
+      "type": "apps",
+      "blocks": {
+        "pretty_comparison_tables_table_HxPdQ4": {
+          "type": "shopify://apps/pretty-comparison-tables/blocks/table/4ce14980-e26b-4398-92cd-f582d95d4f05",
+          "settings": {
+            "product": "{{product}}",
+            "title_text": "",
+            "title_font_tag": "h2",
+            "section_background_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "pretty_comparison_tables_table_HxPdQ4"
+      ],
+      "settings": {
+        "heading": "Vous hésitez entre plusieurs solutions pour votre bien-être ?",
+        "subheading": "COMPAREZ LA CURE BONJOUR®",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "#faf9f5",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "cb22f6f1-5ddc-476b-a97b-103fa00aace2": {
+      "type": "custom-content",
+      "blocks": {
+        "3b945de9-b4f1-4734-b6ab-8a7f0f305cc4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bonjour_smart_capsule.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "f9e6519e-3c1e-4091-906b-5703458bc21c": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__about-custom-list\">\n  <ul>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b>Gélules  brevetées Nutri Genesis®\n</b></h4>\n          <p class=\"text-color-subtext\">Nos gélules à libération progressive sont conçues pour se dissoudre dans l'intestin grêle, garantissant une absorption maximale des nutriments. Enrichies de prébiotiques, elles soutiennent une digestion fluide et une assimilation efficace.</p>\n      </div>\n    </li>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b>Une formule ciblée et ultra-efficace</b></h4>\n          <p class=\"text-color-subtext\">Grâce à notre technologie d'encapsulation avancée, nous avons créé une combinaison exceptionnelle de 23 ingrédients naturels. Les composants secs et huileux sont intégrés dans une seule capsule, vous offrant un apport nutritionnel optimal avec seulement deux gélules par jour.</p>\n      </div>\n    </li>\n  </ul>\n</div>",
+            "width": "50%",
+            "block_custom_class": "sf__about-custom-html",
+            "animations": "inherit"
+          }
+        },
+        "e0ebf446-ab45-454e-b1e1-fbeec2a68084": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "large",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "3b945de9-b4f1-4734-b6ab-8a7f0f305cc4",
+        "f9e6519e-3c1e-4091-906b-5703458bc21c",
+        "e0ebf446-ab45-454e-b1e1-fbeec2a68084"
+      ],
+      "settings": {
+        "heading": "Pour une absorption optimale des nutriments",
+        "subheading": "CAPSULES INNOVANTES",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__page-about"
+      }
+    },
+    "featured_collection_g6kMCR": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "heading": "Pour un bien-être sans compromis",
+        "subheading": "COMPLÉTEZ VOTRE CURE",
+        "description": "La ménopause ne doit pas être un sujet tabou, ni une expérience que l'on traverse seule. Les compléments alimentaires üma® accompagnent les femmes dans les changements naturels qui surviennent à toutes les étapes de leur vie.",
+        "header_alignment": "left",
+        "container": "container",
+        "background_color": "#f6f3ea",
+        "collection": "shopall",
+        "enable_flashsale": false,
+        "show_countdown": false,
+        "product_to_show": 12,
+        "items_per_row": 3,
+        "item_gap": 30,
+        "pcard_layout": "",
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "hide_title": false,
+        "enable_slider": true,
+        "show_pagination": false,
+        "show_navigation": true,
+        "button_type": "link",
+        "button_text": "Nos cures",
+        "button_style": "sf__btn-primary",
+        "button_size": "sf__btn-large",
+        "infinite_load": false,
+        "max_page_load": 3,
+        "mobile_disable_slider": false,
+        "use_scroll_mobile": true,
+        "item_gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "1656431367e3def286": {
+      "type": "custom-content",
+      "blocks": {
+        "product_wMqUQk": {
+          "type": "product",
+          "settings": {
+            "product": "symbiotic",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "797afe61-f1df-41e7-bef9-736d30311d11": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "product": "harmonie-daily",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "21686130-6f14-447f-b0d9-001c69db23ee": {
+          "type": "product",
+          "settings": {
+            "product": "iconique-collagen",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "68b2f4dc-8069-4e53-a212-a04fc7a79f64": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "product": "ohlala",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "product_fRmPHL": {
+          "type": "product",
+          "settings": {
+            "product": "bouquet-de-flore",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "product_wMqUQk",
+        "797afe61-f1df-41e7-bef9-736d30311d11",
+        "21686130-6f14-447f-b0d9-001c69db23ee",
+        "68b2f4dc-8069-4e53-a212-a04fc7a79f64",
+        "product_fRmPHL"
+      ],
+      "settings": {
+        "heading": "Dites oui au bien-être absolu",
+        "subheading": "ENRICHISSEZ VOTRE CURE",
+        "description": "Encore trop souvent taboue, la ménopause ne devrait jamais être une expérience vécue en solitaire. C’est pourquoi nous faisons tout notre possible pour accompagner les femmes dans chaque étape de ce changement naturel.",
+        "header_alignment": "left",
+        "container": "container-fluid",
+        "background_color": "#f6f3ea",
+        "gap": 100,
+        "use_scroll_mobile": true,
+        "gap_mobile": 30,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "16418162727503f765": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "heading": "94% des femmes ont constaté une amélioration de leurs symptômes",
+        "subheading": "REJOIGNEZ LES 65 000 FEMMES QUI NOUS FONT CONFIANCE",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "rgba(0,0,0,0)",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "8d915f30-110a-4fa1-863c-86e0bf0113af": {
+      "type": "custom-content",
+      "blocks": {
+        "template--19175345783125__8d915f30-110a-4fa1-863c-86e0bf0113af-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/laboratoire-francais.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "5a173e95-8f54-4cd1-88e3-c7d67de110eb": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__about-custom-list\">\n  <ul>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0764/9581/4997/files/France.png?v=1692690421\"></span>\n      <div class=\"rte\">\n          <h4><b>Laboratoires Français</b></h4>\n          <p class=\"text-color-subtext\">Nous sommes un laboratoire français indépendant, dédié à la santé et au bien-être des femmes. Pionniers en micronutrition et phytothérapie, nous créons des compléments alimentaires naturels, efficaces et sans hormone pour améliorer votre qualité de vie durant et après la ménopause.</p>\n      </div>\n    </li>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0764/9581/4997/files/Approuvee_par_des_femmes.png?v=1692690451\"></span>\n      <div class=\"rte\">\n          <h4><b>Expertise, engagement et innovation</b></h4>\n          <p class=\"text-color-subtext\">Entourés de spécialistes en compléments alimentaires et en recherche clinique, nous bénéficions de l’expertise de notre conseil consultatif scientifique. Composé de médecins, nutritionnistes et scientifiques, il nous aide à intégrer les dernières découvertes et innovations dans nos produits.</p>\n      </div>\n    </li>\n  </ul>\n</div>",
+            "width": "50%",
+            "block_custom_class": "sf__about-custom-html",
+            "animations": "inherit"
+          }
+        },
+        "78c74610-af0f-4faf-9c34-786df650d6a4": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "template--19175345783125__8d915f30-110a-4fa1-863c-86e0bf0113af-image-1",
+        "5a173e95-8f54-4cd1-88e3-c7d67de110eb",
+        "78c74610-af0f-4faf-9c34-786df650d6a4"
+      ],
+      "settings": {
+        "heading": "Par une équipe de mères, de filles et de chercheurs",
+        "subheading": "",
+        "description": "<h5>Notre mission est de soutenir les femmes dans leur quête de vitalité et de bien-être au quotidien.</h5>",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__page-about"
+      }
+    },
+    "product-details-tabs": {
+      "type": "product-details-tabs",
+      "blocks": {
+        "fa490a38-97a7-4b71-ad47-3c86b4a582cd": {
+          "type": "description",
+          "settings": {
+            "header": "Product description"
+          }
+        },
+        "e31689fb-9b98-4f5b-977d-075a8d1a123f": {
+          "type": "tab",
+          "settings": {
+            "header": "Shipping & Return",
+            "content": "<p>Shipping cost is based on weight. Just add products to your cart and use the Shipping Calculator to see the shipping price.</p><p>We want you to be 100% satisfied with your purchase. Items can be returned or exchanged within 30 days of delivery.</p>",
+            "content_page": ""
+          }
+        },
+        "9e06b3e6-843f-4451-9137-03b92b248b49": {
+          "type": "liquid",
+          "settings": {
+            "header": "Tab heading",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "fa490a38-97a7-4b71-ad47-3c86b4a582cd",
+        "e31689fb-9b98-4f5b-977d-075a8d1a123f",
+        "9e06b3e6-843f-4451-9137-03b92b248b49"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "bg_color": "",
+        "default_open": true,
+        "animations": "inherit"
+      }
+    },
+    "164261608633fb1e22": {
+      "type": "custom-content",
+      "blocks": {
+        "71a41393-7458-490c-9599-d5f0e82b1703": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__tabs-custom\">\n <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck01\">\n        <label class=\"sf__tab-item-label\" for=\"chck01\">\n Qu'est-ce que Bonjour ?</label>\n        <div class=\"sf__tab-item-content\">\n          Bonjour est un complément alimentaire formulé spécialement pour les femmes, combinant 23 ingrédients naturels, dont des vitamines, des minéraux, des fibres et des probiotiques, pour soutenir votre énergie, votre immunité et votre digestion.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck1\">\n        <label class=\"sf__tab-item-label\" for=\"chck1\">Quels sont les principaux bienfaits de Bonjour ? </label>\n        <div class=\"sf__tab-item-content\">\n          Bonjour aide à booster votre énergie, renforce votre système immunitaire, améliore la santé digestive, favorise la clarté mentale, et soutient la santé de la peau et du cœur.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck2\">\n        <label class=\"sf__tab-item-label\" for=\"chck2\">Comment prendre Bonjour ?\n</label>\n        <div class=\"sf__tab-item-content\">\n          Il est recommandé de prendre deux gélules par jour, de préférence pendant les repas, pour une absorption optimale des nutriments.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck3\">\n        <label class=\"sf__tab-item-label\" for=\"chck3\">Puis-je prendre Bonjour avec d'autres compléments ?\n</label>\n        <div class=\"sf__tab-item-content\">\n          Oui, Bonjour peut être associé à d'autres compléments alimentaires, mais il est conseillé de consulter un professionnel de la santé pour éviter les interactions.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck4\">\n        <label class=\"sf__tab-item-label\" for=\"chck4\">Bonjour est-il adapté aux végétariens et végétaliens ?\n</label>\n        <div class=\"sf__tab-item-content\">\n          Oui, Bonjour est formulé à partir d'ingrédients 100% naturels et convient aux végétariens et végétaliens.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck5\">\n        <label class=\"sf__tab-item-label\" for=\"chck5\">Y a-t-il des allergènes dans Bonjour ?\n </label>\n        <div class=\"sf__tab-item-content\">\n          Bonjour ne contient pas de gluten, de lactose, ni d'OGM. Cependant, il est recommandé de consulter la liste des ingrédients pour vérifier d'éventuelles allergies spécifiques.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck6\">\n        <label class=\"sf__tab-item-label\" for=\"chck6\">Quand puis-je m'attendre à voir des résultats avec Bonjour ? </label>\n        <div class=\"sf__tab-item-content\">\n          Les résultats peuvent varier, mais beaucoup d'utilisateurs commencent à ressentir des effets bénéfiques dès la première semaine d'utilisation.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck7\">\n        <label class=\"sf__tab-item-label\" for=\"chck7\">Combien de temps puis-je prendre Bonjour ?</label>\n        <div class=\"sf__tab-item-content\">\n          Bonjour peut être pris en continu, mais nous recommandons de faire des pauses après plusieurs mois d'utilisation pour évaluer vos besoins.\n        </div>\n      </div>\n\n<div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck8\">\n        <label class=\"sf__tab-item-label\" for=\"chck8\">Est-ce que Bonjour est sans danger ?</label>\n        <div class=\"sf__tab-item-content\">\n          Oui, Bonjour est formulé avec des ingrédients sûrs et naturels. Toutefois, si vous êtes enceinte, allaitante ou sous traitement médical, consultez votre médecin avant de commencer.\n        </div>\n    </div>\n\n<div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck9\">\n        <label class=\"sf__tab-item-label\" for=\"chck9\">Comment dois-je conserver Bonjour ?</label>\n        <div class=\"sf__tab-item-content\">\n          Conservez Bonjour dans un endroit frais et sec, à l'abri de la lumière directe et hors de portée des enfants.\n        </div>\n    </div>\n\n<div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck10\">\n        <label class=\"sf__tab-item-label\" for=\"chck10\"> Puis-je acheter Bonjour en ligne ?</label>\n        <div class=\"sf__tab-item-content\">\n          Oui, Bonjour est disponible à l'achat sur notre site web avec livraison gratuite sur toutes les commandes.\n        </div>\n</div>\n\n<div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck11\">\n        <label class=\"sf__tab-item-label\" for=\"chck11\"> Que faire si je ne suis pas satisfait de Bonjour ?\n</label>\n        <div class=\"sf__tab-item-content\">\n          Nous offrons une garantie de satisfaction. Si vous n'êtes pas satisfaite, veuillez nous contacter dans les 30 jours suivant votre achat pour discuter des options de retour.\n        </div>\n      </div>\n</div>",
+            "width": "100%",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "66c850cb-6f03-4c73-9629-62d79f6f0f4f": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "71a41393-7458-490c-9599-d5f0e82b1703",
+        "66c850cb-6f03-4c73-9629-62d79f6f0f4f"
+      ],
+      "custom_css": [
+        ".sf__tab-item-label {font-weight: normal;}"
+      ],
+      "settings": {
+        "heading": "Vous avez des questions. Nous adorons y répondre",
+        "subheading": "",
+        "description": "Voici les questions les plus fréquentes avant de débuter notre cure Bonjour®.",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "#f6f3ea",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "1642583437f365ed49",
+    "main",
+    "1694235462507497b3",
+    "16530405356838123e",
+    "16945938772d351bb6",
+    "7be1ed15-712e-49d8-ac46-156803796eb7",
+    "16564020326250e5b4",
+    "169347094851f71002",
+    "cb22f6f1-5ddc-476b-a97b-103fa00aace2",
+    "featured_collection_g6kMCR",
+    "1656431367e3def286",
+    "16418162727503f765",
+    "8d915f30-110a-4fa1-863c-86e0bf0113af",
+    "product-details-tabs",
+    "164261608633fb1e22"
+  ]
+}

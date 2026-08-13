@@ -1,0 +1,838 @@
+{% comment %}
+Template: Page - Pharmacie (local copy for the active theme)
+
+This template renders a pharmacy/detail page styled to match the provided mockup.
+It handles metafields under namespace `custom` and is resilient to 'file' type metafields by using `| file_url` where supported.
+{% endcomment %}
+
+{% comment %} File reference metafields: cannot access image URL directly in Liquid {% endcomment %}
+{% comment %} We'll handle images inline where they're used {% endcomment %}
+
+{% assign addr_old = page.metafields.pharmacie.address | default: page.metafields.custom.address | default: '' %}
+{% assign numero_field = page.metafields.pharmacie.numero | default: page.metafields.custom.numero | default: '' %}
+{% assign rue_field = page.metafields.pharmacie.rue | default: page.metafields.custom.rue | default: '' %}
+{% assign combined_address = '' %}
+{% if numero_field != blank or rue_field != blank %}
+  {% assign combined_address = numero_field | append: ' ' | append: rue_field | strip %}
+{% endif %}
+{% assign address = addr_old | default: combined_address | default: page.content | strip_html | truncate: 300 %}
+
+<!doctype html>
+<div class="pharmacie-page" style="font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; color:#252222;">
+
+<style>
+  body {
+    background-color:#F6F3EA;
+  }
+    /* Top section background */
+  .pharmacie-top-section{
+    background:#F6F3EA;
+    padding:48px 0px;
+    margin-bottom:40px;
+    display:flex;
+    justify-content:center;
+    box-sizing:border-box;
+    font-family: Jost
+  }
+  .pharmacie-inner{
+    max-width:2500px;
+    margin:0 auto;
+    padding:0 16px;
+    box-sizing:border-box;
+    width:100%
+  }
+  /* Layout: responsive widths so section scales from mobile -> ultra-wide */
+  .pharmacie-row{display:flex;gap:40px;align-items:flex-start;justify-content:center;width:clamp(700px,70vw,2500px);max-width:100%;margin:0 auto;flex-wrap:nowrap}
+  /* Left column: 675x675 with specific padding */
+  .pharmacie-left{flex:0 0 0px;min-width:450px;width:450px;height:450px;text-align:center;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;
+    }
+  .pharmacie-right{
+    flex:0 0 0px;
+    min-width:450px;
+  }
+    .pharmacie-title{font-family:Jost,sans-serif;font-weight:700;font-style:normal;font-size:25.9px;line-height:33.7px;letter-spacing:0;text-align:center;text-transform:uppercase;color:#322B81}
+    /* Services styling */
+    .pharmacie-services{margin-top:12px;margin-bottom:12px;text-align:center}
+  .pharmacie-services .service-line{font-family:Jost,sans-serif;font-weight:500;font-size:15px;line-height:28px;letter-spacing:0;text-align:center;color:#333;margin:0}
+  /* Address styling */
+    .pharmacie-address{font-family:Jost,sans-serif;font-weight:600;font-size:15px;line-height:28px;letter-spacing:0;text-align:center;color:#333;margin-bottom:12px}
+  /* CTA removed per new requirements */
+  /* Hero image fixed dimensions (desktop) */
+  .pharmacie-description {
+    line-height: 19px;
+    font-size: 15px;
+    font-family:Jost;
+  }
+  .pharmacie-intro {
+    line-height: 19px;
+    font-size: 15px;
+  }
+  .pharmacie-hero{width:450px;height:450px;border-radius:10px;display:block;object-fit:cover}
+  .pharmacie-right img{width:450px;height:450px;border-radius:10px;display:block;object-fit:cover}
+  /* Phone contact styling - centered */
+  .pharmacie-contact{display:inline-flex;gap:10px;align-items:center;justify-content:center;margin-top:12px;font-family:Jost,sans-serif;font-weight:500;font-size:14.4px;line-height:22.5px;letter-spacing:0;text-align:center;color:#333}
+  .pharmacie-contact .phone-icon{font-size:20px;color:#000000}
+  .pharmacie-contact .phone-number{font-family: Jost; font-weight: 500; font-style: Medium; font-size: 14.4px; leading-trim: NONE; line-height: 22.5px; letter-spacing: 0%; text-align: center; vertical-align: middle;color:#252222}
+
+  .hours-h3 {
+    font-family:Jost,sans-serif;
+    font-weight:300;
+    font-style:normal;
+    font-size:31.1px;
+    line-height:40.44px;
+    letter-spacing:0;
+    text-align:center;
+    text-transform:uppercase;
+    color:#333;
+    margin-top:48px;
+    margin-bottom:32px
+  }
+
+  /* Hours grid */
+  .hours-grid{
+    font-family:Jost;
+    display:flex;
+    gap:12px;
+    flex-wrap:wrap;
+    align-items:center;
+    margin:0 auto 8px;
+    max-width:1040px;
+    padding:0 8px;
+
+  }
+
+  .hours-day{
+    background:#fff;
+    border:0px solid #eee;
+    display:flex;
+    padding:12px;
+    border-radius:6px;
+    min-width:120px;
+    text-align:center;
+    align-items:center;
+    flex-direction:column;
+    font-size:13px;
+    height:110.38px;
+    width:157px;
+    white-space:nowrap;
+    box-shadow:0 1px 2px rgba(0,0,0,0.04)
+  }
+
+  .hours-day .label {
+    font-size:18px;
+    padding-bottom: 0; /* ← Retirer le padding-bottom */
+    margin-bottom: 16.2px; /* ← Utiliser margin-bottom à la place */
+    display:block;
+    font-weight:800;
+    color:#322B81;
+    letter-spacing:0.4px;
+    flex-shrink: 0; /* ← Empêche le label de rétrécir */
+  }
+  .hours-day .time{
+    display:block;
+    color:#333;
+    font-size:12px;
+    line-height:1.3
+  }
+  .hours-day.today{
+    background:#ffcc00;
+    border-color:#ffcc00;
+  }
+
+  .hours-day.today .label,.hours-day.today .time{
+    color:#ffffff
+  }
+
+  .hours-day .time-line{
+      display:block;
+      color:#333;
+      font-size:15px;
+      line-height:22.5px;
+    }
+
+  /* Lower section */
+  .pharmacie-lower{
+    display:flex;
+    gap:40px;
+    align-items:flex-start;
+    flex-wrap:wrap;
+    margin-top:36px
+  }
+
+  .pharmacie-main-img{width:480px;height:420px;border-radius:6px;object-fit:cover}
+
+  .pharmacie-side-text{
+    flex:1 1 320px
+  }
+
+  .hours-day.today .label,.hours-day.today .time-line{
+      color:#ffffff
+  }
+  /* ========== GALLERY - DESKTOP ========== */
+  .gallery-wrapper {
+    max-width: 1440px;
+    margin: 48px auto 90px;
+    padding: 0 16px;
+  }
+
+  .mini-gallery {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .gallery-item {
+    flex: 0 0 300px;
+    width: 300px;
+    height: 300px;
+  }
+
+  .gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    display: block;
+  }
+  /* ========== MOBILE - PADDING GLOBAL 10PX ========== */
+  @media(max-width: 768px) {
+    /* Padding global sur toute la page */
+    .pharmacie-page {
+      padding-right: 10px !important;
+      padding-left: 10px !important;
+      padding-top: 32.92px !important;
+      margin: 0 !important;
+    }
+
+    /* Supprimer tous les paddings left/right des composants */
+    .pharmacie-top-section {
+      margin-bottom: 24px;
+      padding: 0 0 32.921px 0 !important;
+    }
+
+    .pharmacie-inner {
+      margin-top: 0 !important;
+      margin-right: 0 !important;
+      margin-left: 0 !important;
+      padding: 0 !important;
+    }
+
+    .pharmacie-left, .pharmacie-right {
+      flex: 1 1 auto;
+      width: 100%;
+      min-width: 0;
+    }
+
+    .pharmacie-right {
+      order: 1;
+      flex: 1 1 100%;
+      min-width: 0;
+      display: flex;
+      justify-content: center;
+      padding: 0 20px !important;
+    }
+
+    .pharmacie-right img {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 1/1;
+      max-width: 400px;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+
+    /* Layout en colonnes (mobile/tablette) */
+    .pharmacie-row {
+      flex-direction: column;
+      gap: 20px !important;
+      align-items: center;
+      width: 100%;
+      flex-wrap: wrap;
+    }
+
+    .pharmacie-left {
+      flex: 1 1 100%;
+      order: 2;
+      padding: 0 20px !important;
+      height: auto;
+      min-width: 0;
+      width: 70%;
+    }
+
+    /* Mobile hero: full width */
+    .pharmacie-hero {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 1/1;
+      max-width: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+
+    .pharmacie-title {
+      font-size: 22px;
+      text-align: center;
+      line-height: 1.3;
+    }
+
+    .hours-h3 {
+      font-size: 24.3px;
+      margin-top: 28px;
+      margin-bottom: 24px;
+    }
+
+    .hours-grid {
+      padding: 0 !important;
+      gap: 10px !important;
+      justify-content: space-between !important;
+    }
+
+    /* Gallery wrapper - supprimer padding */
+    .gallery-wrapper {
+      margin: 65.82px 0 0 0 !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      overflow: hidden !important;
+    }
+
+    /* Carousel - padding left/right pour débordement visuel */
+    .mini-gallery {
+      display: flex !important;
+      flex-direction: row !important;
+      flex-wrap: nowrap !important;
+      overflow-x: scroll !important;
+      overflow-y: hidden !important;
+      -webkit-overflow-scrolling: touch !important;
+      scroll-snap-type: x mandatory !important;
+      gap: 6px !important;
+      padding: 0 10px 12px 10px !important;
+      margin: 0 -10px !important;
+      width: calc(100% + 20px) !important;
+      box-sizing: border-box !important;
+      justify-content: flex-start !important;
+    }
+
+    .gallery-item {
+      flex: 0 0 356px !important;
+      width: 356px !important;
+      height: 356px !important;
+      min-width: 356px !important;
+      max-width: 356px !important;
+      scroll-snap-align: start !important;
+    }
+
+    .gallery-item img {
+      width: 100% !important;
+      height: 100% !important;
+      object-fit: cover !important;
+      border-radius: 15px !important;
+      display: block !important;
+    }
+
+    /* Scrollbar visible */
+    .mini-gallery::-webkit-scrollbar {
+      height: 4px !important;
+      display: block !important;
+    }
+    .mini-gallery::-webkit-scrollbar-track {
+      background: #e0e0e0 !important;
+      border-radius: 2px !important;
+    }
+    .mini-gallery::-webkit-scrollbar-thumb {
+      background: #999 !important;
+      border-radius: 2px !important;
+    }
+  }
+
+  /* PETIT MOBILE : 2 colonnes (jusqu'à 599px) */
+  @media(max-width: 599px) {
+    .hours-day {
+      min-width: calc(50% - 5px) !important;
+      max-width: calc(50% - 5px) !important;
+      width: calc(50% - 5px) !important;
+      flex: 0 0 calc(50% - 5px) !important;
+      height: auto !important;
+      min-height: 110.38px;
+      box-sizing: border-box;
+      padding: 24px 12px;
+    }
+    
+    .hours-day:last-child {
+      min-width: 100% !important;
+      max-width: 100% !important;
+      width: 100% !important;
+      flex: 0 0 100% !important;
+    }
+
+    .hours-day .label {
+      font-size: 16px !important;
+      padding-bottom: 8.48px;
+      margin-bottom: 0px;
+    }
+
+    .hours-day .time-line {
+      font-size: 13px !important;
+      line-height: 20px;
+    }
+    .pharmacie-left {
+      width: 100%;
+    }
+  }
+
+  /* TABLETTE : 3 colonnes horaires (600px - 768px) */
+  @media(min-width: 600px) and (max-width: 768px) {
+    .hours-day {
+      min-width: calc(33.333% - 7px) !important;
+      max-width: calc(33.333% - 7px) !important;
+      width: calc(33.333% - 7px) !important;
+      flex: 0 0 calc(33.333% - 7px) !important;
+      height: auto !important;
+      min-height: 110.38px;
+      box-sizing: border-box;
+      padding: 24px 12px;
+    }
+    
+    .hours-day:last-child {
+      min-width: calc(33.333% - 7px) !important;
+      max-width: calc(33.333% - 7px) !important;
+      width: calc(33.333% - 7px) !important;
+      flex: 0 0 calc(33.333% - 7px) !important;
+    }
+
+    .hours-day .label {
+      font-size: 16px !important;
+      padding-bottom: 8.48px;
+      margin-bottom: 0px;
+    }
+
+    .hours-day .time-line {
+      font-size: 13px !important;
+      line-height: 20px;
+    }
+  }
+
+  /* TABLETTE & DESKTOP : Layout en ligne (769px et plus) */
+  @media (min-width: 769px) {
+    /* Container centré avec max-width */
+    .pharmacie-inner {
+      max-width: 85% !important;
+      margin: 0 auto !important;
+      padding: 0 !important;
+    }
+
+    /* Layout en ligne : texte à gauche, image à droite */
+    .pharmacie-row {
+      display: flex !important;
+      flex-direction: row !important;
+      gap: 32px !important;
+      align-items: center !important;
+      width: 100% !important;
+    }
+
+    .pharmacie-left, .pharmacie-right {
+      flex: 1 1 50% !important;
+      max-width: 50% !important;
+      min-width: 0 !important;
+      box-sizing: border-box !important;
+    }
+
+    .pharmacie-left {
+      order: 1 !important;
+      padding: 66.495px 64px 67.16px 64px !important;
+    }
+
+    .pharmacie-right {
+      order: 2 !important;
+      padding: 0 !important;
+      display: flex !important;
+      justify-content: center !important;
+      align-items: flex-start !important;
+    }
+
+    .pharmacie-right img {
+      width: 100% !important;
+      height: auto !important;
+      aspect-ratio: 1/1 !important;
+      max-width: 100% !important;
+      border-radius: 10px !important;
+      object-fit: cover !important;
+    }
+
+    .pharmacie-title {
+      font-size: 28px !important;
+    }
+
+    /* Gallery : Grille par défaut */
+    .gallery-wrapper {
+      margin: 65.82px auto 90px auto !important;
+      padding: 0 !important;
+      width: 80% !important;
+      max-width: 80% !important;
+      overflow: visible !important;
+    }
+
+    .mini-gallery {
+      display: flex !important;
+      flex-direction: row !important;
+      flex-wrap: wrap !important;
+      gap: 32px !important;
+      padding: 0 !important;
+      margin: 0 !important;
+      width: 100% !important;
+      box-sizing: border-box !important;
+      justify-content: center !important;
+    }
+
+    .gallery-item {
+      flex: 0 0 auto !important;
+      width: calc(33.333% - 22px) !important;  /* ← Ce -11px crée de l'espace */
+      aspect-ratio: 1/1 !important;
+      height: auto !important;
+    }
+
+    .gallery-item img {
+      max-width: 428.66px !important;
+      max-height: 428.66px !important;
+      object-fit: cover !important;
+      border-radius: 15px !important;
+      display: block !important;
+    }
+
+    /* Pas de scrollbar en mode grille */
+    .mini-gallery::-webkit-scrollbar {
+      display: none !important;
+    }
+  }
+
+  /* PETIT ÉCRAN TABLETTE : Carousel (769px - 900px) */
+  @media (min-width: 769px) and (max-width: 900px) {
+    .gallery-wrapper {
+      width: 100% !important;
+      max-width: 100% !important;
+      overflow: hidden !important;
+      margin: 65.82px 0 0 0 !important;
+      padding: 0 !important;
+    }
+
+    .mini-gallery {
+      flex-wrap: nowrap !important;
+      overflow-x: auto !important;
+      overflow-y: hidden !important;
+      -webkit-overflow-scrolling: touch !important;
+      scroll-snap-type: x mandatory !important;
+      gap: 10px !important;
+      padding: 0 10px 12px 10px !important;
+      margin: 0 10px 0 !important;
+    }
+
+    .gallery-item {
+      flex: 0 0 350px !important;
+      width: 350px !important;
+      min-width: 350px !important;
+      max-width: 350px !important;
+      scroll-snap-align: start !important;
+    }
+
+    /* Scrollbar visible en mode carousel */
+    .mini-gallery::-webkit-scrollbar {
+      height: 6px !important;
+      display: block !important;
+    }
+    .mini-gallery::-webkit-scrollbar-track {
+      background: #e0e0e0 !important;
+      border-radius: 3px !important;
+    }
+    .mini-gallery::-webkit-scrollbar-thumb {
+      background: #999 !important;
+      border-radius: 3px !important;
+    }
+  }
+
+  /* TABLETTE LARGE : 3 colonnes horaires (769px - 1023px) */
+  @media(min-width: 769px) and (max-width: 1023px) {
+    .hours-grid {
+      flex-wrap: wrap !important;
+      gap: 10px !important;
+    }
+
+    .hours-day {
+      min-width: calc(33.333% - 7px) !important;
+      max-width: calc(33.333% - 7px) !important;
+      width: calc(33.333% - 7px) !important;
+      flex: 0 0 calc(33.333% - 7px) !important;
+      height: auto !important;
+      min-height: 110.38px;
+      box-sizing: border-box;
+      padding: 24px 12px;
+    }
+    
+    .hours-day:last-child {
+      min-width: calc(33.333% - 7px) !important;
+      max-width: calc(33.333% - 7px) !important;
+      width: calc(33.333% - 7px) !important;
+      flex: 0 0 calc(33.333% - 7px) !important;
+    }
+
+    .hours-day .label {
+      font-size: 16px !important;
+      padding-bottom: 8.48px;
+      margin-bottom: 0px;
+    }
+
+    .hours-day .time-line {
+      font-size: 13px !important;
+      line-height: 20px;
+    }
+    .pharmacie-left {
+      padding: 32px 24px !important; /* ← Padding réduit pour tablette */
+    }
+    .pharmacie-inner {
+      max-width: 90% !important; /* ← Plus d'espace */
+    }
+  }
+
+  /* DESKTOP : 7 colonnes horaires + 3 colonnes gallery (1024px et plus) */
+  @media (min-width: 1024px) {
+    .hours-grid { 
+      flex-wrap: nowrap !important;
+      justify-content: flex-start !important;
+    }
+
+    .hours-day .label {
+      font-size: 17px;
+    }
+    
+    .pharmacie-right img {
+      max-height: 675px !important;
+      max-width: 675px !important;
+    }
+    .pharmacie-right {
+      max-height: 675px !important;
+      max-width: 675px !important;
+    }
+
+
+    .pharmacie-left {
+      max-height: 675px !important;
+      max-width: 675px !important;
+    }
+  }
+
+  /* GRAND ÉCRAN 4K : Limiter la largeur de la galerie (1920px et plus) */
+  @media (min-width: 1920px) {
+    .gallery-wrapper {
+      max-width: 1440px !important; /* ← Limite la largeur totale */
+      margin: 65.82px auto 90px auto !important;
+    }
+    
+    .gallery-item img {
+      max-width: 428.66px !important; /* ← Limite la taille des images */
+      max-height: 428.66px !important;
+    }
+    .gallery-item {
+      max-width: 428.66px !important; /* ← Limite la taille des images */
+      max-height: 428.66px !important;
+    }
+  }
+
+  @media (min-width: 1024px) and (max-width: 1384px) {
+    .pharmacie-inner {
+        max-width: 95% !important;
+    }
+  }
+
+  @media (min-width: 1385px) {
+    .pharmacie-inner {
+        max-width: 70% !important;
+    }
+  }
+
+</style>
+
+  <div class="pharmacie-top-section">
+    <div class="pharmacie-inner">
+    <div class="pharmacie-row">
+      <div class="pharmacie-left">
+        {% comment %} Titre: afficher le nom tel quel (pharmacie, institut, magasin...) {% endcomment %}
+        {% assign _nom = page.metafields.pharmacie.nom | default: page.metafields.custom.nom | strip %}
+        {% if _nom == blank or _nom == '' %}
+          {% assign _nom = page.title | strip %}
+        {% endif %}
+        {% assign _ville = page.metafields.pharmacie.city | default: page.metafields.custom.city | default: page.metafields.custom.ville | strip %}
+        
+        <h1 class="pharmacie-title">{{ _nom | upcase }}</h1>
+
+        {% comment %} Introduction (small centered paragraph) {% endcomment %}
+        {% assign intro = page.metafields.pharmacie.introduction | default: page.metafields.custom.introduction %}
+        {% if intro and intro != blank %}
+          <div class="pharmacie-intro" style="margin-top:12px;margin-bottom:12px;">{{ intro | strip_html | strip }}</div>
+        {% endif %}
+
+        {% comment %} Center block: bold name, lieu, numero+rue, postal - city, country {% endcomment %}
+        <div style="font-style:italic;font-size:15px;line-height:19px;">
+          {% assign display_name = page.metafields.pharmacie.nom | default: page.metafields.custom.nom | default: page.title %}
+          <div style="font-family:Jost,sans-serif;font-weight:600;letter-spacing:0%;text-align:center;">{{ display_name }}</div>
+          {% assign lieu = page.metafields.pharmacie.lieu | default: page.metafields.custom.lieu %}
+          {% if lieu and lieu != blank %}
+            <div >{{ lieu | strip }}</div>
+          {% endif %}
+          {% comment %} Show numero + rue if present, otherwise fallback to computed address {% endcomment %}
+          {% assign numero_field = page.metafields.pharmacie.numero | default: page.metafields.custom.numero | default: '' %}
+          {% assign rue_field = page.metafields.pharmacie.rue | default: page.metafields.custom.rue | default: '' %}
+          {% if numero_field != blank or rue_field != blank %}
+            <div >{{ numero_field }}{% if numero_field != blank and rue_field != blank %}, {% endif %}{{ rue_field }}</div>
+          {% elsif address != blank %}
+            <div >{{ address | strip }}</div>
+          {% endif %}
+          {% assign code_postal = page.metafields.pharmacie.code_postal | default: page.metafields.custom.code_postal %}
+          {% assign city = page.metafields.pharmacie.city | default: page.metafields.custom.city %}
+          <div>{% if code_postal %}{{ code_postal | strip }}{% endif %}{% if city %} - {{ city | strip }}{% endif %}</div>
+          {% assign country = page.metafields.pharmacie.country | default: page.metafields.custom.country | strip %}
+          {% if country != blank and country != '' and country != 'France' %}
+            <div>{{ country }}</div>
+          {% endif %}
+        </div>
+
+        {% comment %} Description (services field used as description) {% endcomment %}
+        {% assign services = page.metafields.pharmacie.services | default: page.metafields.custom.services %}
+        {% if services and services != blank %}
+          <div class="pharmacie-description" style="margin:14px 0;">{{ services | strip_html | strip }}</div>
+        {% endif %}
+
+        {% comment %} Services 1..3 each bold on its own line {% endcomment %}
+        <div class="pharmacie-service-list" style="margin-top:8px;">
+          {% assign service1 = page.metafields.pharmacie.service1 | default: page.metafields.custom.service1 %}
+          {% if service1 and service1 != blank %}
+            <div style="font-family:Jost,sans-serif;font-weight:600;font-style:normal;font-size:15px;margin-bottom: 1px;letter-spacing:0%;text-align:center;">{{ service1 | strip }}</div>
+          {% endif %}
+          {% assign service2 = page.metafields.pharmacie.service2 | default: page.metafields.custom.service2 %}
+          {% if service2 and service2 != blank %}
+            <div style="font-family:Jost,sans-serif;font-weight:600;font-style:normal;font-size:15px;margin-bottom: 1px;letter-spacing:0%;text-align:center;">{{ service2 | strip }}</div>
+          {% endif %}
+          {% assign service3 = page.metafields.pharmacie.service3 | default: page.metafields.custom.service3 %}
+          {% if service3 and service3 != blank %}
+            <div style="font-family:Jost,sans-serif;font-weight:600;font-style:normal;font-size:15px;letter-spacing:0%;text-align:center;">{{ service3 | strip }}</div>
+          {% endif %}
+        </div>
+
+        {% comment %} Phone (kept as before) {% endcomment %}
+        {% assign phone = page.metafields.pharmacie.phone | default: page.metafields.custom.phone %}
+        {% if phone and phone != blank %}
+        <div class="pharmacie-contact">
+          <span class="phone-icon"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.6183 9.37396L8.74872 9.93004C6.81012 8.95725 5.61295 7.83952 4.91611 6.09742L5.45267 3.21947L4.43877 0.522705H1.82493C1.03889 0.522705 0.420099 1.17216 0.537865 1.94914C0.830537 3.88844 1.69462 7.40539 4.21927 9.93004C6.87074 12.5815 10.6901 13.732 12.7918 14.1898C13.6036 14.3661 14.3234 13.7334 14.3234 12.9021V10.4046L11.6183 9.37396Z" stroke="#000" stroke-width="1.04526" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          <a href="tel:{{ phone | replace: ' ', '' }}" class="phone-number" style="text-decoration:none;color:#252222">{{ phone }}</a>
+        </div>
+        {% endif %}
+      </div>
+
+      <div class="pharmacie-right">
+        {% assign hero_img = page.metafields.pharmacie.hero_image | default: page.metafields.custom.hero_image %}
+        {% if hero_img %}{{ hero_img | metafield_tag }}{% endif %}
+      </div>
+    </div>
+    </div>
+  </div>
+  <!-- Horaires : grille complète -->
+  <h3 class="hours-h3">HORAIRES</h3>
+
+  <div class="hours-grid">
+    {% assign today_index = 'now' | date: '%u' | plus: 0 %}
+    
+    {% comment %} Les horaires: priorité au namespace pharmacie, fallback custom {% endcomment %}
+    {% assign h_lundi = page.metafields.pharmacie.hours_lundi | default: page.metafields.custom.hours_lundi %}
+    {% assign h_mardi = page.metafields.pharmacie.hours_mardi | default: page.metafields.custom.hours_mardi %}
+    {% assign h_mercredi = page.metafields.pharmacie.hours_mercredi | default: page.metafields.custom.hours_mercredi %}
+    {% assign h_jeudi = page.metafields.pharmacie.hours_jeudi | default: page.metafields.custom.hours_jeudi %}
+    {% assign h_vendredi = page.metafields.pharmacie.hours_vendredi | default: page.metafields.custom.hours_vendredi %}
+    {% assign h_samedi = page.metafields.pharmacie.hours_samedi | default: page.metafields.custom.hours_samedi %}
+    {% assign h_dimanche = page.metafields.pharmacie.hours_dimanche | default: page.metafields.custom.hours_dimanche %}
+    
+    <div class="hours-day{% if today_index == 1 %} today{% endif %}">
+      <span class="label">LUNDI</span>
+      <span class="time-line">{{ h_lundi | default: 'Fermé' | replace: '/', '<br>' }}</span>
+    </div>
+    <div class="hours-day{% if today_index == 2 %} today{% endif %}">
+      <span class="label">MARDI</span>
+      <span class="time-line">{{ h_mardi | default: 'Fermé' | replace: '/', '<br>' }}</span>
+    </div>
+    <div class="hours-day{% if today_index == 3 %} today{% endif %}">
+      <span class="label">MERCREDI</span>
+      <span class="time-line">{{ h_mercredi | default: 'Fermé' | replace: '/', '<br>' }}</span>
+    </div>
+    <div class="hours-day{% if today_index == 4 %} today{% endif %}">
+      <span class="label">JEUDI</span>
+      <span class="time-line">{{ h_jeudi | default: 'Fermé' | replace: '/', '<br>' }}</span>
+    </div>
+    <div class="hours-day{% if today_index == 5 %} today{% endif %}">
+      <span class="label">VENDREDI</span>
+      <span class="time-line">{{ h_vendredi | default: 'Fermé' | replace: '/', '<br>' }}</span>
+    </div>
+    <div class="hours-day{% if today_index == 6 %} today{% endif %}">
+      <span class="label">SAMEDI</span>
+      <span class="time-line">{{ h_samedi | default: 'Fermé' | replace: '/', '<br>' }}</span>
+    </div>
+    <div class="hours-day{% if today_index == 7 %} today{% endif %}">
+      <span class="label">DIMANCHE</span>
+      <span class="time-line">{{ h_dimanche | default: 'Fermé' | replace: '/', '<br>' }}</span>
+    </div>
+  </div>
+
+  <!-- Gallery cards -->
+  <div class="gallery-wrapper">
+    <div class="mini-gallery">
+      {% assign g1 = page.metafields.pharmacie.gallery_image_1 | default: page.metafields.custom.gallery_image_1 %}
+      {% assign g2 = page.metafields.pharmacie.gallery_image_2 | default: page.metafields.custom.gallery_image_2 %}
+      {% assign g3 = page.metafields.pharmacie.gallery_image_3 | default: page.metafields.custom.gallery_image_3 %}
+      
+      {% if g1 %}
+        <div class="gallery-item">
+          <img src="{{ g1 | image_url: width: 712 }}" alt="Galerie 1" loading="lazy">
+        </div>
+      {% endif %}
+      {% if g2 %}
+        <div class="gallery-item">
+          <img src="{{ g2 | image_url: width: 712 }}" alt="Galerie 2" loading="lazy">
+        </div>
+      {% endif %}
+      {% if g3 %}
+        <div class="gallery-item">
+          <img src="{{ g3 | image_url: width: 712 }}" alt="Galerie 3" loading="lazy">
+        </div>
+      {% endif %}
+    </div>
+  </div>
+
+  <script>
+    (function() {
+      function resetGalleryScroll() {
+        if (window.innerWidth <= 900) {
+          var gallery = document.querySelector('.mini-gallery');
+          if (gallery) {
+            gallery.scrollLeft = 0;
+          }
+        }
+      }
+      
+      resetGalleryScroll();
+      
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', resetGalleryScroll);
+      }
+      
+      window.addEventListener('load', function() {
+        resetGalleryScroll();
+        setTimeout(resetGalleryScroll, 100);
+        setTimeout(resetGalleryScroll, 300);
+      });
+      
+      var resizeTimer;
+      window.addEventListener('resize', function() {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(resetGalleryScroll, 100);
+      });
+    })();
+  </script>
+
+  </div>
+</div>

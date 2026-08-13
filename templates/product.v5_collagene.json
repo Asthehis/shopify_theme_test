@@ -1,0 +1,1273 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1642583437f365ed49": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"product-form-1\"></div>",
+        "custom_class": ""
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "c87c6e87-b82b-4ef0-8e7b-85ca44648866": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>ICONIQUE COLLAGÈNE®</h4>",
+            "text_style": "body"
+          }
+        },
+        "text_FJyMwX": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>L'excellence en matière d'anti-âge. Collagène marin, acide hyaluronique et astaxanthine.<h5></h5>\n</h5>",
+            "text_style": "body"
+          }
+        },
+        "judge_me_reviews_preview_badge_pfXKDe": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "f3aef4d7-3b2c-433a-a070-f0e4de14ab6c": {
+          "type": "text",
+          "settings": {
+            "text": "Stop aux signes de vieillissement prématuré avec Iconique Collagène®, la première cure anti-âge conçue pour restaurer et protéger naturellement les cheveux, les ongles et la peau affectés par le déclin des œstrogènes après 45 ans.",
+            "text_style": "subtitle"
+          }
+        },
+        "px_trust_badges_icons_app_block_QFeMxm": {
+          "type": "shopify://apps/px-trust-badges-icons/blocks/app-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+          "settings": {
+            "block_id": "699cc6b3-627f-475e-9293-d1aab1e4cc62",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "spacing_left": 0,
+            "spacing_right": 0
+          }
+        },
+        "px_trust_badges_icons_app_block_pM8hRi": {
+          "type": "shopify://apps/px-trust-badges-icons/blocks/app-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+          "settings": {
+            "block_id": "7dac8337-5bb2-4401-9250-14c2a9c235d9",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "spacing_left": 0,
+            "spacing_right": 0
+          }
+        },
+        "561bea99-62ba-4d45-a431-eb5f5e7fa148": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_atc_button": true,
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "388b8e1a-a58f-4d5b-9e13-73881812ca3b": {
+          "type": "trust_badge",
+          "settings": {
+            "trust_badges_text": "",
+            "trust_badges_image": "shopify://shop_images/payments_cardssmall.png",
+            "trust_badges_image_width": "100%",
+            "position": "below"
+          }
+        },
+        "6d51878e-a905-4523-8db5-3534d251eef9": {
+          "type": "shipping",
+          "settings": {
+            "show_delivery_times": true,
+            "deliver_text": "En stock, livré entre le",
+            "deliver_days": "5",
+            "date_format": "%d/%m",
+            "show_shipping_text": true,
+            "shipping_text": "<p><strong>Livraison suivie et sécurisée</strong></p>"
+          }
+        },
+        "0aa38292-8dcf-4883-8547-790d22da9709": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "<b>Pourquoi prendre Iconique Collagène</b>",
+            "content": "<p>Iconique Collagène® a été formulé pour restaurer et protéger les cheveux, les ongles et la peau affectés par la baisse du taux d'œstrogènes après 45 ans. Conçu spécifiquement pour les femmes en périménopause, ménopause et postménopause, qui rencontrent des problèmes de cheveux, d’ongles et de peau tels que la sécheresse cutanée, les ridules, les rides, les cheveux fins, secs ou rêches, les ongles cassants et en mauvaise santé.</p>",
+            "liquid": "",
+            "default_open": false
+          }
+        },
+        "65349e79-857f-4b28-8c94-02aa413ef499": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "<b>Composition et ingrédients</b>",
+            "content": "<p><strong>Iconique collagène</strong><br/><em>Complément alimentaire à base de collagène marin, d’acide hyaluronique, de plantes, de vitamines et minéraux.</em></p><p><strong>Ingrédients :</strong> Collagène marin type 1 (Peptan F2000ld), Enveloppe de la capsule : Hydroxypropyl méthylcellulose (HPMC), Acide ascorbique, Farine de riz brun (Oryza Sativa), Poudre d'acide hyaluronique (1M Dalton) (Hyaluronate de Sodium), Citrate de zinc, Vitamine B3 (Nicotinamide), Extrait de riz (Oryza Sativa), Vitamine E (D-alpha Tocopherol), Selenomethionine (Phosphate de Calcium), Poudre d’astaxanthine (Haematococcus Pluvialis), Poudre de silice de bambou (Bambusa Vulgaris), Extrait de graine de grenade (Punica Granatum), Extrait d'écorce de pin (Pinus Massoniana), Extrait de pepins de pamplemousse (citrus Paradisi), Glycinate de cuivre, Extrait de feuille de romarin (Rosmarinus Officinalis), Vitamine B8 (Biotine)</p>",
+            "liquid": "<img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/Collagen_Supplement_full_ingredients_list.png?v=1708504275\" alt=\"Composition\"><br><p>Ne pas dépasser la dose journalière recommandée. À consommer dans le cadre d'une alimentation variée et équilibrée et d'un mode de vie sain. Tenir hors de portée des enfants.Si vous êtes sous suivi médical ou si vous prenez des médicaments prescris dans le cadre d'un traitement lourd, veuillez consulter votre médecin avant toute utilisation.</p>",
+            "default_open": false
+          }
+        },
+        "1ccdbec8-3a47-4cf4-904e-3b82b2bf588a": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "<b>Résultats d'essais cliniques</b>",
+            "content": "<h3>Résultats de l'étude clinique : Iconique Collagen</h3><p>Plus de 550 femmes de 40 à 65 ans ont participé à un essai clinique rigoureux de six mois visant à déterminer les effets d'Iconique Collagen sur les symptômes de la ménopause affectant les cheveux, la peau, les ongles, les muscles, les os, la vitalité et le bien-être.</p><h3>Résultats clés :</h3><ul><li>96% des femmes ont constaté une augmentation du volume de leurs cheveux</li><li>86% des femmes ont constaté une meilleure résistance de leurs cheveux.</li><li>72% des femmes ont été ravies du teint de leur peau</li><li>83% des femmes ont observé une amélioration de l'apparence du visage sur la base d'images cliniques.</li><li>77% des femmes ont rapporté une diminution significative des rides et des ridules.</li><li>98% des femmes ont constaté une amélioration de la tonicité de la peau.</li></ul>",
+            "liquid": "",
+            "default_open": false
+          }
+        },
+        "collapsible_tab_pFDVDk": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "<b>Combinez nos cures en toute confiance</b>",
+            "content": "<p>Chez les Laboratoires üma, nous comprenons que votre parcours de bien-être est unique, et vous cherchez peut-être à cibler plusieurs aspects de votre santé simultanément. C'est pourquoi nous avons conçu nos produits pour qu'ils puissent être pris ensemble, en toute sécurité et efficacité.</p><ul><li><strong>Synergie des Ingrédients :</strong> Nos formules sont développées pour fonctionner en harmonie, maximisant les bienfaits grâce à la synergie des ingrédients. Cela signifie que combiner nos cures peut amplifier les effets positifs sur votre santé.</li><li><strong>Ciblage Complet :</strong> Chaque produit cible différents aspects de votre bien-être. En les combinant, vous pouvez adresser plusieurs préoccupations de santé à la fois, pour une approche holistique de votre bien-être.</li><li><strong>Sécurité et Qualité :</strong> La sécurité est notre priorité. Tous nos produits sont formulés en respectant strictement les normes de sécurité et de qualité, vous permettant de les combiner sans risque de surdosage ou d'interactions négatives.</li></ul><p><strong>Conseils pour l'association de nos produits :</strong></p><ul><li><strong>Suivez les instructions :</strong> Chaque produit vient avec des recommandations précises. Pour une expérience optimale, il est important de respecter ces dosages.</li><li><strong>Écoutez votre corps :</strong> Soyez attentif à vos réactions et ajustez l'utilisation des produits en fonction de vos ressentis et de vos objectifs de santé.</li><li><strong>Hydratation :</strong> L'eau facilite l'absorption des compléments et soutient leur efficacité. Veillez à bien vous hydrater tout au long de la journée.</li></ul><p><strong>Exemples d'associations recommandées :</strong></p><ul><li><strong>Pour un bien-être global :</strong> Harmonie Daily et Iconique Collagène forment un duo parfait pour soutenir l'équilibre hormonal et la beauté de la peau, des cheveux et des ongles.</li><li><strong>Gestion du poids et soutien hormonal :</strong> L'association d'Oh La La et Harmonie Daily offre une solution complète pour la gestion du poids tout en abordant les déséquilibres hormonaux.</li><li><strong>Soutien des articulations et des os :</strong> Ajouter Reneva à votre routine peut aider à soulager les douleurs articulaires et à renforcer les os, complétant ainsi l'action des autres produits pour un bien-être total.</li></ul>",
+            "liquid": "",
+            "default_open": false
+          }
+        },
+        "px_trust_badges_icons_app_block_JY8hjw": {
+          "type": "shopify://apps/px-trust-badges-icons/blocks/app-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+          "settings": {
+            "block_id": "affa9f09-bb2b-438a-a378-e7074ccdad8d",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "spacing_left": 0,
+            "spacing_right": 0
+          }
+        },
+        "judge_me_reviews_review_widget_7HMPpJ": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200
+          }
+        }
+      },
+      "block_order": [
+        "c87c6e87-b82b-4ef0-8e7b-85ca44648866",
+        "text_FJyMwX",
+        "judge_me_reviews_preview_badge_pfXKDe",
+        "f3aef4d7-3b2c-433a-a070-f0e4de14ab6c",
+        "px_trust_badges_icons_app_block_QFeMxm",
+        "px_trust_badges_icons_app_block_pM8hRi",
+        "561bea99-62ba-4d45-a431-eb5f5e7fa148",
+        "388b8e1a-a58f-4d5b-9e13-73881812ca3b",
+        "6d51878e-a905-4523-8db5-3534d251eef9",
+        "0aa38292-8dcf-4883-8547-790d22da9709",
+        "65349e79-857f-4b28-8c94-02aa413ef499",
+        "1ccdbec8-3a47-4cf4-904e-3b82b2bf588a",
+        "collapsible_tab_pFDVDk",
+        "px_trust_badges_icons_app_block_JY8hjw",
+        "judge_me_reviews_review_widget_7HMPpJ"
+      ],
+      "settings": {
+        "container": "container-fluid",
+        "layout": "layout-4",
+        "show_atwl": false,
+        "enable_history_state": false,
+        "enable_variant_group_images": false,
+        "show_featured_media": true,
+        "show_zoom_button": true,
+        "enable_video_autoplay": false,
+        "show_nav_media_mobile": true,
+        "show_pagination_mobile": false,
+        "use_sticky_atc": true,
+        "use_sticky_atc_on_mobile": true,
+        "enable_dynamic_checkout": false,
+        "sticky_atc_wishtlist": false,
+        "sticky_atc_compare": false
+      }
+    },
+    "16940024205defc53e": {
+      "type": "apps",
+      "blocks": {
+        "px_trust_badges_icons_app_block_wakhYg": {
+          "type": "shopify://apps/px-trust-badges-icons/blocks/app-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+          "settings": {
+            "block_id": "fcfaf8df-1649-4ac0-821b-2a11fb98049f",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "spacing_left": 0,
+            "spacing_right": 0
+          }
+        }
+      },
+      "block_order": [
+        "px_trust_badges_icons_app_block_wakhYg"
+      ],
+      "settings": {
+        "heading": "Et si le secret de la jeunesse venait de l’intérieur ?",
+        "subheading": "RÉSULTATS VISIBLES DES 30 JOURS",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "4a61d28b-b0bb-48e4-a89f-a373d350729f": {
+      "type": "custom-content",
+      "blocks": {
+        "template--15638777495761__4a61d28b-b0bb-48e4-a89f-a373d350729f-166617661456f44191-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/client_1_before_after.png",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "057c9fcc-2b7c-4ace-97f7-6ef844b61856": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/client_3_before_after.png",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "f673159d-31e1-4911-b08a-e50537cb0289": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/client_11_before_after.png",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "b6f6e0e4-c014-4d5f-987e-3bcecbee7324": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/client_2_before_after.png",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "c11d64e4-2097-4dc1-b3aa-158bd415ad8e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/client_12_before_after.png",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "aa9f2f8e-a5bb-4c42-a5a0-0e0ccbd2b037": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/client_10_before_after.png",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "b5f631fe-d49c-4293-9ae8-5317f58b451d": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "large",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "template--15638777495761__4a61d28b-b0bb-48e4-a89f-a373d350729f-166617661456f44191-1",
+        "057c9fcc-2b7c-4ace-97f7-6ef844b61856",
+        "f673159d-31e1-4911-b08a-e50537cb0289",
+        "b6f6e0e4-c014-4d5f-987e-3bcecbee7324",
+        "c11d64e4-2097-4dc1-b3aa-158bd415ad8e",
+        "aa9f2f8e-a5bb-4c42-a5a0-0e0ccbd2b037",
+        "b5f631fe-d49c-4293-9ae8-5317f58b451d"
+      ],
+      "settings": {
+        "heading": "Redéfinir l'excellence en matière d'anti-âge",
+        "subheading": "",
+        "description": "Vous serez étonnée de la rapidité avec laquelle vous verrez les résultats, avec une peau plus ferme et plus hydratée, des ongles plus forts et des cheveux plus volumineux, plus brillants et plus éclatants que jamais. Élaboré par des experts de la ménopause et testé méticuleusement en laboratoire, Iconique Collagen garantit une qualité inégalée.",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "16530405356838123e": {
+      "type": "custom-content",
+      "blocks": {
+        "16530405358e9b5d79-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Restaure_et_protege_naturellement_vos_cheveux_vos_ongles_et_votre_peau_0f418a90-4fb8-4ab7-9303-051754ff9cf2.png",
+            "link": "#product-form-1",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "60c3f7e5-ebf2-43da-a0e2-258a2afca8fe": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__about-custom-list\">\n  <ul>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b>Vibrez de l’intérieur, révélez votre éclat</b></h4>\n<b>\n          </b><p class=\"text-color-subtext\">Une véritable fontaine de jouvence qui vous permettra d'obtenir des résultats visibles dès 30 jours en agissant de l'intérieur pour réduire l'apparence des rides, favoriser la pousse des cheveux, redonner de l’éclat à la peau et vitaliser les ongles.</p>\n      </div>\n<b>\n    </b>\n</li>\n<b>\n    </b><li>\n<b>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      </b><div class=\"rte\">\n<b>\n          <h4><b>Formulée scientifiquement</b></h4>\n<b>\n          </b></b><p class=\"text-color-subtext\">Utilisant notre savoir-faire en formulation maintes fois récompensée, Iconique Collagène® est le seul complément à base de collagène dont la science a prouvé de manière indépendante qu'il renforce vos cheveux, votre peau et vos ongles.</p>\n      </div>\n<b><b><b>\n    </b></b></b>\n</li>\n<b><b><b>\n  </b></b></b>\n</ul>\n<b><b><b><b>\n</b></b></b></b>\n</div>",
+            "width": "50%",
+            "block_custom_class": "sf__about-custom-html",
+            "animations": "inherit"
+          }
+        },
+        "9d74101d-c547-428e-b070-47c58015c4f9": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "16530405358e9b5d79-1",
+        "60c3f7e5-ebf2-43da-a0e2-258a2afca8fe",
+        "9d74101d-c547-428e-b070-47c58015c4f9"
+      ],
+      "settings": {
+        "heading": "Restaure et protège naturellement vos cheveux, vos ongles et votre peau",
+        "subheading": "ANTI-ÂGE, ANTI-RIDES, NATUREL ET RÉVOLUTIONNAIRE",
+        "description": "Iconique Collagène® offre une triple nutrition grâce à des actifs ultra ciblés. Complémentaires, ils agissent à 360° pour atténuer les effets du temps et dévoiler une peau souple et lisse, des cheveux sublimes et des ongles éclatants de vitalité !",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "rgba(0,0,0,0)",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__page-about"
+      }
+    },
+    "1694002917d3e8692a": {
+      "type": "apps",
+      "blocks": {
+        "px_trust_badges_icons_app_block_XWUFjp": {
+          "type": "shopify://apps/px-trust-badges-icons/blocks/app-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+          "settings": {
+            "block_id": "7959104a-8caa-48ec-8bb4-8a516853cf72",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "spacing_left": 0,
+            "spacing_right": 0
+          }
+        }
+      },
+      "block_order": [
+        "px_trust_badges_icons_app_block_XWUFjp"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "rgba(0,0,0,0)",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "remove-space my-10"
+      }
+    },
+    "25790e3c-3d7c-4529-82ba-cee2c021ed91": {
+      "type": "custom-content",
+      "blocks": {
+        "template--20720868229461__25790e3c-3d7c-4529-82ba-cee2c021ed91-text-1": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "template--20720868229461__25790e3c-3d7c-4529-82ba-cee2c021ed91-text-1"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "remove-space my-10"
+      }
+    },
+    "1655561935289710ef": {
+      "type": "custom-content",
+      "blocks": {
+        "a7489ea0-e5d2-41ef-80c4-e1b03acad0ad": {
+          "type": "image_card",
+          "settings": {
+            "width": "25%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Marine_Collagen.png",
+            "link": "",
+            "title": "<h4>Collagène Marin</h4>",
+            "subtitle": "Lutte contre le relâchement cutané, améliore la qualité des ongles et cheveux.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "f055c057-2357-4dda-87e6-d46d8a16295a": {
+          "type": "image_card",
+          "settings": {
+            "width": "25%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Natural_Vitamin_E.png",
+            "link": "",
+            "title": "<h4>Vitamine E</h4>",
+            "subtitle": "Nourrit et la peau, anti-inflammatoire et antioxydant, renforce la barrière cutanée.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "ebdabcdd-1a90-4dfd-850c-21c2f943cec8": {
+          "type": "image_card",
+          "settings": {
+            "width": "25%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Hyaluronic_Acid_704e362d-e161-419d-b0e8-b6de67714522.png",
+            "link": "",
+            "title": "<h4>Acide Hyaluronique</h4>",
+            "subtitle": "Hydrate la peau, gomme les rides et les ridules et lubrifie les articulations.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "82b89900-0b60-46a8-b236-a74f840262be": {
+          "type": "image_card",
+          "settings": {
+            "width": "25%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Astaxanthin_58e58498-c97c-4106-b88d-6d5bfa85cfcf.png",
+            "link": "",
+            "title": "<h4>Astaxanthine</h4>",
+            "subtitle": "Protège la peau contre les dommages du soleil, réduit les rides et améliore l'élasticité.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "87758313-092f-4d61-8238-ef8dccde748f": {
+          "type": "image_card",
+          "settings": {
+            "width": "25%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Natural_Vitamin_B3.png",
+            "link": "",
+            "title": "<h4>Niacine</h4>",
+            "subtitle": "Réduit les rougeurs, améliore l'élasticité de la peau et atténue les taches pigmentaires.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "e10f947f-5b3b-4c20-b10a-99b514ec2da1": {
+          "type": "image_card",
+          "settings": {
+            "width": "25%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Pomegranate.png",
+            "link": "",
+            "title": "<h3>Grenade</h3>",
+            "subtitle": "Antioxydant puissant, améliore l'hydratation, réduit les inflammations.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "c2c634f2-0561-4802-b57c-15acfa068f7d": {
+          "type": "image_card",
+          "settings": {
+            "width": "25%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Grapefruit_Seeds.png",
+            "link": "",
+            "title": "<h4>Pamplemousse</h4>",
+            "subtitle": "Combat l'acné, tonifie la peau et possède des propriétés antioxydantes.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "62ce34d3-a8e2-481d-b1d9-19d7e30a3098": {
+          "type": "image_card",
+          "settings": {
+            "width": "25%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Pine_Bark_a458e371-b5db-456f-87c4-d507643f1c15.png",
+            "link": "",
+            "title": "<h3>Écorce de pin</h3>",
+            "subtitle": "Antioxydant naturel, l'écorce de pin renforce la fermeté et protège contre les UV.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "5fee2343-da89-4c93-a55d-5cbe6703d70a": {
+          "type": "image_card",
+          "settings": {
+            "width": "25%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Natural_Copper.png",
+            "link": "",
+            "title": "<h3>Cuivre</h3>",
+            "subtitle": "Stimule la production de collagène, réduit les rides, favorise l'élasticité.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "4a7a0eed-be26-413a-aa00-82a59dea209c": {
+          "type": "image_card",
+          "settings": {
+            "width": "25%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Lalmin_Zinc.png",
+            "link": "",
+            "title": "<h3>Zinc</h3>",
+            "subtitle": "Régule la production de sébum, réduit l'inflammation, favorise la cicatrisation.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "edda056f-d2b1-4ead-a099-bc91a5e8353e": {
+          "type": "image_card",
+          "settings": {
+            "width": "25%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Rosemary_Leaves.png",
+            "link": "",
+            "title": "<h4>Romarin</h4>",
+            "subtitle": "Resserre et désobstrue les pores, régule le sébum et nettoie profondément peau.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "c2e43a11-0d06-413f-a795-640ab737601c": {
+          "type": "image_card",
+          "settings": {
+            "width": "25%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Natural_Silica.png",
+            "link": "",
+            "title": "<h4>Silice</h4>",
+            "subtitle": "Fortifie ongles et cheveux, confère souplesse et fermeté à la peau.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "129bf988-d0ad-49d3-a410-a4b899052f16": {
+          "type": "image_card",
+          "settings": {
+            "width": "25%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Natural_Vitamin_C.png",
+            "link": "",
+            "title": "<h3>Vitamine C</h3>",
+            "subtitle": "Stimule le collagène, éclaircit le teint, protège contre les radicaux libres.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "66a0dc1c-a20e-46e6-af1b-ef6f5c4d1bf4": {
+          "type": "image_card",
+          "settings": {
+            "width": "25%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Biotin.png",
+            "link": "",
+            "title": "<h3>Biotine</h3>",
+            "subtitle": "Fortifie les ongles et cheveux, stimule la croissance, améliore l'hydratation de la peau.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "5071b862-ec87-45db-8eeb-d922d4bb598b": {
+          "type": "image_card",
+          "settings": {
+            "width": "25%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Lalmin_Selenium.png",
+            "link": "",
+            "title": "<h4>Sélénium</h4>",
+            "subtitle": "Protège des coups de soleil, facilite le bronzage et ralentit le vieillissement cutané.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "a1f78e6c-2a91-4cb2-abec-d880b95c17e2": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "a7489ea0-e5d2-41ef-80c4-e1b03acad0ad",
+        "f055c057-2357-4dda-87e6-d46d8a16295a",
+        "ebdabcdd-1a90-4dfd-850c-21c2f943cec8",
+        "82b89900-0b60-46a8-b236-a74f840262be",
+        "87758313-092f-4d61-8238-ef8dccde748f",
+        "e10f947f-5b3b-4c20-b10a-99b514ec2da1",
+        "c2c634f2-0561-4802-b57c-15acfa068f7d",
+        "62ce34d3-a8e2-481d-b1d9-19d7e30a3098",
+        "5fee2343-da89-4c93-a55d-5cbe6703d70a",
+        "4a7a0eed-be26-413a-aa00-82a59dea209c",
+        "edda056f-d2b1-4ead-a099-bc91a5e8353e",
+        "c2e43a11-0d06-413f-a795-640ab737601c",
+        "129bf988-d0ad-49d3-a410-a4b899052f16",
+        "66a0dc1c-a20e-46e6-af1b-ef6f5c4d1bf4",
+        "5071b862-ec87-45db-8eeb-d922d4bb598b",
+        "a1f78e6c-2a91-4cb2-abec-d880b95c17e2"
+      ],
+      "settings": {
+        "heading": "Des ingrédients soigneusement choisis et minutieusement associés",
+        "subheading": "RETROUVEZ VOTRE CAPITAL JEUNESSE",
+        "description": "Le plus pur collagène marin, de l'acide hyaluronique, de l'astaxanthine, des plantes, des vitamines et des minéraux. <strong>Iconique Collagène®</strong> combine le meilleur de la nature et de la science pour travailler en harmonie avec votre corps.",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "rgba(0,0,0,0)",
+        "gap": 0,
+        "use_scroll_mobile": true,
+        "gap_mobile": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__index-custom-content sf-custom__content-above-image"
+      }
+    },
+    "cf822bde-a547-4469-b18b-a62ca2419990": {
+      "type": "testimonials",
+      "blocks": {
+        "template--19174733545813__cf822bde-a547-4469-b18b-a62ca2419990-16878720626226c632-0": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Des résultats visibles en quelques semaines",
+            "description": "<p>Après avoir utilisé Iconique Collagen pendant 3 semaines, l'amélioration de l'élasticité de ma peau est remarquable. Elle semble plus tendue, plus lumineuse et rajeunie. Ce produit fonctionne vraiment!</p>",
+            "footer": "<p>Sarah L.</p>",
+            "image": "shopify://shop_images/avis_cliente_33_e147ab12-574f-4480-8597-8e91bf3c55a0.png",
+            "image_text": "",
+            "image_link": "",
+            "product": ""
+          }
+        },
+        "template--19174733545813__cf822bde-a547-4469-b18b-a62ca2419990-16878720626226c632-1": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Des ongles et des cheveux plus forts",
+            "description": "<p>Je prends Iconique Collagen depuis environ un mois. Mes ongles, qui avaient tendance à se casser, sont maintenant forts. Et mes cheveux, ils n'ont jamais été aussi fournis et brillants. Iconique, vous avez réussi!</p>",
+            "footer": "<p>Catherine O.</p>",
+            "image": "shopify://shop_images/avis_cliente_26_d7d65b3c-dde4-42c7-b704-2bc07954f561.png",
+            "image_text": "",
+            "image_link": "",
+            "product": ""
+          }
+        },
+        "template--19174733545813__cf822bde-a547-4469-b18b-a62ca2419990-16878720626226c632-2": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Hydratation améliorée de la peau",
+            "description": "<p>Je luttais contre une peau sèche et squameuse, mais après seulement 2 semaines d'utilisation d'Iconique Collagen, j'ai remarqué une différence significative. Ma peau est maintenant bien hydratée, douce et lisse. Un grand bravo!</p>",
+            "footer": "<p>Rebecca G.</p>",
+            "image": "shopify://shop_images/avis_cliente_48_907c0706-950d-4fba-94c8-daf51ac1c632.png",
+            "image_text": "",
+            "image_link": "",
+            "product": ""
+          }
+        },
+        "template--19174733545813__cf822bde-a547-4469-b18b-a62ca2419990-16878720626226c632-3": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Les taches de vieillesse, disparues !",
+            "description": "<p>J'étais sceptique au début, mais après 4 semaines d'utilisation, mes taches de vieillesse ont commencé à s'estomper et mon teint semble plus uniforme. Iconique Collagen est devenu mon compagnon de confiance.</p>",
+            "footer": "<p>Aurèlle H.</p>",
+            "image": "shopify://shop_images/avis_cliente_27-1_752c63d1-cc2b-4945-8ac9-d68dea37d216.png",
+            "image_text": "",
+            "image_link": "",
+            "product": ""
+          }
+        },
+        "template--19174733545813__cf822bde-a547-4469-b18b-a62ca2419990-16878720626226c632-4": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Plus de perte de cheveux",
+            "description": "<p>Après avoir atteint la ménopause, j'ai commencé à perdre mes cheveux à un rythme alarmant. Mais depuis que j'utilise Iconique Collagen, la chute de cheveux a considérablement réduit. La différence est incroyable!</p>",
+            "footer": "<p>Carine V.</p>",
+            "image": "shopify://shop_images/avis_cliente_42.png",
+            "image_text": "",
+            "image_link": "",
+            "product": ""
+          }
+        },
+        "template--19174733545813__cf822bde-a547-4469-b18b-a62ca2419990-16878720626226c632-5": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Fiable et efficace",
+            "description": "<p>Méfiante envers les compléments alimentaires, j'ai fait une recherche approfondie avant d'essayer Iconique Collagen. Après trois mois d'utilisation, je peux attester de son efficacité. Ma peau, mes cheveux et mes ongles n'ont jamais été aussi bien!</p>",
+            "footer": "<p>Anna R.</p>",
+            "image": "shopify://shop_images/avis_cliente_51-2_8b66a2f9-a828-442f-a191-169b2e8d88f7.png",
+            "image_text": "",
+            "image_link": "",
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19174733545813__cf822bde-a547-4469-b18b-a62ca2419990-16878720626226c632-0",
+        "template--19174733545813__cf822bde-a547-4469-b18b-a62ca2419990-16878720626226c632-1",
+        "template--19174733545813__cf822bde-a547-4469-b18b-a62ca2419990-16878720626226c632-2",
+        "template--19174733545813__cf822bde-a547-4469-b18b-a62ca2419990-16878720626226c632-3",
+        "template--19174733545813__cf822bde-a547-4469-b18b-a62ca2419990-16878720626226c632-4",
+        "template--19174733545813__cf822bde-a547-4469-b18b-a62ca2419990-16878720626226c632-5"
+      ],
+      "settings": {
+        "heading": "Plébiscité par des femmes comme vous !",
+        "subheading": "",
+        "description": "Iconique Collagène® formule ultra concentrée en collagène et actifs anti-âge puissants qui agissent en synergie pour booster la production naturelle de collagène. Pour une peau raffermie, repulpée, lissée et hydratée, des cheveux et des ongles plus forts dès 30 jours de cure.",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "#f6f3ea",
+        "design": "testimonials-5",
+        "show_stars": true,
+        "autorotate": false,
+        "show_navigation": true,
+        "show_pagination": true,
+        "star_color": "#ffc107",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "16418162727503f765": {
+      "type": "apps",
+      "blocks": {
+        "pretty_comparison_tables_table_J73RTN": {
+          "type": "shopify://apps/pretty-comparison-tables/blocks/table/4ce14980-e26b-4398-92cd-f582d95d4f05",
+          "settings": {
+            "product": "{{product}}",
+            "title_text": "",
+            "title_font_tag": "h2",
+            "section_background_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "pretty_comparison_tables_table_J73RTN"
+      ],
+      "settings": {
+        "heading": "Votre avis compte. Nous nous améliorons grâce à vous.",
+        "subheading": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "#f8f6f0",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "product-details-tabs": {
+      "type": "product-details-tabs",
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "bg_color": "",
+        "default_open": false,
+        "animations": "inherit"
+      }
+    },
+    "5c6a0302-ac29-443f-b251-6bc467041b20": {
+      "type": "custom-content",
+      "blocks": {
+        "template--20720868229461__5c6a0302-ac29-443f-b251-6bc467041b20-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/collagen_smart_capsule.png",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "9c05dcf5-8cb9-444e-8aeb-62ec7e6767cc": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__about-custom-list\">\n  <ul>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b>Gélules  brevetées Nutri Genesis®\n</b></h4>\n          <p class=\"text-color-subtext\">Nos gélules à libération progressive ont été conçues pour se dissoudre dans l'intestin grêle, l’endroit idéal pour absorber les nutriments. Naturellement infusées de prébiotiques, elles favorisent une digestion confortable et une absorption supérieure des nutriments dans votre organisme.</p>\n      </div>\n    </li>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b>Seulement 2 petites gélules par jour</b></h4>\n          <p class=\"text-color-subtext\">Une association unique de 16 actifs naturels rendue possible grâce à notre technique d'encapsulation novatrice.  Les composants secs et huileux sont intégrés dans une seule capsule, ce qui vous garantit un meilleur apport quotidien en nutriments avec seulement deux gélules.</p>\n      </div>\n    </li>\n  </ul>\n</div>",
+            "width": "50%",
+            "block_custom_class": "sf__about-custom-html",
+            "animations": "inherit"
+          }
+        },
+        "1dfad2dd-c53a-4e75-ab1e-5ae980affa0b": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "template--20720868229461__5c6a0302-ac29-443f-b251-6bc467041b20-image-1",
+        "9c05dcf5-8cb9-444e-8aeb-62ec7e6767cc",
+        "1dfad2dd-c53a-4e75-ab1e-5ae980affa0b"
+      ],
+      "settings": {
+        "heading": "Pour une assimilation parfaite des nutriments",
+        "subheading": "CAPSULE INTÉLIGENTE",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "#f8f6f0",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__page-about"
+      }
+    },
+    "featured_collection_6qc4mQ": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "heading": "COMPLÉTEZ VOTRE CURE",
+        "subheading": "COMPLÉTEZ VOTRE CURE",
+        "description": "La ménopause ne doit pas être un sujet tabou, ni une expérience que l'on traverse seule. Les compléments alimentaires üma® accompagnent les femmes dans les changements naturels qui surviennent à toutes les étapes de leur vie.",
+        "header_alignment": "left",
+        "container": "container",
+        "background_color": "#f6f3ea",
+        "collection": "shopall",
+        "enable_flashsale": false,
+        "show_countdown": false,
+        "product_to_show": 12,
+        "items_per_row": 3,
+        "item_gap": 30,
+        "pcard_layout": "",
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "hide_title": false,
+        "enable_slider": true,
+        "show_pagination": false,
+        "show_navigation": true,
+        "button_type": "link",
+        "button_text": "Nos cures",
+        "button_style": "sf__btn-primary",
+        "button_size": "sf__btn-large",
+        "infinite_load": false,
+        "max_page_load": 3,
+        "mobile_disable_slider": true,
+        "use_scroll_mobile": true,
+        "item_gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "1655908857b14f63b3": {
+      "type": "custom-content",
+      "blocks": {
+        "product_rzpXJR": {
+          "type": "product",
+          "settings": {
+            "product": "reneva",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "78c8f010-59e5-474d-935a-5aa2b4371115": {
+          "type": "product",
+          "settings": {
+            "product": "harmonie-daily",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "f7e31016-df03-44ac-84bd-031257fe4fa8": {
+          "type": "product",
+          "settings": {
+            "product": "ohlala",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "c5de2d5f-e495-4b4d-9712-d5fdd7e62cf4": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "product": "iconique-collagen",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "product_rzpXJR",
+        "78c8f010-59e5-474d-935a-5aa2b4371115",
+        "f7e31016-df03-44ac-84bd-031257fe4fa8",
+        "c5de2d5f-e495-4b4d-9712-d5fdd7e62cf4"
+      ],
+      "settings": {
+        "heading": "Pour un bien-être sans compromis",
+        "subheading": "COMPLÉTEZ VOTRE CURE",
+        "description": "La ménopause ne doit pas être un sujet tabou, ni une expérience que l'on traverse seule.  Les compléments alimentaires üma® accompagnent les femmes dans les changements naturels qui surviennent à toutes les étapes de leur vie.",
+        "header_alignment": "left",
+        "container": "container",
+        "background_color": "#f6f3ea",
+        "gap": 80,
+        "use_scroll_mobile": true,
+        "gap_mobile": 30,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "d47a5801-9daa-4af4-a58d-403e5cc55240": {
+      "type": "custom-content",
+      "blocks": {
+        "template--20720868229461__d47a5801-9daa-4af4-a58d-403e5cc55240-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/laboratoire-francais.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "b537ad0a-e718-4269-bb98-940bcdae0b8f": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__about-custom-list\">\n  <ul>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0764/9581/4997/files/France.png?v=1692690421\"></span>\n      <div class=\"rte\">\n          <h4><b>Laboratoires Français</b></h4>\n          <p class=\"text-color-subtext\">Nous sommes un laboratoire français indépendant entièrement dédié à la santé et au bien-être des femmes. Pionnière de la micronutrition et de la phytothérapie, nous formulons des compléments alimentaires naturels, sains, efficaces et sans hormone pour préserver votre qualité de vie pendant et après la ménopause.\n</p>\n      </div>\n    </li>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0764/9581/4997/files/Approuvee_par_des_femmes.png?v=1692690451\"></span>\n      <div class=\"rte\">\n          <h4><b>Passion, engagement et expertise</b></h4>\n          <p class=\"text-color-subtext\">Nous sommes entourés d'experts ayant plus de 30 ans d'expérience dans la formulation de compléments alimentaires et la recherche clinique. Notre conseil consultatif scientifique, composé de médecins, de nutritionnistes et de scientifiques, contribue à orienter notre réflexion sur les dernières recherches et innovations en matière de produits.</p>\n      </div>\n    </li>\n  </ul>\n</div>",
+            "width": "50%",
+            "block_custom_class": "sf__about-custom-html",
+            "animations": "inherit"
+          }
+        },
+        "be961caf-45f0-4eb3-be1e-a1fa61629d4a": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "template--20720868229461__d47a5801-9daa-4af4-a58d-403e5cc55240-image-1",
+        "b537ad0a-e718-4269-bb98-940bcdae0b8f",
+        "be961caf-45f0-4eb3-be1e-a1fa61629d4a"
+      ],
+      "settings": {
+        "heading": "Par une équipe de mères, de filles et de chercheurs",
+        "subheading": "",
+        "description": "<h5>Notre mission est d'aider les femmes à vivre plus longtemps et en meilleure santé.</h5>",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "#faf9f5",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__page-about"
+      }
+    },
+    "164261608633fb1e22": {
+      "type": "custom-content",
+      "blocks": {
+        "71a41393-7458-490c-9599-d5f0e82b1703": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__tabs-custom\">\n<div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck01\">\n        <label class=\"sf__tab-item-label\" for=\"chck01\">\nPeut-on cumuler les cures?</label>\n        <div class=\"sf__tab-item-content\">\n          Oui, toutes nos formules peuvent être prises lors d'une même cure. Elles sont même plus efficaces ensemble car elles sont complémentaires et agissent en synergie. Pour garantir l'efficacité de votre cure, il est important de rester régulière dans les prises ou bien on évite les oublis trop fréquents :)\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck101\">\n        <label class=\"sf__tab-item-label\" for=\"chck101\">Qu'est-ce que Iconique Collagène ?</label>\n        <div class=\"sf__tab-item-content\">\n          Iconique Collagène® est un complément alimentaire anti-âge et anti-imperfections formulé avec du collagène marin, de l’acide hyaluronique et l’astaxanthine, conçu pour restaurer et protéger les cheveux, les ongles et la peau affectés par le déclin du taux d'œstrogènes pendant la ménopause.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck102\">\n        <label class=\"sf__tab-item-label\" for=\"chck102\">Qui devrait utiliser Iconique Collagène ?</label>\n        <div class=\"sf__tab-item-content\">\n          Iconique Collagène® est conçu pour restaurer et protéger les cheveux, les ongles et la peau affectés par la baisse des œstrogènes. Formulé spécifiquement pour les femmes périménopausées, ménopausées ou postménopausées, qui rencontrent des problèmes de cheveux, d’ongles et de peau tels que la sécheresse cutanée, les ridules, les rides, les cheveux fins, secs ou rêches, les ongles cassants et en mauvaise santé.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck103\">\n        <label class=\"sf__tab-item-label\" for=\"chck103\">Combien de temps faut-il à Iconique Collagène pour être efficace ?</label>\n        <div class=\"sf__tab-item-content\">\n          Tout le monde est différent. Votre âge, votre mode de vie et votre état de santé sont autant de facteurs qui déterminent le moment où vous remarquerez des différences et la nature de celles-ci. <br><br>Au cours des essais cliniques indépendants, environ la moitié des participants recevant Iconique Collagène ont remarqué une amélioration au bout d'un mois, mais pour l'autre moitié, il a fallu attendre 2 à 4 semaines.\n<br><br>Nous savons aussi que pour d'autres personnes qui se remettent d'une opération, qui ont plus de 60 ans ou qui ont des problèmes de santé particuliers, les résultats peuvent être plus longs à se manifester\n<br><br>En général, vous remarquerez d'abord une peau plus lisse, avec des rides et des ridules atténuées, puis des ongles plus forts et des articulations plus souples.\nLes cheveux sont l'une des dernières parties du corps où les effets bénéfiques sont visibles, car les cheveux doivent pousser et cela prend beaucoup de temps. <br><br>Si vous avez des questions ou si vous souhaitez discuter avec nous de votre situation personnelle, envoyez-nous un e-mail ou téléphonez-nous.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck104\">\n        <label class=\"sf__tab-item-label\" for=\"chck104\">Comment utiliser Iconique Collagène  ?</label>\n        <div class=\"sf__tab-item-content\">\n          Pour prendre Iconique Collagène, il suffit de consommer 2 gélules par jour avec un grand verre d'eau, idéalement le matin pour une absorption optimale et afin de soutenir la peau, les cheveux et les ongles tout au long de la journée. Cette routine peut être intégrée facilement dans votre matinée, avec ou sans nourriture, selon votre préférence. Pour des résultats optimaux, une prise quotidienne régulière est recommandée.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck105\">\n        <label class=\"sf__tab-item-label\" for=\"chck105\">Est-ce qu’Iconique Collagène contient des hormones ?</label>\n        <div class=\"sf__tab-item-content\">\n          Iconique Collagène est sans hormone. Il ne contient pas d'hormones.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck106\">\n        <label class=\"sf__tab-item-label\" for=\"chck106\">Est-ce qu’Iconique Collagène entraîne des effets secondaires ?</label>\n        <div class=\"sf__tab-item-content\">\n          Au cours des études cliniques, les femmes ayant bénéficié des ingrédients d’Iconique Collagène n'ont signalé aucun effet secondaire ni aucun événement indésirable. Si vous avez des inquiétudes particulières, nous vous recommandons d'en parler à votre médecin.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck107\">\n        <label class=\"sf__tab-item-label\" for=\"chck107\">Puis-je prendre Iconique Collagène avec d'autres compléments alimentaires ?</label>\n        <div class=\"sf__tab-item-content\">\n          Bien qu'il n'y ait aucune interaction négative connue ou suspectée avec d'autres compléments, aucune étude clinique n'a été réalisée sur la prise de nos produits avec d'autres compléments. Nous vous recommandons de consulter votre médecin si vous avez des questions spécifiques.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck108\">\n        <label class=\"sf__tab-item-label\" for=\"chck108\">Qu’est-ce le collagène ?</label>\n        <div class=\"sf__tab-item-content\">\n          Le collagène est la protéine la plus abondante dans votre corps, représentant environ un tiers de sa composition protéique. C'est l'un des principaux éléments constitutifs des os, de la peau, des muscles, des tendons et des ligaments. \n<br><br>On peut le considérer comme la \"colle\" qui maintient tous ces éléments ensemble. En fait, le mot vient du grec \"kólla\", qui signifie \"colle\".\n<br><br>Bien que votre corps produise régulièrement du collagène, sa production ralentit avec l'âge. La peau perd alors de son élasticité, devient plus ridée, et toutes les autres choses amusantes qui vont de pair avec le vieillissement.\n<br><br>La pollution, le tabac, une trop forte exposition au soleil, un régime alimentaire malsain ou certains problèmes de santé peuvent également réduire les niveaux de collagène de votre corps. \n        </div>\n      </div>\n<div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck109\">\n        <label class=\"sf__tab-item-label\" for=\"chck109\">Pourquoi ai-je besoin de collagène ?</label>\n        <div class=\"sf__tab-item-content\">\n          En vieillissant, notre taux de collagène diminue. Ces baisses commencent vers l'âge de 25 ans (sauf si vous êtes un sportif professionnel, auquel cas les baisses ont tendance à commencer plus tôt) et ces baisses de collagène sont à l'origine des signes visibles du vieillissement tels que les rides et ridules et les articulations plus rigides.\n<br><br>Au cours de la ménopause, la baisse du taux d’œstrogène altère directement le collagène, accélérant sa décroissance ainsi l’ainsi que l’assimilation des nutriments structurels par le corps. \n        </div>\n      </div>\n<div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck110\">\n        <label class=\"sf__tab-item-label\" for=\"chck110\">Puis-je prendre Iconique Collagène avec d'autres produits cosmétiques ?</label>\n        <div class=\"sf__tab-item-content\">\n          Il n'y a aucune interaction négative connue ou suspectée avec d'autres produits cosmétiques. Iconique Collagène est conçu pour être facilement intégré dans votre routine capillaire et cutanée actuelle. Nous vous recommandons de consulter votre médecin si vous avez des questions spécifiques. \n        </div>\n      </div>\n<div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck111\">\n        <label class=\"sf__tab-item-label\" for=\"chck111\">Nos engagements en matière d’ingrédients </label>\n        <div class=\"sf__tab-item-content\">\n          Tous les ingrédients utilisés dans notre Iconique Collagène sont de la plus haute qualité, actifs, d'origine naturelle et provenant de sources durables. Iconique Collagène ne contient aucun des agents de remplissage ou liants ajoutés que l'on trouve souvent dans les compléments de moins bonne qualité.\n<br><br>Nos ingrédients sont scellés dans notre système de capsule entérosoluble spécialement conçu, entièrement composé de cellulose végétale. Nous nous engageons à protéger l'environnement, c'est pourquoi tous nos emballages sont 100% recyclables. \n        </div>\n      </div>\n</div>",
+            "width": "100%",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "66c850cb-6f03-4c73-9629-62d79f6f0f4f": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "71a41393-7458-490c-9599-d5f0e82b1703",
+        "66c850cb-6f03-4c73-9629-62d79f6f0f4f"
+      ],
+      "custom_css": [
+        ".sf__tab-item-label {font-weight: normal;}"
+      ],
+      "settings": {
+        "heading": "Vous avez des questions. Nous adorons y répondre",
+        "subheading": "",
+        "description": "Voici les questions principales posées par nos clientes avant d’essayer notre cure Iconique Collagène®.",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "#f6f3ea",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "1642583437f365ed49",
+    "main",
+    "16940024205defc53e",
+    "4a61d28b-b0bb-48e4-a89f-a373d350729f",
+    "16530405356838123e",
+    "1694002917d3e8692a",
+    "25790e3c-3d7c-4529-82ba-cee2c021ed91",
+    "1655561935289710ef",
+    "cf822bde-a547-4469-b18b-a62ca2419990",
+    "16418162727503f765",
+    "product-details-tabs",
+    "5c6a0302-ac29-443f-b251-6bc467041b20",
+    "featured_collection_6qc4mQ",
+    "1655908857b14f63b3",
+    "d47a5801-9daa-4af4-a58d-403e5cc55240",
+    "164261608633fb1e22"
+  ]
+}

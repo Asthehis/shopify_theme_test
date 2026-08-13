@@ -1,0 +1,51 @@
+<div id="loop-subscriptions-container">
+  <h3>Abonnements disponibles :</h3>
+  <ul id="loop-subscriptions-list"></ul>
+</div>
+
+<script>
+  // Récupère l'ID de la variante actuelle
+  const variantId = '{{ product.selected_or_first_available_variant.id }}';
+
+  // Endpoint Loop (à vérifier selon la doc Loop pour le bon endpoint)
+  const loopEndpoint = `https://api.loopsubscriptions.com/storefront/2023-10/products/${variantId}/selling_plans`;
+
+  fetch(loopEndpoint, {
+    method: 'GET',
+    headers: { accept: 'application/json' }
+  })
+  .then(res => res.json())
+  .then(data => {
+    const list = document.getElementById('loop-subscriptions-list');
+
+    if (!data || data.length === 0) {
+      list.innerHTML = '<li>Aucun abonnement Loop disponible pour ce produit.</li>';
+      return;
+    }
+
+    data.forEach(plan => {
+      const li = document.createElement('li');
+
+      // Récupère l'intervalle de facturation
+      const interval = plan.billing_interval_count + ' ' + plan.billing_interval_unit;
+
+      // Récupère la réduction si disponible
+      let priceAdjustment = '';
+      if (plan.price_adjustment) {
+        if (plan.price_adjustment.type === 'percentage') {
+          priceAdjustment = plan.price_adjustment.value + '%';
+        } else if (plan.price_adjustment.type === 'fixed_amount') {
+          priceAdjustment = '$' + plan.price_adjustment.value;
+        }
+      }
+
+      li.innerHTML = `<strong>${plan.name}</strong> (${interval}) - Réduction : ${priceAdjustment}<br>${plan.description || ''}`;
+      list.appendChild(li);
+    });
+  })
+  .catch(err => {
+    console.error(err);
+    const list = document.getElementById('loop-subscriptions-list');
+    list.innerHTML = '<li>Impossible de récupérer les abonnements Loop.</li>';
+  });
+</script>

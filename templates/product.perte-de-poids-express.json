@@ -1,0 +1,774 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1642583437f365ed49": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"product-form-1\"></div>",
+        "custom_class": ""
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "c87c6e87-b82b-4ef0-8e7b-85ca44648866": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Pack Perte de Poids Express</h4>",
+            "text_style": "uppercase"
+          }
+        },
+        "d62298a0-6546-491b-8197-17e0859dd23c": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>Éliminez les kilos rebelles – Libérez votre énergie.</h5>",
+            "text_style": "body"
+          }
+        },
+        "judge_me_reviews_preview_badge_QNDYjH": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {}
+        },
+        "9d6c5ebd-14a3-403d-9c3c-17cc52876cb5": {
+          "type": "text",
+          "settings": {
+            "text": "Avec “Pack Perte de Poids Express”, atteignez vos objectifs minceur plus facilement. Oh La La stimule le métabolisme pour éliminer les graisses, Symbiotic soutient la digestion et le bien-être intestinal, et Bonjour apporte des vitamines essentielles pour garder une énergie stable. Un soutien quotidien pour une transformation durable.",
+            "text_style": "subtitle"
+          }
+        },
+        "px_trust_badges_icons_app_block_RznnXM": {
+          "type": "shopify://apps/px-trust-badges-icons/blocks/app-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+          "settings": {
+            "block_id": "f6e7481c-4339-446a-989c-9cc38ce1a9a9",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "spacing_left": 0,
+            "spacing_right": 0
+          }
+        },
+        "px_trust_badges_icons_app_block_WhBebh": {
+          "type": "shopify://apps/px-trust-badges-icons/blocks/app-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+          "settings": {
+            "block_id": "a2cf472e-8146-4bdf-8eff-bd13cb9845cd",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "spacing_left": 0,
+            "spacing_right": 0
+          }
+        },
+        "561bea99-62ba-4d45-a431-eb5f5e7fa148": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_atc_button": true,
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "trust_badge_mQw3bq": {
+          "type": "trust_badge",
+          "settings": {
+            "trust_badges_text": "",
+            "trust_badges_image": "shopify://shop_images/payments_cardssmall.png",
+            "trust_badges_image_width": "100%",
+            "position": "below"
+          }
+        },
+        "0c727350-9dc5-46ae-a5df-e5f7c59cd070": {
+          "type": "shipping",
+          "settings": {
+            "show_delivery_times": true,
+            "deliver_text": "En stock, livré entre le",
+            "deliver_days": "5",
+            "date_format": "%d/%m",
+            "show_shipping_text": true,
+            "shipping_text": "<p><strong>Livraison suivie et sécurisée</strong></p>"
+          }
+        },
+        "111d3e08-0c34-4040-a3cc-7bcc92b56620": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "<b>Dans quelles situations suivre cette cure ?</b>",
+            "content": "<ul><li><strong>Prise de poids inexpliquée</strong> : Quand votre métabolisme semble ralenti et que la balance ne bouge plus malgré vos efforts.</li><li><strong>Fringales incontrôlables</strong> : Si les envies de grignoter sabotent vos journées et perturbent vos repas.</li><li><strong>Graisses tenaces</strong> : Lorsque la zone abdominale reste un défi, même avec une activité physique régulière.</li><li><strong>Énergie en chute libre</strong> : Si vous manquez d’élan pour affronter la journée et que la fatigue s’installe durablement.</li><li><strong>Troubles digestifs fréquents</strong> : Ballonnements, lourdeur après les repas, et inconfort qui vous freinent au quotidien.</li><li><strong>Fluctuations hormonales</strong> : Bouffées de chaleur, sueurs nocturnes et irritabilité compliquent la gestion de votre poids.</li></ul><p><strong>Idéale pour une transformation rapide</strong>, cette cure agit en profondeur pour relancer votre métabolisme, apaiser votre digestion et réduire la graisse tenace, tout en régulant vos envies alimentaires.</p>",
+            "liquid": "",
+            "default_open": false
+          }
+        },
+        "collapsible_tab_nRtxMD": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "<b>Comment utiliser cette cure ?</b>",
+            "content": "<ul><li><strong>Symbiotic</strong> : Prenez <strong>1 gélule</strong> chaque matin, idéalement avec votre petit-déjeuner, pour rétablir un microbiote sain et booster votre digestion.</li><li><strong>Oh La La</strong> : Prenez <strong>3 gélules</strong> réparties entre vos repas pour activer la combustion des graisses et contrôler vos envies alimentaires.</li><li><strong>Bonjour</strong> : Prenez <strong>1 gélule</strong> le matin pour apporter les nutriments essentiels, maintenir votre énergie et stabiliser votre glycémie.</li></ul>",
+            "liquid": "",
+            "default_open": false
+          }
+        },
+        "65349e79-857f-4b28-8c94-02aa413ef499": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "<b>Composition et ingrédients</b>",
+            "content": "<p></p><p></p>",
+            "liquid": "<b>Oh La La® - Minceur & Brûleur de Graisses</b>\n<p>Complément alimentaire à base de plantes, de vitamine et minéraux.</p>\n<p><strong>Ingrédients :</strong> Glucomannane (Amorphophallus Konjac), Enveloppe de la capsule : Hydroxypropyl Méthylcellulose (HPMC), Extrait de fruit de framboise (Rubus Idaeus), Extrait de feuille de thé vert (Camellia Sinensis), Caféine anhydre, Farine de riz brun (Oryza Sativa), L-Tyrosine, Extrait de riz (Oryza Sativa), Extrait de noyau de mangue africaine (Irvingia Gabonensis), Bitartrate de choline, Poudre de fruit entier d'orange amère (Citrus Aurantium), Vitamine B6 (Pyridoxine Hydrochloride), Extrait de poivre de Cayenne (Capsicum Annuum), Extrait de graine de guarana (Paullinia Cupana), Extrait de ginseng de Sibérie (Eleutherococcus Senticosus), Extrait de kelp (Laminaria Japonica), Gluconate de zinc, Pipérine Bioperine® (Extrait De Poivre Noir), Picolinate de chrome.\n\n<img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/ohlala_Supplement_full_ingredients_list.png?v=1708504298\">\n\n<b>Symbiotic® - Complexe Probiotiques</b>\n<p>Complément alimentaire à base de ferments lactiques</p>\n\n<p><strong>Ingrédients :</strong> Stabilisateur : Hydroxypropyl méthylcellulose, farine de riz brun (Oryza Sativa), enveloppe de la gélule : Hydroxypropyl méthylcellulose (HPMC), mélange de bactéries Bio-Live : Lactobacillus rhamnosus, Lactobacillus casei, Lactobacillus acidophilus, Bifidobacterium infantis, Streptococcus thermophilus, Bifidobacterium breve, Bifidobacterium longum, Lactobacillus bulgaricus.</p><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/Symbiotic_Supplement_full_ingredients_list.png?v=1711893597\">\n\n<b>Bonjour® - Multivitamines et Superaliments</b>\n<p>Complément alimentaire à base de vitamines, de minéraux, de plantes et de ferments lactiques.</p>\n\n<p><strong>Ingrédients :</strong> Gélule végétale : Hydroxypropylméthylcellulose (HPMC), Farine de riz brun moulue (sans gluten) (Oryza Sativa), Poudre d'acide ascorbique, Poudre d'alfalfa (Medicago Sativa), Poudre de tégument de psyllium (Plantago Ovata), Poudre de fibre de betterave sucrière (Beta Vulgaris), Poudre de Seagreens® (Fucus Vesiculosus), Fer (sous forme de bisglycinate ferreux), Zinc (sous forme de citrate de zinc), Vitamine B3 (Nicotinamide), Vitamine E (succinate de D-alpha-tocophérol), Citrate de manganèse, Vitamine B5 (pantothénate de calcium), Sélénométhionine (phosphate de calcium), Vitamine K2 (sous forme de ménaquinone-7), Poudre de Lactobacillus acidophilus, Vitamine B6 (chlorhydrate de pyridoxine), Vitamine B2 (riboflavine), Vitamine B1 (sous forme de chlorhydrate de thiamine), Vitamine D3 (cholécalciférol), Poudre de Bifidobacterium Lactis, Acide folique, Iode (sous forme d’iodure de potassium), Biotine (sous forme de d-biotine), Vitamine B12 (sous forme de cyanocobalamine pure).\n\n</p><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/Bonjour_Supplement_full_ingredients_list.jpg?v=1728231910\">\n\nRespecter la dose recommandée. Cure conseillée en complément d’une alimentation équilibrée et variée, ainsi qu’un rythme de vie sain. Tenir hors de portée des enfants. Dans le cas d’un suivi médical soutenu ou de la prise d’autres médicaments, nous vous invitons à en parler à votre médecin avant toute ingestion.</p>",
+            "default_open": false
+          }
+        },
+        "px_trust_badges_icons_app_block_AfxQC3": {
+          "type": "shopify://apps/px-trust-badges-icons/blocks/app-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+          "settings": {
+            "block_id": "affa9f09-bb2b-438a-a378-e7074ccdad8d",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "spacing_left": 0,
+            "spacing_right": 0
+          }
+        },
+        "judge_me_reviews_review_widget_pFqLrc": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200
+          }
+        }
+      },
+      "block_order": [
+        "c87c6e87-b82b-4ef0-8e7b-85ca44648866",
+        "d62298a0-6546-491b-8197-17e0859dd23c",
+        "judge_me_reviews_preview_badge_QNDYjH",
+        "9d6c5ebd-14a3-403d-9c3c-17cc52876cb5",
+        "px_trust_badges_icons_app_block_RznnXM",
+        "px_trust_badges_icons_app_block_WhBebh",
+        "561bea99-62ba-4d45-a431-eb5f5e7fa148",
+        "trust_badge_mQw3bq",
+        "0c727350-9dc5-46ae-a5df-e5f7c59cd070",
+        "111d3e08-0c34-4040-a3cc-7bcc92b56620",
+        "collapsible_tab_nRtxMD",
+        "65349e79-857f-4b28-8c94-02aa413ef499",
+        "px_trust_badges_icons_app_block_AfxQC3",
+        "judge_me_reviews_review_widget_pFqLrc"
+      ],
+      "settings": {
+        "container": "container-fluid",
+        "layout": "layout-1",
+        "show_atwl": false,
+        "enable_history_state": false,
+        "enable_variant_group_images": false,
+        "show_featured_media": true,
+        "show_zoom_button": true,
+        "enable_video_autoplay": false,
+        "show_nav_media_mobile": true,
+        "show_pagination_mobile": false,
+        "use_sticky_atc": true,
+        "use_sticky_atc_on_mobile": true,
+        "enable_dynamic_checkout": false,
+        "sticky_atc_wishtlist": false,
+        "sticky_atc_compare": false
+      }
+    },
+    "1694235462507497b3": {
+      "type": "apps",
+      "blocks": {
+        "px_trust_badges_icons_app_block_JFq8pc": {
+          "type": "shopify://apps/px-trust-badges-icons/blocks/app-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+          "settings": {
+            "block_id": "42730a9a-75ac-4677-bec3-ab43c385b04f",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "spacing_left": 0,
+            "spacing_right": 0
+          }
+        }
+      },
+      "block_order": [
+        "px_trust_badges_icons_app_block_JFq8pc"
+      ],
+      "settings": {
+        "heading": "Brûlez vite, perdez durablement, vivez léger",
+        "subheading": "CIBLER LES GRAISSE TENACES",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "rgba(0,0,0,0)",
+        "padding_top": 50,
+        "padding_bottom": 0,
+        "custom_class": "remove-space my-10"
+      }
+    },
+    "custom_content_reTaLF": {
+      "type": "custom-content",
+      "blocks": {
+        "image_card_UhPJnG": {
+          "type": "image_card",
+          "settings": {
+            "width": "50%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "large",
+            "text_color": "black",
+            "image": "shopify://shop_images/OHLA_Hero_product_page_BDL.jpg",
+            "link": "shopify://products/ohlala",
+            "title": "",
+            "subtitle": "<h4>Oh La La – Boost Minceur</h4>Accélère la combustion des graisses, réduit les fringales et booste le métabolisme.",
+            "button_label": "En savoir plus",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "button_fixed": true,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_card_wmR4kJ": {
+          "type": "image_card",
+          "settings": {
+            "width": "50%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/SYMB_Hero_product_page_bundle.jpg",
+            "link": "shopify://products/symbiotic",
+            "title": "",
+            "subtitle": "<h4>Symbiotic – Équilibre Intestinal</h4>\nRééquilibre la flore intestinale, soulage les ballonnements et optimise la digestion.",
+            "button_label": "En savoir plus",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "button_fixed": true,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_card_peigQx": {
+          "type": "image_card",
+          "settings": {
+            "width": "50%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/BONJ_Hero_product_page_Bundle.jpg",
+            "link": "shopify://products/bonjour",
+            "title": "",
+            "subtitle": "<h4>Bonjour – Vitalité Essentielle\n</h4>Apporte un soutien énergétique quotidien, combat la fatigue persistante et stabilise naturellement la glycémie pour des journées plus équilibrées.",
+            "button_label": "En savoir plus",
+            "button_style": "sf__btn-link",
+            "button_size": "sf__btn-large",
+            "button_fixed": true,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "text_cdWWqR": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "50%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "image_card_UhPJnG",
+        "image_card_wmR4kJ",
+        "image_card_peigQx",
+        "text_cdWWqR"
+      ],
+      "settings": {
+        "heading": "Une approche complète pour perdre du poids",
+        "subheading": "TROIS FORMULES POUR UNE TRANSFORMATION RAPIDE",
+        "description": "Trois alliés essentiels, une mission claire : stimuler votre métabolisme, apaiser votre digestion et transformer vos objectifs de perte de poids en réalité durable.",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "16530405356838123e": {
+      "type": "custom-content",
+      "blocks": {
+        "16530405358e9b5d79-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/OHLA_SYMB_BONJ_photo-with_woman.png",
+            "link": "#product-form-1",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "60c3f7e5-ebf2-43da-a0e2-258a2afca8fe": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__about-custom-list\">\n  <ul>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b>Glucomannane et Mangue africaine\n</b></h4>\n          <p class=\"text-color-subtext\">Le glucomannane coupe la faim naturellement, tandis que la mangue africaine booste le métabolisme pour une perte de poids rapide et efficace.\n</p>\n      </div>\n    </li>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b> Lactobacillus et Bifidobacterium </b></h4>\n          <p class=\"text-color-subtext\">Avec Symbiotic, ces souches probiotiques équilibrent la flore intestinale, améliorent la digestion et renforcent l’immunité, favorisant un métabolisme plus efficace.\n </p>\n      </div>\n    </li>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b>Capsaïcine et Thé Vert</b></h4>\n          <p class=\"text-color-subtext\">La capsaïcine, issue du piment, accélère la thermogenèse pour brûler les graisses, tandis que le thé vert soutient la détoxification et booste les niveaux d’énergie.\n </p>\n</div>\n    </li>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b>Fibres Naturelles et Vitamines B </b></h4>\n<b>\n          </b><p class=\"text-color-subtext\"> Les fibres naturelles de psyllium et betterave favorisent une digestion légère, tandis que les vitamines B transforment les aliments en énergie, aidant à réduire la fatigue. </p>\n      </div>\n<b>\n    </b>\n</li>\n<b>\n  </b>\n</ul>\n<b>\n</b>\n</div>",
+            "width": "50%",
+            "block_custom_class": "sf__about-custom-html",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "16530405358e9b5d79-1",
+        "60c3f7e5-ebf2-43da-a0e2-258a2afca8fe"
+      ],
+      "settings": {
+        "heading": "Un équilibre précis de nutriments naturels",
+        "subheading": "L’HARMONIE PAR LA NATURE",
+        "description": "Des ingrédients soigneusement sélectionnés pour cibler efficacement le métabolisme, l’énergie et l’équilibre digestif. Une combinaison naturelle pour des résultats visibles.",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "rgba(0,0,0,0)",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__page-about"
+      }
+    },
+    "16945938772d351bb6": {
+      "type": "apps",
+      "blocks": {
+        "px_trust_badges_icons_app_block_mpFThk": {
+          "type": "shopify://apps/px-trust-badges-icons/blocks/app-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+          "settings": {
+            "block_id": "2292cb8f-b62b-4c50-a939-55f289e6a16f",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "spacing_left": 0,
+            "spacing_right": 0
+          }
+        }
+      },
+      "block_order": [
+        "px_trust_badges_icons_app_block_mpFThk"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "remove-space my-10"
+      }
+    },
+    "7be1ed15-712e-49d8-ac46-156803796eb7": {
+      "type": "custom-content",
+      "blocks": {
+        "template--20708136321365__7be1ed15-712e-49d8-ac46-156803796eb7-text-1": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "template--20708136321365__7be1ed15-712e-49d8-ac46-156803796eb7-text-1"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "rgba(0,0,0,0)",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "remove-space my-10"
+      }
+    },
+    "cb22f6f1-5ddc-476b-a97b-103fa00aace2": {
+      "type": "custom-content",
+      "blocks": {
+        "3b945de9-b4f1-4734-b6ab-8a7f0f305cc4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bonjour_smart_capsule.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "f9e6519e-3c1e-4091-906b-5703458bc21c": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__about-custom-list\">\n  <ul>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b>Technologie Nutri Genesis®\n</b></h4>\n          <p class=\"text-color-subtext\">Nos gélules à libération progressive se dissolvent dans l’intestin grêle pour une assimilation optimale des nutriments, avec des prébiotiques intégrés pour une digestion facilitée.</p>\n      </div>\n    </li>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b>Nutrition complète et concentrée</b></h4>\n          <p class=\"text-color-subtext\">Avec une technologie d’encapsulation innovante, nous réunissons actifs secs et huiles dans une capsule, pour une efficacité nutritionnelle maximale.</p>\n      </div>\n    </li>\n  </ul>\n</div>",
+            "width": "50%",
+            "block_custom_class": "sf__about-custom-html",
+            "animations": "inherit"
+          }
+        },
+        "e0ebf446-ab45-454e-b1e1-fbeec2a68084": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "large",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "3b945de9-b4f1-4734-b6ab-8a7f0f305cc4",
+        "f9e6519e-3c1e-4091-906b-5703458bc21c",
+        "e0ebf446-ab45-454e-b1e1-fbeec2a68084"
+      ],
+      "settings": {
+        "heading": "Pour maximiser l’absorption des nutriments",
+        "subheading": "TECHNOLOGIE DE CAPSULE ACTIVE",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "#faf9f5",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__page-about"
+      }
+    },
+    "featured_collection_g6kMCR": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "Pour un bien-être sans compromis",
+        "subheading": "COMPLÉTEZ VOTRE CURE",
+        "description": "La ménopause ne doit pas être un sujet tabou, ni une expérience que l'on traverse seule. Nos cures accompagnent les femmes dans les changements naturels qui surviennent à toutes les étapes de leur vie.",
+        "header_alignment": "left",
+        "container": "container",
+        "background_color": "#f6f3ea",
+        "collection": "offres-speciales",
+        "enable_flashsale": false,
+        "show_countdown": false,
+        "product_to_show": 12,
+        "items_per_row": 3,
+        "item_gap": 30,
+        "pcard_layout": "",
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "hide_title": false,
+        "enable_slider": true,
+        "show_pagination": false,
+        "show_navigation": true,
+        "button_type": "link",
+        "button_text": "Nos cures",
+        "button_style": "sf__btn-primary",
+        "button_size": "sf__btn-large",
+        "infinite_load": false,
+        "max_page_load": 3,
+        "mobile_disable_slider": false,
+        "use_scroll_mobile": true,
+        "item_gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "1656431367e3def286": {
+      "type": "custom-content",
+      "blocks": {
+        "product_wMqUQk": {
+          "type": "product",
+          "settings": {
+            "product": "symbiotic",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "797afe61-f1df-41e7-bef9-736d30311d11": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "product": "harmonie-daily",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "21686130-6f14-447f-b0d9-001c69db23ee": {
+          "type": "product",
+          "settings": {
+            "product": "iconique-collagen",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "68b2f4dc-8069-4e53-a212-a04fc7a79f64": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "product": "ohlala",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "product_fRmPHL": {
+          "type": "product",
+          "settings": {
+            "product": "bouquet-de-flore",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "product_wMqUQk",
+        "797afe61-f1df-41e7-bef9-736d30311d11",
+        "21686130-6f14-447f-b0d9-001c69db23ee",
+        "68b2f4dc-8069-4e53-a212-a04fc7a79f64",
+        "product_fRmPHL"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Dites oui au bien-être absolu",
+        "subheading": "ENRICHISSEZ VOTRE CURE",
+        "description": "Encore trop souvent taboue, la ménopause ne devrait jamais être une expérience vécue en solitaire. C’est pourquoi nous faisons tout notre possible pour accompagner les femmes dans chaque étape de ce changement naturel.",
+        "header_alignment": "left",
+        "container": "container-fluid",
+        "background_color": "#f6f3ea",
+        "gap": 100,
+        "use_scroll_mobile": true,
+        "gap_mobile": 30,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "8d915f30-110a-4fa1-863c-86e0bf0113af": {
+      "type": "custom-content",
+      "blocks": {
+        "template--19175345783125__8d915f30-110a-4fa1-863c-86e0bf0113af-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/laboratoire-francais.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "5a173e95-8f54-4cd1-88e3-c7d67de110eb": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__about-custom-list\">\n  <ul>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0764/9581/4997/files/France.png?v=1692690421\"></span>\n      <div class=\"rte\">\n          <h4><b>Laboratoires Français</b></h4>\n          <p class=\"text-color-subtext\">Nous sommes un laboratoire français indépendant, dédié à la santé et au bien-être des femmes. Pionniers en micronutrition et phytothérapie, nous créons des compléments alimentaires naturels, efficaces et sans hormone pour améliorer votre qualité de vie durant et après la ménopause.</p>\n      </div>\n    </li>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0764/9581/4997/files/Approuvee_par_des_femmes.png?v=1692690451\"></span>\n      <div class=\"rte\">\n          <h4><b>Passion, engagement et expertise</b></h4>\n          <p class=\"text-color-subtext\">Entourés de spécialistes en compléments alimentaires et en recherche clinique, nous bénéficions de l’expertise de notre conseil consultatif scientifique. Composé de médecins, nutritionnistes et scientifiques, il nous aide à intégrer les dernières découvertes et innovations dans nos produits.</p>\n      </div>\n    </li>\n  </ul>\n</div>",
+            "width": "50%",
+            "block_custom_class": "sf__about-custom-html",
+            "animations": "inherit"
+          }
+        },
+        "78c74610-af0f-4faf-9c34-786df650d6a4": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "template--19175345783125__8d915f30-110a-4fa1-863c-86e0bf0113af-image-1",
+        "5a173e95-8f54-4cd1-88e3-c7d67de110eb",
+        "78c74610-af0f-4faf-9c34-786df650d6a4"
+      ],
+      "settings": {
+        "heading": "Par une équipe de mères, de filles et de chercheurs",
+        "subheading": "",
+        "description": "Notre vocation : permettre à chaque femme de vivre pleinement, en bonne santé et avec vitalité, tout au long des étapes de sa vie.",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__page-about"
+      }
+    },
+    "product-details-tabs": {
+      "type": "product-details-tabs",
+      "blocks": {
+        "fa490a38-97a7-4b71-ad47-3c86b4a582cd": {
+          "type": "description",
+          "settings": {
+            "header": "Product description"
+          }
+        },
+        "e31689fb-9b98-4f5b-977d-075a8d1a123f": {
+          "type": "tab",
+          "settings": {
+            "header": "Shipping & Return",
+            "content": "<p>Shipping cost is based on weight. Just add products to your cart and use the Shipping Calculator to see the shipping price.</p><p>We want you to be 100% satisfied with your purchase. Items can be returned or exchanged within 30 days of delivery.</p>",
+            "content_page": ""
+          }
+        },
+        "9e06b3e6-843f-4451-9137-03b92b248b49": {
+          "type": "liquid",
+          "settings": {
+            "header": "Tab heading",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "fa490a38-97a7-4b71-ad47-3c86b4a582cd",
+        "e31689fb-9b98-4f5b-977d-075a8d1a123f",
+        "9e06b3e6-843f-4451-9137-03b92b248b49"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "bg_color": "",
+        "default_open": true,
+        "animations": "inherit"
+      }
+    },
+    "164261608633fb1e22": {
+      "type": "custom-content",
+      "blocks": {
+        "71a41393-7458-490c-9599-d5f0e82b1703": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__tabs-custom\">\n <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck01\">\n        <label class=\"sf__tab-item-label\" for=\"chck01\">\n  Quand vais-je ressentir les effets de cette cure ?</label>\n        <div class=\"sf__tab-item-content\">\n          Les effets varient selon les individus, mais beaucoup ressentent des changements dès la première semaine. Vous pourriez constater une diminution des fringales et un regain d’énergie grâce à Bonjour. Entre deux et quatre semaines, les bienfaits de Symbiotic et Oh La La deviennent visibles : une digestion plus légère, un ventre moins gonflé, et un métabolisme qui commence à s’accélérer. Avec une utilisation continue pendant un à trois mois, les résultats se stabilisent avec une perte de poids progressive, une silhouette affinée et une énergie durable.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck1\">\n        <label class=\"sf__tab-item-label\" for=\"chck1\">Y a-t-il des effets secondaires ? </label>\n        <div class=\"sf__tab-item-content\">\n          Ce pack est formulé à partir d’ingrédients naturels, réputés pour leur tolérance et leur sécurité. Toutefois, il est possible d’observer des effets temporaires comme des ballonnements légers au début de la cure, notamment avec les probiotiques présents dans Symbiotic. Ces réactions sont normales et signalent que votre flore intestinale s’équilibre. Les personnes sensibles à la caféine, en raison de l’effet énergisant d’Oh La La, devraient commencer avec une dose réduite pour évaluer leur tolérance. Si vous avez des inquiétudes spécifiques, il est toujours recommandé de consulter un professionnel de santé avant de commencer.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck2\">\n        <label class=\"sf__tab-item-label\" for=\"chck2\"> Puis-je prendre ces gélules avec d’autres compléments alimentaires ?\n</label>\n        <div class=\"sf__tab-item-content\">\n          Oui, ce pack peut être intégré à d'autres routines de compléments alimentaires, à condition de vérifier qu’il n’y ait pas de doublons au niveau des ingrédients, notamment pour la caféine ou les probiotiques. Pour éviter de surcharger votre organisme, il est conseillé de vérifier les dosages cumulés. En cas de traitement médical ou de complémentation spécifique, un avis médical est fortement recommandé afin de garantir une parfaite compatibilité.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck3\">\n        <label class=\"sf__tab-item-label\" for=\"chck3\">Comment dois-je prendre ce produit pour des résultats optimaux ?\n</label>\n        <div class=\"sf__tab-item-content\">\n          Pour profiter pleinement de cette cure, prenez une gélule de Bonjour et une de Symbiotic le matin, de préférence avec votre petit-déjeuner, afin de soutenir votre vitalité et votre digestion dès le début de la journée. Complétez avec trois gélules d’Oh La La réparties avant vos repas principaux, pour maximiser l’effet brûle-graisse et contrôler vos fringales. Une alimentation équilibrée, riche en fibres et en nutriments essentiels, associée à une hydratation suffisante, renforcera les résultats.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck4\">\n        <label class=\"sf__tab-item-label\" for=\"chck4\">Ce produit est-il adapté à un régime végétalien et sans gluten ?\n</label>\n        <div class=\"sf__tab-item-content\">\n          Oui, le Pack Perte de Poids Express est parfaitement adapté à un régime végétalien et sans gluten. Tous les produits du pack, y compris Oh La La, sont soigneusement formulés à partir d'ingrédients d'origine végétale et ne contiennent pas de traces de gluten. Vous pouvez suivre cette cure en toute sérénité, même dans le cadre d'un régime strictement végétalien et sans gluten.\n        </div>\n      </div>\n</div>",
+            "width": "100%",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "66c850cb-6f03-4c73-9629-62d79f6f0f4f": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "71a41393-7458-490c-9599-d5f0e82b1703",
+        "66c850cb-6f03-4c73-9629-62d79f6f0f4f"
+      ],
+      "custom_css": [
+        ".sf__tab-item-label {font-weight: normal;}"
+      ],
+      "settings": {
+        "heading": "Vous avez des questions. Nous adorons y répondre",
+        "subheading": "",
+        "description": "Voici les questions les plus fréquentes avant de débuter notre cure Adieu Perte de Poids Express®.",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "#f6f3ea",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "1642583437f365ed49",
+    "main",
+    "1694235462507497b3",
+    "custom_content_reTaLF",
+    "16530405356838123e",
+    "16945938772d351bb6",
+    "7be1ed15-712e-49d8-ac46-156803796eb7",
+    "cb22f6f1-5ddc-476b-a97b-103fa00aace2",
+    "featured_collection_g6kMCR",
+    "1656431367e3def286",
+    "8d915f30-110a-4fa1-863c-86e0bf0113af",
+    "product-details-tabs",
+    "164261608633fb1e22"
+  ]
+}

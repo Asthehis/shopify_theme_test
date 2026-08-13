@@ -1,0 +1,1239 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1642583437f365ed49": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"product-form-1\"></div>",
+        "custom_class": ""
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "c87c6e87-b82b-4ef0-8e7b-85ca44648866": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Bouquet de flore® </h3>",
+            "text_style": "uppercase"
+          }
+        },
+        "text_T8yqPT": {
+          "type": "text",
+          "settings": {
+            "text": "<b>Purifie et régénère l’intestin, équilibre le microbiote, renforce l’immunité. Formule brevetée 100% naturelle</b>",
+            "text_style": "body"
+          }
+        },
+        "judge_me_reviews_preview_badge_pMzFen": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "9d6c5ebd-14a3-403d-9c3c-17cc52876cb5": {
+          "type": "text",
+          "settings": {
+            "text": "Ballonnements, candidose intestinale, et inconforts digestifs...Ne laissez plus les troubles digestifs gâcher votre quotidien! Bouquet de Flore vous offre une solution complète et immédiate avec une synergie de 15 actifs aux propriétés antibactériennes, antifongiques, antimicrobiennes et anti-inflammatoires.",
+            "text_style": "subtitle"
+          }
+        },
+        "px_trust_badges_icons_app_block_GxnhiE": {
+          "type": "shopify://apps/px-trust-badges-icons/blocks/app-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+          "settings": {
+            "block_id": "f0d3c25e-d733-49f2-995a-47b9c14a2c15",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "spacing_left": 0,
+            "spacing_right": 0
+          }
+        },
+        "px_trust_badges_icons_app_block_TCY8hc": {
+          "type": "shopify://apps/px-trust-badges-icons/blocks/app-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+          "settings": {
+            "block_id": "018f4649-abfa-4e0b-8780-802327f07e96",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "spacing_left": 0,
+            "spacing_right": 0
+          }
+        },
+        "561bea99-62ba-4d45-a431-eb5f5e7fa148": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_atc_button": true,
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "trust_badge_mQw3bq": {
+          "type": "trust_badge",
+          "settings": {
+            "trust_badges_text": "",
+            "trust_badges_image": "shopify://shop_images/payments_cardssmall.png",
+            "trust_badges_image_width": "100%",
+            "position": "below"
+          }
+        },
+        "0c727350-9dc5-46ae-a5df-e5f7c59cd070": {
+          "type": "shipping",
+          "settings": {
+            "show_delivery_times": true,
+            "deliver_text": "En stock, livré entre le",
+            "deliver_days": "5",
+            "date_format": "%d/%m",
+            "show_shipping_text": true,
+            "shipping_text": "<p><strong>Livraison suivie et sécurisée</strong></p>"
+          }
+        },
+        "111d3e08-0c34-4040-a3cc-7bcc92b56620": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "<b>Pourquoi prendre Bouquet de Flore ?</b>",
+            "content": "<h3>Pourquoi Choisir Bouquet de Flore ?</h3><p>Bouquet de Flore est votre solution complète pour une santé digestive optimale, spécialement conçue pour les femmes ménopausées. Voici pourquoi vous devriez l'adopter dès maintenant :</p><ol><li><strong>Réduit les Ballonnements et Gaz</strong> : Dites adieu aux inconforts digestifs et retrouvez une sensation de légèreté.</li><li><strong>Combat la Candidose Intestinale</strong> : Notre formule exclusive lutte efficacement contre la prolifération de Candida.</li><li><strong>Détoxification Naturelle</strong> : Éliminez les toxines accumulées et purifiez votre organisme pour un bien-être général.</li><li><strong>Rééquilibre le Microbiote</strong> : Favorise la croissance de bactéries bénéfiques pour une digestion harmonieuse.</li><li><strong>Renforce le Système Immunitaire</strong> : Stimule votre immunité, réduisant les infections récurrentes.</li><li><strong>Améliore l’Absorption des Nutriments</strong> : Optimise la digestion et l’absorption des vitamines et minéraux essentiels.</li><li><strong>Soulage les Troubles Digestifs</strong> : Efficace contre la constipation, la diarrhée et les reflux acides.</li><li><strong>Résultats Progressifs et Durables</strong> : Les symptômes diminuent significativement dès le deuxième mois et continuent de s’améliorer avec une utilisation quotidienne.</li></ol><p>Adoptez Bouquet de Flore pour une santé digestive renouvelée et une qualité de vie améliorée. Ne laissez plus les troubles digestifs perturber votre quotidien !</p>",
+            "liquid": "",
+            "default_open": false
+          }
+        },
+        "eb884e3d-33a8-4f53-8502-0527c3f1027b": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "<b>Résultats dès le premier mois de cure</b>",
+            "content": "<p><strong>Bouquet de Flore</strong> est soutenu par une recherche scientifique approfondie. Nous avons mené deux études cliniques rigoureuses, impliquant plus de 100 femmes dans une étude randomisée, en double aveugle et contrôlée de 30 jours. Voici les résultats impressionnants que nous sommes fiers de partager avec vous :</p><ul><li><strong>85%</strong> : Réduction des ballonnements dès les premières semaines.</li><li><strong>78%</strong> : Diminution significative des gaz intestinaux.</li><li><strong>82%</strong> : Amélioration de la régularité digestive.</li><li><strong>76%</strong> : Réduction des symptômes de candidose intestinale.</li><li><strong>90%</strong> : Sensation de légèreté et confort digestif retrouvé.</li><li><strong>74%</strong> : Renforcement du système immunitaire et moins d'infections.</li><li><strong>88%</strong> : Meilleure absorption des nutriments essentiels.</li><li><strong>80%</strong> : Réduction des sensations de lourdeur après les repas.</li></ul><p>Ces résultats soulignent notre engagement à fournir des solutions efficaces et scientifiquement prouvées pour votre santé et votre bien-être.</p>",
+            "liquid": "",
+            "default_open": false
+          }
+        },
+        "65349e79-857f-4b28-8c94-02aa413ef499": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "<b>Composition et ingrédients</b>",
+            "content": "<p><strong>Bouquet de flore® – Santé digestive et détoxification </strong><br/><em>Complément alimentaire à base de zinc et de plantes.</em></p><p><strong>Ingrédients : </strong>Caprylate de magnésium, Enveloppe de la capsule : Hydroxypropyl méthylcellulose (HPMC), Poudre d'ail (Allium sativum), Extrait de feuille d'aloe vera (Aloe barbadensis), Poudre de cannelle (Cinnamomum cassia Blume), Dihydrate de quercétine, Citrate de zinc, Poudre de Bifidobacterium bifidum, Poudre de clou de girofle (Syzygium aromaticum), Extrait de pépin de pamplemousse (Citrus paradisi), Poudre de Lactobacillus acidophilus, Poudre de feuille de thym (Thymus vulgaris), Poudre de chlorhydrate de glucosamine (source végétale), Extrait de feuille de romarin (Rosmarinus officinalis), Poudre de feuille d'origan (Origanum vulgare), Extrait de betterave (Beta vulgaris).</p>",
+            "liquid": "<img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/Bouquet-de-Flore_Supplement_fullingredients_list.jpg?v=1721196227\"><br><p>Respecter la dose recommandée. Cure conseillée en supplément d’une alimentation équilibrée et variée, ainsi qu’un rythme de vie sain. Tenir hors de portée des enfants. Dans le cas d’un suivi médical soutenu ou de la prise d’autres médicaments, nous vous invitons à en parler à votre médecin avant toute ingestion.</p>",
+            "default_open": false
+          }
+        },
+        "collapsible_tab_nRtxMD": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "<b>Combinez nos cures en toute confiance</b>",
+            "content": "<p>Découvrez comment maximiser les bienfaits de nos cures en les associant de manière stratégique. Voici trois combinaisons idéales avec notre nouvelle cure Bouquet de Flore, conçue pour restaurer l'équilibre digestif et soutenir la santé globale.</p><h4><strong>Équilibre Digestif et Ménopause</strong></h4><p><strong>Combinaison :</strong> Bouquet de Flore + Harmonie Daily + Symbiotic</p><p><strong>Objectifs :</strong></p><ul><li><strong>Bouquet de Flore :</strong> Rétablir l'équilibre intestinal et détoxifier l'organisme.</li><li><strong>Harmonie Daily :</strong> Gérer les symptômes de la ménopause, comme les bouffées de chaleur et les insomnies.</li><li><strong>Symbiotic :</strong> Renforcer la flore intestinale avec des probiotiques spécifiques pour améliorer la digestion et l'immunité.</li></ul><p><strong>Bénéfices :</strong></p><ul><li>Amélioration du confort digestif et réduction des ballonnements.</li><li>Stabilisation des hormones et réduction des symptômes de la ménopause.</li><li>Meilleure absorption des nutriments et soutien immunitaire.</li></ul><h4><strong>Détoxification et Gestion du Poids</strong></h4><p><strong>Combinaison :</strong> Bouquet de Flore + Fleur de Minuit + Oh La La</p><p><strong>Objectifs :</strong></p><ul><li><strong>Bouquet de Flore :</strong> Éliminer les toxines et soutenir une flore intestinale saine.</li><li><strong>Fleur de Minuit :</strong> Améliorer la qualité du sommeil et réduire le stress.</li><li><strong>Oh La La :</strong> Faciliter la perte de poids et aider à brûler les graisses.</li></ul><p><strong>Bénéfices :</strong></p><ul><li>Détoxification du corps pour une meilleure santé globale.</li><li>Sommeil réparateur et réduction du stress, essentiels pour un métabolisme sain.</li><li>Gestion efficace du poids et amélioration de la composition corporelle.</li></ul><h4><strong>Santé Intestinale et Articulaire</strong></h4><p><strong>Combinaison :</strong> Bouquet de Flore + Iconique Collagène + Reneva</p><p><strong>Objectifs :</strong></p><ul><li><strong>Bouquet de Flore :</strong> Maintenir une digestion saine et éliminer les toxines.</li><li><strong>Iconique Collagène :</strong> Améliorer la texture et l'apparence de la peau, tout en renforçant les cheveux et les ongles.</li><li><strong>Reneva :</strong> Soutenir la santé articulaire et réduire les inflammations.</li></ul><p><strong>Bénéfices :</strong></p><ul><li>Équilibre digestif et meilleure absorption des nutriments.</li><li>Peau revitalisée et réduction des signes de vieillissement.</li><li>Articulations renforcées et réduction des douleurs inflammatoires.</li></ul><h3>Ce qu'il faut retenir</h3><p>Ces combinaisons de produits sont conçues pour travailler en synergie, maximisant les avantages de chaque supplément pour une santé optimale. En intégrant Bouquet de Flore avec nos autres cures, vous pouvez cibler divers aspects de votre bien-être de manière holistique.</p>",
+            "liquid": "",
+            "default_open": false
+          }
+        },
+        "px_trust_badges_icons_app_block_wUUaU7": {
+          "type": "shopify://apps/px-trust-badges-icons/blocks/app-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+          "settings": {
+            "block_id": "affa9f09-bb2b-438a-a378-e7074ccdad8d",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "spacing_left": 0,
+            "spacing_right": 0
+          }
+        },
+        "judge_me_reviews_review_widget_WQ9ijr": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200
+          }
+        },
+        "complementary_3RXkNG": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Les combinaisons idéales ",
+            "make_collapsible_row": false,
+            "product_list_limit": 2,
+            "products_per_page": 2,
+            "pcard_image_ratio": "1/1",
+            "enable_variant_options": false,
+            "enable_quick_view": true,
+            "enable_quick_add": true,
+            "enable_compare": false,
+            "enable_wishlist": false
+          }
+        }
+      },
+      "block_order": [
+        "c87c6e87-b82b-4ef0-8e7b-85ca44648866",
+        "text_T8yqPT",
+        "judge_me_reviews_preview_badge_pMzFen",
+        "9d6c5ebd-14a3-403d-9c3c-17cc52876cb5",
+        "px_trust_badges_icons_app_block_GxnhiE",
+        "px_trust_badges_icons_app_block_TCY8hc",
+        "561bea99-62ba-4d45-a431-eb5f5e7fa148",
+        "trust_badge_mQw3bq",
+        "0c727350-9dc5-46ae-a5df-e5f7c59cd070",
+        "111d3e08-0c34-4040-a3cc-7bcc92b56620",
+        "eb884e3d-33a8-4f53-8502-0527c3f1027b",
+        "65349e79-857f-4b28-8c94-02aa413ef499",
+        "collapsible_tab_nRtxMD",
+        "px_trust_badges_icons_app_block_wUUaU7",
+        "judge_me_reviews_review_widget_WQ9ijr",
+        "complementary_3RXkNG"
+      ],
+      "settings": {
+        "container": "container-fluid",
+        "layout": "layout-4",
+        "show_atwl": false,
+        "enable_history_state": false,
+        "enable_variant_group_images": false,
+        "show_featured_media": true,
+        "show_zoom_button": true,
+        "enable_video_autoplay": false,
+        "show_nav_media_mobile": true,
+        "show_pagination_mobile": false,
+        "use_sticky_atc": true,
+        "use_sticky_atc_on_mobile": true,
+        "enable_dynamic_checkout": false,
+        "sticky_atc_wishtlist": false,
+        "sticky_atc_compare": false
+      }
+    },
+    "1694235462507497b3": {
+      "type": "apps",
+      "blocks": {
+        "px_trust_badges_icons_app_block_QKYJwi": {
+          "type": "shopify://apps/px-trust-badges-icons/blocks/app-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+          "settings": {
+            "block_id": "adcaf421-0467-4c7a-acc0-4426d275dd6a",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "spacing_left": 0,
+            "spacing_right": 0
+          }
+        }
+      },
+      "block_order": [
+        "px_trust_badges_icons_app_block_QKYJwi"
+      ],
+      "settings": {
+        "heading": "Redécouvrez les joies du confort intestinal",
+        "subheading": "LES BÉNÉFICES DE BOUQUET DE FLORE",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "rgba(0,0,0,0)",
+        "padding_top": 50,
+        "padding_bottom": 0,
+        "custom_class": "remove-space my-10"
+      }
+    },
+    "16530405356838123e": {
+      "type": "custom-content",
+      "blocks": {
+        "16530405358e9b5d79-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bouquet-de-Flore_photo-with_woman.jpg",
+            "link": "#product-form-1",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "60c3f7e5-ebf2-43da-a0e2-258a2afca8fe": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__about-custom-list\">\n  <ul>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b>Purifie le tractus gastro-intestinal</b></h4>\n          <p class=\"text-color-subtext\">Bouquet de Flore aide à éliminer les toxines et les impuretés de votre système digestif. Profitez d'un intestin plus propre et d'une meilleure santé digestive globale.\n</p>\n      </div>\n    </li>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b>Régénère le système digestif</b></h4>\n          <p class=\"text-color-subtext\">Notre formule stimule la réparation et la régénération des tissus gastro-intestinaux. Favorisez un environnement intestinal sain et fonctionnel pour un bien-être continu.\n </p>\n      </div>\n    </li>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b> Protège contre les infections</b></h4>\n          <p class=\"text-color-subtext\"> Avec ses propriétés antibactériennes et antifongiques, Bouquet de Flore renforce la barrière protectrice de votre système digestif. Réduisez les risques d'infections et d'inflammations chroniques. </p>\n</div>\n    </li>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b>Maintient un microbiote équilibré</b></h4>\n          <p class=\"text-color-subtext\"> Bouquet de Flore soutient la croissance de bactéries bénéfiques, assurant un microbiote intestinal sain. Un microbiote équilibré est essentiel pour une digestion efficace et une immunité renforcée. </p>\n      </div>\n    </li>\n  </ul>\n</div>",
+            "width": "50%",
+            "block_custom_class": "sf__about-custom-html",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "16530405358e9b5d79-1",
+        "60c3f7e5-ebf2-43da-a0e2-258a2afca8fe"
+      ],
+      "settings": {
+        "heading": "Fermez la porte des tracas et ouvrez celle de la liberté",
+        "subheading": "LE BIEN-ÊTRE DIGESTIF A PORTÉE DE MAIN",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "rgba(0,0,0,0)",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__page-about"
+      }
+    },
+    "16945938772d351bb6": {
+      "type": "apps",
+      "blocks": {
+        "px_trust_badges_icons_app_block_eDHGmz": {
+          "type": "shopify://apps/px-trust-badges-icons/blocks/app-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+          "settings": {
+            "block_id": "bc1924c1-f2f6-41f7-91ec-0b2f97482dfa",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "spacing_left": 0,
+            "spacing_right": 0
+          }
+        }
+      },
+      "block_order": [
+        "px_trust_badges_icons_app_block_eDHGmz"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "remove-space my-10"
+      }
+    },
+    "7be1ed15-712e-49d8-ac46-156803796eb7": {
+      "type": "custom-content",
+      "blocks": {
+        "template--20708136321365__7be1ed15-712e-49d8-ac46-156803796eb7-text-1": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "template--20708136321365__7be1ed15-712e-49d8-ac46-156803796eb7-text-1"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "rgba(0,0,0,0)",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "remove-space my-10"
+      }
+    },
+    "16564020326250e5b4": {
+      "type": "custom-content",
+      "blocks": {
+        "f572ae61-5a22-47ff-84f5-9df17abde08a": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/2-aloevera.jpg",
+            "link": "#product-form-1",
+            "title": "<h4>Aloe vera</h4>",
+            "subtitle": "Elle combat de nombreuses bactéries, élimine les toxines et apaise les douleurs, dont celles du système digestif.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "b5d8a0fa-8b87-48dd-a2c1-7de0e0deaad9": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/7-ail.jpg",
+            "link": "#product-form-1",
+            "title": "<h3>Ail</h3>",
+            "subtitle": "Antibiotique naturel, il est à la fois antibactérien, antiparasitaire, antispasmodique, antiseptique et fongicide.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "157aff24-76c8-43c0-a5f8-e19c2323018a": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/10-quercetin.jpg",
+            "link": "",
+            "title": "<h3>Quercétine</h3>",
+            "subtitle": "Grâce à son action détoxifiante et anti-inflammatoire, c’est l’aliment idéal contre les troubles de l'intestin et de Candida.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": false,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "d0de405e-f102-47d5-957b-fb839aad76ad": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/3-acid-capri.jpg",
+            "link": "#product-form-1",
+            "title": "<h3>Acide caprylique</h3>",
+            "subtitle": "L'un des agents antifongiques les plus utiles, il détient la capacité de survivre à la digestion et de pouvoir atteindre le côlon.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "d1185582-f7f1-4416-a0de-00c3776d9fbc": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/8-betterave.jpg",
+            "link": "#product-form-1",
+            "title": "<h3>Betterave</h3>",
+            "subtitle": "Elle favorise l’équilibre digestif et purifie les intestins. Elle nettoie aussi le foie, le système et la vésicule biliaire.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": false,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "cd083630-1a9f-4b62-843f-937c1cd37d1f": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/9-canelle.jpg",
+            "link": "#product-form-1",
+            "title": "<h3>Cannelle</h3>",
+            "subtitle": "Elle lutte contre la mauvaise digestion, les vomissements, l'intestin irritable, les flatulences et la diarrhée.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "170b5600-d58b-46b5-8fdf-1926f0109fbe": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/13-clou-girofle.jpg",
+            "link": "#product-form-1",
+            "title": "<h3>Clou de girofle</h3>",
+            "subtitle": "Antiseptique et antihistaminique, il règle les problèmes digestifs tels que les flatulences, la diarrhée et la dyspepsie.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "sf-custom__content-above-image",
+            "animations": "inherit"
+          }
+        },
+        "ffe449e7-78c3-42ad-bb2a-b54704d03bb7": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Lactobacillus_acidophilus.png",
+            "link": "#product-form-1",
+            "title": "<h3>Lactobacillus acidophilus</h3>",
+            "subtitle": "Il améliore la digestion et lutte contre les intoxications alimentaires et les infections comme le Candida ou le muguet.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_card_CdkWyP": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Bifidobacterium_breve.png",
+            "link": "#product-form-1",
+            "title": "<h3>Bifidobacterium bifidus</h3>",
+            "subtitle": "Autre bactérie intestinale probiotique bénéfique, le Bifidobacterium bifidus prend soin de la partie inférieure du côlon.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_card_6wpHCB": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Glucosamine_Hydrochloride.png",
+            "link": "#product-form-1",
+            "title": "<h3>Glucosamine HCL</h3>",
+            "subtitle": "La Glucosamine HCL est essentielle pour tous les tissus de l'organisme. Entre autres, elle répare la muqueuse intestinale.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "5693c97f-e2f3-4bdd-a25d-33df14536408": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/6-pamplemousse.jpg",
+            "link": "#product-form-1",
+            "title": "<h3>Pépins de pamplemousse</h3>",
+            "subtitle": "Ils protègent le système digestif et immunitaire des infections et maintiennent une flore intestinale équilibrée.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "5979ae8b-0f35-4820-8493-c8a5549e8101": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/5-thym.jpg",
+            "link": "#product-form-1",
+            "title": "<h3>Thym</h3>",
+            "subtitle": "Antivirales, antioxydantes et antiseptiques, le thym est utilisé en cas d'infections, d'intestins irritables et de Candida.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_card_7rM7QJ": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Zinc_ohlala.png",
+            "link": "#product-form-1",
+            "title": "<h3>Zinc</h3>",
+            "subtitle": "Le zinc joue un rôle primordial dans l’équilibre métabolique, les fonctions cognitives et le système immunitaire.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_card_CmmHNC": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/4-romarin.jpg",
+            "link": "#product-form-1",
+            "title": "<h3>Romarin</h3>",
+            "subtitle": "Le romarin a une action antioxydante, anti-inflammatoire et antibactérienne. Il adoucit également l'haleine.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_card_NwWr4G": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/15-origan.jpg",
+            "link": "#product-form-1",
+            "title": "<h3>Origan</h3>",
+            "subtitle": "Antimicrobien et antifongique, l’origan permet d’éviter la Candidose et maintient l’intestin en bonne santé.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "44b02075-b572-4284-bd68-e2e009d15814": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "f572ae61-5a22-47ff-84f5-9df17abde08a",
+        "b5d8a0fa-8b87-48dd-a2c1-7de0e0deaad9",
+        "157aff24-76c8-43c0-a5f8-e19c2323018a",
+        "d0de405e-f102-47d5-957b-fb839aad76ad",
+        "d1185582-f7f1-4416-a0de-00c3776d9fbc",
+        "cd083630-1a9f-4b62-843f-937c1cd37d1f",
+        "170b5600-d58b-46b5-8fdf-1926f0109fbe",
+        "ffe449e7-78c3-42ad-bb2a-b54704d03bb7",
+        "image_card_CdkWyP",
+        "image_card_6wpHCB",
+        "5693c97f-e2f3-4bdd-a25d-33df14536408",
+        "5979ae8b-0f35-4820-8493-c8a5549e8101",
+        "image_card_7rM7QJ",
+        "image_card_CmmHNC",
+        "image_card_NwWr4G",
+        "44b02075-b572-4284-bd68-e2e009d15814"
+      ],
+      "settings": {
+        "heading": "Donnez à votre ventre une deuxième jeunesse",
+        "subheading": "LE SECRET D’UNE FORMULE UNIQUE ET EXCLUSIVE ",
+        "description": "Nous avons mis à profit notre expertise pour créer Bouquet de Flore, une formule unique de 15 ingrédients naturels d'exception. Chaque actif, choisi avec une précision scientifique pour ses bienfaits exceptionnels, purifie, régénère et protège votre système digestif de manière optimale.",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "rgba(0,0,0,0)",
+        "gap": 10,
+        "use_scroll_mobile": true,
+        "gap_mobile": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__index-custom-content sf-custom__content-above-image"
+      }
+    },
+    "169726163043dde8d6": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "heading": "<span class=\"sf__text-style1\">La formule</span> qui vous redonne le <span class=\"sf__text-style1\">sourire</span>",
+        "subheading": "POUR VOUS SENTIR A NOUVEAU VOUS-MÊME",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "2508ca8e-6896-450a-a96f-3cc09b488fb0": {
+      "type": "testimonials",
+      "blocks": {
+        "template--15714516402385__2508ca8e-6896-450a-a96f-3cc09b488fb0-16871542449ec1e43e-0": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Retrouver son équilibre à 49 ans !",
+            "description": "<p>Avec Harmonie Daily, c'est comme si j'avais retrouvé la Valérie d'avant. Plus de bouffées de chaleur, de sautes d'humeur ou de troubles du sommeil. Je suis à nouveau moi, et ça fait un bien fou!</p>",
+            "footer": "<p><strong>Valérie S.</strong></p>",
+            "image": "shopify://shop_images/avis_cliente_51-1.png",
+            "image_text": "",
+            "image_link": "",
+            "product": "harmonie-daily"
+          }
+        },
+        "template--15714516402385__2508ca8e-6896-450a-a96f-3cc09b488fb0-16871542449ec1e43e-1": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Plus de bouffées de chaleur !",
+            "description": "<p>Les bouffées de chaleur m'empêchaient de savourer ma tasse de thé, c'était l'enfer. Depuis que j'ai découvert Harmonie Daily, c'est terminé, je revis! C'est dingue.</p>",
+            "footer": "<p><strong>Chloé D.</strong></p>",
+            "image": "shopify://shop_images/avis_cliente_51-09.png",
+            "image_text": "",
+            "image_link": "",
+            "product": "harmonie-daily"
+          }
+        },
+        "template--15714516402385__2508ca8e-6896-450a-a96f-3cc09b488fb0-16871542449ec1e43e-2": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Des nuits paisibles depuis 2 mois",
+            "description": "<p>Je ne voulais pas être traitée avec des hormones ! Je peux enfin dormir paisiblement grâce à Harmonie Daily. C'est un véritable soulagement. </p>",
+            "footer": "<p><strong>Agathe B.</strong></p>",
+            "image": "shopify://shop_images/avis_cliente_51-12.png",
+            "image_text": "",
+            "image_link": "",
+            "product": ""
+          }
+        },
+        "template--15714516402385__2508ca8e-6896-450a-a96f-3cc09b488fb0-16871542449ec1e43e-3": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Une vie intime normale",
+            "description": "<p>Les douleurs et la sécheresse rendaient les moments intimes difficiles. Grâce à ce complément recommandé par mon gynécologue, j'ai retrouvé une certaine normalité et je peux désormais profiter de ces moments avec mon partenaire sans douleur.</p>",
+            "footer": "<p><strong>Audrey T.</strong></p>",
+            "image": "shopify://shop_images/avis_cliente_51-13_5875b32a-e283-4c14-bb4c-b69a4f35c542.png",
+            "image_text": "",
+            "image_link": "",
+            "product": "harmonie-daily"
+          }
+        },
+        "template--15714516402385__2508ca8e-6896-450a-a96f-3cc09b488fb0-16871542449ec1e43e-4": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Un Après-midi sans stress",
+            "description": "<p>Les sautes d'humeur perturbaient mes après-midi, mais Harmonie Daily m'a permis de retrouver une sérénité inégalée. Je peux maintenant passer mes après-midi sans craindre le prochain ascenseur émotionnel </p>",
+            "footer": "<p><strong>Isabelle D.</strong></p>",
+            "image": "shopify://shop_images/avis_cliente_51-3.png",
+            "image_text": "",
+            "image_link": "",
+            "product": "harmonie-daily"
+          }
+        },
+        "template--15714516402385__2508ca8e-6896-450a-a96f-3cc09b488fb0-16871542449ec1e43e-5": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Une vie sociale sans stress !",
+            "description": "<p>Les bouffées de chaleur me rendaient mal à l'aise lors des dîners entre amis. Avec Harmonie Daily, je peux profiter de ces moments sans inconfort. Mes amis me demandent même mon secret!</p>",
+            "footer": "<p><strong>Mélissa P. </strong></p>",
+            "image": "shopify://shop_images/avis_cliente_51-11.png",
+            "image_text": "",
+            "image_link": "",
+            "product": "harmonie-daily"
+          }
+        },
+        "c6f8ead8-7c10-4470-9d27-aa7e8c30e354": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Douleurs très atténuées",
+            "description": "<p>Les douleurs articulaires se sont intensifiées avec la ménopause, ce qui rendait ma vie quotidienne difficile. Harmonie Daily m'a aidée sur le plan de la gestion de la douleur. Je peux à nouveau profiter de mes promenades quotidiennes avec ma nièce.</p>",
+            "footer": "<p><strong>Clotilde M.</strong></p>",
+            "image": "shopify://shop_images/avis_cliente_51-10.png",
+            "image_text": "",
+            "image_link": "",
+            "product": "harmonie-daily"
+          }
+        },
+        "25be9755-360c-409f-9e7a-b34b289ee6ca": {
+          "type": "testimonial",
+          "settings": {
+            "title": "21 jours avec Harmonie  et je me sens très bien !",
+            "description": "<p>Mes ballonnements ont considérablement diminué, je ne me réveille plus ballonnée (hourra !), ma peau est tellement plus claire et le brouillard cérébral semble avoir nettement diminué. Merci infiniment.</p>",
+            "footer": "<p><strong>Lisa B.</strong></p>",
+            "image": "shopify://shop_images/avis_cliente_51-13.png",
+            "image_text": "",
+            "image_link": "",
+            "product": "harmonie-daily"
+          }
+        }
+      },
+      "block_order": [
+        "template--15714516402385__2508ca8e-6896-450a-a96f-3cc09b488fb0-16871542449ec1e43e-0",
+        "template--15714516402385__2508ca8e-6896-450a-a96f-3cc09b488fb0-16871542449ec1e43e-1",
+        "template--15714516402385__2508ca8e-6896-450a-a96f-3cc09b488fb0-16871542449ec1e43e-2",
+        "template--15714516402385__2508ca8e-6896-450a-a96f-3cc09b488fb0-16871542449ec1e43e-3",
+        "template--15714516402385__2508ca8e-6896-450a-a96f-3cc09b488fb0-16871542449ec1e43e-4",
+        "template--15714516402385__2508ca8e-6896-450a-a96f-3cc09b488fb0-16871542449ec1e43e-5",
+        "c6f8ead8-7c10-4470-9d27-aa7e8c30e354",
+        "25be9755-360c-409f-9e7a-b34b289ee6ca"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Déjà <span class=\"sf__text-style1\">65 000 femmes</span> convaincues",
+        "subheading": "",
+        "description": "94% des femmes ont constaté une amélioration de leurs symptômes dès le premier mois de cure. Elles témoignent d'une meilleure gestion des symptômes, d'une énergie retrouvée et d'un bien-être accru au quotidien.",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "#f6f3ea",
+        "design": "testimonials-5",
+        "show_stars": true,
+        "autorotate": false,
+        "show_navigation": true,
+        "show_pagination": false,
+        "star_color": "#ffc107",
+        "padding_top": 44,
+        "padding_bottom": 44,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "169347094851f71002": {
+      "type": "apps",
+      "blocks": {
+        "pretty_comparison_tables_table_zzPLqA": {
+          "type": "shopify://apps/pretty-comparison-tables/blocks/table/4ce14980-e26b-4398-92cd-f582d95d4f05",
+          "settings": {
+            "product": "{{product}}",
+            "title_text": "",
+            "title_font_tag": "h2",
+            "section_background_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "pretty_comparison_tables_table_zzPLqA"
+      ],
+      "settings": {
+        "heading": "Vous hésitez avec d’autres compléments alimentaires ?",
+        "subheading": "COMPAREZ LA CURE BOUQUET DE FLORE®",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "#faf9f5",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "cb22f6f1-5ddc-476b-a97b-103fa00aace2": {
+      "type": "custom-content",
+      "blocks": {
+        "3b945de9-b4f1-4734-b6ab-8a7f0f305cc4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bouquet-de-Flore_smart_capsule.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "f9e6519e-3c1e-4091-906b-5703458bc21c": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__about-custom-list\">\n  <ul>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b>Gélules  brevetées Nutri Genesis®\n</b></h4>\n          <p class=\"text-color-subtext\">Nos gélules à libération progressive sont spécialement formulées pour se dissoudre dans l'intestin grêle, où l'absorption des nutriments est maximale. Infusées de prébiotiques, elles favorisent une digestion harmonieuse et une meilleure assimilation des nutriments.</p>\n      </div>\n    </li>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b>Une formule ciblée et ultra-efficace</b></h4>\n          <p class=\"text-color-subtext\">Une combinaison exceptionnelle de 15 ingrédients naturels est obtenue grâce à notre technologie d'encapsulation innovante. Les composants secs et huileux sont réunis dans une même capsule, assurant un apport optimal en nutriments avec seulement deux gélules par jour.</p>\n      </div>\n    </li>\n  </ul>\n</div>",
+            "width": "50%",
+            "block_custom_class": "sf__about-custom-html",
+            "animations": "inherit"
+          }
+        },
+        "e0ebf446-ab45-454e-b1e1-fbeec2a68084": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "large",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "3b945de9-b4f1-4734-b6ab-8a7f0f305cc4",
+        "f9e6519e-3c1e-4091-906b-5703458bc21c",
+        "e0ebf446-ab45-454e-b1e1-fbeec2a68084"
+      ],
+      "settings": {
+        "heading": "Pour une assimilation parfaite des nutriments",
+        "subheading": "CAPSULES INTELLIGENTES",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__page-about"
+      }
+    },
+    "featured_collection_g6kMCR": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "heading": "Pour un bien-être sans compromis",
+        "subheading": "COMPLÉTEZ VOTRE CURE",
+        "description": "La ménopause ne doit pas être un sujet tabou, ni une expérience que l'on traverse seule. Les compléments alimentaires üma® accompagnent les femmes dans les changements naturels qui surviennent à toutes les étapes de leur vie.",
+        "header_alignment": "left",
+        "container": "container",
+        "background_color": "#f6f3ea",
+        "collection": "shopall",
+        "enable_flashsale": false,
+        "show_countdown": false,
+        "product_to_show": 12,
+        "items_per_row": 3,
+        "item_gap": 30,
+        "pcard_layout": "",
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "hide_title": false,
+        "enable_slider": true,
+        "show_pagination": false,
+        "show_navigation": true,
+        "button_type": "link",
+        "button_text": "Nos cures",
+        "button_style": "sf__btn-primary",
+        "button_size": "sf__btn-large",
+        "infinite_load": false,
+        "max_page_load": 3,
+        "mobile_disable_slider": false,
+        "use_scroll_mobile": true,
+        "item_gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "1656431367e3def286": {
+      "type": "custom-content",
+      "blocks": {
+        "product_wMqUQk": {
+          "type": "product",
+          "settings": {
+            "product": "symbiotic",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "797afe61-f1df-41e7-bef9-736d30311d11": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "product": "harmonie-daily",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "21686130-6f14-447f-b0d9-001c69db23ee": {
+          "type": "product",
+          "settings": {
+            "product": "iconique-collagen",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "68b2f4dc-8069-4e53-a212-a04fc7a79f64": {
+          "type": "product",
+          "settings": {
+            "product": "ohlala",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "product_wMqUQk",
+        "797afe61-f1df-41e7-bef9-736d30311d11",
+        "21686130-6f14-447f-b0d9-001c69db23ee",
+        "68b2f4dc-8069-4e53-a212-a04fc7a79f64"
+      ],
+      "settings": {
+        "heading": "Dites oui au bien-être absolu",
+        "subheading": "ENRICHISSEZ VOTRE CURE",
+        "description": "Encore trop souvent taboue, la ménopause ne devrait jamais être une expérience vécue en solitaire. C’est pourquoi nous faisons tout notre possible pour accompagner les femmes dans chaque étape de ce changement naturel.",
+        "header_alignment": "left",
+        "container": "container-fluid",
+        "background_color": "#f6f3ea",
+        "gap": 100,
+        "use_scroll_mobile": true,
+        "gap_mobile": 30,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "16418162727503f765": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "heading": "94% des femmes ont constaté une amélioration de leurs symptômes",
+        "subheading": "REJOIGNEZ LES 65 000 FEMMES QUI NOUS FONT CONFIANCE",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "rgba(0,0,0,0)",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "8d915f30-110a-4fa1-863c-86e0bf0113af": {
+      "type": "custom-content",
+      "blocks": {
+        "template--19175345783125__8d915f30-110a-4fa1-863c-86e0bf0113af-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/laboratoire-francais.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "5a173e95-8f54-4cd1-88e3-c7d67de110eb": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__about-custom-list\">\n  <ul>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0764/9581/4997/files/France.png?v=1692690421\"></span>\n      <div class=\"rte\">\n          <h4><b>Laboratoires Français</b></h4>\n          <p class=\"text-color-subtext\">Nous sommes un laboratoire français indépendant, dédié à la santé et au bien-être des femmes. Pionniers en micronutrition et phytothérapie, nous créons des compléments alimentaires naturels, efficaces et sans hormone pour améliorer votre qualité de vie durant et après la ménopause.</p>\n      </div>\n    </li>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0764/9581/4997/files/Approuvee_par_des_femmes.png?v=1692690451\"></span>\n      <div class=\"rte\">\n          <h4><b>Expertise, engagement et innovation</b></h4>\n          <p class=\"text-color-subtext\">Entourés de spécialistes en compléments alimentaires et en recherche clinique, nous bénéficions de l’expertise de notre conseil consultatif scientifique. Composé de médecins, nutritionnistes et scientifiques, il nous aide à intégrer les dernières découvertes et innovations dans nos produits.</p>\n      </div>\n    </li>\n  </ul>\n</div>",
+            "width": "50%",
+            "block_custom_class": "sf__about-custom-html",
+            "animations": "inherit"
+          }
+        },
+        "78c74610-af0f-4faf-9c34-786df650d6a4": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "template--19175345783125__8d915f30-110a-4fa1-863c-86e0bf0113af-image-1",
+        "5a173e95-8f54-4cd1-88e3-c7d67de110eb",
+        "78c74610-af0f-4faf-9c34-786df650d6a4"
+      ],
+      "settings": {
+        "heading": "Par une équipe de mères, de filles et de chercheurs",
+        "subheading": "",
+        "description": "<h5>Notre mission est d'aider les femmes à vivre plus longtemps et en meilleure santé</h5>",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__page-about"
+      }
+    },
+    "product-details-tabs": {
+      "type": "product-details-tabs",
+      "blocks": {
+        "fa490a38-97a7-4b71-ad47-3c86b4a582cd": {
+          "type": "description",
+          "settings": {
+            "header": "Product description"
+          }
+        },
+        "e31689fb-9b98-4f5b-977d-075a8d1a123f": {
+          "type": "tab",
+          "settings": {
+            "header": "Shipping & Return",
+            "content": "<p>Shipping cost is based on weight. Just add products to your cart and use the Shipping Calculator to see the shipping price.</p><p>We want you to be 100% satisfied with your purchase. Items can be returned or exchanged within 30 days of delivery.</p>",
+            "content_page": ""
+          }
+        },
+        "9e06b3e6-843f-4451-9137-03b92b248b49": {
+          "type": "liquid",
+          "settings": {
+            "header": "Tab heading",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "fa490a38-97a7-4b71-ad47-3c86b4a582cd",
+        "e31689fb-9b98-4f5b-977d-075a8d1a123f",
+        "9e06b3e6-843f-4451-9137-03b92b248b49"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "bg_color": "",
+        "default_open": true,
+        "animations": "inherit"
+      }
+    },
+    "164261608633fb1e22": {
+      "type": "custom-content",
+      "blocks": {
+        "71a41393-7458-490c-9599-d5f0e82b1703": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__tabs-custom\">\n <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck01\">\n        <label class=\"sf__tab-item-label\" for=\"chck01\">\n Qu'est-ce que Bouquet de Flore ?</label>\n        <div class=\"sf__tab-item-content\">\n          Bouquet de Flore est un complément alimentaire spécialement formulé pour soutenir la santé digestive et le bien-être général des femmes, en particulier pendant et après la ménopause. Il contient une combinaison unique de 15 ingrédients naturels, y compris des plantes actives, des probiotiques et des agents naturels aux propriétés antibactériennes, antifongiques et anti-inflammatoires.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck1\">\n        <label class=\"sf__tab-item-label\" for=\"chck1\">Quels sont les ingrédients principaux de Bouquet de Flore ? </label>\n        <div class=\"sf__tab-item-content\">\n          Bouquet de Flore comprend des ingrédients tels que l'Aloe Vera, la Cannelle (Cinnamomum Cassia), le Caprylic Acid, l'Ail, la Betterave, le Quercetin, le Thym, et des probiotiques comme le Lactobacillus Acidophilus et le Bifidobacterium Bifidum.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck2\">\n        <label class=\"sf__tab-item-label\" for=\"chck2\">Comment Bouquet de Flore fonctionne-t-il ?\n</label>\n        <div class=\"sf__tab-item-content\">\n          Bouquet de Flore purifie et régénère le tractus gastro-intestinal, rééquilibre le microbiote intestinal, et renforce le système immunitaire. Ses ingrédients naturels agissent en synergie pour offrir une détoxification efficace, combattre la candidose intestinale, et améliorer la digestion et l'absorption des nutriments.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck3\">\n        <label class=\"sf__tab-item-label\" for=\"chck3\">Quels sont les bénéfices de prendre Bouquet de Flore ?\n</label>\n        <div class=\"sf__tab-item-content\">\n          Les bénéfices incluent la réduction des ballonnements et des gaz, la lutte contre la candidose intestinale, une meilleure régularité digestive, une détoxification naturelle, un microbiote équilibré, une meilleure absorption des nutriments, et un renforcement du système immunitaire.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck4\">\n        <label class=\"sf__tab-item-label\" for=\"chck4\">Comment dois-je prendre Bouquet de Flore ?\n</label>\n        <div class=\"sf__tab-item-content\">\n          Il est recommandé de prendre 1 capsule, 1 à 3 fois par jour, de préférence avec de la nourriture. Ne pas dépasser la dose journalière recommandée. Les compléments alimentaires ne doivent pas être utilisés comme substituts d’un régime alimentaire varié et équilibré.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck5\">\n        <label class=\"sf__tab-item-label\" for=\"chck5\">Quand puis-je attendre de voir les résultats ?\n </label>\n        <div class=\"sf__tab-item-content\">\n          Les premiers résultats, comme la réduction des ballonnements et une amélioration de la digestion, peuvent être observés dès le premier mois. Des bénéfices significatifs, comme un équilibre du microbiote et une réduction des symptômes de candidose intestinale, apparaissent généralement après deux mois d'utilisation continue. Une utilisation quotidienne et régulière améliore les résultats au fil du temps.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck6\">\n        <label class=\"sf__tab-item-label\" for=\"chck6\">Y a-t-il des effets secondaires à utiliser Bouquet de Flore ? </label>\n        <div class=\"sf__tab-item-content\">\n          Bouquet de Flore est formulé avec des ingrédients naturels et est généralement bien toléré. Cependant, comme avec tout complément alimentaire, il est possible de rencontrer des effets secondaires mineurs. Si vous ressentez des effets indésirables, arrêtez l'utilisation et consultez un professionnel de santé.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck7\">\n        <label class=\"sf__tab-item-label\" for=\"chck7\">Bouquet de Flore est-il sûr à utiliser avec d'autres médicaments ou compléments ?</label>\n        <div class=\"sf__tab-item-content\">\n          Si vous prenez d'autres médicaments ou compléments alimentaires, il est toujours recommandé de consulter un professionnel de santé avant de commencer un nouveau complément, y compris Bouquet de Flore, pour éviter toute interaction potentielle.\n        </div>\n      </div>\n\n<div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck8\">\n        <label class=\"sf__tab-item-label\" for=\"chck8\">Pourquoi devrais-je choisir Bouquet de Flore par rapport à d'autres compléments ?</label>\n        <div class=\"sf__tab-item-content\">\n          Bouquet de Flore est soutenu par des études cliniques rigoureuses et est formulé avec des ingrédients naturels d'exception. Il offre une solution complète pour la santé digestive et le bien-être général, avec une efficacité prouvée pour réduire les symptômes digestifs et renforcer le système immunitaire, spécialement adapté aux besoins des femmes ménopausées.\n        </div>\n    </div>\n\n<div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck9\">\n        <label class=\"sf__tab-item-label\" for=\"chck9\">Comment conserver Bouquet de Flore ?</label>\n        <div class=\"sf__tab-item-content\">\n          Conservez Bouquet de Flore dans un endroit frais et sec, à l'abri de la lumière directe et de l'humidité. Assurez-vous que le flacon est bien fermé après chaque utilisation.\n        </div>\n    </div>\n\n<div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck10\">\n        <label class=\"sf__tab-item-label\" for=\"chck10\"> Est-ce que Bouquet de Flore convient aux végétariens et aux végétaliens ?</label>\n        <div class=\"sf__tab-item-content\">\n          Oui, Bouquet de Flore est formulé sans ingrédients d'origine animale et convient aux végétariens et aux végétaliens.\n        </div>\n</div>\n\n<div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck11\">\n        <label class=\"sf__tab-item-label\" for=\"chck11\"> Est-ce que Bouquet de Flore contient des allergènes ?</label>\n        <div class=\"sf__tab-item-content\">\n          Bouquet de Flore est formulé pour être exempt des allergènes courants. Cependant, veuillez vérifier la liste complète des ingrédients et consulter un professionnel de santé si vous avez des préoccupations spécifiques concernant les allergies alimentaires.\n        </div>\n      </div>\n</div>",
+            "width": "100%",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "66c850cb-6f03-4c73-9629-62d79f6f0f4f": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "71a41393-7458-490c-9599-d5f0e82b1703",
+        "66c850cb-6f03-4c73-9629-62d79f6f0f4f"
+      ],
+      "custom_css": [
+        ".sf__tab-item-label {font-weight: normal;}"
+      ],
+      "settings": {
+        "heading": "Vous avez des questions. Nous adorons y répondre",
+        "subheading": "",
+        "description": "Voici les questions les plus fréquentes avant de débuter notre cure Bouquet de flore®.",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "#f6f3ea",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "1642583437f365ed49",
+    "main",
+    "1694235462507497b3",
+    "16530405356838123e",
+    "16945938772d351bb6",
+    "7be1ed15-712e-49d8-ac46-156803796eb7",
+    "16564020326250e5b4",
+    "169726163043dde8d6",
+    "2508ca8e-6896-450a-a96f-3cc09b488fb0",
+    "169347094851f71002",
+    "cb22f6f1-5ddc-476b-a97b-103fa00aace2",
+    "featured_collection_g6kMCR",
+    "1656431367e3def286",
+    "16418162727503f765",
+    "8d915f30-110a-4fa1-863c-86e0bf0113af",
+    "product-details-tabs",
+    "164261608633fb1e22"
+  ]
+}

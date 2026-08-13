@@ -1,0 +1,57 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "ou_trouver_hero": {
+      "type": "image-with-text-2",
+      "custom_css": [],
+      "settings": {
+        "container": "w-full",
+        "hero_size": "small",
+        "show_overlay": false,
+        "image": "shopify://shop_images/fond_ecran_page_ou_nous_trouver.jpg",
+        "bg_position": "center",
+        "image_link": "",
+        "parallax": false,
+        "content_in_container": false,
+        "content_position": "left middle",
+        "text_alignment": "left",
+        "text_size": "medium",
+        "text_color": "dark",
+        "title": "Où nous trouver ?",
+        "subtitle": "",
+        "text": "<p>Découvrez tous nos partenaires revendeurs et trouvez facilement près de chez vous ceux qui proposent nos produits.<br/><br/><strong>Un doute sur la disponibilité ? Un simple appel suffit !<br/><br/></strong>Et si vous souhaitez retrouver notre gamme dans votre pharmacie habituelle, parlez-en à votre pharmacien : votre recommandation peut tout changer.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-primary",
+        "button_size": "",
+        "use_content_above": false,
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "main": {
+      "type": "ou-nous-trouver",
+      "settings": {
+        "data_source": "asset",
+        "asset_filename": "assets/pharmacies.json",
+        "manual_json": "",
+        "show_list": true,
+        "disable_leaflet": false,
+        "stadia_api_key": ""
+      }
+    }
+  },
+  "order": [
+    "ou_trouver_hero",
+    "main"
+  ]
+}

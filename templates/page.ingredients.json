@@ -1,0 +1,373 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1643628125203c0c70": {
+      "type": "image-with-text-2",
+      "settings": {
+        "container": "w-full",
+        "hero_size": "medium",
+        "show_overlay": true,
+        "image": "shopify://shop_images/Pour-vous_-vous-elevons-les-standards.jpg",
+        "bg_position": "center",
+        "image_link": "",
+        "parallax": false,
+        "content_in_container": true,
+        "content_position": "center top",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "white",
+        "title": "Pour vous, nous élevons les standards.",
+        "subtitle": "",
+        "text": "<p>C'est pourquoi nous avons passé des années à rechercher, trouver et tester </p><p>rigoureusement les ingrédients les plus purs pour créer des solutions sûres et efficaces.</p>",
+        "button_label": "Découvrir nos ingrédients",
+        "button_link": "#ingredient-list-1",
+        "button_style": "sf__btn-primary",
+        "button_size": "",
+        "mb_image": "shopify://shop_images/Pour_vous_nous_elevons_les_standards_-min.png",
+        "use_content_above": true,
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "164373656382dd72eb": {
+      "type": "icon-box",
+      "blocks": {
+        "16437365635accf333-0": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify://shop_images/Processus-de-fabrication.jpg",
+            "image_by_url": "",
+            "title": "Processus de fabrication",
+            "description": "<p>Nous utilisons uniquement des ingrédients sûrs, naturels mais néanmoins efficaces, sans hormones et sans effets secondaires. Chaque lot de produits est fabriqué en respectant les normes de production les plus rigoureuses et est approuvé par les organismes de réglementation internationaux. </p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        },
+        "16437365635accf333-1": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify://shop_images/Nous-vous-garantissons.jpg",
+            "image_by_url": "",
+            "title": "Nous vous garantissons",
+            "description": "<p>Des compléments alimentaires propres :  sans gluten, sans sucre, sans nanoparticules, sans perturbateurs endocriniens, sans OGM, sans actifs irradiés, sans dioxyde de titane, sans conservateurs ni arômes synthétiques. Toutes nos formules sont évaluées par des laboratoires indépendants.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "16437365635accf333-0",
+        "16437365635accf333-1"
+      ],
+      "settings": {
+        "heading": "Naturelle, sûre et efficace",
+        "subheading": "",
+        "description": "Chaque gélule contient des actifs naturels puissants, avec des bienfaits nutritionnels que vous ne trouverez nulle part ailleurs. Fabriquée avec les bons ingrédients, pour que vous puissiez retrouver votre sérénité et vivre pleinement pendant la ménopause.",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "rgba(0,0,0,0)",
+        "item_per_row": 2,
+        "item_gap": 50,
+        "item_gap_mobile": 20,
+        "card_style": "vertical",
+        "image_max_width": "800px",
+        "content_alignment": "center",
+        "hover_effect": "none",
+        "enable_slider": false,
+        "show_pagination": false,
+        "show_navigation": false,
+        "use_scroll_mobile": false,
+        "use_grid_column_mb": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "16468248722d50843c": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"ingredient-list-1\"></div>",
+        "custom_class": ""
+      }
+    },
+    "16440385443eb0a703": {
+      "type": "image-with-text-2",
+      "settings": {
+        "container": "container-fluid",
+        "hero_size": "medium",
+        "show_overlay": false,
+        "image": "shopify://shop_images/gray-box-uma.png",
+        "bg_position": "center",
+        "image_link": "",
+        "parallax": false,
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "dark",
+        "title": "<h3>Nous promettons d'être honnêtes avec vous</h3>",
+        "subtitle": "L’HONNÊTETÉ",
+        "text": "<p>C'est simple et cela peut même sembler banal. Mais dans un secteur envahi de fausses étiquettes, de pilules magiques et de petits caractères, nous sommes là pour vous informer en toute transparence à propos de nos produits, de nos ingrédients, des recherches que nous menons et des témoignages de notre communauté. Sans filtre.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-primary",
+        "button_size": "",
+        "mb_image": "shopify://shop_images/bloc_color_main_color_mobile.png",
+        "use_content_above": true,
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "164403860870131ba8": {
+      "type": "image-with-text",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "container": "container",
+        "background_color": "rgba(0,0,0,0)",
+        "item_gap": 100,
+        "item_gap_mobile": 30,
+        "image": "shopify://shop_images/Naturellement-efficace_-approuvee-par-la-science.jpg",
+        "link": "shopify://collections/shopall",
+        "layout": "right",
+        "image_column_size": "6",
+        "hover_effect": false,
+        "title": "Naturellement efficace, approuvée par la science",
+        "sub_title": "",
+        "text": "<p>Nous créons des dispositifs accessibles sans prescription médicale destinés à améliorer le bien-être des femmes en utilisant autant que possible des ingrédients naturels. Les ingrédients contenus dans chacune de nos gélules sont le résultat de recherches approfondies, de développement et d'essais cliniques - et le plus important, ils ont été validés par des recherches scientifiques.</p>",
+        "text_size": "medium",
+        "content_alignment": "left",
+        "button_label": "Découvrir nos cures",
+        "button_link": "shopify://collections/shopall",
+        "button_style": "sf__btn-primary",
+        "button_size": "sf__btn-large",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "16440387799c96d8c2": {
+      "type": "image-with-text-2",
+      "settings": {
+        "container": "container-fluid",
+        "hero_size": "medium",
+        "show_overlay": false,
+        "image": "shopify://shop_images/gray-box-uma.png",
+        "bg_position": "center",
+        "image_link": "",
+        "parallax": false,
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "dark",
+        "title": "<h3>Comment nous sélectionnons les ingrédients ?<h3></h3>\n</h3>",
+        "subtitle": "",
+        "text": "<p>La recherche scientifique est complexe et évolutive. Nous en tenons compte en classant chaque ingrédient sur la base d'un examen des recherches existantes. Nos critères d'évaluation comprennent le nombre d'études, la cohérence des résultats, l'ampleur des résultats et les caractéristiques de la méthodologie. </p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-primary",
+        "button_size": "",
+        "mb_image": "shopify://shop_images/bloc_color_main_color_mobile.png",
+        "use_content_above": true,
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "1644038712524e59f6": {
+      "type": "image-with-text",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "container": "container",
+        "background_color": "rgba(0,0,0,0)",
+        "item_gap": 100,
+        "item_gap_mobile": 30,
+        "image": "shopify://shop_images/Nous-promettons-d_etre-transparents.jpg",
+        "link": "shopify://products/harmonie-daily",
+        "layout": "left",
+        "image_column_size": "6",
+        "hover_effect": false,
+        "title": "Nous promettons d'être transparents",
+        "sub_title": "",
+        "text": "<p>Vous méritez de savoir ce que contiennent les compléments que vous prenez. La transparence signifie être honnête sur nos pratiques d'approvisionnement et notre chaîne d'approvisionnement. Et nous vous promettons que ce qui est imprimé sur nos étiquettes correspond à ce que contient notre produit.</p>",
+        "text_size": "medium",
+        "content_alignment": "left",
+        "button_label": "Découvrir nos cures",
+        "button_link": "shopify://collections/shopall",
+        "button_style": "sf__btn-primary",
+        "button_size": "sf__btn-large",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "164374236017313845": {
+      "type": "icon-box",
+      "blocks": {
+        "1643742359da214ce5-0": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify://shop_images/formule_par_des_experts.png",
+            "image_by_url": "",
+            "title": "Traçabilité des ingrédients",
+            "description": "<p>Notre équipe de recherche et développement a parcouru le monde entier pour nouer des relations avec des agriculteurs et des fournisseurs aussi attachés que nous à la qualité, aux méthodes de récolte éthiques et à la durabilité. Nous attachons une grande importance à l'approvisionnement, car la qualité des ingrédients influe sur leur efficacité et leur biodisponibilité.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        },
+        "1643742359da214ce5-1": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify://shop_images/Naturel_et_sur.png",
+            "image_by_url": "",
+            "title": "Contrôle rigoureux des ingrédients",
+            "description": "<p>Tous nos ingrédients sont testés trois fois tout au long de notre chaîne d'approvisionnement. Une fois, lorsque nous recevons les ingrédients, une autre fois pendant la fabrication, et d'autres tests sur les produits finis. Cette approche garantit que nos produits répondent à des spécifications rigoureuses et qu'ils sont sûrs. Toutes les matières premières et tous les produits finis sont contrôlés au Royaume-Uni</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        },
+        "1643742359da214ce5-2": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify://shop_images/Formules_hautement_techniques.png",
+            "image_by_url": "",
+            "title": "Formules hautement techniques",
+            "description": "<p>L’innovation et les avancées scientifiques en micronutrition et en phytonutrition sont le moteur de nos formules, au service de votre bien-être. La technicité de nos produits est un pilier de notre entreprise, notre « signature ».  Savamment combinés et dosés, les ingrédients apportent à votre corps les actifs et nutriments essentiels à son bon fonctionnement pendant la ménopause.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "1643742359da214ce5-0",
+        "1643742359da214ce5-1",
+        "1643742359da214ce5-2"
+      ],
+      "settings": {
+        "heading": "Des compléments formulés avec le plus grand soin",
+        "subheading": "",
+        "description": "En suivant les dernières avancées scientifiques, nous sélectionnons chaque ingrédient pour garantir une qualité et une efficacité maximales.",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "#f6f3ea",
+        "item_per_row": 3,
+        "item_gap": 30,
+        "item_gap_mobile": 10,
+        "card_style": "vertical",
+        "image_max_width": "70px",
+        "content_alignment": "start",
+        "hover_effect": "none",
+        "enable_slider": true,
+        "show_pagination": true,
+        "show_navigation": true,
+        "use_scroll_mobile": true,
+        "use_grid_column_mb": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__index-icon-box-1",
+        "animations": "inherit"
+      }
+    },
+    "16577084632fcc6484": {
+      "type": "custom-content",
+      "blocks": {
+        "97605e6e-eae9-4700-9c39-496c83182d86": {
+          "type": "product",
+          "settings": {
+            "product": "iconique-collagen",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "869884a8-4716-4260-8fdc-d8dc53f2ff41": {
+          "type": "product",
+          "settings": {
+            "product": "harmonie-daily",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "8993bdf5-db9f-41e3-8514-fedbf875717b": {
+          "type": "product",
+          "settings": {
+            "product": "ohlala",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "97605e6e-eae9-4700-9c39-496c83182d86",
+        "869884a8-4716-4260-8fdc-d8dc53f2ff41",
+        "8993bdf5-db9f-41e3-8514-fedbf875717b"
+      ],
+      "settings": {
+        "heading": "Affrontez les évolutions hormonales sans craintes avec nos cures expertes.",
+        "subheading": "",
+        "description": "Atteignez vos objectifs en matière de bien-être et de qualité de vie avec nos solutions nutritionnelles complètes. Nos complexes d’actifs ciblent et neutralisent les symptômes visibles et invisibles de la ménopause.",
+        "header_alignment": "left",
+        "container": "container",
+        "background_color": "",
+        "gap": 100,
+        "use_scroll_mobile": true,
+        "gap_mobile": 30,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1643628125203c0c70",
+    "164373656382dd72eb",
+    "16468248722d50843c",
+    "16440385443eb0a703",
+    "164403860870131ba8",
+    "16440387799c96d8c2",
+    "1644038712524e59f6",
+    "164374236017313845",
+    "16577084632fcc6484"
+  ]
+}

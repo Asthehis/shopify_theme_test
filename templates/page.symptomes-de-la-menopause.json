@@ -1,0 +1,795 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1644040912908fc533": {
+      "type": "image-with-text-2",
+      "settings": {
+        "container": "w-full",
+        "hero_size": "medium",
+        "show_overlay": false,
+        "image": "shopify://shop_images/La-menopause-bouleverse-votre-vie..jpg",
+        "bg_position": "center",
+        "image_link": "",
+        "parallax": false,
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "white",
+        "title": "La ménopause bouleverse votre vie.",
+        "subtitle": "",
+        "text": "<p>Les femmes représentent 50 % de la population mondiale et chacune d'entre nous passera par la ménopause. Malheureusement, beaucoup trop d'entre nous le ferons sans avoir une compréhension complète ou même adéquate de ce qui arrive à notre corps pendant cette transition. La ménopause entraîne la fin des menstruations, mais il y a beaucoup plus à savoir sur ce parcours et ses implications à long terme sur la santé.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-primary",
+        "button_size": "",
+        "mb_image": "shopify://shop_images/C_est_plus_que_des_bouffees_de_chaleur-min.png",
+        "use_content_above": true,
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "16441293803438481b": {
+      "type": "image-with-text-2",
+      "settings": {
+        "container": "w-full",
+        "hero_size": "medium",
+        "show_overlay": false,
+        "image": "shopify://shop_images/gray-box-uma.png",
+        "bg_position": "center",
+        "image_link": "",
+        "parallax": false,
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "dark",
+        "title": "Qu’est-ce que la ménopause ?",
+        "subtitle": "",
+        "text": "<p>On entend souvent dire que les femmes sont \"en ménopause\". Cependant, officiellement, la ménopause est le terme qui désigne le moment où une femme n'a pas eu ses règles pendant 12 mois consécutifs. Cette simple définition ne reflète toutefois pas l'expérience en plusieurs phases, qui dure des années et qui marque la fin des années de fécondité d'une femme et le début d'une nouvelle étape de sa vie.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-primary",
+        "button_size": "",
+        "use_content_above": true,
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "164413075987448830": {
+      "type": "image-with-text-2",
+      "settings": {
+        "container": "w-full",
+        "hero_size": "medium",
+        "show_overlay": true,
+        "image": "shopify://shop_images/Qu_est-ce-que-la-menopause.jpg",
+        "bg_position": "center",
+        "image_link": "",
+        "parallax": false,
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "white",
+        "title": "",
+        "subtitle": "",
+        "text": "<p>Comme pour la puberté, les femmes atteignent officiellement la ménopause à des âges différents, le plus souvent entre 45 et 55 ans. La ménopause peut également être déclenchée par une intervention chirurgicale ou un traitement médical. Le cycle de la ménopause comporte trois phases : la périménopause, la ménopause et la postménopause, dont les symptômes et la durée diffèrent selon les femmes.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-primary",
+        "button_size": "",
+        "mb_image": "shopify://shop_images/Le_cycle_de_la_menopause-min.png",
+        "use_content_above": true,
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "164421387957b98a43": {
+      "type": "image-with-text-2",
+      "settings": {
+        "container": "w-full",
+        "hero_size": "medium",
+        "show_overlay": false,
+        "image": "shopify://shop_images/yellow-box-uma.png",
+        "bg_position": "center",
+        "image_link": "",
+        "parallax": false,
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "dark",
+        "title": "Périménopause",
+        "subtitle": "",
+        "text": "<p>C'est le cœur de l'histoire et le terme approprié pour désigner ce dont les gens parlent lorsqu'ils évoquent la ménopause. La périménopause est déclenchée lorsque les taux d'œstrogène et de progestérone commencent à fluctuer de façon erratique. Elle commence généralement dans la quarantaine, mais certaines personnes peuvent y entrer plus tôt ou plus tard.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-primary",
+        "button_size": "",
+        "mb_image": "shopify://shop_images/bloc_color_yellow_mobile.png",
+        "use_content_above": true,
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "1644220927560f49e8": {
+      "type": "custom-content",
+      "blocks": {
+        "7a3d298b-19f0-4bc4-93c8-698282aa8e98": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/menopause-quand-ca-s_arrete.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "1ec825f5-474a-46ff-bd54-978225505345": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"rte\">\n<div class=\"block__content-body\">\n<h3>Irrégularité des règles</h3>\n<p class=\"text-color-subtext\"> Pendant la périménopause, vos ovaires commencent à manquer d'ovules et à ralentir. Cela entraîne des fluctuations des hormones féminines œstrogènes et progestérone, qui peuvent à leur tour affecter vos règles. <br><br>Elles peuvent devenir irrégulières, plus abondantes, plus légères, plus courtes ou plus longues, ou certains mois ne pas avoir lieu du tout. Cela signifie également que certains mois vous pouvez ovuler, d'autres non, et parfois vous pouvez ovuler deux fois dans un cycle.</p>\n</div>\n<div class=\"block__content-body\">\n<h3>Symptômes de la périménopause</h3>\n<p class=\"text-color-subtext\"> Les altérations des règles sont souvent le premier signe de la périménopause, mais d'autres symptômes courants sont les bouffées de chaleur et les sautes d'humeur. Les symptômes peuvent se manifester par vagues et s'aggravent souvent avant les règles, lorsque le taux d'œstrogènes chute.</p>\n</div>\n</div>\n<div class=\"block__content-footer grid grid-cols-1\">\n<div class=\"block__item\">\n<h4>4 à 10 ans</h4>\n<p>La périménopause peut durer de 4 à 10 ans. C'est la phase pendant laquelle une femme éprouve la majorité des symptômes, surtout à l'approche de la ménopause.</p>\n</div>\n</div>",
+            "width": "50%",
+            "block_custom_class": "sf__index-custom-html",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "7a3d298b-19f0-4bc4-93c8-698282aa8e98",
+        "1ec825f5-474a-46ff-bd54-978225505345"
+      ],
+      "settings": {
+        "heading": "Que se passe-t-il à la périménopause ?",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "#f6f3ea",
+        "gap": 100,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__index-custom-content"
+      }
+    },
+    "16442209291c0ea8cd": {
+      "type": "image-with-text-2",
+      "settings": {
+        "container": "w-full",
+        "hero_size": "medium",
+        "show_overlay": false,
+        "image": "shopify://shop_images/blue-box-uma.png",
+        "bg_position": "center",
+        "image_link": "",
+        "parallax": false,
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "white",
+        "title": "Ménopause",
+        "subtitle": "",
+        "text": "<p>Une femme est officiellement ménopausée lorsqu'elle n'a pas eu ses règles pendant 12 mois consécutifs. Si les menstruations s'arrêtent pendant plusieurs mois et reprennent ensuite, le compte à rebours vers la ménopause recommence.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-primary",
+        "button_size": "",
+        "mb_image": "shopify://shop_images/bloc_color_blue_mobile.png",
+        "use_content_above": true,
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "1644225458b141a011": {
+      "type": "custom-content",
+      "blocks": {
+        "021db852-bcc2-4411-927d-7d1cdee3646f": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"rte\">\n<div class=\"block__content-body\">\n<h3>La fin de vos règles</h3>\n<p class=\"text-color-subtext\">Vous avez donc officiellement atteint la ménopause, ce qui met un terme définitif à vos règles. Pouvez-vous aussi dire adieu à vos symptômes ? <br><br>On pourrait penser que les choses commencent à se stabiliser après 12 mois sans saignement, mais ce n'est malheureusement pas toujours le cas. Comme pour tout ce qui concerne la ménopause, ce qui se passe ensuite vous est complètement propre.</p>\n</div>\n<div class=\"block__content-body\">\n<h3> Les symptômes s'atténuent</h3>\n<p class=\"text-color-subtext\"> Pour certaines, le corps s'est adapté à ces nouvelles baisses hormonales et les symptômes s'atténuent avec le temps, jusqu'à ce qu'elles soient complètement soulagées.\n<br><br>Pour d'autres, les symptômes continueront pendant un certain temps encore. Ils peuvent s'intensifier et de nouveaux symptômes peuvent même apparaître.\nQuoi qu'il arrive, nous sommes là pour vous aider à mieux vivre votre ménopause.\n</p>\n</div>\n</div>\n<div class=\"block__content-footer grid grid-cols-1\">\n<div class=\"block__item\">\n<h4>51 ans</h4>\n<p>L'âge moyen de la ménopause est de 51 ans. En moyenne, les femmes noires et latines entrent en ménopause deux ans plus tôt que les femmes blanches et asiatiques.</p>\n</div>\n</div>",
+            "width": "50%",
+            "block_custom_class": "sf__index-custom-html",
+            "animations": "inherit"
+          }
+        },
+        "16442254577616baaf-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/menopause-que-se-passe-t-il-dans-le-corps.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "021db852-bcc2-4411-927d-7d1cdee3646f",
+        "16442254577616baaf-1"
+      ],
+      "settings": {
+        "heading": "Que se passe-t-il à la ménopause ?",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "#f6f3ea",
+        "gap": 100,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__index-custom-content"
+      }
+    },
+    "16442254616239dea1": {
+      "type": "image-with-text-2",
+      "settings": {
+        "container": "w-full",
+        "hero_size": "medium",
+        "show_overlay": false,
+        "image": "shopify://shop_images/yellow-box-uma.png",
+        "bg_position": "center",
+        "image_link": "",
+        "parallax": false,
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "dark",
+        "title": "Postménopause",
+        "subtitle": "",
+        "text": "<p>La postménopause est une étape importante qui, comme toutes les étapes de la vie, comporte des avantages et des inconvénients. La période qui suit la ménopause. Pour la plupart des femmes, les symptômes s'atténuent généralement.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-primary",
+        "button_size": "",
+        "mb_image": "shopify://shop_images/bloc_color_yellow_mobile.png",
+        "use_content_above": true,
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "1644232518e3222cd2": {
+      "type": "custom-content",
+      "blocks": {
+        "16442325182e97e00b-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/post-menopause-et-prise-de-poids.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "afd3cfc9-4202-4881-8d14-8601b3af83de": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"rte\">\n<div class=\"block__content-body\">\n<h3>Au revoir les symptômes ?</h3>\n<p class=\"text-color-subtext\"> D'une part, vous n'avez plus à faire face à des règles pénibles ni à vous préoccuper d'une grossesse non désirée. <br><br>D'autre part, la postménopause peut entraîner de nouveaux problèmes de santé, dont certains font partie du processus de vieillissement naturel, comme l'ostéoporose ou les maladies cardiaques.</p>\n</div>\n<div class=\"block__content-body\">\n<h3>Et maintenant ?</h3>\n<p class=\"text-color-subtext\"> La bonne nouvelle ? Il y a encore beaucoup de vie à vivre ! Mais il est toujours important de penser à sa santé. <br><br>Qu'il s'agisse de contrôler les symptômes persistants de la ménopause ou de prendre soin de son mode de vie : arrêter de fumer, réduire sa consommation d'alcool, faire de l'exercice régulièrement et bien manger.\n<br><br>Nous ne disons pas que c'est facile, mais il existe de nombreux soutiens disponibles pour vous aider.\n</p>\n</div>\n</div>\n<div class=\"block__content-footer grid grid-cols-1\">\n<div class=\"block__item\">\n<h4>30 ans</h4>\n<p>La plupart des femmes vivent en moyenne 30 ans après avoir atteint la ménopause, et beaucoup d'entre elles déclarent que c'est la période la plus heureuse de leur vie.</p>\n</div>\n</div>",
+            "width": "50%",
+            "block_custom_class": "sf__index-custom-html",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "16442325182e97e00b-1",
+        "afd3cfc9-4202-4881-8d14-8601b3af83de"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "#f6f3ea",
+        "gap": 100,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__index-custom-content"
+      }
+    },
+    "16442325218c744363": {
+      "type": "image-with-text-2",
+      "settings": {
+        "container": "w-full",
+        "hero_size": "large",
+        "show_overlay": false,
+        "image": "shopify://shop_images/blue-box-uma.png",
+        "bg_position": "center",
+        "image_link": "",
+        "parallax": false,
+        "content_in_container": true,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "white",
+        "title": "Les symptômes ne se limitent pas aux bouffées de chaleur.",
+        "subtitle": "",
+        "text": "<p>Les symptômes de la ménopause se répartissent en quatre catégories principales : physique, cognitif, émotionnel et génito-urinaire (GSM). Vous pouvez ressentir certains ou aucun de ces symptômes au cours des trois phases de la ménopause. Quelle que soit votre expérience, il est important de vous renseigner sur les répercussions de la ménopause sur la santé physique et psychologique.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-primary",
+        "button_size": "",
+        "mb_image": "shopify://shop_images/bloc_color_blue_mobile.png",
+        "use_content_above": true,
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "1644241193014bb105": {
+      "type": "icon-box",
+      "blocks": {
+        "1644241193f31f1617-0": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify://shop_images/Perte_de_Libido.png",
+            "image_by_url": "",
+            "title": "Perte de libido",
+            "description": "<p>Ne laissons pas la baisse de libido, fréquente à la ménopause, rester dans l’ombre. Souvent liée au déclin des œstrogènes et de la progestérone, elle affecte le désir et le bien-être émotionnel. Abordons ce sujet avec franchise et agissons pour retrouver équilibre et vitalité.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        },
+        "1644241193f31f1617-1": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify://shop_images/Irregularite_des_regles.png",
+            "image_by_url": "",
+            "title": "Règles irrégulières",
+            "description": "<p>Les changements de règles signalent souvent la périménopause. Chaque femme la vit différemment : le flux peut être abondant, léger, ou même irrégulier, avec des mois sans règles. Quand les saignements cessent puis reprennent, le compte à rebours vers la ménopause recommence.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        },
+        "1644241193f31f1617-2": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify://shop_images/Anxiete.png",
+            "image_by_url": "",
+            "title": "Anxiété et dépression",
+            "description": "<p>Autrefois, vous releviez tous les défis ; aujourd'hui, même les tracas insignifiants vous submergent. Irritabilité, agitation et panique témoignent d'une réaction plus profonde que le simple stress. L'épuisement et la tension s'installent : il est temps de repenser votre équilibre.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        },
+        "f7e69fd1-64bf-42f4-9465-3b74813142b8": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify://shop_images/Difficulte_a_se_concentrer.png",
+            "image_by_url": "",
+            "title": "Difficulté à se concentrer",
+            "description": "<p>Vous vous sentez étourdie et confuse, oubliant même des informations simples. La concentration faiblit, surtout au travail, et les mots essentiels semblent s'échapper. Vous vous demandez : « Qu'est-ce qui ne va chez moi ? » et regrettez l'ancienne vous. Sachez que de nombreuses femmes ménopausées ressentent la même chose.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        },
+        "2d1719b8-5fc9-4454-bfca-9f45a26c3093": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify://shop_images/infections_urinaires.png",
+            "image_by_url": "",
+            "title": "Infections urinaires",
+            "description": "<p>Les infections urinaires provoquent des brûlures à la miction, une envie fréquente d'uriner et altèrent l'odeur ou la couleur de l'urine, parfois avec crampes, fièvre ou nausées. Pendant la ménopause, la baisse d’œstrogènes dérègle la flore et amincit les tissus vaginaux. Consultez votre médecin si ces symptômes apparaissent.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        },
+        "fd0ccab9-6630-4283-a148-7f9995a4a839": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify://shop_images/Bouffees_de_chaleur.png",
+            "image_by_url": "",
+            "title": "Bouffées de chaleur",
+            "description": "<p>Les bouffées de chaleur se traduisent par une montée soudaine de chaleur dans la poitrine, le cou ou le visage, durant de 30 secondes à plusieurs minutes. Le visage s'empourpre, le cœur s'accélère et la transpiration est abondante. Lorsqu'elles surviennent la nuit, on parle de sueurs nocturnes, un symptôme vasomoteur (SVM).</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        },
+        "c8647755-0363-431f-ad59-ace561dad68a": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify://shop_images/Prise_de_poids.png",
+            "image_by_url": "",
+            "title": "Prise de poids",
+            "description": "<p>Pendant la transition ménopausique, de nombreuses femmes constatent une prise de poids, surtout au niveau de l'abdomen et des cuisses, transformant leur silhouette en un profil plus \"pomme\" que \"sablier\". Outre les hormones, le vieillissement, la génétique et le mode de vie jouent également un rôle.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        },
+        "4b42d490-4dfc-4970-8c2b-3136143fe8b7": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify://shop_images/Troubles_du_sommeil.png",
+            "image_by_url": "",
+            "title": "Troubles du sommeil",
+            "description": "<p>Pendant la périménopause, s'endormir devient difficile et les réveils fréquents perturbent le sommeil. Plus de la moitié des femmes en souffrent, souvent à cause d'un dérèglement de la température corporelle. Ce sommeil fragmenté peut entraîner des fluctuations d'humeur qui aggravent ces troubles.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        },
+        "9dbba71e-470e-49b9-93a2-5e11dc677283": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify://shop_images/Relations_sexuelles_douloureuses.png",
+            "image_by_url": "",
+            "title": "Relations sexuelles douloureuses",
+            "description": "<p>La baisse d'œstrogènes amincit la paroi vaginale, la rendant sèche et moins souple, ce qui peut provoquer des douleurs lors des rapports. Environ 25 % des femmes ménopausées ressentent cette dyspareunie, qui affecte corps et esprit. Parlez-en à un spécialiste de la ménopause.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        },
+        "efa37dee-efc7-4328-acfc-0197f49b5bd3": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify://shop_images/Palpitations_cardiaques.png",
+            "image_by_url": "",
+            "title": "Palpitations cardiaques",
+            "description": "<p>Votre cœur peut palpiter ou sauter un battement. Les fluctuations hormonales peuvent augmenter votre rythme de 16 battements/min et provoquer des bouffées de chaleur. Bien que fréquentes en ménopause, ces palpitations peuvent signaler d'autres risques. Consultez votre médecin si elles persistent.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        },
+        "18d4f0d4-e3a2-4155-a01f-d2b6383621cb": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify://shop_images/Douleurs_articulaires.png",
+            "image_by_url": "",
+            "title": "Douleurs articulaires",
+            "description": "<p>Les douleurs, la chaleur et les gonflements dans le cou, le dos et les articulations sont fréquents pendant la transition ménopausique. Environ 50 % des femmes périménopausées signalent des douleurs articulaires, souvent accompagnées d'une raideur matinale due à la baisse d’œstrogènes, hormones qui réduisent l'inflammation.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        },
+        "a5e44094-fc02-4196-976a-dbae09f5e131": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify://shop_images/Irritabilite.png",
+            "image_by_url": "",
+            "title": "Irritabilité",
+            "description": "<p>Votre patience disparaît, et vous vous emportez pour le moindre détail. L'irritabilité, symptôme le plus fréquent des femmes périménopausées, est souvent due aux fluctuations hormonales. Ne vous en voulez pas : vous n'êtes pas seule.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "1644241193f31f1617-0",
+        "1644241193f31f1617-1",
+        "1644241193f31f1617-2",
+        "f7e69fd1-64bf-42f4-9465-3b74813142b8",
+        "2d1719b8-5fc9-4454-bfca-9f45a26c3093",
+        "fd0ccab9-6630-4283-a148-7f9995a4a839",
+        "c8647755-0363-431f-ad59-ace561dad68a",
+        "4b42d490-4dfc-4970-8c2b-3136143fe8b7",
+        "9dbba71e-470e-49b9-93a2-5e11dc677283",
+        "efa37dee-efc7-4328-acfc-0197f49b5bd3",
+        "18d4f0d4-e3a2-4155-a01f-d2b6383621cb",
+        "a5e44094-fc02-4196-976a-dbae09f5e131"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "left",
+        "container": "container",
+        "background_color": "#f6f3ea",
+        "item_per_row": 2,
+        "item_gap": 30,
+        "item_gap_mobile": 10,
+        "card_style": "vertical",
+        "image_max_width": "50px",
+        "content_alignment": "center",
+        "hover_effect": "none",
+        "enable_slider": true,
+        "show_pagination": false,
+        "show_navigation": true,
+        "use_scroll_mobile": true,
+        "use_grid_column_mb": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__index-icon-box-1",
+        "animations": "inherit"
+      }
+    },
+    "164424905164f109ca": {
+      "type": "image-with-text-2",
+      "settings": {
+        "container": "w-full",
+        "hero_size": "medium",
+        "show_overlay": true,
+        "image": "shopify://shop_images/Variations-hormonales.jpg",
+        "bg_position": "center",
+        "image_link": "",
+        "parallax": false,
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "white",
+        "title": "La ménopause est une expérience différente pour chaque femme.",
+        "subtitle": "",
+        "text": "<p>Certaines souffrent de symptômes multiples et graves, tandis que d'autres vivent une transition en douceur. Mais une chose est sûre : La ménopause ne se résume pas à des bouffées de chaleur et ne se manifeste pas du jour au lendemain. Aux symptômes physiques, émotionnels et cognitifs possibles s'ajoutent les implications sociétales et professionnelles pour les femmes ménopausées.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-primary",
+        "button_size": "",
+        "mb_image": "shopify://shop_images/Variations_hormonales-min.png",
+        "use_content_above": true,
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "16442504386e063112": {
+      "type": "icon-box",
+      "blocks": {
+        "164425043897f2112c-0": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify://shop_images/Symptomes_physiques.png",
+            "image_by_url": "",
+            "title": "Symptômes physiques",
+            "description": "<p>Sensibilité des seins<br/>Fatigue<br/>Peau sèche<br/>Perte de cheveux/changement de texture<br/>Maux de tête et/ou migraines<br/>Palpitations cardiaques<br/>Bouffées de chaleur (vasomotrices)<br/>Sueurs nocturnes (vasomotrices)<br/>Douleurs articulaires<br/>Changements de règles<br/>Troubles du sommeil<br/>Prise de poids</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        },
+        "164425043897f2112c-2": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify://shop_images/Symptomes_cognitifs.png",
+            "image_by_url": "",
+            "title": "Symptômes cognitifs",
+            "description": "<p>Brouillard cérébral <br/>Trouble de mémoire<br/>Altération de la mémoire à court terme<br/>Incapacité à se concentrer<br/>Inattention<br/>Difficulté à retrouver les mots</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        },
+        "4c97945a-b251-4861-b138-1d2800df2d11": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify://shop_images/Symptomes_lies_a_l_humeur.png",
+            "image_by_url": "",
+            "title": "Symptômes liés à l'humeur",
+            "description": "<p>Anxiété (inquiétude accrue)<br/>Difficulté à se concentrer<br/>Sentiment de ne pas être soi-même<br/>Impatience<br/>Irritabilité<br/>Manque de motivation ou d'énergie<br/>Sautes d'humeur<br/>Problèmes de sommeil<br/>Larmoiement</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        },
+        "164425043897f2112c-1": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify://shop_images/Syndrome_genito-urinaire_de_la_menopause_GSM.png",
+            "image_by_url": "",
+            "title": "Syndrome génito-urinaire <br>de la ménopause (GSM)",
+            "description": "<p>Libido faible (manque de libido)<br/>Rapports sexuels douloureux<br/>Incontinence urinaire<br/>Fuites urinaires<br/>Infections des voies urinaires (IVU)<br/>Sécheresse vaginale/vulve<br/>Fréquence et urgence urinaires</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "164425043897f2112c-0",
+        "164425043897f2112c-2",
+        "4c97945a-b251-4861-b138-1d2800df2d11",
+        "164425043897f2112c-1"
+      ],
+      "settings": {
+        "heading": "Tous les symptômes de la ménopause",
+        "subheading": "",
+        "description": "12 millions de femmes sont en périménopause, en ménopause ou en postménopause en France et chaque année, 400 000 femmes de plus atteignent la ménopause.",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "#f6f3ea",
+        "item_per_row": 2,
+        "item_gap": 30,
+        "item_gap_mobile": 10,
+        "card_style": "vertical",
+        "image_max_width": "70px",
+        "content_alignment": "center",
+        "hover_effect": "none",
+        "enable_slider": false,
+        "show_pagination": false,
+        "show_navigation": false,
+        "use_scroll_mobile": false,
+        "use_grid_column_mb": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__index-icon-box-1",
+        "animations": "inherit"
+      }
+    },
+    "16443196069ed7d803": {
+      "type": "custom-content",
+      "blocks": {
+        "1644319606af4f25bb-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/chaleur-menopause-quoi-faire.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "2ab695c7-0c17-44ae-a6fa-b76d2c056002": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"rte\">\n<div class=\"block__content-header\">\n<h2 class=\"section__heading\"> Après la cure Harmonie Daily\n</h2>\n<p class=\"text-color-subtext\">Les Laboratoire üma® recueillent actuellement des données de suivi auprès de plus de 400 de ses clientes sur l'amélioration de leurs symptômes après le début de leur cure Harmonie Daily.</p>\n</div>\n<div class=\"block__content-footer grid grid-cols-1\">\n<div class=\"block__item\">\n<h3>Fluctuations du poids</h3>\n<p>63% de réduction dès le 3e mois.<br><br></p>\n</div>\n<div class=\"block__item\">\n<h3>Troubles du sommeil. </h3>\n<p>67% de réduction dès le 3ème mois, 79% au 4ème mois.<br><br></p>\n</div>\n<div class=\"block__item\">\n<h3>Bouffées de chaleurs </h3>\n<p>82% de réductions dès le 3ème mois, 92% au 4ème mois. <br><br></p>\n</div>\n<div class=\"block__item\">\n<h3>Rapports sexuelles douloureux </h3>\n<p>73% d’amélioration dès le 3ème mois.<br><br></p>\n</div>\n<div class=\"block__item\">\n<h3>Difficulté à se concentrer </h3>\n<p>55% d’amélioration dès le 3ème mois, 66% au 4ème mois.<br><br></p>\n</div>\n<div class=\"block__item\">\n<h3>Altération de la peau et des cheveux </h3>\n<p>75% d’amélioration dès le 1er mois, 84% au 3ème mois.</p>\n</div>\n</div>\n</div>",
+            "width": "50%",
+            "block_custom_class": "sf__index-custom-html",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "1644319606af4f25bb-1",
+        "2ab695c7-0c17-44ae-a6fa-b76d2c056002"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "gap": 100,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__index-custom-content"
+      }
+    },
+    "16443190743621924f": {
+      "type": "custom-content",
+      "blocks": {
+        "fe5b86eb-9038-4119-aec8-d577a2c74e00": {
+          "type": "product",
+          "settings": {
+            "product": "iconique-collagen",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "99042f9e-85aa-46a3-9f82-2a0d29f5c4e7": {
+          "type": "product",
+          "settings": {
+            "product": "harmonie-daily",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "a0e525b1-feb1-4c4b-88cc-0e8390944da4": {
+          "type": "product",
+          "settings": {
+            "product": "ohlala",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "fe5b86eb-9038-4119-aec8-d577a2c74e00",
+        "99042f9e-85aa-46a3-9f82-2a0d29f5c4e7",
+        "a0e525b1-feb1-4c4b-88cc-0e8390944da4"
+      ],
+      "settings": {
+        "heading": "Nous sommes là tout au long du voyage",
+        "subheading": "",
+        "description": "Ce que vous vivez pendant la périménopause et la ménopause peut avoir un impact sur le reste de votre vie. Notre mission est de vous aider à vivre plus longtemps et en meilleure santé avec des solutions naturelles, sûres et efficaces.",
+        "header_alignment": "left",
+        "container": "container",
+        "background_color": "#f6f3ea",
+        "gap": 100,
+        "use_scroll_mobile": true,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1644040912908fc533",
+    "16441293803438481b",
+    "164413075987448830",
+    "164421387957b98a43",
+    "1644220927560f49e8",
+    "16442209291c0ea8cd",
+    "1644225458b141a011",
+    "16442254616239dea1",
+    "1644232518e3222cd2",
+    "16442325218c744363",
+    "1644241193014bb105",
+    "164424905164f109ca",
+    "16442504386e063112",
+    "16443196069ed7d803",
+    "16443190743621924f"
+  ]
+}

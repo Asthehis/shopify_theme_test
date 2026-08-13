@@ -1,0 +1,197 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "7e5facd3-eddd-4042-a2e6-7b08eb684828": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"product-form-1\"></div>",
+        "custom_class": ""
+      }
+    },
+    "main": {
+      "type": "cart-template",
+      "settings": {}
+    },
+    "17586122484e0c9cea": {
+      "type": "apps",
+      "blocks": {
+        "px_trust_badges_icons_app_block_D48CHj": {
+          "type": "shopify://apps/px-trust-badges-icons/blocks/app-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+          "settings": {
+            "block_id": "e0aca73e-189c-4b40-aaca-cde430b49505",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "spacing_left": 0,
+            "spacing_right": 0
+          }
+        }
+      },
+      "block_order": [
+        "px_trust_badges_icons_app_block_D48CHj"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "c8ba744c-4161-4ac9-ba6f-74f99d99eaba": {
+      "type": "testimonials",
+      "blocks": {
+        "template--19174726041941__c8ba744c-4161-4ac9-ba6f-74f99d99eaba-testimonial-1": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Cela fonctionne vraiment !",
+            "description": "<p>Avant Harmonie, j'avais plusieurs dizaines de bouffées de chaleur jour et nuit, même après avoir utilisé Manhaé pendant deux mois. Je n'avais pas eu de nuit de sommeil complète depuis des mois. </p>",
+            "footer": "<p>Nadine D.</p>",
+            "image_text": "",
+            "image_link": "",
+            "product": "harmonie-daily"
+          }
+        },
+        "template--19174726041941__c8ba744c-4161-4ac9-ba6f-74f99d99eaba-testimonial-2": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Produit qui gagne à être connu !!",
+            "description": "<p>Essayé par les conseils d’une amie !  Après 2 semaines d'utilisation, les effets sont bluffants : jambes moins lourdes et moins flotteuses, gonflements et douleurs mammaires fortement diminués. </p>",
+            "footer": "<p>Caroline A.</p>",
+            "image_text": "",
+            "image_link": "",
+            "product": "harmonie-daily"
+          }
+        },
+        "template--19174726041941__c8ba744c-4161-4ac9-ba6f-74f99d99eaba-testimonial-3": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Heureuse des mes cheveux et ongles !",
+            "description": "<p>J'ai très clairement remarqué une différence dans mes cheveux et mes ongles depuis que je prends Iconique Collagène. Pendant des années, j'ai eu du mal à faire pousser mes ongles, mais maintenant, je dois les couper toutes les semaines. C'est un miracle !</p>",
+            "footer": "<p>Delphine J.</p>",
+            "image_text": "",
+            "image_link": "",
+            "product": "iconique-collagen"
+          }
+        },
+        "template--19174726041941__c8ba744c-4161-4ac9-ba6f-74f99d99eaba-testimonial-4": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Fonctionne très bien",
+            "description": "<p>J’ai perdu pratiquement 4 kilos en 15 jours en continu avec mon sport et mon régime alimentaire !<br/>Je stagnais depuis plusieurs semaines et dès que j’ai commencé a prendre ce brûleur je suis descendu niveau poids sur la balance .<br/>Je répète que je l’utilise en complément de mon sport quotidien et d’une alimentation équilibrée sans écarts.</p>",
+            "footer": "<p>Sophie</p>",
+            "image_text": "",
+            "image_link": "",
+            "product": "ohlala"
+          }
+        },
+        "template--19174726041941__c8ba744c-4161-4ac9-ba6f-74f99d99eaba-testimonial-5": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Ma peau rajeunit !",
+            "description": "<p>Excellent produit ! Peau raffermie, ongles plus robustes, bref j'adore le prendre tous les matins... Meilleurs que celui que je prenais à la pharmacie.</p>",
+            "footer": "<p>Alexandra P.</p>",
+            "image_text": "",
+            "image_link": "",
+            "product": "iconique-collagen"
+          }
+        },
+        "template--19174726041941__c8ba744c-4161-4ac9-ba6f-74f99d99eaba-testimonial-6": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Au top",
+            "description": "<p>Brûleur de graisse qui fonctionne avec une alimentation saine et quelque cours de sport!. J'ai perdu 6 kilos en 1 mois ça coupe vraiment la faim. Je vais recommander ma 2eme pour continuer!</p>",
+            "footer": "<p>Barbara</p>",
+            "image_text": "",
+            "image_link": "",
+            "product": "ohlala"
+          }
+        }
+      },
+      "block_order": [
+        "template--19174726041941__c8ba744c-4161-4ac9-ba6f-74f99d99eaba-testimonial-1",
+        "template--19174726041941__c8ba744c-4161-4ac9-ba6f-74f99d99eaba-testimonial-2",
+        "template--19174726041941__c8ba744c-4161-4ac9-ba6f-74f99d99eaba-testimonial-3",
+        "template--19174726041941__c8ba744c-4161-4ac9-ba6f-74f99d99eaba-testimonial-4",
+        "template--19174726041941__c8ba744c-4161-4ac9-ba6f-74f99d99eaba-testimonial-5",
+        "template--19174726041941__c8ba744c-4161-4ac9-ba6f-74f99d99eaba-testimonial-6"
+      ],
+      "settings": {
+        "heading": "Ce sont nos clientes qui en parlent le mieux",
+        "subheading": "REJOIGNEZ LES 65 000 FEMMES QUI NOUS FONT CONFIANCE",
+        "description": "",
+        "header_alignment": "center",
+        "container": "w-full",
+        "background_color": "#f6f3ea",
+        "design": "testimonials-6",
+        "show_stars": true,
+        "autorotate": false,
+        "show_navigation": true,
+        "show_pagination": true,
+        "star_color": "#ffc107",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "8d290de6-3abd-4ce5-994e-ecb0cdedc95f": {
+      "type": "custom-content",
+      "blocks": {
+        "template--19174726041941__8d290de6-3abd-4ce5-994e-ecb0cdedc95f-text-1": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "Finaliser ma commande",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "template--19174726041941__8d290de6-3abd-4ce5-994e-ecb0cdedc95f-text-1"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "#f6f3ea",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "7e5facd3-eddd-4042-a2e6-7b08eb684828",
+    "main",
+    "17586122484e0c9cea",
+    "c8ba744c-4161-4ac9-ba6f-74f99d99eaba",
+    "8d290de6-3abd-4ce5-994e-ecb0cdedc95f"
+  ]
+}

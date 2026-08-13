@@ -1,0 +1,55 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_2_jf6WQa": {
+      "type": "image-with-text-2",
+      "settings": {
+        "container": "w-full",
+        "hero_size": "small",
+        "show_overlay": true,
+        "image": "shopify://shop_images/Des-cures-pour-vous-sentir-bien-en-toute-confiance.png",
+        "bg_position": "center",
+        "image_link": "",
+        "parallax": false,
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "white",
+        "title": "Nos produits phares",
+        "subtitle": "",
+        "text": "<p>Ce que vous vivez pendant la périménopause et la ménopause peut avoir un impact sur le reste de votre vie. Notre mission est de vous aider à vivre plus longtemps et en meilleure santé avec des solutions naturelles, sûres et efficaces.</p>",
+        "button_label": "Découvrir nos cures",
+        "button_link": "shopify://collections/shopall",
+        "button_style": "sf__btn-primary",
+        "button_size": "sf__btn-large",
+        "use_content_above": false,
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "main": {
+      "type": "collection-list-template",
+      "disabled": true,
+      "settings": {
+        "container": "container-fluid",
+        "display_type": "selected",
+        "title": "Nos produits phares",
+        "description": "<p>Ce que vous vivez pendant la périménopause et la ménopause peut avoir un impact sur le reste de votre vie. Notre mission est de vous aider à vivre plus longtemps et en meilleure santé avec des solutions naturelles, sûres et efficaces.</p>"
+      }
+    }
+  },
+  "order": [
+    "image_with_text_2_jf6WQa",
+    "main"
+  ]
+}

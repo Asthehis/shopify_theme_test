@@ -1,0 +1,21 @@
+.corner-cowi-cart-item:has(.corner-cowi-cart-item-selling-plan) corner-price-text {
+	display:block !important;
+}
+
+div[id^="corner-cowi-cart-item-list-item-info-body-"]:has(.corner-cowi-cart-item-selling-plan) .corner-cowi-cart-item-qty {
+	display: flex !important;
+}
+
+.corner-cowi-cart-item-customise{
+	justify-content: 'space-between';
+	align-items: center
+	;
+}
+
+div[id^="corner-cowi-cart-item-list-item-info-body-"]:has(.corner-cowi-cart-item-selling-plan) .corner-cowi-cart-item-customise.flex.justify-between.mt-3  {
+	justify-content: space-between !important;
+}
+
+.corner-subscription-price-wrapper {
+	margin-left: 0px;
+}

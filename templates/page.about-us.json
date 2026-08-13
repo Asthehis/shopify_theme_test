@@ -1,0 +1,729 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page-about-us",
+      "disabled": true,
+      "settings": {}
+    },
+    "1643808783efb562d9": {
+      "type": "image-with-text-2",
+      "settings": {
+        "container": "container-fluid",
+        "hero_size": "large",
+        "show_overlay": true,
+        "image": "shopify://shop_images/notre-mission_95a135c3-c2d3-4ecd-8071-c600be9a069a.jpg",
+        "bg_position": "center",
+        "image_link": "",
+        "parallax": false,
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "white",
+        "title": "Notre mission est d'aider les femmes à vivre plus longtemps et en meilleure santé.",
+        "subtitle": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-primary",
+        "button_size": "",
+        "mb_image": "shopify://shop_images/Aider_les_femmes_a_vivre_plus_longtemps_et_en_meilleure_sante.png",
+        "use_content_above": true,
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "1646840411fc259dad": {
+      "type": "custom-content",
+      "blocks": {
+        "1646840411983eb442-0": {
+          "type": "text",
+          "settings": {
+            "title": "<h2>Nous sommes une entreprise indépendante</h2>",
+            "subheading": "",
+            "text": "<p>Nous sommes un laboratoire français indépendant entièrement dédié à la santé et au bien-être des femmes. Pionnière de la micronutrition et de la phytothérapie, nous formulons des compléments alimentaires naturels, sains, efficaces et sans hormone pour préserver votre qualité de vie pendant et après la ménopause. Nos formules concentrent le meilleur de la nature pour révéler le meilleur en vous. Elles associent les dernières innovations en phytothérapie et micronutrition, en adéquation avec notre vision holistique du bien-être. Nous voulons que vous soyez en parfaite harmonie, à l'intérieur comme à l'extérieur, afin que vous puissiez être là pour les moments qui comptent.</p>",
+            "width": "50%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "Découvrir nos cures",
+            "button_link": "shopify://collections/shopall",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "1646840411983eb442-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/laboratoire-francais.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "1646840411983eb442-0",
+        "1646840411983eb442-1"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "gap": 100,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "16438783267d57d3e4": {
+      "type": "image-with-text-2",
+      "settings": {
+        "container": "container-fluid",
+        "hero_size": "medium",
+        "show_overlay": false,
+        "image": "shopify://shop_images/gray-box-uma.png",
+        "bg_position": "center",
+        "image_link": "",
+        "parallax": false,
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "dark",
+        "title": "<h2 class=\"about__block-heading\">Nous croyons que les bons nutriments, au bon moment, peuvent faire la différence.</h2>",
+        "subtitle": "",
+        "text": "<p>Plus que des formules, nous créons des compléments intelligents capables de répondre aux besoins individuels de toutes les femmes. Découvrez notre gamme de compléments alimentaires saine et efficace qui répond aux besoins de votre corps. N'oubliez pas que vous n'êtes jamais seule ici.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-primary",
+        "button_size": "",
+        "mb_image": "shopify://shop_images/bloc_color_main_color_mobile.png",
+        "use_content_above": true,
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "1643808813e2beaa45": {
+      "type": "image-with-text",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "container": "container-fluid",
+        "background_color": "rgba(0,0,0,0)",
+        "item_gap": 100,
+        "item_gap_mobile": 30,
+        "image": "shopify://shop_images/formules-ultra-performantes.jpg",
+        "link": "",
+        "layout": "right",
+        "image_column_size": "6",
+        "hover_effect": false,
+        "title": "<h2>Haute performance</h2>",
+        "sub_title": "",
+        "text": "<p>Nos formules ultra performantes sont dosées avec précision pour apporter au quotidien juste ce qu’il faut d’actifs pour des résultats durables tout en prenant soin de votre organisme. Nos principes fondateurs : excellence, innovation, efficacité, sécurité, partenariat avec les professionnels de santé.</p>",
+        "text_size": "medium",
+        "content_alignment": "left",
+        "button_label": "Découvrir nos cures",
+        "button_link": "shopify://collections/shopall",
+        "button_style": "sf__btn-primary",
+        "button_size": "sf__btn-large",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "164380893567497d08": {
+      "type": "image-with-text-2",
+      "settings": {
+        "container": "container-fluid",
+        "hero_size": "medium",
+        "show_overlay": false,
+        "image": "shopify://shop_images/gray-box-uma.png",
+        "bg_position": "center",
+        "image_link": "",
+        "parallax": false,
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "dark",
+        "title": "<h2 class=\"about__block-heading\">Par une équipe de mères, de filles, de chercheurs, etc.</h2>",
+        "subtitle": "",
+        "text": "<p>Quel que soit son métier, chaque collaborateur est guidé par l’excellence. Chaque jour, nous sommes animés par la mission de contribuer à la santé et au bien-être des femmes. Chaque jour, nous œuvrons pour rester à la pointe de l’innovation et pour vous apporter le niveau d’exigence que vous méritez.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-primary",
+        "button_size": "",
+        "mb_image": "shopify://shop_images/bloc_color_main_color_mobile.png",
+        "use_content_above": true,
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "1643872704397937c9": {
+      "type": "image-with-text",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "container": "container-fluid",
+        "background_color": "rgba(0,0,0,0)",
+        "item_gap": 100,
+        "item_gap_mobile": 30,
+        "image": "shopify://shop_images/Passion_engagement_et_expertise.jpg",
+        "link": "",
+        "layout": "right",
+        "image_column_size": "6",
+        "hover_effect": false,
+        "title": "<h2>Passion, engagement et expertise</h2>",
+        "sub_title": "",
+        "text": "<p>Nous sommes entourés d'experts ayant plus de 30 ans d'expérience dans la formulation de compléments alimentaires et la recherche clinique. Notre conseil consultatif scientifique, composé de médecins, de nutritionnistes et de scientifiques, contribue à orienter notre réflexion sur les dernières recherches et innovations en matière de produits.</p>",
+        "text_size": "medium",
+        "content_alignment": "left",
+        "button_label": "Découvrir nos cures",
+        "button_link": "shopify://collections/shopall",
+        "button_style": "sf__btn-primary",
+        "button_size": "sf__btn-large",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "1643878457c8e7c259": {
+      "type": "image-with-text-2",
+      "settings": {
+        "container": "container-fluid",
+        "hero_size": "medium",
+        "show_overlay": false,
+        "image": "shopify://shop_images/gray-box-uma.png",
+        "bg_position": "center",
+        "image_link": "",
+        "parallax": false,
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "dark",
+        "title": "<h2 class=\"about__block-heading\">Traçabilité et transparence</h2>",
+        "subtitle": "",
+        "text": "<p>Pour nous, réimaginer des solutions naturelles et sans hormones pour accompagner les femmes pendant la ménopause a toujours été plus qu'une simple combinaison d'excellents ingrédients - il s'agit de travailler avec des entreprises qui se soucient autant que nous de leur chaîne d'approvisionnement. </p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-primary",
+        "button_size": "",
+        "mb_image": "shopify://shop_images/bloc_color_main_color_mobile.png",
+        "use_content_above": true,
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "16438964580b92100e": {
+      "type": "image-with-text-2",
+      "settings": {
+        "container": "container-fluid",
+        "hero_size": "medium",
+        "show_overlay": false,
+        "image": "shopify://shop_images/blue-box-uma_798e7c36-2c56-4b15-9444-4372b5f9c3e9.png",
+        "bg_position": "center",
+        "image_link": "",
+        "parallax": false,
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "white",
+        "title": "",
+        "subtitle": "",
+        "text": "<p>Nous avons travaillé sans relâche pour trouver les bons partenaires dans le monde entier avec les ingrédients qui répondent à nos normes de traçabilité. Au sein des Laboratoires üma®, la véritable transparence n'est pas seulement quelque chose d'imprimé sur une étiquette. Nous nous engageons à partager les choix que nous avons faits et qui ont un impact sur vous et sur la planète.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-primary",
+        "button_size": "",
+        "mb_image": "shopify://shop_images/blue_box_square.png",
+        "use_content_above": true,
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "16438727267b4aaf8a": {
+      "type": "image-with-text",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "container": "container-fluid",
+        "background_color": "rgba(0,0,0,0)",
+        "item_gap": 100,
+        "item_gap_mobile": 30,
+        "image": "shopify://shop_images/sharing_the_journey_behind_our_ingredients.png",
+        "link": "",
+        "layout": "left",
+        "image_column_size": "6",
+        "hover_effect": false,
+        "title": "<h2>Encapsuler la Science</h2>",
+        "sub_title": "",
+        "text": "<p>Nos formules s'appuient sur des évaluations cliniques de l’efficacité de nos ingrédients par des experts indépendants, ainsi que sur les résultats concrets des études menées au sein de notre communauté. Plus encore, notre communauté contribue à orienter la direction du développement de notre entreprise.</p>",
+        "text_size": "medium",
+        "content_alignment": "left",
+        "button_label": "Découvrir nos cures",
+        "button_link": "shopify://collections/shopall",
+        "button_style": "sf__btn-primary",
+        "button_size": "sf__btn-large",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "1646836162334b6908": {
+      "type": "image-with-text-2",
+      "settings": {
+        "container": "container-fluid",
+        "hero_size": "adapt",
+        "show_overlay": false,
+        "image": "shopify://shop_images/gray-box-uma.png",
+        "bg_position": "center",
+        "image_link": "",
+        "parallax": false,
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "dark",
+        "title": "<h2 class=\"about__block-heading\">Célébrer la vie à chaque âge, tout en protégeant la planète</h2>",
+        "subtitle": "",
+        "text": "<p>Nous estimons que l'environnement ne devrait jamais être compromis au nom du gain commercial. Chez Les Laboratoires üma, faire notre part pour protéger l'environnement et ses ressources va de pair avec nos normes de qualité.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-primary",
+        "button_size": "",
+        "mb_image": "shopify://shop_images/fond_card.png",
+        "use_content_above": true,
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "164683639297c2c027": {
+      "type": "custom-content",
+      "blocks": {
+        "1646836392353f8b98-0": {
+          "type": "text",
+          "settings": {
+            "title": "Développement durable et responsabilité",
+            "subheading": "",
+            "text": "<p>C'est en protégeant les ressources menacées que nous nous procurons des ingrédients d'une manière responsable et respectueuse de notre environnement. Nous mettons un point d'honneur à protéger les espèces végétales que nous utilisons dans nos produits. </p><p>Lorsque nous constatons que la biodiversité d'un ingrédient que nous utilisons est menacée ou que l'approvisionnement excessif diminue la qualité de la ressource disponible, nous arrêtons d'utiliser cet ingrédient dans nos formules.  </p><p>Nous proposons alors un alternatif au mécanisme d'action similaire, mais uniquement après nous être assurés que le nouvel ingrédient présente un niveau de qualité conforme à nos normes.<br/></p>",
+            "width": "50%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "1646836392353f8b98-1": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "a965b782-eca0-4470-bf1f-89b747a8ed51": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/complement_alimentaire_efficace_menopause.png",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "7bf0f105-afee-4ccc-9c17-522e755430d4": {
+          "type": "text",
+          "settings": {
+            "title": "<h2>Transparence totale sur toute notre chaîne logistique</h2>",
+            "subheading": "",
+            "text": "<p>Chez les Laboratoires üma, la véritable transparence ne se limite pas à une étiquette. Nous nous engageons à partager les choix que nous faisons et qui ont un impact sur vous et sur la planète. Vous méritez de savoir ce que contiennent les compléments alimentaires que vous prenez. La transparence exige que nous soyons honnêtes au sujet de nos pratiques en matière d'approvisionnement et de notre chaîne logistique. Parce que nous n'avons rien à cacher, nous vous disons d'où viennent tous nos produits. À chaque fois. Et nous vous promettons que ce qui est imprimé sur nos étiquettes correspond à ce que contient notre produit.</p>",
+            "width": "50%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "1646836392353f8b98-0",
+        "1646836392353f8b98-1",
+        "a965b782-eca0-4470-bf1f-89b747a8ed51",
+        "7bf0f105-afee-4ccc-9c17-522e755430d4"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "rgba(0,0,0,0)",
+        "gap": 100,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "eeaa977e-c9ab-4159-941a-d963dea1fe79": {
+      "type": "image-with-text",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "container": "container",
+        "background_color": "rgba(0,0,0,0)",
+        "item_gap": 100,
+        "item_gap_mobile": 30,
+        "image": "shopify://shop_images/Nous-promettons-d_etre-transparents.jpg",
+        "link": "",
+        "layout": "right",
+        "image_column_size": "6",
+        "hover_effect": false,
+        "title": "<h2>Développement durable et responsabilité<h2></h2>\n</h2>",
+        "sub_title": "",
+        "text": "<p>C'est en protégeant les ressources menacées que nous nous procurons des ingrédients d'une manière responsable et respectueuse de notre environnement. Nous mettons un point d'honneur à protéger les espèces végétales que nous utilisons dans nos produits. Lorsque nous constatons que la biodiversité d'un ingrédient que nous utilisons est menacée ou que l'approvisionnement excessif diminue la qualité de la ressource disponible, nous arrêtons d'utiliser cet ingrédient dans nos formules. Nous proposons alors un alternatif au mécanisme d'action similaire, mais uniquement après nous être assurés que le nouvel ingrédient présente un niveau de qualité conforme à nos normes.</p>",
+        "text_size": "medium",
+        "content_alignment": "left",
+        "button_label": "Découvrir nos cures",
+        "button_link": "shopify://collections/shopall",
+        "button_style": "sf__btn-primary",
+        "button_size": "sf__btn-large",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "8089113c-2ad0-4ab3-9576-01aa57abaa94": {
+      "type": "image-with-text",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "container": "container",
+        "background_color": "rgba(0,0,0,0)",
+        "item_gap": 100,
+        "item_gap_mobile": 30,
+        "image": "shopify://shop_images/Pour_vous_nous_elevons_les_standards_-min.png",
+        "link": "",
+        "layout": "left",
+        "image_column_size": "6",
+        "hover_effect": false,
+        "title": "<h2>Transparence totale sur toute notre chaîne logistique</h2>",
+        "sub_title": "",
+        "text": "<p>Chez les Laboratoires üma, la véritable transparence ne se limite pas à une étiquette. Nous nous engageons à partager les choix que nous faisons et qui ont un impact sur vous et sur la planète. Vous méritez de savoir ce que contiennent les compléments alimentaires que vous prenez. La transparence exige que nous soyons honnêtes au sujet de nos pratiques en matière d'approvisionnement et de notre chaîne logistique. Parce que nous n'avons rien à cacher, nous vous disons d'où viennent tous nos produits. À chaque fois. Et nous vous promettons que ce qui est imprimé sur nos étiquettes correspond à ce que contient notre produit.</p>",
+        "text_size": "medium",
+        "content_alignment": "left",
+        "button_label": "Découvrir nos cures",
+        "button_link": "shopify://collections/shopall",
+        "button_style": "sf__btn-primary",
+        "button_size": "sf__btn-large",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "1646837841983f0182": {
+      "type": "image-with-text-2",
+      "settings": {
+        "container": "container-fluid",
+        "hero_size": "large",
+        "show_overlay": false,
+        "image": "shopify://shop_images/gray-box-uma.png",
+        "bg_position": "center",
+        "image_link": "",
+        "parallax": false,
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "dark",
+        "title": "<h2 class=\"about__block-heading\">Diversité et inclusion</h2>",
+        "subtitle": "",
+        "text": "<p>Nous pensons que la diversité, sous toutes ses formes, est un moteur pour les nouvelles idées, la créativité et l'excellence. Nous pensons également que la diversité permet de bâtir les meilleures communautés. Et la communauté est au cœur de notre activité. Nous sommes une nouvelle entreprise dans un monde qui s'éveille enfin à l'injustice et à l'inégalité sociétales. Nous voulons mettre en action ce que nous avons dans le cœur.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-primary",
+        "button_size": "",
+        "mb_image": "shopify://shop_images/cream-box-square.png",
+        "use_content_above": true,
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "164683959121f9ff83": {
+      "type": "image-with-text-2",
+      "settings": {
+        "container": "container-fluid",
+        "hero_size": "large",
+        "show_overlay": false,
+        "image": "shopify://shop_images/blue_box_square.jpg",
+        "bg_position": "center",
+        "image_link": "",
+        "parallax": false,
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "white",
+        "title": "",
+        "subtitle": "",
+        "text": "<p>Nous voulons commencer par adopter le bon état d'esprit, en nous engageant à représenter et à augmenter le volume des voix de tous les horizons. Nous célébrerons la diversité dans les histoires que nous recherchons, les marques et les experts avec lesquels nous collaborons, les communautés que nous servons et les personnes que nous accueillons dans notre équipe à tous les niveaux.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-primary",
+        "button_size": "",
+        "use_content_above": true,
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "16438783641d950543": {
+      "type": "image-with-text",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "container": "container-fluid",
+        "background_color": "rgba(0,0,0,0)",
+        "item_gap": 100,
+        "item_gap_mobile": 30,
+        "image": "shopify://shop_images/diversity_and_inclusion.png",
+        "link": "",
+        "layout": "right",
+        "image_column_size": "6",
+        "hover_effect": false,
+        "title": "<h2>Une culture de la tolérance</h2>",
+        "sub_title": "",
+        "text": "<p>Nous construisons une culture qui s'oppose activement à l'intolérance, au sectarisme, aux préjugés et à la discrimination. En interne et dans les espaces que nous animons.</p><p>Mais le bon état d'esprit est aussi un état d'esprit d'apprentissage ; notre comité pour la diversité, l'équité et l'inclusion veillera à ce que nous appliquons les politiques d'amélioration continue, à faciliter le retour d'information et à écouter attentivement jusqu'à ce que le monde dans lequel nous vivons soit un monde que nous sommes fiers de transmettre aux générations futures.</p>",
+        "text_size": "medium",
+        "content_alignment": "left",
+        "button_label": "Découvrir nos cures",
+        "button_link": "shopify://collections/shopall",
+        "button_style": "sf__btn-primary",
+        "button_size": "sf__btn-large",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "16468366250361dd36": {
+      "type": "custom-content",
+      "blocks": {
+        "dadd3b99-fa3f-4960-983e-45f51230ea6a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/menopause-douleurs-articulaires.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "30fb2edc-b646-403b-abff-b2a6817ae3a5": {
+          "type": "image_card",
+          "settings": {
+            "width": "50%",
+            "content_position": "center_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/yellow_box_square_c218453d-5493-4963-9e6f-03623be19e1e.png",
+            "link": "shopify://collections/shopall",
+            "title": "",
+            "subtitle": "Nous sommes également une communauté prête à vous soutenir avec des conseils d'experts et des voix authentiques sur notre blog. Plus qu'une marque de compléments alimentaires, nous sommes un mouvement qui affirme que la féminité s'améliore avec l'âge.",
+            "button_label": "Découvrir nos cures",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "dadd3b99-fa3f-4960-983e-45f51230ea6a",
+        "30fb2edc-b646-403b-abff-b2a6817ae3a5"
+      ],
+      "settings": {
+        "heading": "Nous répondons à toutes vos questions",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "#f6f3ea",
+        "gap": 0,
+        "use_scroll_mobile": false,
+        "gap_mobile": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "db2ec78f-2a55-472e-9631-23f1290990ab": {
+      "type": "judgeme_carousel_section",
+      "disabled": true,
+      "settings": {
+        "maxwidth": 800
+      }
+    },
+    "1643895893a8f0678e": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"product-form-3\"></div>",
+        "custom_class": ""
+      }
+    },
+    "164387871651c3e5d0": {
+      "type": "custom-content",
+      "blocks": {
+        "617b74de-056d-4d62-9a4c-820312e8adb4": {
+          "type": "product",
+          "settings": {
+            "product": "iconique-collagen",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "19b7222c-9555-4306-a206-f5d6942fea88": {
+          "type": "product",
+          "settings": {
+            "product": "harmonie-daily",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "f553e449-6976-4e3a-a561-c4b415df9ef7": {
+          "type": "product",
+          "settings": {
+            "product": "ohlala",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "617b74de-056d-4d62-9a4c-820312e8adb4",
+        "19b7222c-9555-4306-a206-f5d6942fea88",
+        "f553e449-6976-4e3a-a561-c4b415df9ef7"
+      ],
+      "settings": {
+        "heading": "La solution à la ménopause",
+        "subheading": "CREE PAR DES FEMMES POUR DES FEMMES.",
+        "description": "Notre mission est de vous permettre de vous sentir en pleine forme et de profiter pleinement de votre quotidien. Nous vous voulons changer le dialogue sur la santé des femmes par la science, l'empathie et la communauté. C’est la raison d'être de notre entreprise.",
+        "header_alignment": "left",
+        "container": "container",
+        "background_color": "rgba(0,0,0,0)",
+        "gap": 100,
+        "use_scroll_mobile": true,
+        "gap_mobile": 30,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "db168abf-72a9-4e41-8b56-812e4b722f10": {
+      "type": "instagram",
+      "settings": {
+        "heading": "Suivez-nous sur @umawell.paris pour rien rater de nos moments forts !",
+        "subheading": "",
+        "description": "Découvrez tout l’univers üma. Partagez votre expérience avec nos produits, taguez-nous pour être republiée.",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "#f6f3ea",
+        "layout": "grid",
+        "images_count": 6,
+        "grid_columns": 6,
+        "gap": 13,
+        "mobile_gap": 10,
+        "profile": "https://www.instagram.com/umawellfrance/",
+        "button_label": "Suivez-nous",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1643808783efb562d9",
+    "1646840411fc259dad",
+    "16438783267d57d3e4",
+    "1643808813e2beaa45",
+    "164380893567497d08",
+    "1643872704397937c9",
+    "1643878457c8e7c259",
+    "16438964580b92100e",
+    "16438727267b4aaf8a",
+    "1646836162334b6908",
+    "164683639297c2c027",
+    "eeaa977e-c9ab-4159-941a-d963dea1fe79",
+    "8089113c-2ad0-4ab3-9576-01aa57abaa94",
+    "1646837841983f0182",
+    "164683959121f9ff83",
+    "16438783641d950543",
+    "16468366250361dd36",
+    "db2ec78f-2a55-472e-9631-23f1290990ab",
+    "1643895893a8f0678e",
+    "164387871651c3e5d0",
+    "db168abf-72a9-4e41-8b56-812e4b722f10"
+  ]
+}

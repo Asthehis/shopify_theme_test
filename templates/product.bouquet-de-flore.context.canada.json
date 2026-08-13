@@ -1,0 +1,27 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "product.bouquet-de-flore.json",
+  "context": {
+    "market": "canada"
+  },
+  "sections": {
+    "main": {
+      "settings": {},
+      "blocks": {
+        "guarantees_features_icons_app_block_8xUjpz": {
+          "settings": {
+            "block_id": "55c755b9-b9a6-48f1-bc72-9443e9c421a3"
+          }
+        }
+      }
+    }
+  }
+}

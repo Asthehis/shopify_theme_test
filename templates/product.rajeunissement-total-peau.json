@@ -1,0 +1,774 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1642583437f365ed49": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"product-form-1\"></div>",
+        "custom_class": ""
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "c87c6e87-b82b-4ef0-8e7b-85ca44648866": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Pack Rajeunissement Total Peau & Cheveux</h4>",
+            "text_style": "uppercase"
+          }
+        },
+        "d62298a0-6546-491b-8197-17e0859dd23c": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>Redonnez vie à votre peau et force à vos cheveux</h5>",
+            "text_style": "body"
+          }
+        },
+        "judge_me_reviews_preview_badge_EWXBcz": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {}
+        },
+        "9d6c5ebd-14a3-403d-9c3c-17cc52876cb5": {
+          "type": "text",
+          "settings": {
+            "text": "La peau qui manque d’éclat et des cheveux affaiblis peuvent peser sur la confiance en soi. Ce trio essentiel agit au cœur du problème : il nourrit, hydrate et soutient de l'intérieur. La peau gagne en souplesse, le teint retrouve sa lumière, et les cheveux reprennent force et vitalité.",
+            "text_style": "subtitle"
+          }
+        },
+        "px_trust_badges_icons_app_block_YH9XfY": {
+          "type": "shopify://apps/px-trust-badges-icons/blocks/app-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+          "settings": {
+            "block_id": "c0746024-ce25-43ac-9c5d-8e7b96186fb4",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "spacing_left": 0,
+            "spacing_right": 0
+          }
+        },
+        "px_trust_badges_icons_app_block_8P6ziN": {
+          "type": "shopify://apps/px-trust-badges-icons/blocks/app-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+          "settings": {
+            "block_id": "04617a9c-c374-48f0-a6bf-2c557700713b",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "spacing_left": 0,
+            "spacing_right": 0
+          }
+        },
+        "561bea99-62ba-4d45-a431-eb5f5e7fa148": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_atc_button": true,
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "trust_badge_mQw3bq": {
+          "type": "trust_badge",
+          "settings": {
+            "trust_badges_text": "",
+            "trust_badges_image": "shopify://shop_images/payments_cardssmall.png",
+            "trust_badges_image_width": "100%",
+            "position": "below"
+          }
+        },
+        "0c727350-9dc5-46ae-a5df-e5f7c59cd070": {
+          "type": "shipping",
+          "settings": {
+            "show_delivery_times": true,
+            "deliver_text": "En stock, livré entre le",
+            "deliver_days": "5",
+            "date_format": "%d/%m",
+            "show_shipping_text": true,
+            "shipping_text": "<p><strong>Livraison suivie et sécurisée</strong></p>"
+          }
+        },
+        "111d3e08-0c34-4040-a3cc-7bcc92b56620": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "<b>Dans quelles situations suivre cette cure ?</b>",
+            "content": "<ul><li><strong>Peau terne et fatiguée :</strong> Si votre teint est sans éclat et manque de vitalité, même après une bonne nuit de sommeil.</li><li><strong>Perte d’élasticité :</strong> Lorsque votre peau semble moins ferme, marquée par des ridules et un manque de souplesse.</li><li><strong>Cheveux fragiles et cassants :</strong> Si vos cheveux deviennent plus fins, ternes et manquent de volume, et que les soins habituels ne suffisent plus.</li><li><strong>Signes de vieillissement prématuré :</strong> Quand vous remarquez des signes visibles de vieillissement qui vous donnent l’air plus fatigué.</li><li><strong>Sécheresse cutanée accrue :</strong> Si votre peau devient inconfortablement sèche, malgré les soins hydratants.</li></ul><p>Cette cure est idéale pour retrouver une peau éclatante et des cheveux forts, et redonner à votre beauté une fraîcheur naturelle.</p>",
+            "liquid": "",
+            "default_open": false
+          }
+        },
+        "collapsible_tab_nRtxMD": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "<b>Comment utiliser cette cure ?</b>",
+            "content": "<ul><li><strong>Bonjour & Harmonie Daily :</strong> Prendre 1 gélule de <strong>Bonjour</strong> et 2 gélules de <strong>Harmonie Daily</strong> au petit-déjeuner pour nourrir votre peau et équilibrer naturellement vos hormones.</li><li><strong>Iconique Collagène :</strong> Prendre 2 gélules le soir avant le dîner pour stimuler le collagène et hydrater en profondeur.</li></ul><p>Ces trois compléments agissent en synergie. Suivez cette routine pendant 30 jours pour des résultats visibles, et prolongez pour un rajeunissement durable.</p>",
+            "liquid": "",
+            "default_open": false
+          }
+        },
+        "65349e79-857f-4b28-8c94-02aa413ef499": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "<b>Composition et ingrédients</b>",
+            "content": "<p></p><p></p>",
+            "liquid": "<b>Harmonie Daily - Ménopause Expert\n</b>\n<p>Complément alimentaire à base de vitamine B6, de zinc et de plantes.</p>\n<p><strong>Ingrédients :</strong> Farine de riz brun (Oryza Sativa), poudre de baies de Schisandra chinensis, enveloppe de la gélule : hydroxypropyl méthylcellulose (HPMC), extrait d'igname sauvage (Dioscorea Polystachya), extrait de trèfle rouge (Trifolium Pratense), poudre de luzerne (alfalfa) (Medicago Sativa), extrait de bambou (Bambusa Vulgaris), extrait de feuille de sauge (Salvia Officinalis), isoflavones de soja (40 % d'isoflavones), extrait de houblon (Humulus lupulus), citrate de zinc, vitamine B6 (chlorhydrate de pyridoxine), extrait de kelp (algue marine) (Ascophyllum Nodosum), extrait de ginseng de Sibérie (Eleutherococcus Senticosus).\n\n<img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/Harmonie_Supplement_full_ingredients_list.png?v=1707499332\">\n\n<b>Bonjour® - Multivitamines et Superaliments</b>\n<p>Complément alimentaire à base de vitamines, de minéraux, de plantes et de ferments lactiques.</p>\n\n<p><strong>Ingrédients :</strong> Gélule végétale : Hydroxypropylméthylcellulose (HPMC), Farine de riz brun moulue (sans gluten) (Oryza Sativa), Poudre d'acide ascorbique, Poudre d'alfalfa (Medicago Sativa), Poudre de tégument de psyllium (Plantago Ovata), Poudre de fibre de betterave sucrière (Beta Vulgaris), Poudre de Seagreens® (Fucus Vesiculosus), Fer (sous forme de bisglycinate ferreux), Zinc (sous forme de citrate de zinc), Vitamine B3 (Nicotinamide), Vitamine E (succinate de D-alpha-tocophérol), Citrate de manganèse, Vitamine B5 (pantothénate de calcium), Sélénométhionine (phosphate de calcium), Vitamine K2 (sous forme de ménaquinone-7), Poudre de Lactobacillus acidophilus, Vitamine B6 (chlorhydrate de pyridoxine), Vitamine B2 (riboflavine), Vitamine B1 (sous forme de chlorhydrate de thiamine), Vitamine D3 (cholécalciférol), Poudre de Bifidobacterium Lactis, Acide folique, Iode (sous forme d’iodure de potassium), Biotine (sous forme de d-biotine), Vitamine B12 (sous forme de cyanocobalamine pure).</p><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/Bonjour_Supplement_full_ingredients_list.jpg?v=1728231910\">\n<b>Iconique Collagène® - La Cure de Jouvence</b>\n<p>Complément alimentaire à base de collagène marin, d’acide hyaluronique, de plantes, de vitamines et minéraux.</p>\n\n<p><strong>Ingrédients :</strong> Collagène marin type 1 (Peptan F2000ld), Enveloppe de la capsule : Hydroxypropyl méthylcellulose (HPMC), Acide ascorbique, Farine de riz brun (Oryza Sativa), Poudre d'acide hyaluronique (1M Dalton) (Hyaluronate de Sodium), Citrate de zinc, Vitamine B3 (Nicotinamide), Extrait de riz (Oryza Sativa), Vitamine E (D-alpha Tocopherol), Selenomethionine (Phosphate de Calcium), Poudre d’astaxanthine (Haematococcus Pluvialis), Poudre de silice de bambou (Bambusa Vulgaris), Extrait de graine de grenade (Punica Granatum), Extrait d'écorce de pin (Pinus Massoniana), Extrait de pepins de pamplemousse (citrus Paradisi), Glycinate de cuivre, Extrait de feuille de romarin (Rosmarinus Officinalis), Vitamine B8 (Biotine).</p><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/Collagen_Supplement_full_ingredients_list.png?v=1708504275\">\n\nRespecter la dose recommandée. Cure conseillée en complément d’une alimentation équilibrée et variée, ainsi qu’un rythme de vie sain. Tenir hors de portée des enfants. Dans le cas d’un suivi médical soutenu ou de la prise d’autres médicaments, nous vous invitons à en parler à votre médecin avant toute ingestion.</p>",
+            "default_open": false
+          }
+        },
+        "px_trust_badges_icons_app_block_jzUzBK": {
+          "type": "shopify://apps/px-trust-badges-icons/blocks/app-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+          "settings": {
+            "block_id": "affa9f09-bb2b-438a-a378-e7074ccdad8d",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "spacing_left": 0,
+            "spacing_right": 0
+          }
+        },
+        "judge_me_reviews_review_widget_tEaxBM": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200
+          }
+        }
+      },
+      "block_order": [
+        "c87c6e87-b82b-4ef0-8e7b-85ca44648866",
+        "d62298a0-6546-491b-8197-17e0859dd23c",
+        "judge_me_reviews_preview_badge_EWXBcz",
+        "9d6c5ebd-14a3-403d-9c3c-17cc52876cb5",
+        "px_trust_badges_icons_app_block_YH9XfY",
+        "px_trust_badges_icons_app_block_8P6ziN",
+        "561bea99-62ba-4d45-a431-eb5f5e7fa148",
+        "trust_badge_mQw3bq",
+        "0c727350-9dc5-46ae-a5df-e5f7c59cd070",
+        "111d3e08-0c34-4040-a3cc-7bcc92b56620",
+        "collapsible_tab_nRtxMD",
+        "65349e79-857f-4b28-8c94-02aa413ef499",
+        "px_trust_badges_icons_app_block_jzUzBK",
+        "judge_me_reviews_review_widget_tEaxBM"
+      ],
+      "settings": {
+        "container": "container-fluid",
+        "layout": "layout-1",
+        "show_atwl": false,
+        "enable_history_state": false,
+        "enable_variant_group_images": false,
+        "show_featured_media": true,
+        "show_zoom_button": true,
+        "enable_video_autoplay": false,
+        "show_nav_media_mobile": true,
+        "show_pagination_mobile": false,
+        "use_sticky_atc": true,
+        "use_sticky_atc_on_mobile": true,
+        "enable_dynamic_checkout": false,
+        "sticky_atc_wishtlist": false,
+        "sticky_atc_compare": false
+      }
+    },
+    "1694235462507497b3": {
+      "type": "apps",
+      "blocks": {
+        "px_trust_badges_icons_app_block_JDdg3m": {
+          "type": "shopify://apps/px-trust-badges-icons/blocks/app-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+          "settings": {
+            "block_id": "5f71c15f-0889-41aa-8e41-5347b50b1abb",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "spacing_left": 0,
+            "spacing_right": 0
+          }
+        }
+      },
+      "block_order": [
+        "px_trust_badges_icons_app_block_JDdg3m"
+      ],
+      "settings": {
+        "heading": "Pour une peau revitalisée et des cheveux renforcés",
+        "subheading": "RAJEUNIR ET RÉPARER EN PROFONDEUR",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "rgba(0,0,0,0)",
+        "padding_top": 50,
+        "padding_bottom": 0,
+        "custom_class": "remove-space my-10"
+      }
+    },
+    "custom_content_reTaLF": {
+      "type": "custom-content",
+      "blocks": {
+        "image_card_UhPJnG": {
+          "type": "image_card",
+          "settings": {
+            "width": "50%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "large",
+            "text_color": "black",
+            "image": "shopify://shop_images/HARM_Hero_product_page_BDL.jpg",
+            "link": "shopify://products/harmonie-daily",
+            "title": "",
+            "subtitle": "<h4>Harmonie Daily – Soutien Hormonal\n</h4>Complément pour équilibrer les variations hormonales et réduire la sécheresse cutanée, offrant une peau nourrie et des cheveux plus sains.",
+            "button_label": "En savoir plus",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "button_fixed": true,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_card_wmR4kJ": {
+          "type": "image_card",
+          "settings": {
+            "width": "50%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/BONJ_Hero_product_page_BDL.jpg",
+            "link": "shopify://products/bonjour",
+            "title": "",
+            "subtitle": "<h4>Bonjour – Vitalité Cellulaire\n</h4>\nUn apport quotidien en vitamines et minéraux essentiels pour soutenir la régénération cellulaire, booster l’énergie et revitaliser la peau et les cheveux.",
+            "button_label": "En savoir plus",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "button_fixed": true,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_card_Ub4THi": {
+          "type": "image_card",
+          "settings": {
+            "width": "50%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/ICON_Hero_product_page_BDL.jpg",
+            "link": "shopify://products/iconique-collagen",
+            "title": "",
+            "subtitle": "<h4>Iconique Collagène – Hydratation et Fermeté</h4>Formule enrichie en collagène marin et antioxydants pour renforcer l’élasticité de la peau et lisser les rides. Hydratation profonde et éclat durable.",
+            "button_label": "En savoir plus",
+            "button_style": "sf__btn-link",
+            "button_size": "",
+            "button_fixed": true,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "text_gg6emQ": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "50%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "image_card_UhPJnG",
+        "image_card_wmR4kJ",
+        "image_card_Ub4THi",
+        "text_gg6emQ"
+      ],
+      "settings": {
+        "heading": "Trois formules ciblées pour revitaliser votre éclat naturel.",
+        "subheading": "NUTRITION PROFONDE - HYDRATATION INTENSE",
+        "description": "Ce trio unique réunit trois formules puissantes pour revitaliser votre peau et renforcer vos cheveux, offrant des résultats visibles et durables.",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "16530405356838123e": {
+      "type": "custom-content",
+      "blocks": {
+        "16530405358e9b5d79-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ICO_BONJ_HARM_photo-with_woman.png",
+            "link": "#product-form-1",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "60c3f7e5-ebf2-43da-a0e2-258a2afca8fe": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__about-custom-list\">\n  <ul>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b>Collagène marin et acide hyaluronique\n</b></h4>\n          <p class=\"text-color-subtext\">Le collagène marin et l’acide hyaluronique agissent en synergie pour améliorer l’élasticité de la peau et hydrater en profondeur, réduisant les signes de sécheresse et de fatigue.\n</p>\n      </div>\n    </li>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b>Vitamines B et zinc</b></h4>\n          <p class=\"text-color-subtext\">Les vitamines B et le zinc renforcent la barrière cutanée et soutiennent la santé des cheveux, pour une apparence revitalisée.\n </p>\n      </div>\n    </li>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b>Astaxanthine et extrait de grenade</b></h4>\n          <p class=\"text-color-subtext\">Antioxydants puissants, l’astaxanthine et l'extrait de grenade protègent contre le stress oxydatif, offrant éclat et protection durable.\n </p>\n</div>\n    </li>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b>Silice de bambou et biotine</b></h4>\n          <p class=\"text-color-subtext\"> La silice et la biotine favorisent des cheveux plus forts et des ongles plus résistants, renforçant la vitalité globale. </p>\n      </div>\n    </li>\n  </ul>\n</div>",
+            "width": "50%",
+            "block_custom_class": "sf__about-custom-html",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "16530405358e9b5d79-1",
+        "60c3f7e5-ebf2-43da-a0e2-258a2afca8fe"
+      ],
+      "settings": {
+        "heading": "50 actifs unis pour nourrir, renforcer et sublimer",
+        "subheading": "UNE CURE HAUTEMENT CONCENTRÉE",
+        "description": "Les meilleurs actifs réunis pour restaurer la vitalité de votre peau et la résistance de vos cheveux, naturellement et durablement. Explorez une approche complète et innovante de la peau avec nos formulations brevetées.",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "rgba(0,0,0,0)",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__page-about"
+      }
+    },
+    "16945938772d351bb6": {
+      "type": "apps",
+      "blocks": {
+        "px_trust_badges_icons_app_block_fyAfet": {
+          "type": "shopify://apps/px-trust-badges-icons/blocks/app-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+          "settings": {
+            "block_id": "2292cb8f-b62b-4c50-a939-55f289e6a16f",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "spacing_left": 0,
+            "spacing_right": 0
+          }
+        }
+      },
+      "block_order": [
+        "px_trust_badges_icons_app_block_fyAfet"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "remove-space my-10"
+      }
+    },
+    "7be1ed15-712e-49d8-ac46-156803796eb7": {
+      "type": "custom-content",
+      "blocks": {
+        "template--20708136321365__7be1ed15-712e-49d8-ac46-156803796eb7-text-1": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "template--20708136321365__7be1ed15-712e-49d8-ac46-156803796eb7-text-1"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "rgba(0,0,0,0)",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "remove-space my-10"
+      }
+    },
+    "cb22f6f1-5ddc-476b-a97b-103fa00aace2": {
+      "type": "custom-content",
+      "blocks": {
+        "3b945de9-b4f1-4734-b6ab-8a7f0f305cc4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bain-de-minuit_smart_capsule.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "f9e6519e-3c1e-4091-906b-5703458bc21c": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__about-custom-list\">\n  <ul>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b>Technologie Nutri Genesis®\n</b></h4>\n          <p class=\"text-color-subtext\">Nos gélules innovantes à libération ciblée sont spécialement formulées pour se dissoudre précisément dans l'intestin grêle, maximisant ainsi l'absorption des nutriments. Enrichies en prébiotiques naturels, elles garantissent une digestion douce et une assimilation optimale des nutriments pour votre bien-être.</p>\n      </div>\n    </li>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b>Nutrition complète et concentrée</b></h4>\n          <p class=\"text-color-subtext\">Nos capsules avancées combinent la puissance d’actifs secs et d’ingrédients huileux, permettant une libération prolongée pour un apport ciblé qui nourrit la peau, les cheveux, et soutient le bien-être durablement.</p>\n      </div>\n    </li>\n  </ul>\n</div>",
+            "width": "50%",
+            "block_custom_class": "sf__about-custom-html",
+            "animations": "inherit"
+          }
+        },
+        "e0ebf446-ab45-454e-b1e1-fbeec2a68084": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "large",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "3b945de9-b4f1-4734-b6ab-8a7f0f305cc4",
+        "f9e6519e-3c1e-4091-906b-5703458bc21c",
+        "e0ebf446-ab45-454e-b1e1-fbeec2a68084"
+      ],
+      "settings": {
+        "heading": "Pour maximiser l’absorption des nutriments",
+        "subheading": "CAPSULES À LIBÉRATION CIBLÉE",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "#faf9f5",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__page-about"
+      }
+    },
+    "featured_collection_g6kMCR": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "Pour un bien-être sans compromis",
+        "subheading": "COMPLÉTEZ VOTRE CURE",
+        "description": "La ménopause ne doit pas être un sujet tabou, ni une expérience que l'on traverse seule. Nos cures accompagnent les femmes dans les changements naturels qui surviennent à toutes les étapes de leur vie.",
+        "header_alignment": "left",
+        "container": "container",
+        "background_color": "#f6f3ea",
+        "collection": "offres-speciales",
+        "enable_flashsale": false,
+        "show_countdown": false,
+        "product_to_show": 12,
+        "items_per_row": 3,
+        "item_gap": 30,
+        "pcard_layout": "",
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "hide_title": false,
+        "enable_slider": true,
+        "show_pagination": false,
+        "show_navigation": true,
+        "button_type": "link",
+        "button_text": "Nos cures",
+        "button_style": "sf__btn-primary",
+        "button_size": "sf__btn-large",
+        "infinite_load": false,
+        "max_page_load": 3,
+        "mobile_disable_slider": false,
+        "use_scroll_mobile": true,
+        "item_gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "1656431367e3def286": {
+      "type": "custom-content",
+      "blocks": {
+        "product_wMqUQk": {
+          "type": "product",
+          "settings": {
+            "product": "symbiotic",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "797afe61-f1df-41e7-bef9-736d30311d11": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "product": "harmonie-daily",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "21686130-6f14-447f-b0d9-001c69db23ee": {
+          "type": "product",
+          "settings": {
+            "product": "iconique-collagen",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "68b2f4dc-8069-4e53-a212-a04fc7a79f64": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "product": "ohlala",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "product_fRmPHL": {
+          "type": "product",
+          "settings": {
+            "product": "bouquet-de-flore",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "product_wMqUQk",
+        "797afe61-f1df-41e7-bef9-736d30311d11",
+        "21686130-6f14-447f-b0d9-001c69db23ee",
+        "68b2f4dc-8069-4e53-a212-a04fc7a79f64",
+        "product_fRmPHL"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Dites oui au bien-être absolu",
+        "subheading": "ENRICHISSEZ VOTRE CURE",
+        "description": "Encore trop souvent taboue, la ménopause ne devrait jamais être une expérience vécue en solitaire. C’est pourquoi nous faisons tout notre possible pour accompagner les femmes dans chaque étape de ce changement naturel.",
+        "header_alignment": "left",
+        "container": "container-fluid",
+        "background_color": "#f6f3ea",
+        "gap": 100,
+        "use_scroll_mobile": true,
+        "gap_mobile": 30,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "8d915f30-110a-4fa1-863c-86e0bf0113af": {
+      "type": "custom-content",
+      "blocks": {
+        "template--19175345783125__8d915f30-110a-4fa1-863c-86e0bf0113af-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/laboratoire-francais.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "5a173e95-8f54-4cd1-88e3-c7d67de110eb": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__about-custom-list\">\n  <ul>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0764/9581/4997/files/France.png?v=1692690421\"></span>\n      <div class=\"rte\">\n          <h4><b>Laboratoires Français</b></h4>\n          <p class=\"text-color-subtext\">Nous sommes un laboratoire français indépendant entièrement dédié à la santé et au bien-être des femmes. Pionnière de la micronutrition et de la phytothérapie, nous formulons des compléments alimentaires naturels, sains, efficaces et sans hormone pour préserver votre qualité de vie pendant et après la ménopause.</p>\n      </div>\n    </li>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0764/9581/4997/files/Approuvee_par_des_femmes.png?v=1692690451\"></span>\n      <div class=\"rte\">\n          <h4><b>Passion, engagement et expertise</b></h4>\n          <p class=\"text-color-subtext\">Nous sommes entourés d'experts ayant plus de 30 ans d'expérience dans la formulation de compléments alimentaires et la recherche clinique. Notre conseil consultatif scientifique, composé de médecins, de nutritionnistes et de scientifiques, contribue à orienter notre réflexion sur les dernières recherches et innovations en matière de produits.</p>\n      </div>\n    </li>\n  </ul>\n</div>",
+            "width": "50%",
+            "block_custom_class": "sf__about-custom-html",
+            "animations": "inherit"
+          }
+        },
+        "78c74610-af0f-4faf-9c34-786df650d6a4": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "template--19175345783125__8d915f30-110a-4fa1-863c-86e0bf0113af-image-1",
+        "5a173e95-8f54-4cd1-88e3-c7d67de110eb",
+        "78c74610-af0f-4faf-9c34-786df650d6a4"
+      ],
+      "settings": {
+        "heading": "Par une équipe de mères, de filles et de chercheurs",
+        "subheading": "",
+        "description": "Ce que vous traversez en périménopause et en ménopause façonne votre santé future. Notre mission est de vous offrir des solutions naturelles, sûres et efficaces pour vivre plus longtemps et en pleine santé.",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__page-about"
+      }
+    },
+    "product-details-tabs": {
+      "type": "product-details-tabs",
+      "blocks": {
+        "fa490a38-97a7-4b71-ad47-3c86b4a582cd": {
+          "type": "description",
+          "settings": {
+            "header": "Product description"
+          }
+        },
+        "e31689fb-9b98-4f5b-977d-075a8d1a123f": {
+          "type": "tab",
+          "settings": {
+            "header": "Shipping & Return",
+            "content": "<p>Shipping cost is based on weight. Just add products to your cart and use the Shipping Calculator to see the shipping price.</p><p>We want you to be 100% satisfied with your purchase. Items can be returned or exchanged within 30 days of delivery.</p>",
+            "content_page": ""
+          }
+        },
+        "9e06b3e6-843f-4451-9137-03b92b248b49": {
+          "type": "liquid",
+          "settings": {
+            "header": "Tab heading",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "fa490a38-97a7-4b71-ad47-3c86b4a582cd",
+        "e31689fb-9b98-4f5b-977d-075a8d1a123f",
+        "9e06b3e6-843f-4451-9137-03b92b248b49"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "bg_color": "",
+        "default_open": true,
+        "animations": "inherit"
+      }
+    },
+    "164261608633fb1e22": {
+      "type": "custom-content",
+      "blocks": {
+        "71a41393-7458-490c-9599-d5f0e82b1703": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__tabs-custom\">\n <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck01\">\n        <label class=\"sf__tab-item-label\" for=\"chck01\">\n  Quand vais-je ressentir les effets de cette cure ?</label>\n        <div class=\"sf__tab-item-content\">\n          Les résultats varient d'une personne à l'autre. En général, les premiers signes d’amélioration, tels qu'une peau plus hydratée et des cheveux plus résistants, peuvent être observés dans les premières semaines de la cure. Après deux mois, on constate souvent une fermeté accrue de la peau et une apparence plus lumineuse. Pour des résultats optimaux, nous recommandons de suivre la cure pendant trois mois afin de profiter pleinement des bienfaits cumulés des ingrédients.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck1\">\n        <label class=\"sf__tab-item-label\" for=\"chck1\">Y a-t-il des effets secondaires ? </label>\n        <div class=\"sf__tab-item-content\">\n          Nos formules sont composées d'ingrédients naturels et sont formulées pour être bien tolérées. Cependant, certaines personnes peuvent ressentir de légers inconforts digestifs lorsqu'elles commencent une nouvelle cure. Cet effet est généralement temporaire et se résorbe après les premiers jours. Si vous avez des sensibilités connues, vérifiez la liste des ingrédients ou consultez un professionnel de santé avant de commencer.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck2\">\n        <label class=\"sf__tab-item-label\" for=\"chck2\"> Puis-je prendre ces gélules avec d’autres compléments alimentaires ?\n</label>\n        <div class=\"sf__tab-item-content\">\n          Oui, cette cure est compatible avec la plupart des compléments alimentaires. Toutefois, nous conseillons de consulter votre médecin ou un professionnel de santé si vous prenez d’autres suppléments ou suivez un traitement médical. Cela garantit que la combinaison est adaptée à vos besoins spécifiques sans risque d’interactions.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck3\">\n        <label class=\"sf__tab-item-label\" for=\"chck3\">Comment dois-je prendre ce produit pour des résultats optimaux ?\n</label>\n        <div class=\"sf__tab-item-content\">\n          Pour une efficacité optimale, prenez 1 gélule de Bonjour et 2 gélules de Harmonie Daily le matin, de préférence au petit déjeuner. Prenez ensuite 2 gélules d’Iconique Collagène le soir avant le dîner. En suivant cette routine chaque jour, vous permettez aux actifs de travailler en synergie pour revitaliser la peau et fortifier les cheveux.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck4\">\n        <label class=\"sf__tab-item-label\" for=\"chck4\">Ce produit est-il adapté à un régime végétalien et sans gluten ?\n</label>\n        <div class=\"sf__tab-item-content\">\n          Ce pack ne convient pas aux personnes suivant un régime végétalien en raison de l’Iconique Collagène, qui contient du collagène marin (provenant de poisson). En revanche, toutes les formules sont sans gluten, et seules des sources naturelles et soigneusement sélectionnées sont utilisées.\n        </div>\n      </div>\n</div>",
+            "width": "100%",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "66c850cb-6f03-4c73-9629-62d79f6f0f4f": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "71a41393-7458-490c-9599-d5f0e82b1703",
+        "66c850cb-6f03-4c73-9629-62d79f6f0f4f"
+      ],
+      "custom_css": [
+        ".sf__tab-item-label {font-weight: normal;}"
+      ],
+      "settings": {
+        "heading": "Vous avez des questions. Nous adorons y répondre",
+        "subheading": "",
+        "description": "Voici les questions les plus fréquentes avant de débuter notre cure Rajeunissement Total Peau & Cheveux®.",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "#f6f3ea",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "1642583437f365ed49",
+    "main",
+    "1694235462507497b3",
+    "custom_content_reTaLF",
+    "16530405356838123e",
+    "16945938772d351bb6",
+    "7be1ed15-712e-49d8-ac46-156803796eb7",
+    "cb22f6f1-5ddc-476b-a97b-103fa00aace2",
+    "featured_collection_g6kMCR",
+    "1656431367e3def286",
+    "8d915f30-110a-4fa1-863c-86e0bf0113af",
+    "product-details-tabs",
+    "164261608633fb1e22"
+  ]
+}

@@ -1,0 +1,146 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "annoucement": {
+      "type": "annoucement",
+      "custom_css": [],
+      "settings": {
+        "show_announcement": true,
+        "homepage_only": false,
+        "show_close": false,
+        "message": "☀️ Première commande? -10% avec le code&nbsp<b>HARMONIE10</b>",
+        "message_link": "shopify://collections/shopall",
+        "show_divider": false
+      }
+    },
+    "scrolling_promotion_HRAXtg": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "announcement_NqGz44": {
+          "type": "announcement",
+          "settings": {
+            "custom_svg": "",
+            "icon_size": "medium",
+            "text": "💡 Économisez 20% avec nos packs",
+            "text_size": 20,
+            "text_link": ""
+          }
+        },
+        "announcement_aQyWFE": {
+          "type": "announcement",
+          "settings": {
+            "custom_svg": "",
+            "icon_size": "medium",
+            "text": "<b>✅ Satisfaite ou remboursée</b>",
+            "text_size": 20,
+            "text_link": ""
+          }
+        },
+        "announcement_XDn6ij": {
+          "type": "announcement",
+          "settings": {
+            "custom_svg": "",
+            "icon_size": "medium",
+            "text": "✈️ Expédition le jour même",
+            "text_size": 20,
+            "text_link": ""
+          }
+        },
+        "announcement_gCYUzX": {
+          "type": "announcement",
+          "settings": {
+            "custom_svg": "",
+            "icon_size": "medium",
+            "text": "<b>🌟 Noté 4.58/5 sur +5000 avis vérifiés</b>",
+            "text_size": 18,
+            "text_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_NqGz44",
+        "announcement_aQyWFE",
+        "announcement_XDn6ij",
+        "announcement_gCYUzX"
+      ],
+      "settings": {
+        "container": "w-full",
+        "direction": "right",
+        "speed": 35,
+        "item_gap": 50,
+        "item_gap_mobile": 30,
+        "text_color": "#322b81",
+        "bg_color": "#ffc107",
+        "padding_top": 10,
+        "padding_bottom": 10,
+        "custom_class": ""
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "block-1": {
+          "type": "topbar",
+          "disabled": true,
+          "settings": {
+            "show_divider": false,
+            "show_phone_numb": false,
+            "show_email": false,
+            "show_social_links": false,
+            "show_stores_page": false,
+            "show_currency_switcher": false,
+            "show_country_selector": false,
+            "show_language_switcher": false,
+            "alert_message": "-25% de réduction sur l'achat de 3 cures avec le code <p> <b>25JUILLET</b></p>"
+          }
+        }
+      },
+      "block_order": [
+        "block-1"
+      ],
+      "settings": {
+        "header_design": "both-center",
+        "container": "w-full",
+        "header_sticky": true,
+        "transparent_on_top": true,
+        "logo_text": "",
+        "logo": "shopify://shop_images/laboratoires-uma-logo-HQ.png",
+        "logo_mobile": "shopify://shop_images/laboratoires-uma-logo-HQ.png",
+        "logo_transparent": "shopify://shop_images/laboratoires-uma-logo-HQ.png",
+        "logo_svg": "",
+        "logo_mobile_svg": "",
+        "logo_transparent_svg": "",
+        "logo_max_width": 105,
+        "sticky_logo_max_width": 105,
+        "mobile_logo_max_width": 80,
+        "main_menu": "menu-principale-gauche-v2",
+        "secondary_menu": "menu-principale-droite-v2",
+        "mobile_menu": "fr_mobile",
+        "uppercase_parent_level": false,
+        "search": "show_icon",
+        "show_account_icon": true,
+        "show_cart_icon": true,
+        "show_wishlist_icon": false,
+        "show_compare_icon": false,
+        "show_currency_switcher": false,
+        "show_country_selector": false,
+        "show_language_switcher": false
+      }
+    }
+  },
+  "order": [
+    "annoucement",
+    "scrolling_promotion_HRAXtg",
+    "header"
+  ]
+}

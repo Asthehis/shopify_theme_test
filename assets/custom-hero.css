@@ -1,0 +1,178 @@
+#shopify-section-template--18363021033633__ou_trouver_hero .sf-hero__title,
+#shopify-section-template--18363021033633__ou_trouver_hero .sf-hero__text {
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+#shopify-section-template--18363021033633__ou_trouver_hero .sf-hero__title {
+  font-family: "Jost", sans-serif;
+  font-size: clamp(21.59px, 5vw, 48px);
+  line-height: clamp(29.68px, 6.5vw, 66px);
+  font-weight: 500;
+}
+
+#shopify-section-template--18363021033633__ou_trouver_hero .sf-hero__text {
+  font-family: "Jost", sans-serif;
+  font-size: clamp(7.2px, 2vw, 16px);
+  line-height: clamp(10.79px, 3vw, 24px);
+  font-weight: 400;
+}
+
+/* Forcer la hauteur totale du hero */
+#shopify-section-template--18363021033633__ou_trouver_hero .sf-hero {
+  height: 393px !important;
+  max-height: 393px !important;
+}
+
+#shopify-section-template--18363021033633__ou_trouver_hero .sf-hero__bg {
+  height: 393px !important;
+  margin: 0 auto;
+  opacity: 1;
+}
+
+#shopify-section-template--18363021033633__ou_trouver_hero .sf-hero__bg img {
+  width: 100%;
+  height: 393px !important;
+  object-fit: cover;
+  transform: rotate(0deg);
+}
+
+/* Ajuster le conteneur interne */
+#shopify-section-template--18363021033633__ou_trouver_hero .sf-hero__inner {
+  height: 393px !important;
+}
+
+/* Limiter la largeur du contenu texte sur desktop/tablette */
+#shopify-section-template--18363021033633__ou_trouver_hero .sf-hero__content {
+  max-width: 50%; /* Limite le texte à 50% de la largeur */
+  margin-right: auto; /* Pousse le texte à gauche */
+}
+
+#shopify-section-template--18363021033633__ou_trouver_hero .sf-hero__title {
+  max-width: 100%; /* Reste dans le conteneur parent */
+}
+
+#shopify-section-template--18363021033633__ou_trouver_hero .sf-hero__text {
+  max-width: 100%; /* Reste dans le conteneur parent */
+}
+
+@media screen and (max-width: 767px) {
+  /* L'image de fond garde 127px */
+  #shopify-section-template--18363021033633__ou_trouver_hero .sf-hero__bg {
+    height: 127px !important;
+  }
+  
+  #shopify-section-template--18363021033633__ou_trouver_hero .sf-hero__bg img {
+    height: 127px !important;
+    width: 100% !important;
+    object-fit: cover !important;
+  }
+  
+  /* Hero total - hauteur automatique */
+  #shopify-section-template--18363021033633__ou_trouver_hero .sf-hero {
+    height: auto !important;
+    min-height: 210.81px !important;
+    max-height: none !important;
+    margin-bottom: 32.9px !important;
+    padding-right: clamp(5px, 2vw, 10px);
+    padding-left: clamp(5px, 2vw, 10px);
+  }
+  
+  #shopify-section-template--18363021033633__ou_trouver_hero .sf-hero__inner {
+    height: auto !important;
+    min-height: 83.81px !important;
+    gap: clamp(5px, 2vw, 10px);
+    padding-bottom: clamp(5px, 2vw, 10px);
+  }
+  
+  #shopify-section-template--18363021033633__ou_trouver_hero .sf-hero__content {
+    gap: clamp(5px, 2vw, 10px);
+    width: 100%; /* Pleine largeur sur mobile */
+    max-width: 100%; /* Annule la limite de 50% */
+    box-sizing: border-box;
+  }
+
+  /* Ajustement du texte sur mobile */
+  #shopify-section-template--18363021033633__ou_trouver_hero .sf-hero__title {
+    font-weight: 700;
+    text-align: center;
+    font-size: clamp(16px, 5vw, 21.59px) !important;
+    line-height: clamp(20px, 6vw, 29.68px) !important;
+    width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    display: block;
+  }
+  
+  #shopify-section-template--18363021033633__ou_trouver_hero .sf-hero__text {
+    text-align: center;
+    font-size: clamp(10px, 3vw, 16px) !important;
+    line-height: clamp(14px, 4vw, 24px) !important;
+    width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+    /* Remplacer les <br> par des espaces sur mobile */
+  #shopify-section-template--18363021033633__ou_trouver_hero .sf-hero__text br {
+    content: " " !important;       /* Remplace le saut par un caractère espace */
+    display: inline-block !important; /* Permet à l'élément de prendre une largeur */
+    width: 0.3em !important;       /* La largeur d'un espace normal */
+    height: auto !important;       /* Annule la hauteur de ligne */
+    line-height: 0 !important;     /* Évite de casser l'interligne du texte */
+  }
+  
+  /* S'assurer que le paragraphe affiche le texte normalement */
+  #shopify-section-template--18363021033633__ou_trouver_hero .sf-hero__text p {
+    white-space: normal !important;
+  }
+}
+
+/* ========================================
+   TABLET (768px - 1023px)
+   ======================================== */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  
+  /* Réduire la hauteur de l'image hero sur tablette */
+  #shopify-section-template--18363021033633__ou_trouver_hero .sf-hero {
+    height: 280px !important;
+    max-height: 280px !important;
+  }
+  
+  #shopify-section-template--18363021033633__ou_trouver_hero .sf-hero__bg {
+    height: 280px !important;
+  }
+  
+  #shopify-section-template--18363021033633__ou_trouver_hero .sf-hero__bg img {
+    height: 280px !important;
+  }
+  
+  #shopify-section-template--18363021033633__ou_trouver_hero .sf-hero__inner {
+    height: 280px !important;
+  }
+  
+  /* Limiter le texte à gauche sur tablette */
+  #shopify-section-template--18363021033633__ou_trouver_hero .sf-hero__content {
+    max-width: 55%; /* 55% sur tablette */
+  }
+  
+  /* Réduire la taille du texte sur tablette */
+  #shopify-section-template--18363021033633__ou_trouver_hero .sf-hero__title {
+    font-size: clamp(28px, 4vw, 36px);
+    line-height: clamp(36px, 5vw, 48px);
+  }
+  
+  #shopify-section-template--18363021033633__ou_trouver_hero .sf-hero__text {
+    font-size: clamp(12px, 1.8vw, 14px);
+    line-height: clamp(18px, 2.5vw, 20px);
+  }
+}
+
+/* ========================================
+   LAPTOP (1024px+)
+   ======================================== */
+@media screen and (min-width: 1024px) {
+  #shopify-section-template--18363021033633__ou_trouver_hero .sf-hero__content {
+    max-width: 55%; /* 45% sur laptop pour laisser plus d'espace à l'image */
+  }
+}

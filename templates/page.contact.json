@@ -1,0 +1,148 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page-contact",
+      "disabled": true,
+      "settings": {
+        "container": "container"
+      }
+    },
+    "1644389311e2a42d9a": {
+      "type": "image-with-text-2",
+      "settings": {
+        "container": "w-full",
+        "hero_size": "medium",
+        "show_overlay": false,
+        "image": "shopify://shop_images/blue-box-uma.png",
+        "bg_position": "center",
+        "image_link": "",
+        "parallax": false,
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "white",
+        "title": "Bienvenue ! <br>Comment pouvons-nous vous aider ?",
+        "subtitle": "",
+        "text": "<p>üma s'est construite en posant des questions - nous aimerions entendre les vôtres. </p><p>Ps. Jetez un coup d'œil à notre FAQ pour trouver les réponses aux questions que vous vous posez.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-primary",
+        "button_size": "",
+        "use_content_above": true,
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "contact-form": {
+      "type": "contact-form",
+      "blocks": {
+        "6120a9d2-afcf-40f1-88b9-47e52e55d108": {
+          "type": "textblock",
+          "settings": {
+            "title": "Comment  joindre nos équipes",
+            "content": "<p>Lorsque vous contactez notre service clients par chat, téléphone ou e-mail, vous parlez à une vraie personne. Et celle-ci répondra rapidement à toutes vos questions et préoccupations.</p>"
+          }
+        },
+        "e0284bde-c3f8-41b1-a6db-5b2a4571e38c": {
+          "type": "textblock",
+          "settings": {
+            "title": "Jetez un coup d'œil à nos FAQ",
+            "content": "<p>Vos questions sont uniques. Mais certaines sont fréquemment posées. Visitez notre section FAQ pour obtenir des réponses rapides à toutes les questions que vous vous pose.</p>"
+          }
+        },
+        "96c8a0f6-0868-4832-97b9-75fcbbdb9fd3": {
+          "type": "textblock",
+          "settings": {
+            "title": "Pour obtenir de l'aide ou poser des questions",
+            "content": "<p>Envoyez-nous un e-mail à bonjour@umawell.com et nous vous répondrons dans les 24 heures, du lundi au vendredi, à l'exception des jours fériés. Vous pouvez également remplir le formulaire de contact.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "6120a9d2-afcf-40f1-88b9-47e52e55d108",
+        "e0284bde-c3f8-41b1-a6db-5b2a4571e38c",
+        "96c8a0f6-0868-4832-97b9-75fcbbdb9fd3"
+      ],
+      "settings": {
+        "container": "container",
+        "title": "Pour contacter nos équipes",
+        "description": "<p>Vous avez une question sur votre commande ? Vous êtes un pro? Un avis à nous partager ? Une envie soudaine de nous dire que vous nous aimez ? De rejoindre ou soutenir cette belle aventure ? Écrivez-nous à l'adresse bonjour@umawell.com !</p>",
+        "show_name": true,
+        "show_phone": false,
+        "show_signup_email": true,
+        "animations": "inherit"
+      }
+    },
+    "16443978432b275e86": {
+      "type": "custom-content",
+      "blocks": {
+        "b6e62b5c-2eea-4f88-af03-9b3eb8693ec7": {
+          "type": "product",
+          "settings": {
+            "product": "iconique-collagen",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "a24cac60-7802-482a-be12-b0fa046ba155": {
+          "type": "product",
+          "settings": {
+            "product": "harmonie-daily",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "6409e3d2-7f00-482f-88a9-b09660dbd3c9": {
+          "type": "product",
+          "settings": {
+            "product": "ohlala",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "b6e62b5c-2eea-4f88-af03-9b3eb8693ec7",
+        "a24cac60-7802-482a-be12-b0fa046ba155",
+        "6409e3d2-7f00-482f-88a9-b09660dbd3c9"
+      ],
+      "settings": {
+        "heading": "Et vous, quand est-ce que vous démarrez votre cure ?",
+        "subheading": "94% DES FEMMES ONT SIGNALÉ UNE AMÉLIORATION DE LEURS SYMPTÔMES",
+        "description": "Les Laboratoires üma aident des milliers de femmes à se sentir mieux avant, pendant et après la ménopause. Nos cures accompagnent les femmes au quotidien dès les premiers symptômes de la ménopause.",
+        "header_alignment": "left",
+        "container": "container",
+        "background_color": "#f6f3ea",
+        "gap": 100,
+        "use_scroll_mobile": true,
+        "gap_mobile": 30,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1644389311e2a42d9a",
+    "contact-form",
+    "16443978432b275e86"
+  ]
+}

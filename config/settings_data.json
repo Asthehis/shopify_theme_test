@@ -1,0 +1,411 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "current": {
+    "favicon": "shopify://shop_images/android-icon-96x96.png",
+    "use_ajax_atc": true,
+    "enable_rtl": false,
+    "default_purchase_type": "subscription",
+    "container_width": 1170,
+    "container_fluid_width": 1620,
+    "container_fluid_offset": 100,
+    "color_primary": "#ffc107",
+    "color_main_bg": "#f8f6f0",
+    "color_body_text": "#322b81",
+    "color_heading_text": "#322b81",
+    "color_sub_text": "#000000",
+    "color_text_link": "#322b81",
+    "color_text_link_hover": "#343a40",
+    "color_btn_bg": "#322b81",
+    "color_btn_text": "#ffffff",
+    "color_btn_secondary_border": "#322b81",
+    "color_btn_secondary_text": "#322b81",
+    "color_btn_bg_hover": "#ffc107",
+    "color_btn_text_hover": "#ffffff",
+    "product_title_color": "#322b81",
+    "prod_sale_price_color": "#eb4343",
+    "prod_regular_price_color": "#343a40",
+    "prod_type_color": "#343a40",
+    "prod_desc_color": "#343a40",
+    "color_annoucement_bg": "#322b81",
+    "color_annoucement_text": "#ffffff",
+    "color_topbar_bg": "#f6f3ea",
+    "color_topbar_text": "#322b81",
+    "color_header_bg": "#faf9f5",
+    "color_header_link": "#322b81",
+    "color_header_transparent": "#322b81",
+    "color_cart_wishlist_count": "#322b81",
+    "bg_cart_wishlist_count": "#ffc107",
+    "color_menu_bar_bg": "#000000",
+    "color_menu_bar_text": "#f8f8f8",
+    "color_footer_bg": "#faf9f5",
+    "color_footer_text": "#322b81",
+    "color_footer_subtext": "#000000",
+    "color_footer_link": "#000000",
+    "color_footer_link_hover": "#000000",
+    "color_footer_bg_mb": "#faf9f5",
+    "color_footer_bottom_bg": "#f6f3ea",
+    "color_footer_bottom_text": "#000000",
+    "color_footer_bottom_bg_mb": "#f6f3ea",
+    "color_border": "#f6f3ea",
+    "img_overlay_opacity": 20,
+    "tooltip_background_color": "#000000",
+    "tooltip_text_color": "#ffffff",
+    "type_base_font": "roboto_condensed_n4",
+    "use_custom_font_body": true,
+    "custom_body_font": "https://cdn.shopify.com/s/files/1/0561/2742/2636/files/Jost-Light.ttf?v=1618297125@300\nhttps://cdn.shopify.com/s/files/1/0561/2742/2636/files/Jost-Regular.ttf?v=1618297125@400\nhttps://cdn.shopify.com/s/files/1/0561/2742/2636/files/Jost-Medium.ttf?v=1618297125@500\nhttps://cdn.shopify.com/s/files/1/0561/2742/2636/files/Jost-SemiBold.ttf?v=1618297125@600\nhttps://cdn.shopify.com/s/files/1/0561/2742/2636/files/Jost-Bold.ttf?v=1618297125@700",
+    "custom_body_weight": "400",
+    "type_base_size": 16,
+    "type_base_line_height": 28,
+    "type_header_font": "futura_n5",
+    "use_custom_font_heading": true,
+    "custom_heading_font": "https://cdn.shopify.com/s/files/1/0561/2742/2636/files/Jost-Light.ttf?v=1618297125@300\nhttps://cdn.shopify.com/s/files/1/0561/2742/2636/files/Jost-Regular.ttf?v=1618297125@400\nhttps://cdn.shopify.com/s/files/1/0561/2742/2636/files/Jost-Medium.ttf?v=1618297125@500\nhttps://cdn.shopify.com/s/files/1/0561/2742/2636/files/Jost-SemiBold.ttf?v=1618297125@600\nhttps://cdn.shopify.com/s/files/1/0561/2742/2636/files/Jost-Bold.ttf?v=1618297125@700",
+    "custom_heading_weight": "700",
+    "type_header_base_size": 30,
+    "btn_uppercase_text": false,
+    "btn_base_size": 16,
+    "btn_letter_spacing": 0,
+    "btn_border_width": 4,
+    "btn_border_radius": 30,
+    "btn_line_height": 23,
+    "btn_weight": "400",
+    "pcard_layout": "1",
+    "pcard_alignment": "left",
+    "pcard_image_ratio": "1/1",
+    "show_second_img": true,
+    "show_swatch_option": false,
+    "pcard_option_name": "",
+    "pcard_option_design": "button",
+    "pcard_limit_values_number": 4,
+    "show_cart_button": true,
+    "show_quickview_button": false,
+    "show_wishlist_button": false,
+    "show_compare_button": false,
+    "show_countdown": true,
+    "select_option_button_action": "link",
+    "on_sale_badge": "hide",
+    "show_badge_soldout": true,
+    "show_review_badge": true,
+    "show_badge_sale": true,
+    "show_vendor": false,
+    "uppercase_prd_name": false,
+    "variant_option_design_default": "button",
+    "variant_option_title1": "",
+    "variant_option_title2": "",
+    "variant_option_title3": "",
+    "variant_option_design3": "color",
+    "variant_option_title4": "",
+    "product_colors": "red: #FF6961,\nyellow: #FDDA76,\nblack: #000000,\nblue: #8DB4D2,\ngreen: #C1E1C1,\npurple: #B19CD9,\nsilver: #EEEEEF,\nwhite: #FFFFFF,\nbrown: #836953,\nlight-brown: #feb035,\ndark-turquoise: #23cddc,\norange: #FFB347,\ntan: #E9D1BF,\nviolet: #B490B0,\npink: #FFD1DC,\ngrey: #E0E0E0,\nsky: #96BDC6,\npale-leaf: #CCD4BF",
+    "filter_color1": "",
+    "article_align_content": "text-left",
+    "article_show_tags": true,
+    "share_facebook": true,
+    "contact_phone_number": "0756941391",
+    "contact_email": "bonjour@umawell.com",
+    "social_twitter_link": "",
+    "social_facebook_link": "https://www.facebook.com/umawellfrance",
+    "social_pinterest_link": "",
+    "social_instagram_link": "https://www.instagram.com/umawellfrance/",
+    "enable_cart_drawer": false,
+    "cart_drawer_show_accelerated_button": false,
+    "cart_notes_enable": false,
+    "discount_code_enable": false,
+    "cart_estimate_shipping": false,
+    "default_country_estimate_shipping": "FR",
+    "cart_drawer_trust_badge": "shopify://shop_images/moyens_de_paiements.png",
+    "enable_predictive_search": true,
+    "search_by_tag": true,
+    "search_by_body": true,
+    "popular_search_queries": "",
+    "wishlist_page": "",
+    "product_compare_page": "",
+    "agree_text": "<p>j'ai lu et j'accepte <a href=\"#\" title=\"#\">les conditions générales de vente</a></p>",
+    "show_agree_on_cart": false,
+    "show_cookie_consent": false,
+    "cookie_design_mode": false,
+    "cookie_consent_message": "Nous utilisons des cookies pour comprendre ce qui marche bien ou moins bien sur le site, mais aussi pour mieux comprendre vos besoins et vous adresser de temps à autre du contenu de qualité ou de la publicité. Ok pour vous ?",
+    "cookie_consent_allow": "OK pour moi",
+    "cookie_consent_decline": "Non merci",
+    "cookie_consent_learnmore": "En savoir plus",
+    "cookie_consent_learnmore_link": "https://umawell.fr/pages/protection-des-donnees",
+    "cookie_consent_placement": "bottom-left",
+    "cookie_consent_theme": "white",
+    "gm_api": "",
+    "instagram_token": "IGQWROXzdWRE5MNEl6ajB1NDhnbllZAVU5jVGVOX0NFUTFiOW5IcjA3cndTU2pYM2Y4ZAnZAtMzB4VFBlVGdHSHZAHUHpaVWQtRE1wVkZA3cVcwTHRuQ3lKRGJRa2RaOVVlektCNEs5c0NaZAHZAYN0pNblAzYzI5UFo2X1kZD",
+    "custom_css": ".section__heading,\n.content__heading {\n  line-height: 1.167;\n}\n.section__subheading,\n.sf-hero__subtitle,\n.content__subheading {\n  font-size: 15px;\n  line-height: 1.7;\n  letter-spacing: 0.1em;\n  margin-bottom: 25px;\n  font-weight: 600;\n}\n.sf__btn.sf__btn-link::after,\na.sf__btn.sf__btn-link::after,\n.sf__btn.sf__btn-link::before,\na.sf__btn.sf__btn-link::before {\n  height: 1px;\n}\n.sf__pcard-style-4 .sf__pcard-content .sf__pcard-name {\n  font-weight: 500;\n}\n.sf__pcard-price.price--on-sale .prod__price {\n  color: #b21d13;\n}\nbody:not(.template-index) .sf-footer {\n  border-top: 2px solid #eee;\n}\n.sf-header__desktop .sf-menu-logo-bar {\n  padding-left: 34px;\n  padding-right: 34px;\n}\n.sf-header__desktop .sf-logo {\n  flex: 0 0 auto;\n}\n.sf-header__desktop .sf-menu-wrapper__desktop {\n  justify-content: flex-start;\n  margin-left: 15px;\n}\n.sf-nav li.sf-menu-item-parent a.sf__parent-item {\n  font-size: 15px;\n  font-weight: 600;\n}\n\n.sf__index-slideshow .sf__slide-content .slide__block-title {\n  line-height: 1.23;\n  font-weight: 600;\n}\n.sf__index-slideshow .sf__slide-content .slide__block-description {\n  color: var(--btn-color);\n  line-height: 1.6;\n}\n.sf__index-icon-box-1 .sf-column .sf-icon-box {\n  padding: 50px 30px;\n  background: #FAF9F5;\n  border-radius: 0px;\n}\n.sf__index-icon-box-1 .sf-column .sf-icon-box__inner .sf-icon-box__text h3 {\n  font-size: 18px;\n  line-height: 1.5;\n  margin-bottom: 12px;\n  font-weight: 600;\n}\n\n.sf__index-img-with-text .content__subheading {\n  margin-bottom: 56px;\n}\n\n.sf__index-custom-html .rte .section__heading {\n  margin-bottom: 13px;\n}\n.sf__index-custom-html .block__content-header {\n  margin-bottom: 30px;\n}\n.sf__index-custom-html .block__content-body {\n  margin-bottom: 30px;\n}\n.sf__index-custom-html .block__content-body h3 {\n  font-size: 24px;\n  line-height: 1.33;\n  margin-bottom: 10px;\n}\n.sf__index-custom-html .block__content-header p,\n.sf__index-custom-html .block__content-body p {\n  font-size: 15px;\n}\n.sf__index-custom-html .block__content-footer {\n  padding-top: 24px;\n  margin-top: 40px;\n  border-top: 1px solid #142b6f;\n}\n.sf__index-custom-html .block__content-footer .block__item h4 {\n  font-size: 48px;\n  line-height: 1.33;\n}\n.sf__index-custom-html .block__content-footer .block__item p {\n  font-size: 18px;\n}\n\n.sf__index-hero .sf-hero {\n  border-radius: 15px;\n}\n.sf__index-hero .sf-hero__content h3 {\n  font-size: 40px;\n  line-height: 1.3;\n  font-weight: 600;\n  margin-bottom: 15px;\n}\n.sf__index-hero .sf-hero__content .sf-hero__text {\n  margin-bottom: 0;\n}\n.sf__index-custom-content-1 .sf-custom__block--text {\n  align-items: flex-start;\n}\n.sf__index-custom-content-1\n  .sf__tabs-custom\n  .sf__tab-item\n  .sf__tab-item-label::before {\n  right: 5px;\n}\n.sf__index-custom-content-1 .sf__tabs-custom .sf__tab-item .sf__tab-item-label {\n  font-weight: 400;\n  font-size: 15px;\n  line-height: 1.6;\n  padding: 3px 0;\n}\n.sf__index-custom-content-1\n  .sf__tabs-custom\n  .sf__tab-item\n  .sf__tab-item-content {\n  color: var(--color-sub-text);\n}\n.sf__index-hero-2 .sf-hero__content {\n  padding: 70px 55px 80px;\n  background: #fff;\n  border-radius: 15px;\n}\n.sf__index-hero-2 .sf-hero__content h3 {\n  font-size: 40px;\n  font-weight: 600;\n  margin-bottom: 10px;\n  line-height: 1.3;\n}\n.sf__index-hero-2 .sf-hero__content .sf-hero__text {\n  margin-bottom: 50px;\n}\n\n.sf__footer-block-title {\n  font-size: 24px;\n  line-height: 1.33;\n}\n.sf-footer form.sf__footer-form-newsletter .sf__newletter__form-input {\n  border: 2px solid #ccc;\n  border-radius: 52px;\n}\n.sf__footer-bottom .social-media-links a {\n  color: #fff;\n}\n\n@media (min-width: 1024px) {\n  .sf__footer-bottom-inner {\n    padding-top: 2rem;\n  }\n}\n\n@media (min-width: 1280px) {\n  .sf__footer-block-newsletter .sf__footer-block-title {\n    font-size: 24px;\n    line-height: 1.33;\n    font-weight: 600;\n    margin-bottom: 13px;\n  }\n  .sf__footer-block-newsletter .sf__newsletter-block-desc {\n    font-weight: 400;\n    padding: 0;\n    margin-bottom: 35px;\n    line-height: 1.5;\n    font-size: 16px;\n  }\n}\n\n@media (min-width: 1680px) {\n  .sf__index-slideshow .sf__slide-content .slide__block-title {\n    font-size: 64px;\n    margin-bottom: 30px;\n  }\n  .sf__index-slideshow .sf__slide-content .slide__block-description {\n    font-size: 20px;\n    margin-bottom: 40px;\n  }\n}\n@media (min-width: 1921px) {\n  .sf__index-custom-content {\n    background-position: top;\n  }\n}\n\n@media (max-width: 1535px) {\n  .sf-footer .sf__footer-middle .sf-footer__block.sf__footer-block-spacing {\n    width: 25%;\n  }\n}\n@media (max-width: 767px) {\n  .sf__footer-bottom-inner {\n    padding: 1rem 0;\n  }\n  .sf__footer-bottom .social-media-links {\n    margin-left: -16px;\n  }\n  .sf__index-slideshow .sf__slide-content .sf__mobile-button {\n    width: 100%;\n  }\n  .sf__index-icon-box-1 .sf-column .sf-icon-box {\n    padding: 20px 20px;\n  }\n  .sf__index-icon-box-1 .sf-column .sf-icon-box__inner .sf-icon-box__text h3 {\n    font-size: 15px;\n  }\n  .sf__index-icon-box-1 .sf-column .sf-icon-box__inner {\n    align-items: flex-start;\n  }\n  .content__subheading,\n  .section__subheading,\n  .sf-hero__subtitle {\n    font-size: 12px;\n    margin-bottom: 10px;\n  }\n  .sf__index-img-with-text .content__subheading {\n    margin-bottom: 30px;\n  }\n  .sf__index-img-with-text .content__subheading img {\n    max-width: 60px;\n  }\n  .sf__index-custom-content {\n    background-image: none;\n  }\n  .sf__index-custom-content .section__header {\n    margin-bottom: 30px;\n  }\n  .sf__index-custom-content ul.sf__custom-list .content_box h3 {\n    font-size: 18px;\n    margin-bottom: 5px;\n  }\n  .sf__index-custom-content .sf-custom__grid {\n    padding-bottom: 0;\n  }\n  .sf__index-custom-content ul.sf__custom-list li {\n    grid-template-columns: 30px auto;\n    grid-gap: 20px;\n    margin-bottom: 30px;\n  }\n  .sf__index-custom-content-1\n    .sf__tabs-custom\n    .sf__tab-item\n    .sf__tab-item-label {\n    font-size: 18px;\n    padding-right: 15px;\n  }\n  .sf__index-custom-content-1 .sf__tabs-custom .sf__tab-item {\n    margin-bottom: 20px;\n  }\n  .sf__index-hero-2 .sf-hero__content {\n    padding: 40px 16px;\n  }\n  .sf__index-hero .sf-hero__content h3,\n  .sf__index-hero-2 .sf-hero__content h3 {\n    font-size: 30px;\n  }\n  .sf__index-hero-2 .sf-hero__content .sf-hero__text {\n    margin-bottom: 30px;\n  }\n}\n.sf__custom__with_image .sf-custom__grid {\n  display: flex;\n  align-items: center;\n}\n.sf__custom__with_image .sf__custom-header {\n  line-height: 1.16;\n}\n.sf__custom__with_image .prod__description {\n  color: var(--color-sub-text);\n  line-height: 1.625;\n}\n.sf__custom-section-collapse .sf__custom-collapse h2 {\n  line-height: 1.16;\n  margin-bottom: 30px;\n}\n.sf__custom-section-collapse .sf__tab-item input:checked+.sf__tab-item-label {\n  border-bottom-color: #DDDDDD;\n}\n.sf__custom-section-collapse .sf__tab-item-label {\n  border-bottom-color: #DDDDDD;\n  font-size: 1.25rem;\n  font-weight: 600;\n  line-height: 1.6;\n  padding: 6px 0;\n}\n.sf__custom-section-collapse .sf__tab-item-label::before {\n  right: 5.5px;\n}\n.sf__custom-section-collapse .sf__custom-collapse .prod__description {\n  color: var(--color-sub-text);\n  line-height: 2.25;\n}\n.sf__custom-section-collapse .sf__tab-item {\n  margin-bottom: 30px;\n}\n@media (min-width: 768px) {\n  .sf__custom-left .sf-custom__block-inner {\n    padding-right: 5rem;\n  }\n  .sf__custom-right .sf-custom__block-inner {\n    padding-left: 5rem;\n  }\n  .sf__custom-collapse .sf-custom__block-inner {\n    padding: 3.125rem;\n    max-width: 546px;\n    max-height: 600px;\noverflow: scroll;\n  }\n  .sf__custom-section-collapse {\n    position: relative;\n  }\n  .sf__custom-collapse .sf-custom__block-inner {\n    position: absolute;\n    top: 100px;\n    right: 250px;\n    background-color: #ffffff;\n    border-radius:1.25rem;\n  }\n}\n@media(max-width: 767px) {\n    .sf__custom-collapse .sf-custom__block-inner {\n        padding: 1.5rem;\n    }\n}\n\n.custom__html-block2 {\n  padding: 70px 80px;\n  background-image: url(https://cdn.shopify.com/s/files/1/0561/2742/2636/files/bg.jpg?v=1622194012);\n  background-size: no-repeat;\n  background-size: cover;\n  background-position: center;\n  border-radius: 8px;\n}\n.custom__html-block2 .block__content {\n  text-align: center;\n  display: inline-block;\n}\n.custom__html-block2 .block__content h3 {\n  color: #fff;\n  font-size: 48px;\n  line-height: 56px;\n  margin-bottom: 6px;\n}\n.custom__html-block2 .block__content p {\n  color: rgba(255, 255, 255, 0.7);\n}\n.custom__html-block2 .block__social {\n  margin-top: 50px;\n  text-align: center;\n}\n.custom__html-block2 .block__social ul {\n  margin: 0 -20px;\n}\n.custom__html-block2 .block__social ul li {\n  display: inline-block;\n  padding: 0 20px;\n}\n.custom__html-block2 .block__social ul li a {\n  display: flex;\n  align-items: center;\n  color: #fff;\n}\n.custom__html-block2 .block__social ul li a img {\n  height: 15px;\n  margin-right: 10px;\n}\n.custom__html-block1 {\n  padding: 0 70px;\n  position: relative;\n}\n.custom__html-block1::after {\n  position: absolute;\n  content: \"\";\n  top: 22px;\n  left: 0;\n  width: 100%;\n  height: calc(100% - 56px);\n  border-radius: 8px;\n  background: #dee7e4;\n  z-index: -1;\n}\n.custom__html-block1 img {\n  max-width: 300px;\n  margin-right: 70px;\n}\n.custom__html-block1 .block__content {\n  position: relative;\n  z-index: 1;\n}\n.custom__html-block1 .block__content-text {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  width: 100%;\n}\n.custom__html-block1 .block__content-text .block__heading h3 {\n  font-size: 40px;\n  line-height: 56px;\n  margin-bottom: 4px;\n}\n.custom__html-block1 .block__content-text .block__heading p {\n  color: #000000;\n}\n@media (min-width: 768px) {\n  .section-my {\n    margin-top: 100px !important;\n    margin-bottom: 100px !important;\n  }\n  .section-py {\n    padding-top: 100px !important;\n    padding-bottom: 100px !important;\n  }\n  .sf__footer-form-newsletter {\n    max-width: 80%;\n  }\n}\n@media (max-width: 767px) {\n  .custom__html-block1 {\n    padding: 0 20px 20px;\n  }\n  .custom__html-block1 .block__content,\n  .custom__html-block1 .block__content-text {\n    flex-direction: column;\n    text-align: center;\n  }\n  .custom__html-block1 img {\n    margin-right: 0;\n  }\n  .custom__html-block1 .block__content-text .block__heading h3 {\n    font-size: 24px;\n    line-height: 30px;\n    margin-top: 20px;\n  }\n  .custom__html-block1 .block__content-text .block__heading p {\n    margin-bottom: 20px;\n  }\n  .custom__html-block1::after {\n    height: 100%;\n  }\n}\n.template-product #shopify-section-footer { margin-top: -65px; }",
+    "review_app": "judge",
+    "checkout_logo_image": "shopify://shop_images/logo-laboratoires-uma-passage-a-la-caisse_229af1ce-7114-40ae-9f91-d2260f0b94a2.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_color": "#fbfbfb",
+    "checkout_accent_color": "#142b6f",
+    "checkout_button_color": "#322b81",
+    "show_variant_swatch_image": true,
+    "use_theme_currencies": true,
+    "theme_currencies": "USD | EUR | GBP | VND",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "header_design": "both-center",
+          "container": "w-full",
+          "header_sticky": true,
+          "transparent_on_top": true,
+          "logo_text": "",
+          "logo": "shopify://shop_images/laboratoires-uma-logo-HQ.png",
+          "logo_mobile": "shopify://shop_images/laboratoires-uma-logo-HQ.png",
+          "logo_transparent": "shopify://shop_images/laboratoires-uma-logo-HQ.png",
+          "logo_svg": "",
+          "logo_mobile_svg": "",
+          "logo_transparent_svg": "",
+          "logo_max_width": 105,
+          "sticky_logo_max_width": 105,
+          "mobile_logo_max_width": 80,
+          "main_menu": "menu-principale-gauche-v2",
+          "secondary_menu": "menu-principale-droite-v2",
+          "mobile_menu": "menu-mobile-v2",
+          "uppercase_parent_level": false,
+          "search": "hide",
+          "show_account_icon": true,
+          "show_cart_icon": true,
+          "show_wishlist_icon": false,
+          "show_compare_icon": false,
+          "show_currency_switcher": true,
+          "show_country_selector": false,
+          "show_language_switcher": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "1e7187ed-e82f-4909-819e-285b210ae794": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Il est temps de changer \"le changement\".",
+              "description": "Des emails incroyables proposés par notre équipe. Pour vous tenir au courant de tout (nouveautés, cadeaux, évènements...) Ici vous savez tout avant tout le monde.",
+              "email_placeholder": "Entrez votre email",
+              "form_style": "bordered",
+              "show_social": false,
+              "show_agree_checkbox": false,
+              "width": "50%",
+              "order_first": true,
+              "open_default": true
+            }
+          },
+          "7527ffa4-1a31-4e5c-b642-96aa834daf84": {
+            "type": "menu",
+            "settings": {
+              "menu": "footer",
+              "title": "<span class=\"font-body font-semibold\">Nous</span>",
+              "width": "33%",
+              "order_first": false,
+              "open_default": false
+            }
+          },
+          "c85629c7-7aae-4666-b5f0-150990439c91": {
+            "type": "menu",
+            "settings": {
+              "menu": "menu-pied-de-page-secondaire",
+              "title": "<span class=\"font-body font-semibold\">Ressources</span>",
+              "width": "33%",
+              "order_first": false,
+              "open_default": false
+            }
+          },
+          "2ae96938-9a00-4ea7-9ca9-288b3c29de5e": {
+            "type": "menu",
+            "settings": {
+              "menu": "termes-et-conditions",
+              "title": "<span class=\"font-body font-semibold\">Vous & Nous</span>",
+              "width": "33%",
+              "order_first": false,
+              "open_default": false
+            }
+          },
+          "88e4a36b-b77f-4c10-8929-a96842b51b19": {
+            "type": "our_store",
+            "disabled": true,
+            "settings": {
+              "title": "",
+              "description": "<p>Nos produits ne sont pas destinés à prévenir, traiter ou guérir toute maladie/maladie grave.</p>",
+              "show_email": false,
+              "show_phone": false,
+              "show_socials_link": false,
+              "width": "25%",
+              "order_first": false,
+              "open_default": false
+            }
+          }
+        },
+        "block_order": [
+          "1e7187ed-e82f-4909-819e-285b210ae794",
+          "7527ffa4-1a31-4e5c-b642-96aa834daf84",
+          "c85629c7-7aae-4666-b5f0-150990439c91",
+          "2ae96938-9a00-4ea7-9ca9-288b3c29de5e",
+          "88e4a36b-b77f-4c10-8929-a96842b51b19"
+        ],
+        "settings": {
+          "design": "footer-1",
+          "container": "container",
+          "bordered": true,
+          "copyright": "© 2023 Tous droits reservés. Laboratoires üma© | Prenez soin de vous. <br>Nos produits n’ont pas pour but de diagnostiquer, traiter, soigner ou empêcher les maladies. Nos produits ne contiennent aucun ingrédient nécessitant une prescription médicale.",
+          "show_country_selector": true,
+          "show_currency_selector": false,
+          "show_language_selector": true,
+          "show_social_links": true,
+          "show_payment_icons": true,
+          "image_custom_payment": "shopify://shop_images/moyens_de_paiements.png",
+          "payment_icons_width": 400
+        }
+      },
+      "annoucement": {
+        "type": "annoucement",
+        "settings": {
+          "show_announcement": true,
+          "homepage_only": false,
+          "show_close": false,
+          "message": "<div class=\"sf__scrolling-text text-base\" data-s-speed=\"lowest\" data-outline-thickness=\"thin\" data-s-dir=\"ltr\">\n    <div class=\"sf__scrolling-text-inner\">\n      <p><a href=\"https://umawell.fr/collections/toutes-nos-cures\"><em>CURES CIBLÉES POUR LA MÉNOPAUSE<span class=\"custom\" data-scale=\"large\"></span>MARQUE FRANÇAISE <span class=\"custom\" data-scale=\"large\"></span>LIVRAISON MONDIALE GRATUITE<span class=\"custom\" data-scale=\"large\"></span></em></a></p>\n      <p><a href=\"https://umawell.fr/collections/toutes-nos-cures\"><em>CURES CIBLÉES POUR LA MÉNOPAUSE<span class=\"custom\" data-scale=\"large\"></span> MARQUE FRANÇAISE <span class=\"custom\" data-scale=\"large\"></span> LIVRAISON MONDIALE GRATUITE<span class=\"custom\" data-scale=\"large\"></span></em></a></p>\n      <p><a href=\"https://umawell.fr/collections/toutes-nos-cures\"><em>CURES CIBLÉES POUR LA MÉNOPAUSE<span class=\"custom\" data-scale=\"large\"><span> MARQUE FRANÇAISE <span class=\"custom\" data-scale=\"large\"></span> LIVRAISON MONDIALE GRATUITE<span class=\"custom\" data-scale=\"large\"></span></span></span></em></a></p>\n        <p><a href=\"https://umawell.fr/collections/toutes-nos-cures\"><em>CURES CIBLÉES POUR LA MÉNOPAUSE<span class=\"custom\" data-scale=\"large\"></span> MARQUE FRANÇAISE <span class=\"custom\" data-scale=\"large\"></span> LIVRAISON MONDIALE GRATUITE<span class=\"custom\" data-scale=\"large\"></span></em></a></p>\n        <p><a href=\"https://umawell.fr/collections/toutes-nos-cures\"><em>CURES CIBLÉES POUR LA MÉNOPAUSE <span class=\"custom\" data-scale=\"large\"></span>MARQUE FRANÇAISE <span class=\"custom\" data-scale=\"large\"></span> LIVRAISON MONDIALE GRATUITE<span class=\"custom\" data-scale=\"large\"></span></em></a></p>\n    </div>\n  </div>",
+          "message_link": "shopify://collections/shopall",
+          "show_divider": false
+        }
+      },
+      "mobile-sticky-bar": {
+        "type": "mobile-sticky-bar",
+        "settings": {
+          "show_mobile_sticky": true,
+          "show_home_icon": true,
+          "show_collection_icon": false,
+          "show_cart_icon": true,
+          "show_search_icon": false,
+          "show_account_icon": true,
+          "show_wishlist_icon": false
+        }
+      }
+    },
+    "content_for_index": [],
+    "blocks": {
+      "14060646107696862457": {
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {}
+      },
+      "6868439170666289573": {
+        "type": "shopify://apps/foxkit-upsells-cross-sells/blocks/foxkit-theme-helper/13f41957-6b79-47c1-99a2-e52431f06fff",
+        "disabled": false,
+        "settings": {
+          "enable_ajax_atc": true
+        }
+      },
+      "8765772171712610185": {
+        "type": "shopify://apps/t-lab-ai-language-translate/blocks/language_switcher/b5b83690-efd4-434d-8c6a-a5cef4019faf",
+        "disabled": false,
+        "settings": {
+          "enable_language_switcher": true,
+          "enable_country_region_switcher": true,
+          "use_currency_for_region": true,
+          "switcher_position": "header",
+          "show_flags": true,
+          "switcher_appearance": "language-name",
+          "invert_switcher_icon_colors": false,
+          "dropdown_appearance": "language-name",
+          "use_modal_dialog": false,
+          "language_country_mapping": "",
+          "countries_filter": "",
+          "custom_css": ".mobile .tl-selections {\n  justify-content: center;\n}\n\n.tl-switcher-container.mobile .tl-currency {\ndisplay: none;\n}",
+          "header_switcher_reference_element": ".sf-search-form",
+          "header_switcher_relative_position": "before",
+          "mobile_menu_switcher_reference_element": ".sf-logo",
+          "mobile_switcher_relative_position": "before",
+          "header_switcher_border_width": 0,
+          "switcher_viewport_position": "top-right",
+          "custom_position_spacing": "55,20,20,20",
+          "custom_switcher_font_size": "14px",
+          "custom_switcher_border_width": 1,
+          "custom_switcher_text_color": "#5c5c5c",
+          "custom_switcher_background_color": "#ffffff",
+          "custom_switcher_border_color": "#000000"
+        }
+      },
+      "12793297677437526120": {
+        "type": "shopify://apps/t-lab-ai-language-translate/blocks/custom_translations/b5b83690-efd4-434d-8c6a-a5cef4019faf",
+        "disabled": false,
+        "settings": {}
+      },
+      "2956622847032801399": {
+        "type": "shopify://apps/px-trust-badges-icons/blocks/app-embed-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+        "disabled": false,
+        "settings": {}
+      },
+      "855628211100114053": {
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {}
+      },
+      "1768834845299682660": {
+        "type": "shopify://apps/subscriptions/blocks/app-embed-block/a3bfe9ec-96f8-4508-a003-df608a36d2ad",
+        "disabled": true,
+        "settings": {
+          "color_text_title": "#6d7175",
+          "color_text_body": "#6d7175",
+          "dividers_color": "#8f8d8d",
+          "bacgkround_color": "#ffffff",
+          "border_thickness": 1,
+          "border_radius": 0,
+          "subscription_policy_url": ""
+        }
+      },
+      "13951790959197487361": {
+        "type": "shopify://apps/heichat/blocks/app-embed/d06bff14-5b11-4501-b859-e2c4b0828889",
+        "disabled": false,
+        "settings": {}
+      },
+      "12108174171315376258": {
+        "type": "shopify://apps/aov-ai-cart-drawer/blocks/avada-embed/938869e1-3feb-48fa-ab79-27fdfe609836",
+        "disabled": true,
+        "settings": {}
+      },
+      "2131494470682214141": {
+        "type": "shopify://apps/corner-cart-drawer-free-gift/blocks/corner-widget/73667a27-0d48-44b7-91f9-aef741c803ed",
+        "disabled": false,
+        "settings": {
+          "elementToReplaceInCartPage": "main",
+          "hide_theme_cart": false,
+          "enable_defer_loading": false,
+          "enable_corner_test_campaigns": true
+        }
+      }
+    }
+  },
+  "presets": {
+    "Default": {
+      "sections": {
+        "featured-collection": {
+          "type": "featured-collection",
+          "settings": {
+            "collection": "frontpage"
+          }
+        },
+        "featured-product": {
+          "type": "featured-product",
+          "settings": {}
+        }
+      },
+      "content_for_index": [
+        "featured-collection",
+        "featured-product"
+      ]
+    }
+  },
+  "platform_customizations": {
+    "custom_css": []
+  }
+}

@@ -1,0 +1,136 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "38bec5b5-a0ec-4e68-ab1e-6cd9baec9a0f": {
+      "type": "image-with-text-2",
+      "settings": {
+        "container": "container",
+        "hero_size": "medium",
+        "show_overlay": true,
+        "image": "shopify://shop_images/Downloader.la_-6508644b18613.jpg",
+        "bg_position": "center",
+        "image_link": "",
+        "parallax": false,
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "white",
+        "title": "Notre journal",
+        "subtitle": "",
+        "text": "<p>Bouffées de chaleur, sueurs nocturnes, troubles du sommeil, fatigue, anxiété, maux de tête, prise de poids, ici on parle de ménopause et des différentes manières de bien le vivre, mais pas seulement. Bienvenue sur le blog des Laboratoires üma, le premier laboratoire français dédié à la santé et au bien-être des femmes.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-primary",
+        "button_size": "",
+        "use_content_above": false,
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "main": {
+      "type": "blog-template",
+      "blocks": {
+        "b992bb88-39cd-4aed-9aef-856b3cf14c0c": {
+          "type": "recent_post",
+          "settings": {
+            "title": "Les articles du moment",
+            "sidebar_recent_blog_name": "news",
+            "sidebar_recent_blog_count": "3",
+            "blog_show_tags": false,
+            "blog_show_author": false,
+            "blog_show_date": false,
+            "show_excerpt": false,
+            "truncate": "15"
+          }
+        },
+        "tags": {
+          "type": "tags",
+          "settings": {
+            "title": "Nos articles par catégories"
+          }
+        }
+      },
+      "block_order": [
+        "b992bb88-39cd-4aed-9aef-856b3cf14c0c",
+        "tags"
+      ],
+      "settings": {
+        "container": "container",
+        "show_sidebar": false,
+        "layout": "right_column",
+        "view": "grid",
+        "blog_list": 6,
+        "show_item_per_row": 2
+      }
+    },
+    "16474394333742081f": {
+      "type": "custom-content",
+      "blocks": {
+        "6012a82c-e98b-4316-891e-59456cbcc1cf": {
+          "type": "product",
+          "settings": {
+            "product": "iconique-collagen",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "f1db2016-3685-4b1b-9bdb-42bfc40eb44d": {
+          "type": "product",
+          "settings": {
+            "product": "harmonie-daily",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "ce2a3d99-6452-4148-abc9-47eea1add12b": {
+          "type": "product",
+          "settings": {
+            "product": "ohlala",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "6012a82c-e98b-4316-891e-59456cbcc1cf",
+        "f1db2016-3685-4b1b-9bdb-42bfc40eb44d",
+        "ce2a3d99-6452-4148-abc9-47eea1add12b"
+      ],
+      "settings": {
+        "heading": "La solution naturelle à la ménopause",
+        "subheading": "REPRENEZ CONFIANCE EN VOUS",
+        "description": "Périménopause, ménopause et postménopause, nos cures vous accompagne au quotidien dans les grands changements de votre corps après 45 ans.",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "#f6f3ea",
+        "gap": 100,
+        "use_scroll_mobile": true,
+        "gap_mobile": 30,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "38bec5b5-a0ec-4e68-ab1e-6cd9baec9a0f",
+    "main",
+    "16474394333742081f"
+  ]
+}

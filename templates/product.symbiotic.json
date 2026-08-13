@@ -1,0 +1,939 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1642583437f365ed49": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"product-form-1\"></div>",
+        "custom_class": ""
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "c87c6e87-b82b-4ef0-8e7b-85ca44648866": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Symbiotic Probiotiques®</h3>",
+            "text_style": "body"
+          }
+        },
+        "text_T3LDWg": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>Retrouvez l'équilibre : dites adieu aux problèmes intestinaux, aux douleurs vaginales et aux sautes d’humeur.</h5>",
+            "text_style": "body"
+          }
+        },
+        "judge_me_reviews_preview_badge_cdELJc": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "9d6c5ebd-14a3-403d-9c3c-17cc52876cb5": {
+          "type": "text",
+          "settings": {
+            "text": "Symbiotic probiotiques est la dernière formule de probiotiques spécialement conçue pour la santé et le bien-être des femmes. Conçu spécialement pour aider les femmes en ménopause, Symbiotic probiotiques combine action sur la flore vaginale et action sur la flore intestinale, pour un bien-être accru et un système immunitaire renforcé.",
+            "text_style": "subtitle"
+          }
+        },
+        "px_trust_badges_icons_app_block_gMiBfb": {
+          "type": "shopify://apps/px-trust-badges-icons/blocks/app-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+          "settings": {
+            "block_id": "12bc1349-5727-4f8c-8908-a24dba819a5b",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "spacing_left": 0,
+            "spacing_right": 0
+          }
+        },
+        "px_trust_badges_icons_app_block_UV8kwr": {
+          "type": "shopify://apps/px-trust-badges-icons/blocks/app-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+          "settings": {
+            "block_id": "e82e28ec-503f-4a2d-82a1-89aead1fa0fe",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "spacing_left": 0,
+            "spacing_right": 0
+          }
+        },
+        "561bea99-62ba-4d45-a431-eb5f5e7fa148": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_atc_button": true,
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "trust_badge_mQw3bq": {
+          "type": "trust_badge",
+          "settings": {
+            "trust_badges_text": "",
+            "trust_badges_image": "shopify://shop_images/payments_cardssmall.png",
+            "trust_badges_image_width": "100%",
+            "position": "below"
+          }
+        },
+        "0c727350-9dc5-46ae-a5df-e5f7c59cd070": {
+          "type": "shipping",
+          "settings": {
+            "show_delivery_times": true,
+            "deliver_text": "En stock, livré entre le",
+            "deliver_days": "5",
+            "date_format": "%d/%m",
+            "show_shipping_text": true,
+            "shipping_text": "<p><strong>Livraison suivie et sécurisée</strong></p>"
+          }
+        },
+        "111d3e08-0c34-4040-a3cc-7bcc92b56620": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "<b>Pourquoi prendre Symbiotic Probiotiques ?</b>",
+            "content": "<p>Dans le voyage complexe qu'est la ménopause, chaque femme mérite une solution qui parle directement à ses besoins uniques. Symbiotic Probiotiques, développé par les experts des Laboratoires üma, est cette réponse spécifique et puissante. Voici pourquoi Symbiotic est essentiel pour vous :<br/><br/><strong>Efficacité cliniquement prouvée</strong> : S'appuyant sur plus de 2 ans de recherche rigoureuse, Symbiotic Probiotiques est le seul complément de sa catégorie à avoir prouvé scientifiquement son efficacité sur la santé digestive et vaginale des femmes ménopausées.</p><p><strong>Formule ciblée pour la ménopause</strong> : Avec une composition pensée pour les défis spécifiques de cette étape de vie, Symbiotic Probiotiques offre un soutien direct là où vous en avez le plus besoin, aidant à rétablir l'équilibre et le confort quotidien.</p><p><strong>Résultats rapides et tangibles</strong> : Les bénéfices de Symbiotic Probiotiques se manifestent dès les premiers jours d'utilisation. Digestion facilitée, réduction des ballonnements, amélioration du confort vaginal et bien-être général sont autant de résultats que vous pouvez attendre.</p><p><strong>Naturalité et sécurité</strong> : Chez Laboratoires üma, la qualité est notre leitmotiv. Symbiotic Probiotiques, c'est l'assurance d'un produit naturel, vegan, sans hormone, conçu pour être intégré en toute sécurité à votre routine quotidienne.</p><p><strong>Soutien global du bien-être</strong> : Au-delà de l'aspect digestif et vaginal, Symbiotic Probiotiques joue un rôle clé dans le maintien de la santé osseuse, le contrôle du poids, la réduction de l'inflammation et le soutien émotionnel durant la ménopause.</p><p><strong>Facilité d'intégration dans votre vie</strong> : Avec une prise simple et sans contrainte de réfrigération, Symbiotic Probiotiques s'adapte à votre rythme de vie, vous offrant une expérience utilisateur sans souci.</p><p><strong>Choisir Symbiotic, c'est faire le choix d'un allié fiable et efficace dans la gestion des symptômes de la ménopause.</strong> C'est opter pour une qualité de vie améliorée, jour après jour, grâce à une formule dont l'efficacité ne repose pas sur des promesses, mais sur des preuves.</p>",
+            "liquid": "",
+            "default_open": false
+          }
+        },
+        "eb884e3d-33a8-4f53-8502-0527c3f1027b": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "<b>Résultats dès 30 jours de cure</b>",
+            "content": "<p>Deux ans de recherche approfondie ponctuée par une étude clinique. Symbiotic Probiotiques devient le pilier du bien-être féminin à la ménopause. L'étude, menée en double aveugle et randomisée sur une période de 60 jours avec plus de 150 femmes, a révélé des progrès notables dès le premier mois de cure.</p><ul><li>95% signalent une digestion grandement améliorée.</li><li>92% constatent une atténuation des ballonnements.</li><li>70% observent une meilleure régularité digestive.</li><li>87% gèrent mieux le stress et l'anxiété.</li><li>76% ont bénéficié d'une amélioration significative du sommeil.</li><li>90% se sentent plus dynamiques, avec moins de fatigue.</li><li>68% ont vécu des rapports sexuels plus agréables, sans douleur.</li><li>89% profitent d'une hydratation accrue, diminuant sécheresse et irritations intimes.</li><li>76% bénéficient d'un sommeil de meilleure qualité.</li><li>82% bénéficient d'une fraîcheur corporelle améliorée, éliminant mauvaise haleine et odeurs.</li></ul>",
+            "liquid": "",
+            "default_open": false
+          }
+        },
+        "65349e79-857f-4b28-8c94-02aa413ef499": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "<b>Composition et ingrédients</b>",
+            "content": "<p><em><strong>Symbiotic Probiotiques</strong></em><br/><em>Complément alimentaire à base de ferments lactiques</em></p><p><strong>Ingrédients : </strong>Stabilisateur : Hydroxypropyl méthylcellulose, farine de riz brun (Oryza Sativa), enveloppe de la gélule : Hydroxypropyl méthylcellulose (HPMC), mélange de bactéries Bio-Live : Lactobacillus rhamnosus, Lactobacillus casei, Lactobacillus acidophilus, Bifidobacterium infantis, Streptococcus thermophilus, Bifidobacterium breve, Bifidobacterium longum, Lactobacillus bulgaricus.</p>",
+            "liquid": "<img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/Symbiotic_Supplement_full_ingredients_list.png?v=1711893597\"><br><p>Ne dépassez pas la dose journalière recommandée. A prendre dans le cadre d'un régime alimentaire équilibré et d'un mode de vie sain. Conservez hors de portée des enfants. En cas de traitement lourd, demandez l’avis de votre médecin.</p>",
+            "default_open": false
+          }
+        },
+        "collapsible_tab_TDpe9G": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "<b>Combinez nos cures en toute confiance</b>",
+            "content": "<p>Chez les Laboratoires üma, nous comprenons que votre parcours de bien-être est unique, et vous cherchez peut-être à cibler plusieurs aspects de votre santé simultanément. C'est pourquoi nous avons conçu nos produits pour qu'ils puissent être pris ensemble, en toute sécurité et efficacité.</p><ul><li><strong>Synergie des ingrédients :</strong> Nos formules sont développées pour fonctionner en harmonie, maximisant les bienfaits grâce à la synergie des ingrédients. Cela signifie que combiner nos cures peut amplifier les effets positifs sur votre santé.</li><li><strong>Ciblage complet :</strong> Chaque produit cible différents aspects de votre bien-être. En les combinant, vous pouvez adresser plusieurs préoccupations de santé à la fois, pour une approche holistique de votre bien-être.</li><li><strong>Sécurité et qualité :</strong> La sécurité est notre priorité. Tous nos produits sont formulés en respectant strictement les normes de sécurité et de qualité, vous permettant de les combiner sans risque de surdosage ou d'interactions négatives.</li></ul><p><strong>Conseils pour l'association de nos produits :</strong></p><ul><li><strong>Suivez les instructions :</strong> Chaque produit vient avec des recommandations précises. Pour une expérience optimale, il est important de respecter ces dosages.</li><li><strong>Écoutez votre corps :</strong> Soyez attentif à vos réactions et ajustez l'utilisation des produits en fonction de vos ressentis et de vos objectifs de santé.</li><li><strong>Hydratation :</strong> L'eau facilite l'absorption des compléments et soutient leur efficacité. Veillez à bien vous hydrater tout au long de la journée.</li></ul><p><strong>Nos associations favorites avec Symbiotic Probiotiques :</strong></p><ul><li><strong>Pour une santé intestinale optimale</strong> : Associez Symbiotic avec Harmonie Daily pour renforcer votre microbiome intestinal et votre équilibre hormonal, maximisant ainsi votre bien-être général durant la ménopause.</li><li><strong>Soutien au métabolisme et à la perte de poids</strong> : Combinez Symbiotic avec Oh La La pour favoriser la digestion et la gestion du poids, tout en ciblant la santé intestinale pour une efficacité accrue dans votre parcours de bien-être.</li><li><strong>Beauté et vitalité</strong> : Pour soutenir la beauté de la peau, des cheveux et des ongles affectés par les changements hormonaux, l'ajout d'Iconique Collagène à Symbiotic crée un duo puissant, nourrissant votre corps de l'intérieur.</li><li><strong>Articulations et os solides</strong> : L'intégration de Reneva offre un soutien complémentaire pour vos os et articulations, travaillant en harmonie avec Symbiotic pour une approche globale de la santé pendant la ménopause.</li></ul><p>Adoptez ces combinaisons pour profiter d'un parcours de bien-être adapté et efficace, guidé par la science et notre expertise chez Laboratoires üma.</p>",
+            "liquid": "",
+            "default_open": false
+          }
+        },
+        "px_trust_badges_icons_app_block_dXjRLt": {
+          "type": "shopify://apps/px-trust-badges-icons/blocks/app-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+          "settings": {
+            "block_id": "affa9f09-bb2b-438a-a378-e7074ccdad8d",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "spacing_left": 0,
+            "spacing_right": 0
+          }
+        },
+        "judge_me_reviews_review_widget_9XHVih": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        },
+        "complementary_xn7Mhk": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Les combinaisons idéales",
+            "make_collapsible_row": false,
+            "product_list_limit": 2,
+            "products_per_page": 2,
+            "pcard_image_ratio": "original",
+            "enable_variant_options": false,
+            "enable_quick_view": true,
+            "enable_quick_add": true,
+            "enable_compare": false,
+            "enable_wishlist": false
+          }
+        }
+      },
+      "block_order": [
+        "c87c6e87-b82b-4ef0-8e7b-85ca44648866",
+        "text_T3LDWg",
+        "judge_me_reviews_preview_badge_cdELJc",
+        "9d6c5ebd-14a3-403d-9c3c-17cc52876cb5",
+        "px_trust_badges_icons_app_block_gMiBfb",
+        "px_trust_badges_icons_app_block_UV8kwr",
+        "561bea99-62ba-4d45-a431-eb5f5e7fa148",
+        "trust_badge_mQw3bq",
+        "0c727350-9dc5-46ae-a5df-e5f7c59cd070",
+        "111d3e08-0c34-4040-a3cc-7bcc92b56620",
+        "eb884e3d-33a8-4f53-8502-0527c3f1027b",
+        "65349e79-857f-4b28-8c94-02aa413ef499",
+        "collapsible_tab_TDpe9G",
+        "px_trust_badges_icons_app_block_dXjRLt",
+        "judge_me_reviews_review_widget_9XHVih",
+        "complementary_xn7Mhk"
+      ],
+      "settings": {
+        "container": "container-fluid",
+        "layout": "layout-4",
+        "show_atwl": false,
+        "enable_history_state": false,
+        "enable_variant_group_images": false,
+        "show_featured_media": true,
+        "show_zoom_button": true,
+        "enable_video_autoplay": false,
+        "show_nav_media_mobile": true,
+        "show_pagination_mobile": false,
+        "use_sticky_atc": true,
+        "use_sticky_atc_on_mobile": true,
+        "enable_dynamic_checkout": false,
+        "sticky_atc_wishtlist": false,
+        "sticky_atc_compare": false
+      }
+    },
+    "1694235462507497b3": {
+      "type": "apps",
+      "blocks": {
+        "px_trust_badges_icons_app_block_GMKVxY": {
+          "type": "shopify://apps/px-trust-badges-icons/blocks/app-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+          "settings": {
+            "block_id": "a5f3bc2c-e353-416a-bd20-8e49ec648cb0",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "spacing_left": 0,
+            "spacing_right": 0
+          }
+        }
+      },
+      "block_order": [
+        "px_trust_badges_icons_app_block_GMKVxY"
+      ],
+      "settings": {
+        "heading": "Libérez-vous des contraintes et retrouvez toute votre légèreté",
+        "subheading": "UN PROBIOTIQUE 4 EN 1",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "rgba(0,0,0,0)",
+        "padding_top": 50,
+        "padding_bottom": 0,
+        "custom_class": "remove-space my-10"
+      }
+    },
+    "custom_content_LKcP7K": {
+      "type": "custom-content",
+      "blocks": {
+        "image_ajLmf9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Symbiotic_section_photo-with_capsule.png",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "html_zFhJtn": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__about-custom-list\">\n  <ul>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b>Une transition en douceur </b></h4>\n          <p class=\"text-color-subtext\">Symbiotique Probiotiques surpasse les autres probiotiques avec des souches étudiées spécifiquement chez les femmes. Nous privilégions la qualité en intégrant des ingrédients cliniquement prouvés à des dosages efficaces, ciblant ainsi la racine du problème.\n</p>\n      </div>\n    </li>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b>Efficacité garantie</b></h4>\n          <p class=\"text-color-subtext\">Certaines marques garantissent l'efficacité et la présence de cultures vivantes à la fabrication. Nous les garantissant jusqu'à la date d'expiration.Vous pouvez avoir une confiance totale en notre formule. Si vous n'êtes pas entièrement satisfaite, nous offrons une garantie de remboursement de 60 jours.\n </p>\n      </div>  \n    </li>\n  </ul>\n</div>",
+            "width": "50%",
+            "block_custom_class": "sf__about-custom-html",
+            "animations": "inherit"
+          }
+        },
+        "text_DQaN97": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "image_ajLmf9",
+        "html_zFhJtn",
+        "text_DQaN97"
+      ],
+      "settings": {
+        "heading": "Renouez avec l'équilibre et la vitalité",
+        "subheading": "INDISPENSABLE PROBIOTIQUES",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__page-about"
+      }
+    },
+    "16530405356838123e": {
+      "type": "custom-content",
+      "blocks": {
+        "60c3f7e5-ebf2-43da-a0e2-258a2afca8fe": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__about-custom-list\">\n  <ul>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b>Dire adieu aux problèmes intestinaux </b></h4>\n          <p class=\"text-color-subtext\">Donnez à votre système digestif les probiotiques adaptés pour un quotidien plus paisible. Ballonnements, constipation, diarrhée, reflux, indigestion… ces désagréments seront de l’histoire ancienne.\n</p>\n      </div>\n    </li>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b>Retrouver une vie intime épanouie</b></h4>\n          <p class=\"text-color-subtext\">Oubliez la sécheresse vaginale, les démangeaisons, les douleurs vaginales pendant vos rapports sexuels et les infections urinaires. Grâce à Symbiotic, votre vie intime sera à nouveau rayonnante et paisible.\n </p>\n      </div>\n    </li>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b>Renforcer son système immunitaire</b></h4>\n          <p class=\"text-color-subtext\">En plus de renforcer votre santé intestinale, osseuse et vaginale, nos probiotiques régulent aussi l’humeur et le poids. Le coup de boost idéal pour améliorer votre système immunitaire et augmenter votre bien-être général.</p>\n      </div>\n    </li>\n  </ul>\n</div>",
+            "width": "50%",
+            "block_custom_class": "sf__about-custom-html",
+            "animations": "inherit"
+          }
+        },
+        "16530405358e9b5d79-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Symbiotic_3dots.png",
+            "link": "#product-form-1",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "60c3f7e5-ebf2-43da-a0e2-258a2afca8fe",
+        "16530405358e9b5d79-1"
+      ],
+      "settings": {
+        "heading": "Retrouvez l’insouciance d’un quotidien paisible",
+        "subheading": "NE JOUEZ PLUS LES FUNAMBULES,",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "rgba(0,0,0,0)",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__page-about"
+      }
+    },
+    "16945938772d351bb6": {
+      "type": "apps",
+      "blocks": {
+        "px_trust_badges_icons_app_block_HF4jaG": {
+          "type": "shopify://apps/px-trust-badges-icons/blocks/app-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+          "settings": {
+            "block_id": "0c78700a-ea0a-49a4-8074-d5ab0f5bbbdf",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "spacing_left": 0,
+            "spacing_right": 0
+          }
+        }
+      },
+      "block_order": [
+        "px_trust_badges_icons_app_block_HF4jaG"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "remove-space my-10"
+      }
+    },
+    "7be1ed15-712e-49d8-ac46-156803796eb7": {
+      "type": "custom-content",
+      "blocks": {
+        "template--20708136321365__7be1ed15-712e-49d8-ac46-156803796eb7-text-1": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "template--20708136321365__7be1ed15-712e-49d8-ac46-156803796eb7-text-1"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "rgba(0,0,0,0)",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "remove-space my-10"
+      }
+    },
+    "16564020326250e5b4": {
+      "type": "custom-content",
+      "blocks": {
+        "f572ae61-5a22-47ff-84f5-9df17abde08a": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Lactobacillus_rhamnosus.png",
+            "link": "#product-form-1",
+            "title": "<h3>Lactobacillus rhamnosus</h3>",
+            "subtitle": "Contribue à maintenir une flore vaginale et des os en bonne santé.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "b5d8a0fa-8b87-48dd-a2c1-7de0e0deaad9": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Lactobacillus_acidophilus.png",
+            "link": "#product-form-1",
+            "title": "<h3>Lactobacillus acidophilus</h3>",
+            "subtitle": "Equilibre la flore vaginale, améliore la régulation de l’humeur et de l’appétit.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "d0de405e-f102-47d5-957b-fb839aad76ad": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Lactobacillus_casei.png",
+            "link": "#product-form-1",
+            "title": "<h3>Lactobacillus casei</h3>",
+            "subtitle": "Atténue les sautes d’humeur et augmente le bien-être mental.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "cd083630-1a9f-4b62-843f-937c1cd37d1f": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Lactobacillus_bulgaricus.png",
+            "link": "#product-form-1",
+            "title": "<h3>Lactobacillus bulgaricus</h3>",
+            "subtitle": "Favorise une bonne santé digestive et un confort intestinal.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "157aff24-76c8-43c0-a5f8-e19c2323018a": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Bifidobacterium_longum.png",
+            "link": "",
+            "title": "<h3>Bifidobacterium longum</h3>",
+            "subtitle": "Contribue à la santé cardio-vasculaire et réduit le taux de cholestérol.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": false,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "d1185582-f7f1-4416-a0de-00c3776d9fbc": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Bifidobacterium_infantis.png",
+            "link": "#product-form-1",
+            "title": "<h3>Bifidobacterium infantis</h3>",
+            "subtitle": "Maintient un microbiote intestinal équilibré et en bonne santé.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": false,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "ffe449e7-78c3-42ad-bb2a-b54704d03bb7": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Bifidobacterium_breve.png",
+            "link": "#product-form-1",
+            "title": "<h3>Bifidobacterium breve</h3>",
+            "subtitle": "Aide à garder une bonne santé intestinale et un système immunitaire robuste.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_card_g7zhGP": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "top_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/Streptococcus_thermophilus.png",
+            "link": "",
+            "title": "<h3>Streptococcus thermophilus</h3>",
+            "subtitle": "Renforce la digestion et la résistance intestinale contre les agents pathogènes.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "44b02075-b572-4284-bd68-e2e009d15814": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "f572ae61-5a22-47ff-84f5-9df17abde08a",
+        "b5d8a0fa-8b87-48dd-a2c1-7de0e0deaad9",
+        "d0de405e-f102-47d5-957b-fb839aad76ad",
+        "cd083630-1a9f-4b62-843f-937c1cd37d1f",
+        "157aff24-76c8-43c0-a5f8-e19c2323018a",
+        "d1185582-f7f1-4416-a0de-00c3776d9fbc",
+        "ffe449e7-78c3-42ad-bb2a-b54704d03bb7",
+        "image_card_g7zhGP",
+        "44b02075-b572-4284-bd68-e2e009d15814"
+      ],
+      "settings": {
+        "heading": "La légèreté d’une plume et la quiétude d’une montagne",
+        "subheading": "8 SOUCHES PROBIOTIQUES ET 20 MILLIARDS DE BACTERIES",
+        "description": "Conçus avec le plus grand soin, ces probiotiques viennent rétablir les déséquilibres causés par la période de périménopause, ménopause et postménopause. Ils offrent rapidement un bien-être digestif, vaginal et immunitaire.",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "rgba(0,0,0,0)",
+        "gap": 10,
+        "use_scroll_mobile": true,
+        "gap_mobile": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__index-custom-content sf-custom__content-above-image"
+      }
+    },
+    "169726163043dde8d6": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "heading": "<span class=\"sf__text-style1\">La formule</span> qui vous redonne le <span class=\"sf__text-style1\">sourire</span>",
+        "subheading": "POUR VOUS SENTIR A NOUVEAU VOUS-MÊME",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "169347094851f71002": {
+      "type": "apps",
+      "blocks": {
+        "pretty_comparison_tables_table_7mTj4Y": {
+          "type": "shopify://apps/pretty-comparison-tables/blocks/table/4ce14980-e26b-4398-92cd-f582d95d4f05",
+          "settings": {
+            "product": "{{product}}",
+            "title_text": "",
+            "title_font_tag": "h2",
+            "section_background_color": "",
+            "desktop_width": "",
+            "mobile_width": ""
+          }
+        }
+      },
+      "block_order": [
+        "pretty_comparison_tables_table_7mTj4Y"
+      ],
+      "settings": {
+        "heading": "Vous hésitez encore...Voyez par vous-même",
+        "subheading": "COMPAREZ LE PROBIOTIQUE SYMBIOTIC®",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "#faf9f5",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "cb22f6f1-5ddc-476b-a97b-103fa00aace2": {
+      "type": "custom-content",
+      "blocks": {
+        "3b945de9-b4f1-4734-b6ab-8a7f0f305cc4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Reneva_smart_capsule.png",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "f9e6519e-3c1e-4091-906b-5703458bc21c": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__about-custom-list\">\n  <ul>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b>Gélules  résistantes à la chaleur et à l'acidité\n</b></h4>\n          <p class=\"text-color-subtext\">Grâce à la technologie Nutri Genesis®, nos probiotiques résistent aux acides gastriques à l'humidité et à la chaleur. Ainsi, ils sont toujours prêts à agir de façon optimale et ne nécessitent pas de réfrigération. Symbiotic Probiotiques s’adapte donc autant à la sédentarité qu’à vos voyages. </p>\n      </div>\n    </li>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4><b>Formule multi-souches et ultra-concentrée</b></h4>\n          <p class=\"text-color-subtext\">Avec sa formule constituée de 8 souches différentes, ce probiotique offre 20 milliards de bactéries vivantes par gélule. Cela permet de résoudre à la fois les troubles digestifs, les désagréments vaginaux et le manque de bactéries bénéfiques.</p>\n      </div>\n    </li>\n  </ul>\n</div>",
+            "width": "50%",
+            "block_custom_class": "sf__about-custom-html",
+            "animations": "inherit"
+          }
+        },
+        "e0ebf446-ab45-454e-b1e1-fbeec2a68084": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "large",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "3b945de9-b4f1-4734-b6ab-8a7f0f305cc4",
+        "f9e6519e-3c1e-4091-906b-5703458bc21c",
+        "e0ebf446-ab45-454e-b1e1-fbeec2a68084"
+      ],
+      "settings": {
+        "heading": "Une formule résistante et ultra-concentrée",
+        "subheading": "L'INNOVATION AU SERVICE DE VOTRE BIEN-ÊTRE",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__page-about"
+      }
+    },
+    "featured_collection_9hftVy": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "Pour un bien-être sans compromis",
+        "subheading": "COMPLÉTEZ VOTRE CURE",
+        "description": "La ménopause ne doit pas être un sujet tabou, ni une expérience que l'on traverse seule. Les compléments alimentaires üma® accompagnent les femmes dans les changements naturels qui surviennent à toutes les étapes de leur vie.",
+        "header_alignment": "left",
+        "container": "container",
+        "background_color": "#f6f3ea",
+        "collection": "shopall",
+        "enable_flashsale": false,
+        "show_countdown": false,
+        "product_to_show": 12,
+        "items_per_row": 3,
+        "item_gap": 30,
+        "pcard_layout": "",
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "hide_title": false,
+        "enable_slider": true,
+        "show_pagination": false,
+        "show_navigation": true,
+        "button_type": "link",
+        "button_text": "Nos cures",
+        "button_style": "sf__btn-primary",
+        "button_size": "sf__btn-large",
+        "infinite_load": false,
+        "max_page_load": 3,
+        "mobile_disable_slider": false,
+        "use_scroll_mobile": true,
+        "item_gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "8d915f30-110a-4fa1-863c-86e0bf0113af": {
+      "type": "custom-content",
+      "blocks": {
+        "template--19175345783125__8d915f30-110a-4fa1-863c-86e0bf0113af-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/laboratoire-francais.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "5a173e95-8f54-4cd1-88e3-c7d67de110eb": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__about-custom-list\">\n  <ul>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0764/9581/4997/files/France.png?v=1692690421\"></span>\n      <div class=\"rte\">\n          <h4><b>Entreprise Française</b></h4>\n          <p class=\"text-color-subtext\">Üma, c'est un laboratoire français qui se dédie à la santé et au bien-être des femmes. Jouant un rôle pionnier dans la micronutrition et la phytothérapie, tous nos produits sont naturels, végétaux et sans hormone, pour vous offrir la meilleure qualité de vie pendant et après la ménopause.\n</p>\n      </div>\n    </li>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0764/9581/4997/files/Approuvee_par_des_femmes.png?v=1692690451\"></span>\n      <div class=\"rte\">\n          <h4><b>Engagement, passion et science</b></h4>\n          <p class=\"text-color-subtext\"> Nos experts travaillent depuis plus de 30 ans dans le domaine de la recherche clinique et des compléments alimentaires. Chez üma, nous restons aussi à la pointe des dernières innovations grâce à notre conseil consultatif, constitué de scientifiques, de médecins et de nutritionniste.</p>\n      </div>\n    </li>\n  </ul>\n</div>",
+            "width": "50%",
+            "block_custom_class": "sf__about-custom-html",
+            "animations": "inherit"
+          }
+        },
+        "78c74610-af0f-4faf-9c34-786df650d6a4": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "template--19175345783125__8d915f30-110a-4fa1-863c-86e0bf0113af-image-1",
+        "5a173e95-8f54-4cd1-88e3-c7d67de110eb",
+        "78c74610-af0f-4faf-9c34-786df650d6a4"
+      ],
+      "settings": {
+        "heading": "Une collaboration entre mères, filles et chercheurs",
+        "subheading": "",
+        "description": "<h5>Notre vocation ? Offrir aux femmes les conditions nécessaires à leur santé et à leur épanouissement.</h5>",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__page-about"
+      }
+    },
+    "product-details-tabs": {
+      "type": "product-details-tabs",
+      "blocks": {
+        "fa490a38-97a7-4b71-ad47-3c86b4a582cd": {
+          "type": "description",
+          "settings": {
+            "header": "Product description"
+          }
+        },
+        "e31689fb-9b98-4f5b-977d-075a8d1a123f": {
+          "type": "tab",
+          "settings": {
+            "header": "Shipping & Return",
+            "content": "<p>Shipping cost is based on weight. Just add products to your cart and use the Shipping Calculator to see the shipping price.</p><p>We want you to be 100% satisfied with your purchase. Items can be returned or exchanged within 30 days of delivery.</p>",
+            "content_page": ""
+          }
+        },
+        "9e06b3e6-843f-4451-9137-03b92b248b49": {
+          "type": "liquid",
+          "settings": {
+            "header": "Tab heading",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "fa490a38-97a7-4b71-ad47-3c86b4a582cd",
+        "e31689fb-9b98-4f5b-977d-075a8d1a123f",
+        "9e06b3e6-843f-4451-9137-03b92b248b49"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "bg_color": "",
+        "default_open": true,
+        "animations": "inherit"
+      }
+    },
+    "164261608633fb1e22": {
+      "type": "custom-content",
+      "blocks": {
+        "71a41393-7458-490c-9599-d5f0e82b1703": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__tabs-custom\">\n <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck01\">\n        <label class=\"sf__tab-item-label\" for=\"chck01\">\nSymbiotic Probiotiques, c'est pour qui ? </label>\n        <div class=\"sf__tab-item-content\">\n          Symbiotic Probiotiques, c’est la formule idéale pour toute personne souffrant de troubles digestifs et intestinaux ou de problèmes de santé vaginale, en particulier celles qui font face aux défis de la ménopause. Il est également parfait pour celles qui recherchent un supplément probiotique puissant recommandé par les nutritionnistes, les spécialistes de la ménopause, les hydrothérapeutes du côlon et d'autres praticiens de la santé naturelle.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck1\">\n        <label class=\"sf__tab-item-label\" for=\"chck1\">Comment et quand dois-je prendre Symbiotic Probiotiques ?</label>\n        <div class=\"sf__tab-item-content\">\n          Pour de meilleurs résultats, prenez deux capsules de Symbiotic par jour, de préférence avec un repas, ou selon les recommandations de votre médecin. Ne dépassez pas la dose recommandée.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck2\">\n        <label class=\"sf__tab-item-label\" for=\"chck2\">Symbiotic Probiotiques est-il végétalien et sans allergènes ?\n</label>\n        <div class=\"sf__tab-item-content\">\n          Oui, Symbiotic Probiotiques est adapté aux végétaliens et formulé pour être exempt d'allergènes courants, y compris les produits laitiers, le gluten et le soja. Il convient aux personnes qui suivent un régime végétalien ou végétarien et à celles qui ont des restrictions alimentaires spécifiques.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck3\">\n        <label class=\"sf__tab-item-label\" for=\"chck3\">Symbiotic Probiotiques doit-il être conservé au réfrigérateur ?\n</label>\n        <div class=\"sf__tab-item-content\">\n          Non, ce probiotiques a été spécialement conçu pour résister à la chaleur et être gardé à température ambiante. Contrairement à de nombreux probiotiques, Symbiotic Probiotiques n'a pas besoin d'être conservé au réfrigérateur. Cela lui évite d'être endommagé par l'ouverture et la fermeture incessantes de la porte du réfrigérateur, qui laisse entrer l'humidité et abîme les bactéries fragiles.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck4\">\n        <label class=\"sf__tab-item-label\" for=\"chck4\">En combien de temps peut-on ressentir les bienfaits de Symbiotic Probiotiques ?\n</label>\n        <div class=\"sf__tab-item-content\">\n          Les bénéfices de Symbiotic peuvent être ressentis dès les premiers jours d'utilisation, avec des améliorations significatives souvent observées dans les deux premières semaines. Pour des résultats optimaux, nous recommandons une utilisation continue et conforme aux instructions.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck5\">\n        <label class=\"sf__tab-item-label\" for=\"chck5\">Symbiotic Probiotiques peut-il être pris en même temps que d'autres médicaments ou compléments ? </label>\n        <div class=\"sf__tab-item-content\">\n          Bien que Symbiotic Probiotiques soit conçu pour s’associer en toute sécurité à la plupart des régimes alimentaires, nous recommandons de consulter votre médecin avant de commencer votre cure, en particulier si vous prenez d'autres médicaments ou si vous avez des problèmes de santé spécifiques.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck6\">\n        <label class=\"sf__tab-item-label\" for=\"chck6\">Pourquoi cette formule multi-souches est-elle plus efficace qu'un produit à souche unique ?</label>\n        <div class=\"sf__tab-item-content\">\n          Il est peu probable qu'un probiotiques à souche unique apporte autant de bienfaits qu'un probiotiques à souches multiples, qui colonise et agit à plusieurs endroits dans l'organisme. Il existe des centaines d'espèces différentes de bonnes bactéries dans notre système digestif. Une formule multi-souches agira donc dans un plus grand nombre de zones et fournira une meilleure protection contre un plus grand nombre de micro-organismes nuisibles.\n        </div>\n      </div>\n  <div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck7\">\n        <label class=\"sf__tab-item-label\" for=\"chck7\">Symbiotic Probiotiques résiste-t-il au taux d’acidité élevé de l'estomac ? </label>\n        <div class=\"sf__tab-item-content\">\n          Oui. Toutes les souches bactériennes contenues dans ce produit sont micro-encapsulées, de manière à rester protégées de l’acidité. Elles sont donc capables d'atteindre leur emplacement cible dans l'organisme en restant intactes.\n        </div>\n      </div>\n<div class=\"sf__tab-item\">\n        <input type=\"checkbox\" id=\"chck8\">\n        <label class=\"sf__tab-item-label\" for=\"chck8\">Comment puis-je savoir si les souches bactériennes sont vivantes ou non? </label>\n        <div class=\"sf__tab-item-content\">\n          Essayez-nous et voyez par vous-même ! Mais si vous voulez vraiment être sûr, voici ce que vous pouvez faire :\n\nOuvrez une gélule de Symbiotic Probiotiques et versez-la dans un bol. Ajoutez environ 1⁄4 tasse de lait entier dans le bol, remuez et attendez 24 heures. Si le lait a caillé, alors vous savez que vous avez un probiotique de qualité supérieure avec des souches vivantes et actives de bonnes bactéries intestinales!\n        </div>\n      </div>\n</div>",
+            "width": "100%",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "66c850cb-6f03-4c73-9629-62d79f6f0f4f": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "#product-form-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "71a41393-7458-490c-9599-d5f0e82b1703",
+        "66c850cb-6f03-4c73-9629-62d79f6f0f4f"
+      ],
+      "custom_css": [
+        ".sf__tab-item-label {font-weight: normal;}"
+      ],
+      "settings": {
+        "heading": "Laissez-nous répondre à toutes vos questions",
+        "subheading": "",
+        "description": "Voici les questions les plus souvent posées avant de débuter Symbiotic Probiotiques®",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "#f6f3ea",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "1642583437f365ed49",
+    "main",
+    "1694235462507497b3",
+    "custom_content_LKcP7K",
+    "16530405356838123e",
+    "16945938772d351bb6",
+    "7be1ed15-712e-49d8-ac46-156803796eb7",
+    "16564020326250e5b4",
+    "169726163043dde8d6",
+    "169347094851f71002",
+    "cb22f6f1-5ddc-476b-a97b-103fa00aace2",
+    "featured_collection_9hftVy",
+    "8d915f30-110a-4fa1-863c-86e0bf0113af",
+    "product-details-tabs",
+    "164261608633fb1e22"
+  ]
+}

@@ -1,0 +1,1196 @@
+{% comment %}
+Section: ou-nous-trouver
+Settings:
+- data_source: 'asset' or 'manual'
+- asset_filename: asset filename (ex: assets/pharmacies.json)
+- manual_json: paste JSON array manually
+- show_list: boolean to show the left list
+This section will render a Leaflet map and load pharmacies either from an asset file or from the manual JSON field.
+{% endcomment %}
+
+<style>
+
+  @import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap');
+  /* Mobile (425px et moins) - 100% de largeur */
+  .ou-nous-trouver { 
+    display: flex; 
+    flex-direction: column; /* ← Changé pour empiler verticalement */
+    gap: 40px; /* ← Espace entre le contenu et la CTA */
+    align-items: stretch; 
+    background: transparent; 
+    padding: 0;
+    width: 100%;
+    margin: 0 auto; 
+    box-sizing: border-box;
+    z-index: 1; /* AJOUTÉ - Section entière sous le header/menu */
+  }
+
+  /* Nouveau wrapper pour liste + carte */
+  .ou-nous-trouver__content {
+    display: flex;
+    gap: 0;
+    align-items: stretch;
+    width: 100%;
+  }
+
+  .ou-nous-trouver__list { 
+    flex: 0 0 30%; 
+    width: 30%;
+    min-width: unset;
+    max-width: 30%;
+    max-height: 550px; 
+    overflow-y: visible;
+    overflow-x: hidden;
+    background: transparent;
+    padding: 0 18.62px 0 0;
+    border-right: 1px solid #e9e9ef;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    z-index: 1; /* AJOUTÉ - Même z-index que la carte pour cohérence */
+  }
+
+  .ou-nous-trouver__list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+  }
+
+  .ou-nous-trouver__list li {
+    margin-bottom: 0;
+    padding: 1rem 0.5rem;
+    border-bottom: 1px solid #f0f0f0;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+
+  .ou-nous-trouver__list li:hover {
+    background: #f8f9fa;
+  }
+
+  .ou-nous-trouver__search-wrapper {
+    position: relative;
+    margin-bottom: 1rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 0;
+    box-sizing: border-box;
+  }
+
+  .ou-nous-trouver__search-wrapper input {
+    flex: 1;
+    min-width: 0;
+    height: 48.88px;
+    padding: 0.75rem 1rem;
+    border: 1px solid #dcdcef;
+    border-right: 1px solid #dcdcef;
+    border-radius: 6px;
+    font-size: 14px;
+    background: #fff;
+    box-sizing: border-box;
+  }
+
+  .ou-nous-trouver__search-wrapper button {
+    flex: 0 0 55.86px;
+    width: 55.86px;
+    height: 48.88px;
+    padding: 0;
+    background: #322B81;
+    border: none;
+    border-radius: 6px;
+    color: #FFCC00;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+  }
+
+  .ou-nous-trouver__map {
+    flex: 1; /* Prend l'espace restant (70%) */
+    min-height: 500px; /* Hauteur minimale pour la carte */
+  }
+
+  .pharmacy-item {
+    display: flex;
+    gap: 0.75rem;
+    align-items: flex-start;
+  }
+  .pharmacy-item__icon {
+    color: #333333;
+    width: 19px;
+    height: 25px;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+  .pharmacy-item__icon svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .pharmacy-item__content h3 {
+    margin: 0 0 0.25rem 0;
+    font-size: 15px;
+    font-weight: 600;
+    color: #2e408b;
+  }
+  .pharmacy-item__content p {
+    margin: 0;
+    font-size: 13px;
+    color: #666;
+    line-height: 1.4;
+  }
+  .ou-nous-trouver__map { 
+    flex: 1; 
+    width: 70%; /* AJOUTÉ - prend les 70% restants */
+    min-width: unset; /* MODIFIÉ - supprime le min-width de 400px */
+    max-width: 70%; /* AJOUTÉ - limite à 70% */
+    height: 550px; 
+    min-height: 550px; 
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #eef2f5;
+    box-sizing: border-box; /* AJOUTÉ */
+    z-index: 1; /* AJOUTÉ - Assure que la carte reste sous le header/menu (qui ont généralement z-index: 100+) */
+  }
+  /* Add vertical spacing for map and list */
+  .ou-nous-trouver__map,
+  .ou-nous-trouver__list {
+    margin-top: clamp(20px, 3vw, 60px);
+    margin-bottom: clamp(20px, 3vw, 60px);
+  }
+  /* Hide the "Leaflet" credit only (preserve OSM/CARTO attributions).
+     Target common Leaflet href patterns; keeps other attribution links visible. */
+  #ou-nous-trouver-map-{{ section.id }} .leaflet-control-attribution a[href*="leaflet"],
+  #ou-nous-trouver-map-{{ section.id }} .leaflet-control-attribution a[href*="leafletjs"] {
+    display: none !important;
+  }
+  
+  /*style pour la CTA*/
+  .frame,
+  .frame * {
+    box-sizing: border-box;
+  }
+
+  .frame {
+    background: #ffffff;
+    border-radius: 110px;
+    border-style: solid;
+    border-color: #f6f3ea;
+    border-width: 1px;
+    padding: clamp(15px, 2vw, 30px) clamp(20px, 4vw, 60px);
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    
+    /* --- AJOUTS POUR LE CENTRAGE ET LA LARGEUR --- */
+    width: 100%;
+    max-width: 1100px; /* Empêche la barre de devenir trop longue sur grands écrans */
+    margin-left: auto; /* Centre la barre à gauche */
+    margin-right: auto; /* Centre la barre à droite */
+    
+    margin-bottom: clamp(30px, 5vw, 60px);
+  }
+
+  .cta {
+    display: flex;
+    flex-direction: row;
+    gap: clamp(20px, 5vw, 80px);
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+    position: relative;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: clamp(12px, 2vw, 24px);
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex: 1;
+    position: relative;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 768px;
+    position: relative;
+  }
+
+  .heading {
+    color: #322b81;
+    text-align: left;
+    font-family: "Jost", sans-serif;
+    font-size: clamp(18px, 1.6vw, 30px);
+    line-height: 120%;
+    font-weight: 600;
+    position: relative;
+    align-self: stretch;
+  }
+
+  .text {
+    color: var(--text-primary, #000000);
+    text-align: left;
+    font-family: "Jost", sans-serif;
+    font-size: clamp(14px, 1.1vw, 18px);
+    line-height: 110%;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+  }
+
+  .actions {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    position: relative;
+  }
+
+  .button {
+    background: #322b81;
+    border-radius: 20px;
+    padding: clamp(8px, 1vw, 10px) clamp(15px, 2vw, 20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Jost", sans-serif;
+    font-size: clamp(12px, 1.3vw, 16px);
+    line-height: 16px;
+    font-weight: 400;
+  }
+
+  .button:hover {
+    background: #4a3fa8;
+  }
+
+  .devenir-partenaire {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Jost", sans-serif;
+    font-size: clamp(12px, 1.3vw, 16px);
+    line-height: 16px;
+    font-weight: 400;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Media queries pour mobile */
+  @media (max-width: 768px) {
+    .frame {
+      border-radius: 40px;
+      padding: 26px;
+      margin-bottom: 40px;
+    }
+    
+    .cta {
+      flex-direction: column;
+      gap: 20px;
+    }
+    
+    .actions {
+      justify-content: center;
+      width: 100%;
+    }
+    
+    .button {
+      width: 100%;
+    }
+  }
+
+    /* Media queries pour 425px à 768px - bouton à gauche, largeur auto */
+  @media (min-width: 425px) and (max-width: 768px) {
+    .frame {
+      border-radius: 40px;
+      padding: 26px;
+      margin-bottom: 40px;
+    }
+    
+    .cta {
+      flex-direction: column;
+      gap: 20px;
+    }
+    
+    .actions {
+      justify-content: flex-start; /* Alignement à gauche */
+      width: 100%;
+    }
+    
+    .button {
+      width: auto; /* Largeur automatique selon le contenu */
+    }
+  }
+  /* Media queries pour tablette */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .frame {
+        border-radius: 60px;
+        width: 92%; /* La barre prend 92% de la largeur pour laisser une petite marge sur les côtés */
+      }
+      
+      /* Optionnel : Rapprocher un peu le texte et le bouton sur tablette */
+      .cta {
+        gap: 40px; 
+      }
+  }
+  @media (max-width: 768px) {
+    .ou-nous-trouver__content {
+      flex-direction: column;
+    }
+    
+    .ou-nous-trouver__list {
+      width: 100%;
+      max-width: 100%;
+      border-right: none;
+      border-bottom: 1px solid #e9e9ef;
+      padding: 0 0 18.62px 0;
+      margin-bottom: 20px;
+    }
+  }
+
+  @media (max-width: 425px) { 
+    .ou-nous-trouver { 
+      flex-direction: column; 
+      padding: 0 16px; /* MODIFIÉ - plus de padding */
+      width: 100% !important;
+      max-width: 100% !important;
+      box-sizing: border-box; /* AJOUTÉ */
+    }
+    
+    .ou-nous-trouver__list { 
+      width: 100%; 
+      min-width: auto !important;
+      max-width: 100% !important;
+      max-height: none; 
+      border-right: none; 
+      border-bottom: 1px solid #e0e0e0; 
+      padding: 0; /* MODIFIÉ - supprime le padding right */
+      margin-bottom: 16px; /* MODIFIÉ - 16px au lieu de 12px */
+      box-sizing: border-box; /* AJOUTÉ */
+    }
+    
+    .ou-nous-trouver__list ul {
+      max-width: 100%;
+      box-sizing: border-box; /* AJOUTÉ */
+      padding-right: 0; /* AJOUTÉ - supprime tout padding */
+    }
+    
+    .ou-nous-trouver__search-wrapper {
+      width: 100%;
+      max-width: 100%;
+      box-sizing: border-box; /* AJOUTÉ */
+      margin-bottom: 1rem;
+    }
+    
+    .ou-nous-trouver__search-wrapper input {
+      flex: 1;
+      min-width: 0; /* AJOUTÉ - permet au input de rétrécir */
+      box-sizing: border-box; /* AJOUTÉ */
+    }
+    
+    .ou-nous-trouver__search-wrapper button {
+      flex-shrink: 0; /* AJOUTÉ - empêche le bouton de rétrécir */
+    }
+    
+    .ou-nous-trouver__map { 
+      width: 100% !important;
+      max-width: 100% !important;
+      height: 276px !important;
+      min-height: 276px !important;
+      min-width: auto !important;
+      margin-left: 0; /* MODIFIÉ - au lieu de auto */
+      margin-right: 0; /* MODIFIÉ - au lieu de auto */
+      box-sizing: border-box; /* AJOUTÉ */
+      border-radius: 10px; /* AJOUTÉ - garde le border-radius */
+    }
+
+    /* Mobile: afficher la carte AVANT la liste */
+    .ou-nous-trouver__map { order: -1; }
+    .ou-nous-trouver__list { order: 0; }
+    
+    /* Mobile: reduce vertical spacing */
+    .ou-nous-trouver__map,
+    .ou-nous-trouver__list {
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+    
+    /* AJOUTÉ - S'assurer que les items de liste ne débordent pas */
+    .ou-nous-trouver__list li {
+      box-sizing: border-box;
+      width: 100%;
+    }
+    
+    .pharmacy-item {
+      box-sizing: border-box;
+      width: 100%;
+    }
+  }
+  @media screen and (min-width: 426px) {
+    .ou-nous-trouver { 
+      width: 70%; 
+      max-width: 70%;
+    }
+  }
+
+  @media screen and (min-width: 426px) and (max-width: 768px) {
+    /* Tablette petite (426-767px) */
+    .ou-nous-trouver {
+      width: 95% !important;
+      max-width: 95% !important;
+      padding: 0 0.5rem;
+      justify-content: center;
+      gap: 0.75rem;
+    }
+    
+    /* Pour les petits écrans (426-600px) : layout vertical */
+    @media (max-width: 600px) {
+      .ou-nous-trouver__content {
+        flex-direction: column !important;
+      }
+      
+      .ou-nous-trouver__map { 
+        order: -1 !important; 
+      }
+      
+      .ou-nous-trouver__list { 
+        order: 0 !important; 
+      }
+      
+      .ou-nous-trouver__list {
+        flex: 1 1 100% !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+        max-height: 350px !important;
+        border-right: none !important;
+        border-bottom: 1px solid #e9e9ef !important;
+        margin-bottom: 1rem !important;
+        padding: 0 0 18.62px 0 !important;
+      }
+      
+      .ou-nous-trouver__map {
+        flex: 1 1 100% !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+        height: 350px !important;
+        min-height: 350px !important;
+        max-height: 350px !important;
+      }
+    }
+    
+    /* Pour les écrans moyens (601-767px) : layout horizontal avec flex */
+    @media (min-width: 601px) {
+      .ou-nous-trouver__content {
+        flex-direction: row !important;
+        gap: 0.75rem;
+      }
+      
+      .ou-nous-trouver__list {
+        flex: 0 0 35% !important; /* ← Pourcentage au lieu de px */
+        width: 35% !important;
+        max-width: 35% !important;
+        min-width: 0 !important;
+        max-height: 380px !important;
+      }
+      
+      .ou-nous-trouver__list ul {
+        max-height: 320px !important;
+      }
+
+      .ou-nous-trouver__map {
+        flex: 1 !important; /* ← Prend l'espace restant */
+        width: auto !important;
+        max-width: none !important;
+        min-width: 0 !important;
+        height: 380px !important;
+        min-height: 380px !important;
+        max-height: 380px !important;
+      }
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .ou-nous-trouver {
+      width: 100% !important; /* ← Changé à 100% */
+      max-width: 100% !important;
+      padding: 0;
+      align-items: center; /* ← Centre les enfants */
+    }
+    
+    .ou-nous-trouver__content {
+      width: 85% !important; /* ← Déplacé ici */
+      max-width: 85% !important;
+      gap: 1.5rem;
+      justify-content: center;
+    }
+
+    .frame {
+      width: 85% !important; /* ← Déplacé ici */
+      max-width: 85% !important;
+    }
+    
+    .ou-nous-trouver__list {
+      flex: 0 0 240px !important;
+      width: 240px !important;
+      max-width: 240px !important;
+      min-width: 240px !important;
+      max-height: 400px !important;
+    }
+    
+    .ou-nous-trouver__list ul {
+      max-height: 340px !important;
+      max-width: 100% !important;
+    }
+
+    /* Carte CARRÉE : 400x400 pour mieux s'adapter */
+    .ou-nous-trouver__map {
+      flex: 0 0 400px !important;
+      width: 400px !important;
+      max-width: 400px !important;
+      min-width: 400px !important;
+      height: 400px !important;
+      min-height: 400px !important;
+      max-height: 400px !important;
+    }
+
+    .ou-nous-trouver__map,
+    .ou-nous-trouver__list {
+      margin-top: 40px !important;
+      margin-bottom: 40px !important;
+    }
+    
+    /* La CTA aura aussi 85% de largeur et sera centrée */
+    .frame {
+      width: 85% !important;
+      max-width: 85% !important;
+    }
+    
+    .ou-nous-trouver__search-wrapper input {
+      height: 44px;
+      font-size: 13px;
+      padding: 0.65rem 0.85rem;
+    }
+    
+    .ou-nous-trouver__search-wrapper button {
+      flex: 0 0 50px;
+      width: 50px;
+      height: 44px;
+      font-size: 18px;
+    }
+    
+    .pharmacy-item {
+      gap: 0.6rem;
+    }
+    
+    .pharmacy-item__content h3 {
+      font-size: 14px;
+    }
+    
+    .pharmacy-item__content p {
+      font-size: 12px;
+    }
+    
+    .ou-nous-trouver__list li {
+      padding: 0.85rem 0.4rem;
+    }
+  }
+
+  /* Cluster styles - comme votre template */
+  .marker-cluster-small {
+    background-color: rgba(50, 43, 129, 0.6) !important;
+  }
+  .marker-cluster-small div {
+    background-color: #322B81 !important;
+    color: #FFCC00 !important;
+    font-weight: 700 !important;
+  }
+  .marker-cluster-medium {
+    background-color: rgba(50, 43, 129, 0.6) !important;
+  }
+  .marker-cluster-medium div {
+    background-color: #322B81 !important;
+    color: #FFCC00 !important;
+    font-weight: 700 !important;
+  }
+  .marker-cluster-large {
+    background-color: rgba(50, 43, 129, 0.6) !important;
+  }
+  .marker-cluster-large div {
+    background-color: #322B81 !important;
+    color: #FFCC00 !important;
+    font-weight: 700 !important;
+  }
+  .marker-cluster {
+    background-clip: padding-box !important;
+    border-radius: 50% !important;
+  }
+  .marker-cluster div {
+    width: 35px !important;
+    height: 35px !important;
+    margin-left: 5px !important;
+    margin-top: 5px !important;
+    text-align: center !important;
+    border-radius: 50% !important;
+    font-size: 16px !important;
+    line-height: 35px !important;
+  }
+
+  /* Custom cluster + marker styles to match provided design (navy rings + yellow count) */
+  .custom-cluster { background: transparent !important; }
+  .custom-cluster .cluster-outer { 
+    background: rgba(29, 43, 111, 0.85);
+    border-radius: 50%;
+    padding: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+  }
+  .custom-cluster .cluster-inner {
+    background: #322B81;
+    color: #FFCC00;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 700; letter-spacing: 0.3px;
+  }
+  .custom-cluster.small .cluster-inner  { width: 34px; height: 34px; font-size: 14px; }
+  .custom-cluster.medium .cluster-inner { width: 42px; height: 42px; font-size: 15px; }
+  .custom-cluster.large .cluster-inner  { width: 52px; height: 52px; font-size: 16px; }
+
+  /* Single marker (DivIcon) */
+  .pharm-marker { background: transparent; }
+  .pharm-marker .pin-outer { 
+    background: rgba(29, 43, 111, 0.85);
+    width: 26px; height: 26px; border-radius: 50%;
+    display:flex; align-items:center; justify-content:center;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.25);
+  }
+  .pharm-marker .pin-inner {
+    background: #322B81;
+    width: 18px; height: 18px; border-radius: 50%;
+    border: 2px solid #FFCC00;
+  }
+</style>
+
+{%- comment -%}
+  Internal hero removed. Use dedicated sections/hero.liquid placed by template.
+{%- endcomment -%}
+
+<div id="ou-nous-trouver-section-{{ section.id }}" class="ou-nous-trouver">
+  <div class="ou-nous-trouver__content">
+    {% if section.settings.show_list %}
+        <div class="ou-nous-trouver__list">
+          <div class="ou-nous-trouver__search-wrapper">
+            <input id="pharm-search-{{ section.id }}" type="text" placeholder="Code postal, ville ou nom..." />
+            <button type="button" aria-label="Rechercher">
+              <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.66592 0.00683594C7.5712 0.00683594 8.43559 0.183345 9.25907 0.536362C10.0825 0.889379 10.7908 1.36239 11.3838 1.95539C11.9768 2.54839 12.4498 3.25663 12.8028 4.08011C13.1558 4.90359 13.3323 5.76798 13.3323 6.67326L13.3186 6.70025L13.3323 6.76796C13.3323 8.04426 12.9793 9.23009 12.2733 10.3255L16.007 14.0459C16.215 14.2811 16.3169 14.4826 16.3125 14.6503C16.308 14.8179 16.2062 15.0102 16.007 15.2271L15.206 16.0148C14.9708 16.1957 14.7604 16.2862 14.5747 16.2862C14.389 16.2862 14.2103 16.1957 14.0385 16.0148L10.3049 12.2944C9.22784 12.9913 8.04659 13.3397 6.76113 13.3397L6.69341 13.3259L6.66643 13.3397C5.76114 13.3397 4.89676 13.1632 4.07328 12.8102C3.2498 12.4571 2.54155 11.9841 1.94855 11.3911C1.35555 10.7981 0.882543 10.0899 0.529526 9.26641C0.176509 8.44293 0 7.57855 0 6.67326C0 5.76798 0.176509 4.90359 0.529526 4.08011C0.882543 3.25663 1.35555 2.54839 1.94855 1.95539C2.54155 1.36239 3.2498 0.889379 4.07328 0.536362C4.89676 0.183345 5.76114 0.00683594 6.66643 0.00683594H6.66592ZM6.66592 2.30162C5.86925 2.30162 5.13606 2.49629 4.46635 2.88562C3.79663 3.27496 3.26711 3.80449 2.87777 4.4742C2.48843 5.14392 2.29376 5.87711 2.29376 6.67377C2.29376 7.47044 2.48843 8.20362 2.87777 8.87334C3.26711 9.54305 3.79663 10.0726 4.46635 10.4619C5.13606 10.8513 5.86925 11.0459 6.66592 11.0459C7.46258 11.0459 8.19577 10.8513 8.86548 10.4619C9.5352 10.0726 10.0647 9.54305 10.4541 8.87334C10.8434 8.20362 11.0381 7.47044 11.0381 6.67377C11.0381 5.87711 10.8434 5.14392 10.4541 4.4742C10.0647 3.80449 9.5352 3.27496 8.86548 2.88562C8.19577 2.49629 7.46258 2.30162 6.66592 2.30162Z" fill="#FFCC00"/>
+              </svg>
+            </button>
+          </div>
+          <ul id="pharm-list-{{ section.id }}"></ul>
+        </div>
+      {% endif %}
+
+      <div id="ou-nous-trouver-map-{{ section.id }}" class="ou-nous-trouver__map"></div>
+
+      {% if section.settings.data_source == 'manual' and section.settings.manual_json != blank %}
+        <script id="pharmacies-json-{{ section.id }}" type="application/json">
+          {{ section.settings.manual_json }}
+        </script>
+      {% endif %}
+  </div>
+
+  <div class="frame">
+    <div class="cta">
+      <div class="content">
+        <div class="row">
+          <div class="heading">Vous souhaitez devenir partenaire ?</div>
+          <div class="text">
+            Vous êtes une pharmacie ou un point de vente et vous souhaitez
+            distribuer nos produits ? Remplissez notre formulaire, nous serons
+            ravis d'échanger avec vous !
+          </div>
+        </div>
+      </div>
+      <div class="actions">
+        <a href="https://form.typeform.com/to/y73Ss9Wz" class="button" target="_blank" rel="noopener noreferrer">
+          <div class="devenir-partenaire">Devenir partenaire</div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Leaflet assets -->
+{% unless section.settings.disable_leaflet %}
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <!-- Leaflet MarkerCluster plugin -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+{% endunless %}
+
+<script>
+  (function(){
+    var sectionId = '{{ section.id }}';
+    var mapElId = 'ou-nous-trouver-map-' + sectionId;
+    var listElId = 'pharm-list-' + sectionId;
+    var searchElId = 'pharm-search-' + sectionId;
+
+    // sample fallback data (vide - toutes les pharmacies doivent venir des metaobjects)
+    var SAMPLE_DATA = [];
+
+    // Retourne le nom tel quel sans ajout automatique de "Pharmacie"
+    // Supporte pharmacies, instituts de beauté, magasins bio, etc.
+    function computeDisplayName(raw){
+      if(!raw) return 'Point de vente';
+      var n = String(raw).trim();
+      if(!n) return 'Point de vente';
+      return n;
+    }
+
+    function ensureLeaflet(cb){
+      if(window.L) return cb();
+      var existing = document.querySelector('script[src*=\"leaflet\"]');
+      if(existing){ existing.addEventListener('load', cb); return; }
+      var css = document.createElement('link'); css.rel='stylesheet'; css.href='https://unpkg.com/leaflet@1.9.4/dist/leaflet.css'; document.head.appendChild(css);
+      var js = document.createElement('script'); js.src='https://unpkg.com/leaflet@1.9.4/dist/leaflet.js'; js.onload = cb; js.onerror = function(){ console.error('Failed to load Leaflet from CDN'); cb(); }; document.head.appendChild(js);
+    }
+
+    function initMapWithData(data){
+      var mapEl = document.getElementById(mapElId);
+      if(!mapEl) { console.warn('map element not found', mapElId); return; }
+      if(!mapEl.style.minHeight || parseInt(mapEl.style.minHeight) === 0) mapEl.style.minHeight = '600px';
+      if(!window.L){ console.error('Leaflet not available'); return; }
+      if (!data || !data.length) { console.warn('no data provided to map, showing sample'); data = SAMPLE_DATA; }
+      
+      // Adapter le zoom selon la taille de l'écran
+      var isMobile = window.innerWidth <= 768;
+      var isTablet = window.innerWidth > 768 && window.innerWidth <= 1024;
+      
+      // Zoom au clic sur un marqueur : moins proche sur mobile
+      var markerClickZoom = isMobile ? 10 : (isTablet ? 12 : 14);
+      
+      // Créer la carte avec commandes en bas à droite
+      var map = L.map(mapElId, { 
+        scrollWheelZoom: true,
+        zoomControl: false,
+        minZoom: 2,
+        maxZoom: 18,
+        worldCopyJump: true
+      }).setView([46.5, 2.5], 6); // Vue initiale temporaire
+      
+      // Définir les limites de la France métropolitaine (incluant Corse)
+      // Sud-Ouest (Pyrénées) à Nord-Est (Alsace)
+      var franceBounds = [
+        [41.3, -5.5],  // Sud-Ouest (Corse sud + Pyrénées ouest)
+        [51.1, 9.6]    // Nord-Est (Flandre + Alsace)
+      ];
+      
+      // Ajuster le padding selon la taille de l'écran
+      var padding = isMobile ? [20, 20] : (isTablet ? [40, 40] : [60, 60]);
+      
+      // Ajuster la vue pour afficher toute la France
+      map.fitBounds(franceBounds, { 
+        padding: padding,
+        maxZoom: isMobile ? 6 : (isTablet ? 6 : 6) // Limite le zoom max lors du fit
+      });
+
+      // Prevent panning the map so far that the tile server returns empty tiles
+      map.setMaxBounds([[-85, -180], [85, 180]]);
+  
+      L.control.zoom({ position: 'bottomright' }).addTo(map);
+      
+      // Tuiles: Stadia Alidade Smooth si clé API fournie, sinon OpenStreetMap
+      var stadiaKey = '{{ section.settings.stadia_api_key }}' || 'dc4a2aa8-c371-43d1-9e5a-ac3f6a294849';
+      if (stadiaKey && stadiaKey.trim() !== '') {
+        // Utiliser Stadia avec la clé API
+        L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png?api_key=' + stadiaKey, {
+          minZoom: 0,
+          maxZoom: 20,
+          noWrap: false,
+          detectRetina: true
+        }).addTo(map);
+      } else {
+        // Fallback: OpenStreetMap (pas de clé requise)
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          maxZoom: 19,
+          noWrap: false,
+          detectRetina: true
+        }).addTo(map);
+      }
+      
+      // Créer le groupe de clusters
+      var markerCluster = window.L.markerClusterGroup ? L.markerClusterGroup({
+        maxClusterRadius: 40,
+        spiderfyOnMaxZoom: true,
+        showCoverageOnHover: false,
+        zoomToBoundsOnClick: true
+      }) : null;
+      
+      var markers = [];
+      var listEl = document.getElementById(listElId);
+      
+      data.forEach(function(item){
+        var lat = parseFloat(item.lat || item.latitude || item.y);
+        var lng = parseFloat(item.lng || item.longitude || item.x);
+        if (isNaN(lat) || isNaN(lng)) return;
+        
+        var marker = L.marker([lat, lng]);
+  // Compute a display address (support legacy `address` or new `numero` + `rue` fields)
+  var addrPartsForPopup = [];
+  if (item.address && String(item.address).trim() !== '') {
+    addrPartsForPopup.push(String(item.address).trim());
+  } else {
+    var num = item.numero ? String(item.numero).trim() : '';
+    var rue = item.rue ? String(item.rue).trim() : '';
+    var combined = (num ? (num + ' ') : '') + (rue || '');
+    if (combined.trim() !== '') addrPartsForPopup.push(combined.trim());
+  }
+  var popupHtml = '<strong>' + computeDisplayName(item.name || 'Pharmacie') + '</strong>' + (addrPartsForPopup.length ? '<br/>' + addrPartsForPopup.join('<br/>') : '');
+        if (item.url) popupHtml += '<br/><a href="' + item.url + '" style="color: #2e408b; font-weight: bold;">Voir la fiche →</a>';
+        marker.bindPopup(popupHtml);
+        
+        // Ajouter au cluster si disponible, sinon à la carte
+        if (markerCluster) {
+          markerCluster.addLayer(marker);
+        } else {
+          marker.addTo(map);
+        }
+        
+        markers.push({ marker: marker, lat: lat, lng: lng, item: item });
+        
+        // Liste à gauche
+        if (listEl) {
+          var li = document.createElement('li');
+          
+          var itemDiv = document.createElement('div');
+          itemDiv.className = 'pharmacy-item';
+          
+          var icon = document.createElement('div');
+          icon.className = 'pharmacy-item__icon';
+          icon.innerHTML = '<svg width="19" height="25" viewBox="0 0 19 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.35351 24.3267C1.30781 14.1125 0 13.0642 0 9.31034C0 4.16837 4.16837 0 9.31034 0C14.4523 0 18.6207 4.16837 18.6207 9.31034C18.6207 13.0642 17.3129 14.1125 10.2672 24.3267C9.80481 24.9946 8.81583 24.9945 8.35351 24.3267ZM9.31034 13.1897C11.4528 13.1897 13.1897 11.4528 13.1897 9.31034C13.1897 7.16785 11.4528 5.43103 9.31034 5.43103C7.16785 5.43103 5.43103 7.16785 5.43103 9.31034C5.43103 11.4528 7.16785 13.1897 9.31034 13.1897Z" fill="#333333"/></svg>';
+          
+          var content = document.createElement('div');
+          content.className = 'pharmacy-item__content';
+          
+          var name = document.createElement('h3');
+          name.textContent = computeDisplayName(item.name);
+          
+          var address = document.createElement('p');
+          var addressParts = [];
+          // Support legacy address field or new numero+rue
+          if (item.address && String(item.address).trim() !== '') {
+            addressParts.push(String(item.address).trim());
+          } else {
+            var num = item.numero ? String(item.numero).trim() : '';
+            var rue = item.rue ? String(item.rue).trim() : '';
+            var combined = (num ? (num + ' ') : '') + (rue || '');
+            if (combined.trim() !== '') addressParts.push(combined.trim());
+          }
+          // Ajouter code postal + ville sur la même ligne
+          var cityLine = '';
+          if (item.postal_code) cityLine += item.postal_code + ' ';
+          if (item.city) cityLine += item.city;
+          if (cityLine.trim()) addressParts.push(cityLine.trim());
+          // Afficher le pays s'il est différent de France
+          var country = item.country ? String(item.country).trim() : '';
+          if (country && country.toLowerCase() !== 'france' && country.toLowerCase() !== '') {
+            addressParts.push(country);
+          } else if (!country || country === '') {
+            // Si pas de pays renseigné, vérifier le code postal pour détecter le pays
+            var postalCode = String(item.postal_code || '').trim();
+            // Codes postaux espagnols commencent généralement par 28xxx (Madrid), 08xxx (Barcelona), etc.
+            if (postalCode.match(/^(0[1-9]|[1-4]\d|5[0-2])\d{3}$/)) {
+              // Code postal espagnol (01000-52999)
+              addressParts.push('Espagne');
+            } else if (postalCode.match(/^(B-|L-)/i) || (postalCode.length === 4 && /^\d{4}$/.test(postalCode))) {
+              // Code postal belge ou luxembourgeois
+              if (item.city && item.city.toLowerCase().indexOf('luxemb') !== -1) {
+                addressParts.push('Luxembourg');
+              } else {
+                addressParts.push('Belgique');
+              }
+            } else if (postalCode.match(/^(CH-|[1-9]\d{3})$/)) {
+              // Code postal suisse
+              addressParts.push('Suisse');
+            }
+          }
+          address.innerHTML = addressParts.length > 0 ? addressParts.join('<br/>') : 'Adresse 1<br/>Adresse 2<br/>Adresse 3<br/>Pays';
+          
+          content.appendChild(name);
+          content.appendChild(address);
+          
+          itemDiv.appendChild(icon);
+          itemDiv.appendChild(content);
+          li.appendChild(itemDiv);
+          
+          // Stocker les données de la pharmacie sur l'élément li pour la recherche
+          li.dataset.postalCode = item.postal_code || '';
+          li.dataset.city = (item.city || '').toLowerCase();
+          li.dataset.name = computeDisplayName(item.name).toLowerCase();
+          li.dataset.markerIndex = markers.length - 1;
+          
+          li.addEventListener('click', function(){ 
+            map.setView([lat, lng], markerClickZoom); 
+            marker.openPopup(); 
+          });
+          
+          listEl.appendChild(li);
+        }
+      });
+      
+      // Ajouter le cluster à la carte
+      if (markerCluster) {
+        map.addLayer(markerCluster);
+      }
+      
+      // Vue monde conservée (pas de fitBounds) pour correspondre à la maquette
+      
+      // Barre de recherche par code postal avec tri par proximité
+      var search = document.getElementById(searchElId);
+      if (search && listEl) {
+        search.addEventListener('input', function(){
+          var q = this.value.trim();
+          
+          if (q === '') {
+            // Afficher tous les éléments de la liste
+            Array.from(listEl.children).forEach(function(li){
+              li.style.display = '';
+            });
+            
+            // Afficher tous les marqueurs sur la carte
+            if (markerCluster) {
+              map.removeLayer(markerCluster);
+              markerCluster.clearLayers();
+              markers.forEach(function(m){ markerCluster.addLayer(m.marker); });
+              map.addLayer(markerCluster);
+            }
+            return;
+          }
+          
+          var matches = [];
+          var qIsNumeric = /^\d+$/.test(q);
+          var qNum = qIsNumeric ? parseInt(q) : null;
+          
+          Array.from(listEl.children).forEach(function(li){
+            var postalCode = li.dataset.postalCode || '';
+            var city = li.dataset.city || '';
+            var name = li.dataset.name || '';
+            var markerIndex = parseInt(li.dataset.markerIndex);
+            
+            var score = 10000;
+            var isMatch = false;
+            
+            // Si la recherche est numérique (code postal)
+            if (qIsNumeric && postalCode) {
+              var postalNum = parseInt(postalCode);
+              if (!isNaN(postalNum)) {
+                // Calculer la distance numérique entre les codes postaux
+                var distance = Math.abs(postalNum - qNum);
+                
+                // Match si commence pareil OU si distance < 1000 (ex: 68000 vs 68200)
+                if (postalCode.indexOf(q) === 0 || distance < 1000) {
+                  isMatch = true;
+                  score = distance;
+                }
+              }
+            }
+            
+            // Recherche par ville ou nom (toujours actif)
+            if (city.indexOf(q.toLowerCase()) !== -1) {
+              isMatch = true;
+              if (city.indexOf(q.toLowerCase()) === 0) {
+                score = Math.min(score, 200); // Match au début de la ville
+              } else {
+                score = Math.min(score, 300);
+              }
+            }
+            
+            if (name.indexOf(q.toLowerCase()) !== -1) {
+              isMatch = true;
+              score = Math.min(score, 500);
+            }
+            
+            // Si code postal contient la recherche mais pas numérique (ex: "Paris" dans "75001 Paris")
+            if (!qIsNumeric && postalCode.indexOf(q) !== -1) {
+              isMatch = true;
+              score = Math.min(score, 100);
+            }
+            
+            if (isMatch) {
+              matches.push({ li: li, score: score, markerIndex: markerIndex });
+            } else {
+              li.style.display = 'none';
+            }
+          });
+          
+          // Trier par score (plus proche = score plus bas)
+          matches.sort(function(a, b){ return a.score - b.score; });
+          
+          // Afficher les résultats triés (limiter à 10 pour performance)
+          var visibleMarkers = [];
+          matches.forEach(function(match, idx){
+            if (idx < 10) {
+              match.li.style.display = '';
+              if (!isNaN(match.markerIndex) && markers[match.markerIndex]) {
+                visibleMarkers.push(markers[match.markerIndex]);
+              }
+            } else {
+              match.li.style.display = 'none';
+            }
+          });
+          
+          // Mettre à jour la carte pour n'afficher que les marqueurs correspondants
+          if (markerCluster) {
+            map.removeLayer(markerCluster);
+            markerCluster.clearLayers();
+            visibleMarkers.forEach(function(m){ markerCluster.addLayer(m.marker); });
+            map.addLayer(markerCluster);
+            
+            // Zoomer sur les résultats si au moins un marqueur visible
+            if (visibleMarkers.length > 0) {
+              var bounds = L.latLngBounds(visibleMarkers.map(function(m){ 
+                return [m.lat, m.lng]; 
+              }));
+              map.fitBounds(bounds, { padding: [50, 50], maxZoom: 14 });
+            }
+          }
+        });
+      }
+    }
+
+    function tryLoad(){
+      // Appel direct à l'endpoint du worker Cloudflare qui lit les metaobjects en temps réel
+      var workerUrl = 'https://pharmacy-sync-webhook.pharmacy-sync-webhook.workers.dev/pharmacies';
+      
+      fetch(workerUrl)
+        .then(function(r){ 
+          if(!r.ok) return Promise.reject('Worker status: ' + r.status); 
+          return r.json(); 
+        })
+        .then(function(json){ 
+          // Le worker retourne { count: X, pharmacies: [...] }
+          var data = json.pharmacies || json;
+          console.log('✅ Pharmacies chargées depuis metaobjects:', data.length);
+          ensureLeaflet(function(){ initMapWithData(data); }); 
+        })
+        .catch(function(e){
+          console.warn('❌ Échec du chargement depuis le worker, utilisation des données de secours', e);
+          
+          // Fallback: essayer assets/pharmacies.json si configuré
+          {% if section.settings.data_source == 'asset' and section.settings.asset_filename != blank %}
+            var assetUrl = {{ section.settings.asset_filename | replace: 'assets/', '' | asset_url | json }};
+            fetch(assetUrl)
+              .then(function(r){ if(!r.ok) throw new Error('Asset status: ' + r.status); return r.json(); })
+              .then(function(json){ 
+                console.log('✅ Fallback: pharmacies chargées depuis asset');
+                ensureLeaflet(function(){ initMapWithData(json); }); 
+              })
+              .catch(function(e2){
+                console.warn('❌ Asset aussi en échec, utilisation SAMPLE_DATA', e2);
+                ensureLeaflet(function(){ initMapWithData(SAMPLE_DATA); });
+              });
+          {% else %}
+            // Essayer le JSON manuel si configuré
+            var el = document.getElementById('pharmacies-json-{{ section.id }}');
+            if(el){ 
+              try{ 
+                var data = JSON.parse(el.textContent); 
+                console.log('✅ Fallback: pharmacies depuis JSON manuel');
+                ensureLeaflet(function(){ initMapWithData(data); }); 
+              } catch(err){ 
+                console.error('JSON manuel invalide', err); 
+                ensureLeaflet(function(){ initMapWithData(SAMPLE_DATA); }); 
+              }
+            } else {
+              ensureLeaflet(function(){ initMapWithData(SAMPLE_DATA); });
+            }
+          {% endif %}
+        });
+    }
+
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', tryLoad); else tryLoad();
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Où nous trouver (carte)",
+  "settings": [
+    {
+      "type": "select",
+      "id": "data_source",
+      "label": "Source des données",
+      "options": [
+        { "value": "asset", "label": "Fichier d'asset (assets/pharmacies.json)" },
+        { "value": "manual", "label": "JSON manuel (coller dans la section)" }
+      ],
+      "default": "asset"
+    },
+    {
+      "type": "text",
+      "id": "asset_filename",
+      "label": "Nom du fichier asset",
+      "default": "assets/pharmacies.json"
+    },
+    {
+      "type": "textarea",
+      "id": "manual_json",
+      "label": "JSON manuel (exemple)",
+      "info": "Si vous choisissez 'JSON manuel', collez ici le tableau JSON"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_list",
+      "label": "Afficher la liste à gauche",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "disable_leaflet",
+      "label": "Désactiver le chargement de Leaflet (si inclus)",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "stadia_api_key",
+      "label": "Clé API Stadia Maps (optionnel)",
+      "info": "Obtenez une clé gratuite sur stadiamaps.com. Si vide, la carte utilisera OpenStreetMap."
+    }
+  ],
+  "blocks": [],
+  "max_blocks": 10
+}
+{% endschema %}

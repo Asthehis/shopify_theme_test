@@ -1,0 +1,27 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "product.adieu-ballonnements-inc.json",
+  "context": {
+    "market": "royaume-uni"
+  },
+  "sections": {
+    "main": {
+      "settings": {},
+      "blocks": {
+        "guarantees_features_icons_app_block_nLXMM3": {
+          "settings": {
+            "block_id": "71367916-87d1-48eb-8ec7-56b157e7061f"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,856 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slider_cBwNVd": {
+      "type": "slider",
+      "blocks": {
+        "slider_item_3kYBBr": {
+          "type": "slider_item",
+          "disabled": true,
+          "settings": {
+            "background": "shopify://shop_images/slider_all-desk.jpg",
+            "mb_background": "shopify://shop_images/slider_all-mob.jpg",
+            "content_in_container": false,
+            "content_position": "left middle",
+            "text_alignment": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "subheading": "",
+            "title": "Jusqu'à -20% <br>sur nos cures",
+            "description": "<p>Vous avez manqué le Black Friday ? Nous vous offrons jusqu'à <strong>-20% sur toutes nos cures</strong> tout au long du mois de décembre.</p>",
+            "image_link": "shopify://collections/shopall",
+            "button_text": "Nos cures",
+            "button_link": "shopify://collections/shopall",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "show_footer": false,
+            "footer_alignment": "end",
+            "footer_text": "New Collection",
+            "footer_button": "Shop Now",
+            "footer_link": ""
+          }
+        },
+        "slider_item_4tR9df": {
+          "type": "slider_item",
+          "settings": {
+            "background": "shopify://shop_images/slider_packs-desk.webp",
+            "mb_background": "shopify://shop_images/slider_packs-mob.webp",
+            "content_in_container": false,
+            "content_position": "left middle",
+            "text_alignment": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "subheading": "",
+            "title": "Découvrez nos nouveaux packs",
+            "description": "<p>Nos nouveaux packs associent des solutions ciblées pour répondre à vos besoins essentiels. <strong>Profitez dès aujourd’hui de -20% </strong>pour les intégrer à votre routine.</p>",
+            "image_link": "shopify://collections/offres-speciales",
+            "button_text": "Découvrir",
+            "button_link": "shopify://collections/offres-speciales",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "show_footer": false,
+            "footer_alignment": "end",
+            "footer_text": "New Collection",
+            "footer_button": "Shop Now",
+            "footer_link": ""
+          }
+        },
+        "slider_item_HeE4JE": {
+          "type": "slider_item",
+          "settings": {
+            "background": "shopify://shop_images/slider_harmonie-desk.webp",
+            "mb_background": "shopify://shop_images/slider_harmonie-mob.webp",
+            "content_in_container": false,
+            "content_position": "left middle",
+            "text_alignment": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "subheading": "",
+            "title": "Libérez-vous <br>de la ménopause",
+            "description": "<p>Gamme complète de soins et de compléments alimentaires <strong>100% d'origine naturelle</strong> et sans hormone pour préserver votre qualité de vie pendant et après la ménopause.</p>",
+            "image_link": "shopify://collections/shopall",
+            "button_text": "Nos cures",
+            "button_link": "shopify://collections/shopall",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "show_footer": false,
+            "footer_alignment": "end",
+            "footer_text": "New Collection",
+            "footer_button": "Shop Now",
+            "footer_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slider_item_3kYBBr",
+        "slider_item_4tR9df",
+        "slider_item_HeE4JE"
+      ],
+      "custom_css": [
+        "#sf-slider-template--19174727123285__slider_cBwNVd:has( .swiper-slide[data-swiper-slide-index=\"0\"].swiper-slide-active ) {background-color: #e8d88b;}",
+        "#sf-slider-template--19174727123285__slider_cBwNVd:has( .swiper-slide[data-swiper-slide-index=\"1\"].swiper-slide-active ) {background-color: #bff1f2;}",
+        "#sf-slider-template--19174727123285__slider_cBwNVd:has( .swiper-slide[data-swiper-slide-index=\"2\"].swiper-slide-active ) {background-color: #bff1f2;}"
+      ],
+      "settings": {
+        "container": "w-full",
+        "slideshow_height": "adapt",
+        "show_overlay": false,
+        "dots_position": "bottom",
+        "dots_color": "dark",
+        "show_dots": true,
+        "show_arrows": true,
+        "autorotate": true,
+        "autorotate_speed": 5,
+        "use_content_above": false,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "1640876459a2b360fd": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "container": "container",
+        "background_color": "#f6f3ea",
+        "item_gap": 80,
+        "item_gap_mobile": 30,
+        "image": "shopify://shop_images/bandeau_acceuil_laboratoires_uma_003de347-ff2b-4a9f-81c1-cbdb69f4abf8.png",
+        "link": "shopify://collections/shopall",
+        "layout": "right",
+        "image_column_size": "6",
+        "hover_effect": false,
+        "title": "Libérez-vous de la ménopause",
+        "sub_title": "",
+        "text": "<p>Gamme complète de soins et de compléments alimentaires 100% d'origine naturelle et sans hormone pour préserver votre qualité de vie pendant et après la ménopause.<br/></p>",
+        "text_size": "medium",
+        "content_alignment": "left",
+        "button_label": "Nos cures",
+        "button_link": "shopify://collections/shopall",
+        "button_style": "sf__btn-primary",
+        "button_size": "sf__btn-large",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "16950381444dd37841": {
+      "type": "apps",
+      "blocks": {
+        "px_trust_badges_icons_app_block_gnTQeP": {
+          "type": "shopify://apps/px-trust-badges-icons/blocks/app-block/f266baeb-ce2c-482c-9bf1-f719b4920aaa",
+          "settings": {
+            "block_id": "2cc240c8-a80e-4358-9488-dca65ac7943b",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "spacing_left": 0,
+            "spacing_right": 0
+          }
+        }
+      },
+      "block_order": [
+        "px_trust_badges_icons_app_block_gnTQeP"
+      ],
+      "settings": {
+        "heading": "Formule 100% naturelle et sans hormones",
+        "subheading": "NOS ENGAGEMENTS",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "1656682405bd2e111a": {
+      "type": "image-with-text-2",
+      "settings": {
+        "container": "w-full",
+        "hero_size": "medium",
+        "show_overlay": false,
+        "image": "shopify://shop_images/Hers-PDP-Collagen-d-SoftFooter_2x.remini-enhanced.jpg",
+        "bg_position": "center",
+        "image_link": "",
+        "parallax": false,
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "white",
+        "title": "Les bons nutriments, au bon moment, peuvent faire la différence",
+        "subtitle": "",
+        "text": "<p>Il est temps de mettre fin à la confusion qui règne autour de la santé féminine  et de créer des formules qui permettent aux femmes de s'approprier leur corps avant pendant et après la ménopause.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-primary",
+        "button_size": "",
+        "mb_image": "shopify://shop_images/mobile_umawell_hero_harmonie.remini-enhanced.png",
+        "use_content_above": true,
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "165424525895e02b31": {
+      "type": "image-with-text",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "container": "container",
+        "background_color": "#f8f6f0",
+        "item_gap": 100,
+        "item_gap_mobile": 30,
+        "image": "shopify://shop_images/HP_HARMONIE_FR.webp",
+        "link": "shopify://products/harmonie-daily",
+        "layout": "left",
+        "image_column_size": "6",
+        "hover_effect": false,
+        "title": "<h2>La solution naturelle contre \nles symptômes de la ménopause</h2>",
+        "sub_title": "CURE MÉNOPAUSE HARMONIE DAILY®",
+        "text": "<p>Découvrez le premier complément alimentaire conçu pour soulager durablement les 48 symptômes de la ménopause. Harmonie Daily® vous procure un soulagement immédiat et durable des symptômes de la ménopause. C’est la solution pensée pour votre bien être et qui vous accompagne au quotidien dans les grands changements de votre corps en périménopause, ménopause et postménopause.</p>",
+        "text_size": "medium",
+        "content_alignment": "left",
+        "button_label": "Débuter ma cure",
+        "button_link": "shopify://products/harmonie-daily",
+        "button_style": "sf__btn-primary",
+        "button_size": "sf__btn-large",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "reduce-my",
+        "animations": "inherit"
+      }
+    },
+    "1654245268e3543396": {
+      "type": "image-with-text",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "container": "container",
+        "background_color": "#f6f3ea",
+        "item_gap": 100,
+        "item_gap_mobile": 30,
+        "image": "shopify://shop_images/HP_OHLALA_FR.webp",
+        "link": "",
+        "layout": "right",
+        "image_column_size": "6",
+        "hover_effect": false,
+        "title": "<h2>Perdez du poids \ndurablement</h2>",
+        "sub_title": "BRÛLEUR DE GRAISSE NATUREL OH LA LA !®",
+        "text": "<p>Oh La La ! est un programme minceur unique qui vous aidera à réaliser ce que les autres ne font que promettre. L’approche unique de Oh La La ! exploite la synergie exceptionnelle de 16 actifs d'origine naturelle pour vous aider à brûler les graisses stockées, limiter votre appétit et tonifier votre silhouette. Avec Oh La La ! Vous n’aurez plus jamais à vous soucier de votre poids. </p>",
+        "text_size": "medium",
+        "content_alignment": "left",
+        "button_label": "Débuter ma cure",
+        "button_link": "shopify://products/ohlala",
+        "button_style": "sf__btn-primary",
+        "button_size": "sf__btn-large",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "reduce-my",
+        "animations": "inherit"
+      }
+    },
+    "16525453412276bcdd": {
+      "type": "image-with-text",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "container": "container",
+        "background_color": "rgba(0,0,0,0)",
+        "item_gap": 100,
+        "item_gap_mobile": 30,
+        "image": "shopify://shop_images/HP_ICONIC_FR.webp",
+        "link": "shopify://products/iconique-collagen",
+        "layout": "left",
+        "image_column_size": "6",
+        "hover_effect": false,
+        "title": "<h2>Santé des cheveux, de la peau et des ongles</h2>",
+        "sub_title": "CURE ANTI-ÂGE ICONIQUE COLLAGÈNE®",
+        "text": "<p>Le meilleur soin anti-âge n’est plus une crème. Conçue pour être le prolongement de votre routine de beauté et de soins, Iconique Collagène® vous apporte des ingrédients actifs uniques et des bienfaits cliniquement étudiés pour que vous puissiez vous sentir bien et révéler votre éclat. C’est votre rituel de soin quotidien pour une peau magnifique, des cheveux sublimes, des ongles éclatants et un bien-être total. </p>",
+        "text_size": "medium",
+        "content_alignment": "left",
+        "button_label": "Débuter ma cure",
+        "button_link": "shopify://products/iconique-collagen",
+        "button_style": "sf__btn-primary",
+        "button_size": "sf__btn-large",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "reduce-my",
+        "animations": "inherit"
+      }
+    },
+    "1656947537ea837ab0": {
+      "type": "image-with-text",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "container": "container",
+        "background_color": "#f6f3ea",
+        "item_gap": 100,
+        "item_gap_mobile": 30,
+        "image": "shopify://shop_images/Affrontez-les-evolutions-hormonales-sans-craintes.png",
+        "link": "shopify://collections/shopall",
+        "layout": "right",
+        "image_column_size": "6",
+        "hover_effect": false,
+        "title": "<h2>Affrontez les évolutions hormonales sans craintes</h2>",
+        "sub_title": "BIEN DANS SON CORPS,\nBIEN DANS SA TÊTE",
+        "text": "<p>La ménopause est toujours une aventure singulière dans la vie d'une femme. Si nous sommes toutes confrontées à ce chamboulement hormonal, chacune vit à sa manière les divers désagréments qui l'accompagnent au quotidien.</p><p>Périménopause, ménopause et postménopause, nos compléments 100% d'origine naturelle et sans hormone vous accompagne au quotidien dans les grands changements de votre corps après 45 ans. Vivez pleinement votre féminité dans cette nouvelle étape de votre vie. </p>",
+        "text_size": "medium",
+        "content_alignment": "left",
+        "button_label": "Débuter ma cure",
+        "button_link": "shopify://collections/shopall",
+        "button_style": "sf__btn-primary",
+        "button_size": "sf__btn-large",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "reduce-my",
+        "animations": "inherit"
+      }
+    },
+    "05506bfb-e8c6-4aaf-95f6-e69183eeeadd": {
+      "type": "brands-list",
+      "blocks": {
+        "template--15713489158353__05506bfb-e8c6-4aaf-95f6-e69183eeeadd-1687640351636b4659-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/media_logo_bazaar_harper.png",
+            "image_by_url": "",
+            "image_link": "",
+            "max_width": "150px"
+          }
+        },
+        "template--15713489158353__05506bfb-e8c6-4aaf-95f6-e69183eeeadd-1687640351636b4659-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/vogue_96add72f-bb9c-43fd-9fac-7d6aa13bd0f5.png",
+            "image_by_url": "",
+            "image_link": "",
+            "max_width": "150px"
+          }
+        },
+        "template--15713489158353__05506bfb-e8c6-4aaf-95f6-e69183eeeadd-1687640351636b4659-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Plan_de_travail_1-07.png",
+            "image_by_url": "",
+            "image_link": "",
+            "max_width": "150px"
+          }
+        },
+        "template--15713489158353__05506bfb-e8c6-4aaf-95f6-e69183eeeadd-1687640351636b4659-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/elle_3fdb4631-f0ce-4f41-9346-e95101acbea3.png",
+            "image_by_url": "",
+            "image_link": "",
+            "max_width": "150px"
+          }
+        },
+        "f62fa115-1067-41c1-8566-2b8c343d2b87": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/madame_figaro_d1100321-b326-4fdd-b573-5ea1660c8687.png",
+            "image_by_url": "",
+            "image_link": "",
+            "max_width": "150px"
+          }
+        },
+        "a9285cfe-0fc9-4cce-a24e-4390b4866be3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Plan_de_travail_1-11.png",
+            "image_by_url": "",
+            "image_link": "",
+            "max_width": "150px"
+          }
+        },
+        "a69e07c0-3adb-4ee1-8539-816adb2ca08e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Plan_de_travail_1-08.png",
+            "image_by_url": "",
+            "image_link": "",
+            "max_width": "150px"
+          }
+        },
+        "1391a240-ad20-4b85-a45e-085724ec463e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/cosmopolitan.png",
+            "image_by_url": "",
+            "image_link": "",
+            "max_width": "150px"
+          }
+        }
+      },
+      "block_order": [
+        "template--15713489158353__05506bfb-e8c6-4aaf-95f6-e69183eeeadd-1687640351636b4659-0",
+        "template--15713489158353__05506bfb-e8c6-4aaf-95f6-e69183eeeadd-1687640351636b4659-1",
+        "template--15713489158353__05506bfb-e8c6-4aaf-95f6-e69183eeeadd-1687640351636b4659-2",
+        "template--15713489158353__05506bfb-e8c6-4aaf-95f6-e69183eeeadd-1687640351636b4659-3",
+        "f62fa115-1067-41c1-8566-2b8c343d2b87",
+        "a9285cfe-0fc9-4cce-a24e-4390b4866be3",
+        "a69e07c0-3adb-4ee1-8539-816adb2ca08e",
+        "1391a240-ad20-4b85-a45e-085724ec463e"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "rgba(0,0,0,0)",
+        "item_per_row": 4,
+        "enable_slider": false,
+        "autorotate": false,
+        "autorotate_speed": 3,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "remove-space my-10",
+        "animations": "inherit"
+      }
+    },
+    "1652516984a7316679": {
+      "type": "custom-content",
+      "blocks": {
+        "165251698408e12995-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/la_menopause_boulverse_votre_vie.jpg",
+            "link": "shopify://collections/shopall",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "04bf090c-fc79-4681-bf97-869bda68b1ef": {
+          "type": "image_card",
+          "settings": {
+            "width": "50%",
+            "content_position": "center_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "white",
+            "image": "shopify://shop_images/blue_box_square.png",
+            "link": "",
+            "title": "",
+            "subtitle": "Vous vous sentez peut-être aussi perdue : vous êtes irritable, fatiguée ou soudainement anxieuse à propos de ce que vous aimiez faire auparavant.\n<br><br>Est-ce le stress quotidien dû au fait de devoir jongler avec le travail, la famille et tout ce qui se trouve entre les deux ? Est-ce l'âge ? Ou est-ce la ménopause?\n<br><br>Cette situation est frustrante, mais ne craignez rien. La première étape pour vous sentir à nouveau vous-même débute ici et maintenant.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "bdb2afe9-91f6-43c0-91a2-04e629a51693": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "Débuter ma cure",
+            "button_link": "shopify://collections/shopall",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-large",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "165251698408e12995-1",
+        "04bf090c-fc79-4681-bf97-869bda68b1ef",
+        "bdb2afe9-91f6-43c0-91a2-04e629a51693"
+      ],
+      "settings": {
+        "heading": "Et c'est bien plus que des bouffées de chaleur",
+        "subheading": "LA MÉNOPAUSE BOULEVERSE VOTRE VIE",
+        "description": "Vous avez peut-être remarqué que votre corps n'est plus le même : votre peau, vos cheveux et vos ongles sont différents, vous avez changé de taille sans raison apparente ou vous ressentez sans cesse des sensations étranges.",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "#f6f3ea",
+        "gap": 0,
+        "use_scroll_mobile": false,
+        "gap_mobile": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "16414143576e8c1955": {
+      "type": "custom-content",
+      "blocks": {
+        "045badf7-afd1-4dba-a0bf-16996dccbff7": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__about-custom-list\">\n  <ul>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4>Des actifs brevetés et innovants</h4>\n          <p class=\"text-color-subtext\">Les ingrédients que nous utilisons sont le fruit de recherches et développements approfondies. L'efficacité de nos actifs a été certifiée par des essais cliniques réalisés par des laboratoires indépendants.</p>\n      </div>\n    </li>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4>Sans hormone, sûrs et efficaces</h4>\n          <p class=\"text-color-subtext\"> Nous utilisons des ingrédients 100% d'origine naturelle, totalement exempts d'hormones et sans effets secondaires. Nous faisons le choix d’actifs d'origine naturelle premium hyper-sourcés, certifiés et tracés.</p>\n      </div>\n    </li>\n    <li>\n      <span><img src=\"https://cdn.shopify.com/s/files/1/0602/7365/6017/files/check-box-product-page.png?v=1653042822\"></span>\n      <div class=\"rte\">\n          <h4>Le choix de 60 000 femmes</h4>\n          <p class=\"text-color-subtext\"> Nos compléments alimentaires ont aidé des milliers de femmes à se sentir mieux avant, pendant et après la ménopause.</p>\n      </div>\n    </li>\n  </ul>\n</div>",
+            "width": "50%",
+            "block_custom_class": "sf__about-custom-html",
+            "animations": "inherit"
+          }
+        },
+        "dae5d824-68d5-4c6a-ba14-a7ab19443bd3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/HP_SYMP-ICONIC_FR.webp",
+            "link": "shopify://collections/shopall",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "045badf7-afd1-4dba-a0bf-16996dccbff7",
+        "dae5d824-68d5-4c6a-ba14-a7ab19443bd3"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "rgba(0,0,0,0)",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__page-about"
+      }
+    },
+    "1656658986577279b8": {
+      "type": "image-with-text",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "container": "container",
+        "background_color": "#f6f3ea",
+        "item_gap": 100,
+        "item_gap_mobile": 30,
+        "image": "shopify://shop_images/Des-cures-pour-vous-sentir-bien-en-toute-confiance.png",
+        "link": "shopify://collections/shopall",
+        "layout": "left",
+        "image_column_size": "6",
+        "hover_effect": false,
+        "title": "<h2>Des formules pour vous sentir bien en toute confiance</h2>",
+        "sub_title": "REPRENEZ CONFIANCE EN VOUS",
+        "text": "<p>Atteignez vos objectifs en matière de bien-être et de qualité de vie avec nos solutions nutritionnelles complètes. Elles sont formulées avec des ingrédients aux bienfaits cliniquement prouvés, d'origine naturelle et triplement testés pour leur performance et leur pureté.</p><p>Véritables prouesses formulatoires, nos complexes d’actifs ciblent et neutralisent durablement les symptômes visibles et invisibles de la ménopause. Une réponse efficace à votre désir d'équilibre, de bien-être et de beauté après 45 ans.<br/></p>",
+        "text_size": "medium",
+        "content_alignment": "left",
+        "button_label": "Débuter ma cure",
+        "button_link": "shopify://collections/shopall",
+        "button_style": "sf__btn-primary",
+        "button_size": "sf__btn-large",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "reduce-my",
+        "animations": "inherit"
+      }
+    },
+    "1657613642d1390cbe": {
+      "type": "image-with-text",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "container": "container",
+        "background_color": "rgba(0,0,0,0)",
+        "item_gap": 100,
+        "item_gap_mobile": 30,
+        "image": "shopify://shop_images/Loin-des-faux-semblants.png",
+        "link": "",
+        "layout": "right",
+        "image_column_size": "6",
+        "hover_effect": false,
+        "title": "<h2>Loin des faux semblants</h2>",
+        "sub_title": "EFFICACITÉ PROUVÉE, ACTIFS EXCLUSIFS",
+        "text": "<p>Nous créons de nouvelles formules en faisant des choix éclairés à chaque étape du processus de recherche et développement. Nous nous assurons qu'il existe des données scientifiques réelles de l’efficacité de nos actifs et que nos compléments alimentaires finaux tiennent leurs promesses.</p><p>C'est pourquoi nous partageons également avec vous les résultats de nos études et essais cliniques afin que vous puissiez voir la preuve que nos produits fonctionnent vraiment. Nous ne lançons jamais de nouveaux produits sans certitude de leur efficacité.</p>",
+        "text_size": "medium",
+        "content_alignment": "left",
+        "button_label": "Débuter ma cure",
+        "button_link": "shopify://collections/shopall",
+        "button_style": "sf__btn-primary",
+        "button_size": "sf__btn-large",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "reduce-my",
+        "animations": "inherit"
+      }
+    },
+    "1642496811511daf0d": {
+      "type": "testimonials",
+      "blocks": {
+        "16424968110e0ed150-4": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Ma peau rajeunit !",
+            "description": "<p>Excellent produit ! Peau raffermie, ongles plus robustes, bref j'adore le prendre tous les matins... Meilleurs que celui que je prenais à la pharmacie.</p>",
+            "footer": "<p>Alexandra P.</p>",
+            "image": "shopify://shop_images/avis_cliente_31.png",
+            "image_text": "",
+            "image_link": "shopify://products/iconique-collagen",
+            "product": "iconique-collagen"
+          }
+        },
+        "16424968110e0ed150-0": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Cette cure est fabuleuse !",
+            "description": "<p>Je dirais simplement que ma cure a tout ravivé. Très bon produit. Je me sens comme une nouvelle femme, physiquement et mentalement. Je suis très heureuse.</p>",
+            "footer": "<p>Michèle B.</p>",
+            "image": "shopify://shop_images/avis_cliente_29.png",
+            "image_text": "",
+            "image_link": "shopify://products/harmonie-daily",
+            "product": "harmonie-daily"
+          }
+        },
+        "16424968110e0ed150-2": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Heureuse des mes cheveux et ongles !",
+            "description": "<p>J'ai très clairement remarqué une différence dans mes cheveux et mes ongles depuis que je prends Iconique Collagène. Pendant des années, j'ai eu du mal à faire pousser mes ongles, mais maintenant, je dois les couper toutes les semaines. C'est un miracle !</p>",
+            "footer": "<p>Delphine J.</p>",
+            "image": "shopify://shop_images/avis_cliente_49.png",
+            "image_text": "",
+            "image_link": "shopify://products/harmonie-daily",
+            "product": "iconique-collagen"
+          }
+        },
+        "16424968110e0ed150-1": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Cela fonctionne vraiment !",
+            "description": "<p>Avant Harmonie, j'avais plusieurs dizaines de bouffées de chaleur jour et nuit, même après avoir utilisé Manhaé pendant deux mois. Je n'avais pas eu de nuit de sommeil complète depuis des mois. </p>",
+            "footer": "<p>Nadine D.</p>",
+            "image": "shopify://shop_images/avis_cliente_32.png",
+            "image_text": "",
+            "image_link": "shopify://products/harmonie-daily",
+            "product": "harmonie-daily"
+          }
+        },
+        "16424968110e0ed150-3": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Très satisfaite, produit efficace",
+            "description": "<p>Moins de bouffées de chaleur, moins de ballonnements le matin au réveil. Cela fait maintenant un mois que je l’utilise et je ne regrette rien car j’ai retrouvé mon énergie. Comme avant ! </p>",
+            "footer": "<p>Florence P.</p>",
+            "image": "shopify://shop_images/avis_cliente_48.png",
+            "image_text": "",
+            "image_link": "shopify://products/harmonie-daily",
+            "product": "harmonie-daily"
+          }
+        },
+        "16424968110e0ed150-5": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Moins de sécheresse et plus de libido",
+            "description": "<p>Harmonie a fait une énorme différence avec la sécheresse intime dont je souffrais et qui rendait les rapports sexuels très douloureux. Il faut juste être régulière dans la cure.</p>",
+            "footer": "<p>Inès T.</p>",
+            "image": "shopify://shop_images/avis_cliente_34.png",
+            "image_text": "",
+            "image_link": "shopify://products/harmonie-daily",
+            "product": "harmonie-daily"
+          }
+        },
+        "1ea7f77a-f34b-41a7-a942-23cb80d02221": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Produit qui gagne à être connu !!",
+            "description": "<p>Essayé par les conseils d’une amie !  Après 2 semaines d'utilisation, les effets sont bluffants : jambes moins lourdes et moins flotteuses, gonflements et douleurs mammaires fortement diminués. </p>",
+            "footer": "<p>Caroline A.</p>",
+            "image": "shopify://shop_images/avis_cliente_27-1_1fe38c48-6fce-4292-97a1-64b308aced18.png",
+            "image_text": "",
+            "image_link": "shopify://products/harmonie-daily",
+            "product": "harmonie-daily"
+          }
+        }
+      },
+      "block_order": [
+        "16424968110e0ed150-4",
+        "16424968110e0ed150-0",
+        "16424968110e0ed150-2",
+        "16424968110e0ed150-1",
+        "16424968110e0ed150-3",
+        "16424968110e0ed150-5",
+        "1ea7f77a-f34b-41a7-a942-23cb80d02221"
+      ],
+      "settings": {
+        "heading": "Ce sont nos clientes qui en parlent le mieux",
+        "subheading": "ENSEMBLE NOUS ALLONS PLUS LOIN",
+        "description": "Nous sommes engagés à vous proposer des compléments polyvalents qui répondent aux besoins individuels de chaque femme. C'est pourquoi nos ingrédients sont en constante évolution, grâce à vous.",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "#faf9f5",
+        "design": "testimonials-5",
+        "show_stars": true,
+        "autorotate": false,
+        "show_navigation": true,
+        "show_pagination": true,
+        "star_color": "#ffc107",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "16414847794950e2a8": {
+      "type": "icon-box",
+      "blocks": {
+        "1641484779f3382d3e-0": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify://shop_images/Paiement_securise.png",
+            "image_by_url": "",
+            "title": "Paiement sécurisé",
+            "description": "<p>Paiement sécurisé par carte bancaire ou avec le service de paiement votre choix. Paiement en 3x et 4x disponible.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        },
+        "1641484779f3382d3e-1": {
+          "type": "iconbox",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Livraison_offerte.png",
+            "image_by_url": "",
+            "title": "Livraison offerte",
+            "description": "<p>Pas de frais cachés avec la livraison gratuite pour toujours et partout !</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        },
+        "1641484779f3382d3e-2": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify://shop_images/Livraison_mondiale.png",
+            "image_by_url": "",
+            "title": "Livraison mondiale",
+            "description": "<p>Nous livrons dans plus de 200 destinations avec notre réseau de partenaires.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        },
+        "187f7b46-17bc-458e-b9df-57081f269792": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify://shop_images/On_vous_repond.png",
+            "image_by_url": "",
+            "title": "On vous répond",
+            "description": "<p>En nous écrivant à bonjour@umawell.com, du lundi au vendredi de 9h à 18h.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "1641484779f3382d3e-0",
+        "1641484779f3382d3e-1",
+        "1641484779f3382d3e-2",
+        "187f7b46-17bc-458e-b9df-57081f269792"
+      ],
+      "settings": {
+        "heading": "Nous sommes là tout au long du voyage",
+        "subheading": "",
+        "description": "Ce que vous vivez pendant la périménopause et la ménopause peut avoir un impact sur le reste de votre vie. Notre mission est de vous aider à vivre plus longtemps et en meilleure santé avec des solutions naturelles, sûres et efficaces.",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "rgba(0,0,0,0)",
+        "item_per_row": 3,
+        "item_gap": 30,
+        "item_gap_mobile": 14,
+        "card_style": "horizontal",
+        "image_max_width": "70px",
+        "content_alignment": "start",
+        "hover_effect": "none",
+        "enable_slider": false,
+        "show_pagination": false,
+        "show_navigation": false,
+        "use_scroll_mobile": false,
+        "use_grid_column_mb": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "1657187173edfcb2db": {
+      "type": "blog-posts",
+      "settings": {
+        "heading": "La Pause by üma",
+        "subheading": "C'EST LE MOMENT DE FAIRE UNE PAUSE",
+        "description": "Ici, on parle de ménopause et des différentes manières de bien le vivre, mais pas seulement.",
+        "header_alignment": "left",
+        "container": "container",
+        "background_color": "#f6f3ea",
+        "blog": "news",
+        "limit": 3,
+        "column": 3,
+        "column_gap": 30,
+        "mobile_gap": 10,
+        "article_image_aspect_ratio": "16/9",
+        "article_align_content": "text-left",
+        "article_show_tags": true,
+        "article_show_date": true,
+        "article_show_excerpt": true,
+        "article_show_button": true,
+        "button_link": "shopify://blogs/news",
+        "button_text": "Voir tous les articles",
+        "button_style": "sf__btn-primary",
+        "button_size": "sf__btn-large",
+        "use_scroll_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    }
+  },
+  "order": [
+    "slider_cBwNVd",
+    "1640876459a2b360fd",
+    "16950381444dd37841",
+    "1656682405bd2e111a",
+    "165424525895e02b31",
+    "1654245268e3543396",
+    "16525453412276bcdd",
+    "1656947537ea837ab0",
+    "05506bfb-e8c6-4aaf-95f6-e69183eeeadd",
+    "1652516984a7316679",
+    "16414143576e8c1955",
+    "1656658986577279b8",
+    "1657613642d1390cbe",
+    "1642496811511daf0d",
+    "16414847794950e2a8",
+    "1657187173edfcb2db"
+  ]
+}

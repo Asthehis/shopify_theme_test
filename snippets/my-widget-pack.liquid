@@ -1,0 +1,1751 @@
+{% comment %} Symbole de devise dynamique {% endcomment %}
+{% assign currency_symbol = cart.currency.symbol %}
+
+
+{% assign sous_titre_pack_1_mois = product.metafields.custom.sous_titre_pack_1_mois | default: 'Traitement de 1 mois' %}
+{% assign sous_titre_pack_2_mois = product.metafields.custom.sous_titre_pack_2_mois | default: 'Traitement de 2 mois' %}
+{% assign sous_titre_pack_3_mois = product.metafields.custom.sous_titre_pack_3_mois | default: 'Traitement de 3 mois' %}
+
+{% comment %}
+  Valeurs par défaut (sauvegarde si roop ne fournit pas de prix exploitable)
+  Nous allons ensuite parcourir product.selling_plan_groups et, si possible,
+  calculer la réduction exacte comme : 1 - (plan_price / variant_price).
+  Les champs de plan testés : plan.price, plan.per_delivery_price, plan.options[...] (fallbacks).
+{% endcomment %}
+
+{% assign pack_compare_price = product.selected_or_first_available_variant.compare_at_price %}
+{% assign pack_price = product.selected_or_first_available_variant.price %}
+
+{% if pack_compare_price != blank and pack_compare_price > pack_price %}
+  {% assign has_discount = true %}
+  {% assign discount_amount = pack_compare_price | minus: pack_price %}
+  {% comment %} Calcul du pourcentage : (compare - price) / compare * 100 {% endcomment %}
+  {% assign discount_percent = discount_amount | times: 100.0 | divided_by: pack_compare_price | round %}
+{% endif %}
+
+{% comment %}
+  Calcul dynamique des réductions depuis les selling plans roop (si présents)
+  - variant_price et plan_price sont en cents (entiers). Pour obtenir un ratio
+    décimal on force un calcul flottant en multipliant par 1.0 avant la division.
+{% endcomment %}
+
+{% comment %} === DEBUG: Afficher toutes les propriétés du produit === {% endcomment %}
+ {% comment %}
+<script>
+  console.log('=== DEBUG PRODUIT ===');
+  console.log('Handle:', '{{ product.handle }}');
+  console.log('Type:', '{{ product.type }}');
+  console.log('Tags:', {{ product.tags | json }});
+  console.log('Collections:', {{ product.collections | map: 'handle' | json }});
+  console.log('Metafields custom:', {{ product.metafields.custom | json }});
+  console.log('Variants count:', {{ product.variants.size }});
+  console.log('Has only default variant:', {{ product.has_only_default_variant }});
+  console.log('Selling plan groups:', {{ product.selling_plan_groups.size }});
+  console.log('Vendor:', '{{ product.vendor }}');
+  console.log('Product JSON complet:', {{ product | json }});
+  console.log('Compare_at_price ', {{ product.selected_or_first_available_variant.compare_at_price | json }});
+
+  console.log('Product JSON complet 2:', {{ product.selected_or_first_available_variant | json }});
+</script>
+{% endcomment %}
+{% comment %} === FIN DEBUG === {% endcomment %}
+
+{% comment %}
+  ===== DEBUG roop SELLING PLANS (activez ce bloc pour voir tous les plans disponibles) =====
+  Décommentez le code ci-dessous pour afficher tous les selling plans du produit dans la console :
+{% endcomment %}
+
+  <style>
+    /* IMPORTANT: do not style the global <body> from a snippet — scope styles to a wrapper
+       to avoid breaking the parent theme layout (white borders / unexpected padding). */
+    @import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap');
+    .roop-widget-root {
+      font-family: 'Jost', sans-serif;
+      padding: 0;
+      background: transparent;
+      box-sizing: border-box;
+    }
+
+    .roop-widget {
+      background: #fff;
+      border-radius: 14px;
+      border: 1px solid rgba(58,58,58,0.08);
+      padding: 33px;
+      max-width: 800px;
+      margin: 0 auto;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .roop-options {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+    .roop-widget-root input[type="radio"] {
+      position: absolute;
+      opacity: 0;
+      width: 0;
+      height: 0;
+      pointer-events: none;
+    }
+    .roop-badge,
+    .roop-discount {
+      background: #F3EFE8; 
+      color: #000;
+      transition: background 0.3s, color 0.3s;
+    }
+    .roop-widget-root input[type="radio"]:checked + label .roop-badge,
+    .roop-widget-root input[type="radio"]:checked + label .roop-discount {
+      background: #ffffff;
+      color: #000;
+      border-color: #3A3A3A; /* Bordure devient visible */
+    }
+    .roop-option {
+      display: flex;
+      align-items: center;
+      border-radius: 11px;
+      border: 1px solid #000000; 
+      background: #FFF;
+      padding: 0.38em 0.75em;
+      gap: 12px;
+      flex: 1;
+      cursor: pointer;
+      transition: background 0.3s, border-color 0.3s, box-shadow 0.12s ease;
+      position: relative;
+      box-sizing: border-box;
+    }
+    .roop-radio {
+      width: 22px;
+      height: 22px;
+      border: 2px solid #3A3A3A;
+      border-radius: 50%;
+      box-sizing: border-box;
+      display: inline-block;
+      transition: background 0.18s, border-color 0.18s;
+      background: #fff;  
+      position: relative;
+      flex: 0 0 auto;
+    }
+    .roop-widget-root input[type="radio"]:checked + label .roop-radio {
+      border-color: #322B81;
+      background-color: #322B81;
+    }
+    .roop-radio {
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 14px 14px;
+    }
+    .roop-widget-root input[type="radio"]:checked + label .roop-radio {
+      border-color: #322B81;
+      background-color: #322B81;
+      background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M4 12 L10 18 L20 6' stroke='%23ffffff' stroke-width='3.8' stroke-linecap='square' stroke-linejoin='miter' fill='none'/></svg>");
+    }
+
+    input[type="radio"]:checked + label.roop-option {
+      background: #F3EFE8;
+      border-color: #000000;
+    }
+
+    .roop-label {
+      font-family: Jost;
+      font-weight: 400;
+      font-style: Regular;
+      font-size: clamp(14px, 1.1vw, 18px); 
+      leading-trim: NONE;
+      line-height: 21.6px;
+      letter-spacing: 0%;
+      text-align: center;
+      vertical-align: middle;
+      color: #000000;
+    }
+    .roop-badge {
+      background: #322B81;
+      color: #fff;
+      padding: 0.36em 0.64em;
+      display: inline-block;
+      white-space: nowrap;    
+      border-width: 0px;
+      border-radius: 8px;
+      border-color: #F3EFE8; /* Même couleur que le background, donc invisible */
+      border-width: 1px; /* Toujours 1px */
+      margin-left: 0px;
+      transform: rotate(0deg);
+      opacity: 1;          
+      font-family: Jost;
+      font-weight: 400;
+      font-style: Regular;
+      font-size: clamp(14px, 1.4vw, 16px);
+      leading-trim: NONE;
+      line-height: 20.8px;
+      letter-spacing: 0.5px;
+      text-align: center;
+      vertical-align: middle;
+      text-transform: uppercase;
+    }
+    .roop-option,
+    .roop-option * {
+      box-sizing: border-box;
+    }
+    .roop-badge,
+    .roop-discount {
+      transition: background 0.3s;
+      background: #F3EFE8;
+      color: #000;
+    }
+    .roop-plan input:checked + label .roop-badge,
+    .roop-plan input:checked + label .roop-discount {
+      background: #FFFFFF;
+      color: #000;
+    }
+    .best-offer {
+      position: absolute;
+      top: -7.41px;
+      left: 293.41px;  
+      background: #FFC107;
+      color: #ffffff;
+      display: flex;
+      flex-direction: column;   
+      justify-content: center;    
+      align-items: center;    
+      font-size: clamp(10px, 1.4vw, 14px);
+      font-family: Jost;
+      font-weight: 450;          
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      padding: 3px 8px;           
+      border-radius: 8px;
+      line-height: 1;            
+      white-space: nowrap;       
+      z-index: 20;               
+      box-sizing: border-box;
+      line-height: 100%;
+      vertical-align: middle;
+      text-transform: uppercase;      
+      font-style: Bold;
+      leading-trim: NONE;
+    }
+    .best-offer.wrap {
+      white-space: normal;
+      word-wrap: break-word;
+    }
+    .best-offer.center {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .best-offer.right {
+      right: 16px; 
+      left: auto;
+      transform: none;
+    }
+    .roop-plans {
+      display: none;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .roop-plans.active {
+      display: flex; 
+    }
+    .roop-plan {
+      border: 1px solid #000000;
+      border-radius: 12px;
+      padding: 1.2em;
+      transition: background 0.25s, border-color 0.25s, box-shadow 0.25s;
+      cursor: pointer;
+      background: #fff;
+      display: block;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+      box-sizing: border-box;
+      position: relative;
+    }
+    input[type="radio"]:checked + label.roop-plan {
+      background: #F3EFE8;
+      border-color: #000000;
+      padding: 1.5em 1.2em 1.2em;
+    }
+    .roop-plan-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      justify-content: space-between;
+    }
+    .roop-plan-header .roop-radio {
+      flex: 0 0 auto;
+      width: 22px;
+      height: 22px;
+      align-self: flex-start;
+      margin-top: 6px;
+    }
+    .roop-plan-title {
+      color: #000000;
+      font-family: Jost;
+      font-weight: 700;
+      font-style: Bold;
+      font-size: clamp(16px, 1vw, 18px);
+      leading-trim: NONE;
+      line-height: 22px;
+      letter-spacing: 0%;
+      vertical-align: middle;
+    }
+    .roop-discount {
+      background: #f3efe8;
+      color: #000000;
+      display: inline-block;
+      min-height: 24px;  
+      border-style: solid;
+      border-color: #f3efe8;
+      border-width: 1px; 
+      transform: rotate(0deg);
+      opacity: 1;     
+      padding: 0.36em 0.64em;
+      border-radius: 4px;
+      display: flex;  
+      justify-content: center;
+      align-items: center; 
+      text-align: center;
+      font-family: Jost;
+      font-weight: 400;
+      font-style: Regular;
+      font-size: clamp(14px, 1.1vw, 20px);
+      leading-trim: NONE;
+      line-height: 24px;
+      letter-spacing: 0%;
+      vertical-align: middle;
+    }
+    .roop-plan-subtitle {
+      color: #000;
+      padding-bottom: 8px;
+      font-family: Jost;
+      font-weight: 400;
+      font-style: Regular;
+      font-size: 16px;
+      leading-trim: NONE;
+      line-height: 20.8px;
+      letter-spacing: 0%;
+      vertical-align: middle;
+    }
+    .title-discount {
+      display: flex;
+      align-items: center; /* Changé de center à flex-start */
+      gap: 10px;
+      flex: 1 1 auto;
+      min-width: 0;
+      align-self: flex-start; /* title-discount commence en haut */
+    }
+    .roop-plan-header .roop-plan-price {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 4px;
+      margin-left: 8px;
+      min-width: 72px;
+      flex: 0 0 auto;
+      align-self: flex-start; /* Prix commence en haut */
+    }
+    .roop-plan-row2 {
+      display: block;        
+      margin-top: -10px; /* Valeur négative pour rapprocher */
+    }
+    /* Cas spécial : quand il N'Y A PAS de .roop-discount */
+    .roop-plan:not(:has(.roop-discount)) .roop-plan-row2 {
+      margin-top: 2px; /* Ou 6px, 8px selon votre préférence */
+    }
+    /* Cas spécial : quand il N'Y A PAS de .roop-discount */
+    .roop-plan:not(:has(.roop-discount)) .roop-plan-header .roop-radio {
+      margin-top: 0; /* Pas de décalage */
+    }
+    .roop-plan-row2 .roop-plan-subtitle {
+      display: block;
+      padding-bottom: 0;
+    }
+    .roop-plan-row2 .roop-plan-price {
+      display: none;
+    }
+    .roop-plan-price .current {
+      color: #0b0b0b;
+      text-align: right;
+      font-family: Jost;
+      font-size: clamp(14px, 1.4vw, 16px);
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+
+    .roop-plan-price .old {
+      color:#FF4C4C;
+      text-align: right;
+      font-family: Jost;
+      font-size: clamp(14px, 1.4vw, 16px);
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-decoration: line-through;
+    }
+    .selected-plan {
+      margin: 20px auto;
+      text-align: center;
+      font-size: 18px;
+      font-weight: 600;
+      color: #322B81;
+    }
+    .collapsible {
+      background-color: #ffffff;
+      cursor: pointer;
+      width: 100%;
+      height: auto;
+      overflow: visible;
+      text-align: left;
+      outline: none;
+      border: 1px solid rgba(0, 0, 0, 0.06);
+      border-radius: 10px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 7px 11px 11px;
+      margin-bottom: 8px;
+      transition: margin-bottom 180ms ease;
+    }
+    .collapsible.active {
+      margin-bottom: 20px;
+    }
+    .collapsible-header {
+      display: flex;
+      align-items: center;
+      flex: 1 1 auto;
+    }
+    .collapsible-header svg {
+      width: 36px;
+      height: 36px;
+      flex-shrink: 0;
+      display: block;
+      margin-left: 17.49px;
+      margin-right: 24px;
+    }
+    .collapsible-text {
+      display: flex;
+      flex-direction: column;
+      width: 565px;
+    }
+    .collapsible-text div {
+      font-family: Jost;
+      font-weight: 400;
+      font-style: normal;
+      font-size: clamp(16px, 1.2vw, 20px);
+      leading-trim: NONE;
+      line-height: 28px;
+      letter-spacing: 0%;
+      vertical-align: middle;
+      color :#616161;
+      white-space: normal;
+      word-wrap: break-word;
+      margin-top: 1.7px;
+      width: 565px;
+      height: 28px;
+    }
+    .collapsible-text strong {
+      font-family: Jost;
+      font-weight: 700;
+      font-style: Bold;
+      font-size: clamp(16px, 1.2vw, 20px);
+      leading-trim: NONE;
+      line-height: 28px;
+      letter-spacing: 0%;
+      vertical-align: middle;
+      color:rgb(0, 0, 0);
+    }
+    .chevron {
+      position: absolute;
+      right: 1px;
+      top: 50%;
+      transform: translateY(-50%);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      color:rgb(0, 0, 0);
+    }
+    .chev-icon {
+      display: inline-block;
+      line-height: 1;
+    }
+    .chev-icon svg { 
+      width: 20px; 
+      height: 20px; 
+      display: block;
+    }
+    .chev-closed { display: inline-block; }
+    .chev-open { display: none; }
+    .collapsible.active .chev-closed { display: none; }
+    .collapsible.active .chev-open { display: inline-block; }
+    .collapsible.active + .contenu {
+      display: block;
+    }
+    .contenu {
+      color: #444;
+      display: none;
+      overflow: hidden;
+      background-color: #ffffff;
+    }
+
+    .contenu ul {
+      list-style: none;
+        padding: 0;
+      margin: 0 0 0 0;
+    }
+    .contenu li {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 4.75px 9.75px 9.75px; 
+      margin-bottom: 20px;
+      background: #fff;
+      border: 1px solid rgba(0,0,0,0.06);
+      border-radius: 10px;
+      box-sizing: border-box;
+      font-family: Jost;
+      font-weight: 400;
+      font-style: Regular;
+      leading-trim: NONE;
+      line-height: 20px;
+      letter-spacing: 0%;
+      vertical-align: middle;
+      color: #616161;
+    }
+    .contenu li span {
+      flex: 1 1 auto;
+    }
+    .contenu li svg {
+      margin-left: 17.49px;
+      width: 36px !important;
+      height: 36px !important;
+    }
+    .contenu span {
+      margin-left: 12px;
+      font-size: clamp(16px, 1.2vw, 20px);
+      line-height: 28px;
+    }
+    .title-abonnement {
+      width: 100%; 
+      justify-content: center; 
+      display: flex; 
+      flex-direction: column; 
+      color: black; 
+      font-size: clamp(14.531px, 1.2vw, 18.891px);
+      font-family: Jost; 
+      font-weight: 500; 
+      line-height: 31.20px; 
+      word-wrap: break-word;
+      margin-bottom: 1px;
+      text-align: center;
+    }
+
+    .title-reduction {
+      justify-content: center; 
+      display: flex; 
+      flex-direction: column; 
+      color: black; 
+      font-size: 18.89px; 
+      font-family: Jost; 
+      font-weight: 500; 
+      line-height: 31.20px; 
+      word-wrap: break-word;
+    }
+    #add-to-cart-btn {
+      width: 100%;
+      max-width: 100%;
+      height: 50px;
+      background: #322B81;
+      color: #ffffff;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      box-sizing: border-box;
+      font-family: Jost;
+      font-weight: 700;
+      font-size: clamp(14px, 1.5vw, 24px);
+      margin-top: 40px;
+      margin-bottom: 18px;
+    }
+    #add-to-cart-btn:hover {
+      background: #251f6a;
+    }
+    #add-to-cart-btn .btn-label {
+      align-items: center;
+      justify-content: center;
+      height: auto;
+      color: #FFFFFF;
+      font-family: Jost;
+      font-weight: 700;
+      font-style: Bold;
+      font-size: clamp(14px, 1.2vw, 24px);
+      line-height: 1px;
+      text-align: center;
+      border-radius: 4px;
+      box-sizing: border-box;
+      white-space: nowrap;
+      min-width: 0;
+    }
+    #add-to-cart-btn .btn-paid {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: auto;
+      height: auto;
+      color: #FFC107;
+      font-family: Jost;
+      font-weight: 700;
+      font-size: clamp(14px, 1.2vw, 24px);
+      line-height: 1;
+      text-align: center;
+      box-sizing: border-box;
+      border-radius: 4px;
+      white-space: nowrap;
+      flex: 0 0 auto;
+      min-width: 0;
+    }
+    #add-to-cart-btn .btn-old {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: auto;
+      height: auto;
+      background: transparent;
+      color: #FFFFFF;
+      font-family: Jost;
+      font-weight: 400;
+      font-size: clamp(14px, 1.2vw, 22px);
+      line-height: 1;
+      text-align: center;
+      text-decoration: line-through;
+      box-sizing: border-box;
+      border-radius: 4px;
+      opacity: 0.7;
+      white-space: nowrap;
+      flex: 0 0 auto;
+      min-width: 0;
+    }
+
+    /* ============== RESPONSIVE ============== */
+
+    @media (max-width: 992px) {
+      .roop-widget {
+        padding: 24px;
+        max-width: 100%;
+      }
+      .roop-options {
+        gap: 8px;
+      }
+
+      .best-offer {
+        padding: 2px 6px;
+      }
+
+      #add-to-cart-btn {
+        width: 100%;
+        margin-top: 16px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        border-radius: 24px;
+      }
+
+      #add-to-cart-btn .btn-label {
+        width: auto;
+        background: transparent;
+        color: #FFFFFF;
+        font-weight: 700;
+        font-family: Jost;
+        padding: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      #add-to-cart-btn .btn-paid {
+        width: auto;
+        color: #FFC107;
+        font-weight: 700;
+        font-family: Jost;
+        white-space: nowrap;
+        flex: 0 0 auto;
+      }
+
+      #add-to-cart-btn .btn-old {
+        width: auto;
+        color: rgba(255,255,255,0.9);
+        margin-left: 8px;
+        white-space: nowrap;
+        flex: 0 0 auto;
+      }
+    }
+    @media (max-width: 1170px) {
+      
+      .roop-options {
+        flex-direction: column;
+        width: 100%;
+      }
+
+      .roop-option {
+        width: 100%;
+        box-sizing: border-box;
+      }
+
+      .best-offer {
+        top: -6px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      #add-to-cart-btn {
+        width: 100%;
+        height: 48px;
+        margin-top: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        border-radius: 50px;
+        box-sizing: border-box;
+      }
+      #add-to-cart-btn .btn-label {
+        color: #FFFFFF;
+        font-weight: 700;
+        line-height: 1;
+        white-space: nowrap;
+        text-align: center;
+      }
+      #add-to-cart-btn .btn-paid,
+      #total-paid {
+        color: #FFC107;
+        font-family: Jost;
+        font-weight: 700;
+        line-height: 1;
+        white-space: nowrap;
+        flex: 0 0 auto;
+      }
+      #add-to-cart-btn .btn-old,
+      #total-price {
+        color: #FFFFFF;
+        font-family: Jost;
+        font-weight: 400;
+        line-height: 1;
+        text-decoration: line-through;
+        white-space: nowrap;
+        opacity: 0.7;
+        flex: 0 0 auto;
+        margin-left: 0;
+      }
+
+      .collapsible {
+        padding: 12px;
+        height: auto;
+        max-width: 100%;
+        box-sizing: border-box;
+      }
+
+      .collapsible-text div {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        box-sizing: border-box;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        white-space: normal;
+      }
+    }
+    @media (max-width: 563px), (min-width: 768px) and (max-width: 1284px) {
+      #add-to-cart-btn {
+        width: 100%;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        gap: 12px;
+        border-radius: 24px;
+        overflow: hidden;
+        box-sizing: border-box;
+        margin-top: 16px;  
+      }
+
+      #add-to-cart-btn .btn-label {
+        height: auto;
+        padding: 0;
+        background: transparent;
+        color: #FFFFFF;
+        font-weight: 700;
+        font-style: Bold;
+        line-height: 1;
+        letter-spacing: 0;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        min-width: 0;
+      }
+      #add-to-cart-btn .btn-paid,
+      #total-paid {
+        width: auto;
+        height: auto;
+        color: #FFC107;
+        font-weight: 700;
+        font-style: Bold;
+        line-height: 1;
+        letter-spacing: 0;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        flex: 0 0 auto;
+        min-width: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      #add-to-cart-btn .btn-old, #total-price {
+        width: auto;
+        height: auto;
+        color: #FFFFFF;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: 0;
+        text-align: center;
+        vertical-align: middle;
+        text-decoration: line-through;
+        white-space: nowrap;
+        flex: 0 0 auto;
+        min-width: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .contenu li svg {
+        width: 36px !important;
+        height: 36px !important;
+        min-width: 36px;
+        min-height: 36px;
+        flex-shrink: 0;
+        margin-left: 0px;
+      }
+      .roop-widget {
+        padding: 16px;
+        max-width: 100%;
+        box-sizing: border-box;
+      }
+      
+      .roop-option {
+        font-size: 14px;
+      }
+      
+      .collapsible {
+        padding: 4.75px 9.75px 9.75px;
+        overflow: visible;
+        max-width: 100%;
+        box-sizing: border-box;
+      }
+      
+      .collapsible-text {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        box-sizing: border-box;
+      }
+      .collapsible-text div {
+        margin-top: 1.69px;
+      }
+      .collapsible-header svg {
+        margin-left:0px;
+        margin-right:12px;
+      }
+
+      .chev-icon svg {
+        margin-right:0px;
+      }      
+      .roop-label {
+        line-height: 19.2px;
+      }
+      .roop-plan-header {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        flex-wrap: nowrap;
+        margin-bottom: 0;
+      }
+      .roop-radio {
+        width: 24px;
+        height: 24px;
+      }
+      .roop-plan-header .roop-radio {
+        flex: 0 0 auto;
+        width: 24px;
+        height: 24px;
+      }
+      .title-discount {
+        flex: 1 1 auto;
+        min-width: 0;
+        gap: 6px;
+      }
+
+      .roop-plan-title {
+        /* white-space: nowrap; */
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: 19.2px;
+      }
+      .roop-plan-header .roop-plan-price {
+        display: none !important;
+      }
+      .roop-plan-row2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        gap: 8px;
+        margin-top: 8px;
+      }
+      .roop-discount {
+        margin: 0;
+        white-space: nowrap;
+        flex-shrink: 0;
+      }
+
+      .best-offer {
+        padding: 2px 5px;
+      }
+
+      .collapsible-text strong {
+        display: block;
+        margin-bottom: 4px;
+      }
+
+      .collapsible-text div {
+        font-size: clamp(16px, 1.5vw, 20px);
+        line-height: 22.4px;
+        align-self: stretch;
+        font-weight: 400;
+        white-space: normal;
+      }
+
+      .contenu li {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        margin-bottom:10px;
+      }
+
+      .contenu span {
+        margin-left: 0;
+        flex: 1 1 auto;
+        line-height:22.4px;
+      }
+
+      .collapsible.active {
+        margin-bottom:10px;
+      }
+
+      .roop-plan-row2 .roop-plan-subtitle {
+        flex: 1 1 auto;
+        min-width: 0;
+        max-width: 55%;
+        color:rgb(0, 0, 0);
+        font-size: 14px;
+        line-height: 18.2px; 
+      }
+
+      .roop-plan-row2 .roop-plan-price {
+        flex: 0 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 4px;
+        min-width: 0;
+        margin-left: 0;
+      }
+      .roop-plan-row2 .roop-plan-price .current { font-weight: 700; }
+      .title-abonnement, .title-reduction {
+        font-size: 14.531px;
+      }
+    }
+    @media (max-width: 360px) {
+        .roop-widget {
+          padding: 12px;
+          border-radius: 10px;
+          max-width: 100%;
+          box-sizing: border-box;
+        }
+        .roop-options {
+          gap: 6px;
+          margin-bottom: 20px;
+        }
+
+        .roop-badge {
+          margin-left: 0px;
+        }
+
+        .selected-plan {
+          font-size: 16px;
+        }
+        .collapsible {
+          padding: 4.75px 9.75px 9.75px;
+          height: 107.78px;
+          max-width: 100%;
+          box-sizing: border-box;
+          overflow: visible;
+        }
+        .collapsible-text {
+          max-width: 100%;
+          box-sizing: border-box;
+          padding: 0;
+        }
+        .collapsible-text div {
+          width: 100%;
+          max-width: 100%;
+          height: auto;
+          line-height: 22.4px;
+          word-wrap: break-word;
+          overflow-wrap: break-word;
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+        }
+
+        .collapsible-text strong {
+          display: block;
+          margin-bottom: 1.69px;
+        }
+
+        .title-abonnement, .title-reduction {
+          font-size: 14.531px;
+        }
+        
+        #add-to-cart-btn .btn-label, 
+        #add-to-cart-btn .btn-paid, 
+        #add-to-cart-btn .btn-old {
+          font-size: clamp(14px, 1.5vw, 24px);
+        }
+        .contenu li svg {
+          width: 36px !important;
+          height: 36px !important;
+          min-width: 36px;
+          min-height: 36px;
+          flex-shrink: 0;
+        }
+        
+        .contenu li {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+        }
+        
+        .contenu span {
+          margin-left: 0;
+          flex: 1 1 auto;
+        }
+    }
+    @media (min-width: 1170px) and (max-width: 1719px) {
+      .collapsible {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px 12px 20px 12px !important; /* Forcer avec !important */
+        height: auto !important; /* Forcer hauteur auto */
+        min-height: 80px !important; /* Hauteur minimum */
+      }
+      
+      .collapsible-header {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        width: 100%;
+        box-sizing: border-box;
+      }
+
+      .collapsible-header svg {
+        margin-right: 14px;
+      }
+      
+      .collapsible-header > svg:first-child {
+        flex: 0 0 36px;
+        width: 36px;
+        height: 36px;
+        margin-top: 2px;
+      }
+      
+      .collapsible-text {
+        flex: 1 1 0%;
+        min-width: 0;
+      }
+      
+      .collapsible-text div {
+        width: 100%;
+        box-sizing: border-box;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        white-space: normal;
+        line-height: 28px;
+        margin-bottom: 4px; /* Espace en bas du texte */
+      }
+      
+      .chevron {
+        flex: 0 0 24px;
+        width: 24px;
+        margin-top: 2px;
+        right:14px;
+      }
+    }
+    @media (max-width: 400px) {
+      .roop-plan-header {
+        flex-wrap: wrap;
+        align-items: flex-start;
+      }
+      .roop-plan-header .roop-radio {
+        flex: 0 0 20px;
+        order: 1;
+        margin-top:0;
+        width:20px !important;
+        height:20px !important;
+      }
+      
+      .roop-plan-title {
+        flex: 1 1 auto;
+        order: 2;
+      }
+      
+      .roop-discount {
+        flex: 0 0 100%;
+        order: 3;
+      }
+      
+      .title-discount {
+        display: contents; /* Pour "casser" ce wrapper et permettre le réarrangement */
+      }
+    }
+
+    @media (max-width: 320px) {
+      /* Widget principal */
+      .roop-widget {
+        padding: 12px;
+        border-radius: 10px;
+      }
+      
+      /* Options principales */
+      .roop-options {
+        gap: 6px;
+        margin-bottom: 16px;
+      }
+      
+      .roop-option {
+        padding: 8px 10px;
+        gap: 8px;
+      }
+      
+      .roop-radio {
+        width: 20px;
+        height: 20px;
+      }
+      
+      .roop-label {
+        font-size: 13px;
+        line-height: 18px;
+      }
+      
+      .roop-badge {
+        font-size: 11px;
+        padding: 4px 8px;
+        letter-spacing: 0.3px;
+      }
+      
+      /* Titres de section */
+      .title-abonnement,
+      .title-reduction {
+        font-size: 13px;
+        line-height: 20px;
+        margin-bottom: 8px;
+      }
+      
+      /* Plans */
+      .roop-plans {
+        gap: 12px;
+      }
+      
+      .roop-plan {
+        padding: 10px;
+      }
+
+      input[type="radio"]:checked + label.roop-plan {
+        padding: 12px 10px 10px;
+      }
+      
+      /* Header du plan */
+      .roop-plan-header {
+        gap: 6px;
+        margin-bottom: 6px;
+        flex-wrap: wrap;
+      }
+      
+      .roop-plan-header .roop-radio {
+        width: 20px;
+        height: 20px;
+      }
+      
+      .roop-plan-title {
+        font-size: 14px;
+        line-height: 18px;
+      }
+      
+      .roop-discount {
+        font-size: 12px;
+        padding: 4px 8px;
+        line-height: 16px;
+      }
+      
+      /* Row2 du plan */
+      .roop-plan-row2 {
+        margin-top: 6px;
+        gap: 6px;
+      }
+      
+      .roop-plan-row2 .roop-plan-subtitle {
+        font-size: 12px;
+        line-height: 16px;
+        max-width: 50%;
+      }
+      
+      .roop-plan-row2 .roop-plan-price .current,
+      .roop-plan-row2 .roop-plan-price .old {
+        font-size: 12px;
+      }
+      
+      /* Best offer badge */
+      .best-offer {
+        font-size: 9px;
+        padding: 2px 5px;
+        top: -6px;
+      }
+      
+      /* Bouton collapsible */
+      .collapsible {
+        padding: 8px;
+        margin-bottom: 8px;
+      }
+      
+      .collapsible.active {
+        margin-bottom: 10px;
+      }
+      
+      .collapsible-header {
+        gap: 8px;
+      }
+      
+      .collapsible-header svg {
+        width: 32px;
+        height: 32px;
+        min-width: 32px;
+        margin-left: 0;
+        margin-right: 8px;
+      }
+      
+      .collapsible-text {
+        width: 100%;
+      }
+      
+      .collapsible-text strong {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 2px;
+      }
+      
+      .collapsible-text div {
+        font-size: 13px;
+        line-height: 18px;
+        width: 100%;
+        height: auto;
+      }
+      
+      .chevron {
+        right: 8px;
+      }
+      
+      .chev-icon svg {
+        width: 18px;
+        height: 18px;
+      }
+      
+      /* Contenu collapsible */
+      .contenu li {
+        padding: 6px 8px;
+        gap: 10px;
+        margin-bottom: 8px;
+      }
+      
+      .contenu li svg {
+        width: 32px !important;
+        height: 32px !important;
+        min-width: 32px;
+        min-height: 32px;
+        margin-left: 0;
+      }
+      
+      .contenu span {
+        font-size: 13px;
+        line-height: 18px;
+        margin-left: 0;
+      }
+      
+      /* Bouton ajouter au panier */
+      #add-to-cart-btn {
+        height: 44px;
+        margin-top: 14px;
+        margin-bottom: 14px;
+        gap: 6px;
+        padding: 0 12px;
+      }
+      
+      #add-to-cart-btn .btn-label {
+        font-size: 13px;
+      }
+      
+      #add-to-cart-btn .btn-paid {
+        font-size: 13px;
+      }
+      
+      #add-to-cart-btn .btn-old {
+        font-size: 12px;
+      }
+    }
+    @media (min-width: 768px) and (max-width: 795px) {
+      .roop-plan {
+      padding: 0.8em;
+      }
+
+      input[type="radio"]:checked + label.roop-plan {
+      padding: 1.5em 0.8em 1.2em;
+      }
+
+      }
+
+  </style>
+
+<div class="roop-widget-root">
+    <div class="roop-widget">
+      <!-- Choix principal -->
+      <div id="plans-one" class="roop-plans active">
+      <div class="title-abonnement">
+      {{ settings.widget_pack_onetime_label }}
+      </div>
+    
+      <input type="radio" id="3pots" name="plan-one" {% if settings.default_pack_onetime_option == '3' %}checked{% endif %}>
+        <label for="3pots" class="roop-plan">
+          <div class="best-offer center">{{ settings.widget_pack_best_offer_badge }}</div>
+          <div class="roop-plan-header">
+            <span class="roop-radio"></span>
+            <div class="title-discount">
+              <span class="roop-plan-title">{{ settings.widget_pack_onetime_3_title }}</span>
+              <span class="roop-discount">{{ settings.widget_pack_economy_prefix }} {{ discount_percent | append: '%'}} </span>
+            </div>
+            <div class="roop-plan-price">
+              <span class="current">{{pack_price | times: 3| money_without_currency | append: currency_symbol}}</span>
+              <span class="old">{{ pack_compare_price | times: 3 | money_without_currency | append: currency_symbol}}</span>
+             </div>
+          </div>
+
+          <div class="roop-plan-row2">
+            <div class="roop-plan-subtitle">{{ sous_titre_pack_3_mois }}</div>
+            <div class="roop-plan-price">
+              <span class="current">{{pack_price | times: 3| money_without_currency | append: currency_symbol}}</span>
+              <span class="old">{{ pack_compare_price | times: 3 | money_without_currency | append: currency_symbol}}</span>
+            </div>
+          </div>
+
+        </label>
+      
+      <input type="radio" id="2pots" name="plan-one" {% if settings.default_pack_onetime_option == '2' %}checked{% endif %}>
+        <label for="2pots" class="roop-plan">
+          <div class="roop-plan-header">
+            <span class="roop-radio"></span>
+            <div class="title-discount">
+              <span class="roop-plan-title">{{ settings.widget_pack_onetime_2_title }}</span>
+              <span class="roop-discount">{{ settings.widget_pack_economy_prefix }} {{ discount_percent | append: '%'}} </span>
+            </div>
+            <div class="roop-plan-price">
+               <span class="current">{{pack_price | times: 2| money_without_currency | append: currency_symbol}}</span>
+              <span class="old">{{ pack_compare_price | times: 2 | money_without_currency | append: currency_symbol}}</span>
+            </div>
+          </div>
+          <div class="roop-plan-row2">
+            <div class="roop-plan-subtitle">{{ sous_titre_pack_2_mois }}</div>
+            <div class="roop-plan-price">
+              <span class="current">{{pack_price | times: 2| money_without_currency | append: currency_symbol}}</span>
+              <span class="old">{{ pack_compare_price | times: 2 | money_without_currency | append: currency_symbol}}</span>
+            </div>
+          </div>
+        </label>
+
+      <input type="radio" id="1pot" name="plan-one" {% if settings.default_pack_onetime_option == '1' %}checked{% endif %}>
+        <label for="1pot" class="roop-plan">
+          <div class="roop-plan-header">
+            <span class="roop-radio"></span>
+            <div class="title-discount">
+              <span class="roop-plan-title">{{ settings.widget_pack_onetime_1_title }}</span>
+              <span class="roop-discount">{{ settings.widget_pack_economy_prefix }} {{ discount_percent | append: '%'}} </span>
+            </div>
+            <div class="roop-plan-price">
+              <span class="current">{{pack_price | times: 1| money_without_currency | append: currency_symbol}}</span>
+              <span class="old">{{ pack_compare_price | money_without_currency | append: currency_symbol}}</span>         </div>
+          </div>
+          <div class="roop-plan-row2">
+            <div class="roop-plan-subtitle">{{ sous_titre_pack_1_mois }}</div>
+            <div class="roop-plan-price">
+              <span class="current">{{pack_price | times: 1| money_without_currency | append: currency_symbol}}</span>
+              <span class="old">{{ pack_compare_price | money_without_currency | append: currency_symbol}}</span>
+            </div>
+          </div>
+        </label>
+    
+    </div>
+    
+    <!-- Champ caché qui synchronise la quantité choisie -->
+    <input type="hidden" id="selected-qty" name="quantity" value="1">
+    <!-- Button: left label (white), paid price (yellow), old price (white, struck) -->
+    <button id="add-to-cart-btn" type="button">
+      <span class="btn-label">{{ settings.widget_pack_button_text }} |</span><span id="total-paid" class="btn-paid"></span><span id="total-price" class="btn-old"></span>
+    </button>
+    <!--
+    <button type="button" class="collapsible">
+        <div class="collapsible-header">
+              <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_3751_2042)">
+                  <g clip-path="url(#clip1_3751_2042)">
+                    <path d="M35.5134 18C35.5134 8.32758 27.6723 0.486511 17.9998 0.486511C8.32739 0.486511 0.486328 8.32758 0.486328 18C0.486328 27.6725 8.32739 35.5135 17.9998 35.5135C27.6723 35.5135 35.5134 27.6725 35.5134 18Z" fill="#F3EFE8"/>
+                    <path d="M23.8371 9.72974C23.9517 9.72965 24.0647 9.75659 24.167 9.80826C24.2693 9.86002 24.3579 9.93513 24.4258 10.0275L24.4793 10.1121L27.6541 15.9772L27.691 16.0677L27.7027 16.1066L27.7222 16.2058L27.728 16.2973C27.7275 16.363 27.7187 16.4284 27.7018 16.4919L27.656 16.6135L27.619 16.6807C27.5969 16.7153 27.5724 16.7484 27.5461 16.7799L27.6045 16.704L27.5801 16.7381L18.5801 26.9591C18.5063 27.0594 18.4063 27.1375 18.2912 27.1849L18.1958 27.217L18.1199 27.2335L18.0002 27.2432L17.9029 27.2374L17.7881 27.2121C17.7286 27.1953 17.6717 27.1704 17.6188 27.1382L17.6101 27.1314C17.5641 27.1028 17.5215 27.0688 17.4836 27.0302L8.44467 16.7692L8.41937 16.7381L8.38045 16.6807C8.32546 16.5915 8.29029 16.4917 8.27732 16.3878L8.27051 16.2973L8.27343 16.2331L8.28608 16.1465L8.30943 16.0628L8.33083 16.0054L8.35808 15.95L11.5202 10.1121C11.5747 10.0114 11.6523 9.92492 11.7464 9.85963C11.8405 9.79434 11.9487 9.75221 12.0622 9.73655L12.1614 9.72974H23.8371ZM20.9162 17.027H15.0794L17.9983 24.5063L20.9162 17.027ZM13.5139 17.027H10.6144L15.8208 22.9369L13.5139 17.027ZM25.3822 17.027H22.4837L20.1797 22.933L25.3822 17.027ZM15.0531 11.1892H12.5954L10.2233 15.5676H13.652L15.0531 11.1892ZM19.412 11.1892H16.5855L15.1835 15.5676H20.8121L19.412 11.1892ZM23.4012 11.1892H20.9445L22.3455 15.5676H25.7723L23.4012 11.1892Z" fill="#3A3A3A"/>
+                  </g>
+                </g>
+                <defs>
+                  <clipPath id="clip0_3751_2042">
+                    <rect width="36" height="36" fill="white"/>
+                  </clipPath>
+                  <clipPath id="clip1_3751_2042">
+                    <rect width="35.027" height="36" fill="white" transform="translate(0.486328)"/>
+                  </clipPath>
+                </defs>
+              </svg>
+          <div class="collapsible-text">
+            <strong>Pourquoi s’abonner ?</strong>
+            <div>Bénéficiez de réductions supplémentaires et d’avantages exclusifs !</div>
+          </div>
+          <span class="chevron" aria-hidden="true">
+            <span class="chev-icon chev-closed">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+                <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </span>
+            <span class="chev-icon chev-open">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+                <path d="M6 15l6-6 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </span>
+          </span>
+        </div>
+    </button>
+  <div class="contenu">
+    <ul>
+          <li>
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M35.5134 18C35.5134 8.32758 27.6723 0.486511 17.9998 0.486511C8.32739 0.486511 0.486328 8.32758 0.486328 18C0.486328 27.6725 8.32739 35.5135 17.9998 35.5135C27.6723 35.5135 35.5134 27.6725 35.5134 18Z" fill="#F5F5F5"/>
+              <path d="M23.4725 8.86798V10.6943M12.5146 8.86798V10.6943" stroke="#333333" stroke-width="1.40489" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M18.003 18.9138H18.0112M18.003 22.5665H18.0112M21.6515 18.9138H21.6598M14.3545 18.9138H14.3627M14.3545 22.5665H14.3627" stroke="#333333" stroke-width="1.40489" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M10.2314 14.3479H25.7551" stroke="#333333" stroke-width="1.40489" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M9.3252 18.2225C9.3252 14.2437 9.3252 12.2542 10.4686 11.0181C11.612 9.78204 13.4522 9.78204 17.1327 9.78204H18.8677C22.5482 9.78204 24.3885 9.78204 25.5318 11.0181C26.6752 12.2542 26.6752 14.2437 26.6752 18.2225V18.6915C26.6752 22.6704 26.6752 24.6599 25.5318 25.896C24.3885 27.132 22.5482 27.132 18.8677 27.132H17.1327C13.4522 27.132 11.612 27.132 10.4686 25.896C9.3252 24.6599 9.3252 22.6704 9.3252 18.6915V18.2225Z" stroke="#333333" stroke-width="1.40489" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M9.78906 14.3479H26.2259" stroke="#333333" stroke-width="1.40489" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span>Livraison entre le 1 et le 5 du mois</span>
+          </li>
+
+          <li>
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M35.5134 18C35.5134 8.32758 27.6723 0.486511 17.9998 0.486511C8.32739 0.486511 0.486328 8.32758 0.486328 18C0.486328 27.6725 8.32739 35.5135 17.9998 35.5135C27.6723 35.5135 35.5134 27.6725 35.5134 18Z" fill="#F5F5F5"/>
+              <path d="M19.8663 10.6969C20.537 9.97027 20.8724 9.60696 21.2287 9.39504C22.0884 8.88368 23.1472 8.86778 24.0214 9.35309C24.3836 9.55422 24.7292 9.90731 25.4205 10.6135C26.1118 11.3197 26.4575 11.6727 26.6543 12.0428C27.1294 12.9358 27.1139 14.0173 26.6133 14.8956C26.4058 15.2596 26.0501 15.6022 25.3389 16.2873L16.8755 24.4389C15.5276 25.7372 14.8536 26.3864 14.0113 26.7153C13.1689 27.0444 12.2429 27.0202 10.3908 26.9717L10.1388 26.9652C9.57502 26.9504 9.2931 26.943 9.12923 26.757C8.96535 26.5711 8.98773 26.2839 9.03247 25.7096L9.05677 25.3977C9.18271 23.7811 9.24567 22.9729 9.56134 22.2464C9.877 21.5198 10.4215 20.9299 11.5105 19.75L19.8663 10.6969Z" stroke="#333333" stroke-width="1.38462" stroke-linejoin="round"/>
+              <path d="M18.9004 10.8L25.2004 17.1" stroke="#333333" stroke-width="1.38462" stroke-linejoin="round"/>
+              <path d="M19.7998 27H26.9998" stroke="#333333" stroke-width="1.38462" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span>Modifiable à tout moment</span>
+          </li>
+
+          <li>
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M35.5134 18C35.5134 8.32758 27.6723 0.486511 17.9998 0.486511C8.32739 0.486511 0.486328 8.32758 0.486328 18C0.486328 27.6725 8.32739 35.5135 17.9998 35.5135C27.6723 35.5135 35.5134 27.6725 35.5134 18Z" fill="#F5F5F5"/>
+              <path d="M16.0279 12.0829C16.9574 13.0125 17.4223 13.4774 18 13.4774C18.5777 13.4774 19.0425 13.0125 19.9721 12.0829L21.9449 10.1102C22.4035 9.65164 22.6328 9.42228 22.8713 9.28457C24.071 8.59194 25.059 9.27937 25.8898 10.1102C26.7206 10.941 27.408 11.929 26.7155 13.1287C26.5778 13.3672 26.3485 13.5965 25.8899 14.055L23.9174 16.0276C22.9877 16.9573 22.5226 17.4223 22.5226 18C22.5226 18.5777 22.9874 19.0426 23.9171 19.9722L25.8898 21.945C26.3484 22.4035 26.5778 22.6328 26.7155 22.8713C27.408 24.071 26.7206 25.0591 25.8898 25.8898C25.0591 26.7207 24.0709 27.4081 22.8713 26.7154C22.6328 26.5778 22.4035 26.3485 21.9449 25.8898L19.9724 23.9174C19.0431 22.9881 18.5777 22.5226 18 22.5226C17.4224 22.5226 16.957 22.9879 16.0276 23.9174L14.0551 25.8898C13.5965 26.3485 13.3672 26.5778 13.1287 26.7154C11.9291 27.4081 10.9409 26.7207 10.1102 25.8898C9.27931 25.0591 8.59198 24.071 9.28457 22.8713C9.42229 22.6328 9.65157 22.4035 10.1102 21.945L12.0829 19.9722C13.0125 19.0426 13.4774 18.5777 13.4774 18C13.4774 17.4223 13.0123 16.9573 12.0826 16.0276L10.1101 14.055C9.65155 13.5965 9.42228 13.3672 9.28457 13.1287C8.59195 11.929 9.27937 10.941 10.1102 10.1102C10.941 9.27937 11.929 8.59194 13.1287 9.28457C13.3672 9.42228 13.5965 9.65162 14.0551 10.1102L16.0279 12.0829Z" stroke="#333333" stroke-width="1.38462" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span>Résiliable dès 3 mois de cure</span>
+          </li>
+
+          <li>
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M35.5134 18C35.5134 8.32758 27.6723 0.486511 17.9998 0.486511C8.32739 0.486511 0.486328 8.32758 0.486328 18C0.486328 27.6725 8.32739 35.5135 17.9998 35.5135C27.6723 35.5135 35.5134 27.6725 35.5134 18Z" fill="#F5F5F5"/>
+              <path d="M25.7126 13.4618V18M9.375 13.4618C9.375 16.2433 9.375 22.3333 9.375 22.6847C9.375 23.9395 11.141 24.6855 14.6729 26.1775C16.0918 26.7768 16.8012 27.0765 17.5438 27.0765V17.4144" stroke="#333333" stroke-width="1.3015" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M20.2715 24.3529C20.2715 24.3529 21.0657 24.3529 21.8599 26.1682C21.8599 26.1682 24.3826 21.63 26.625 20.7224" stroke="#333333" stroke-width="1.95225" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M14.209 15.9046L11.5576 14.6216C10.1025 13.9175 9.375 13.5655 9.375 13.008C9.375 12.4505 10.1025 12.0984 11.5576 11.3943L14.209 10.1113C15.8454 9.31948 16.6637 8.92355 17.5438 8.92355C18.424 8.92355 19.2422 9.31947 20.8786 10.1113L23.53 11.3943C24.9851 12.0984 25.7126 12.4505 25.7126 13.008C25.7126 13.5655 24.9851 13.9175 23.53 14.6216L20.8786 15.9046C19.2422 16.6965 18.424 17.0924 17.5438 17.0924C16.6637 17.0924 15.8454 16.6965 14.209 15.9046Z" stroke="#333333" stroke-width="1.3015" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M12.0938 18L13.909 18.9076" stroke="#333333" stroke-width="1.3015" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M22.0774 10.7394L13.001 15.2777" stroke="#333333" stroke-width="1.3015" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span>Livraison garantie en cas de rupture de stock</span>
+          </li>
+        </ul>
+    </div>
+  </div>
+  -->
+
+  <input type="hidden" id="reduction-3pots" value="{{ multiplicateur_3pots }}">
+  <input type="hidden" id="reduction-2pots" value="{{ multiplicateur_2pots }}">
+  <input type="hidden" id="reduction-1pots" value="{{ multiplicateur_1pots }}">
+  <input type="hidden" id="selling-plan-6m" value="{{ selling_plan_6m }}">
+  <input type="hidden" id="selling-plan-3m" value="{{ selling_plan_3m }}">
+  <input type="hidden" id="selling-plan-1m" value="{{ selling_plan_1m }}">
+  <input type="hidden" id="discount-6m" value="{{ reduction_abonnement_6mois | times: 100 | round }}">
+  <input type="hidden" id="discount-3m" value="{{ reduction_abonnement_3mois | times: 100 | round }}">
+  <input type="hidden" id="discount-1m" value="{{ reduction_abonnement_1mois | times: 100 | round }}">
+  
+  <input type="hidden" id="selected-selling-plan" value="">
+  <input type="hidden" id="reduction-3pots-percent" value="{{ reduction_3pots_percent }}">
+  <input type="hidden" id="reduction-2pots-percent" value="{{ reduction_2pots_percent }}">
+  <input type="hidden" id="reduction-1pot-percent" value="{{ reduction_1pot_percent }}">
+</div>
+</div>
+<script>
+      // Symbole de devise dynamique
+    const CURRENCY_SYMBOL = '{{ currency_symbol }}';
+    const plansOne = document.getElementById("plans-one");
+    let selectedQuantity = parseInt(document.getElementById("selected-qty").value, 10);
+
+    // Widget Pack - Pas d'abonnements, seulement achat unique
+    //console.log('Widget Pack initialisé');
+    
+    function toggleTooltip(el) {
+    el.classList.toggle('active');
+  }
+
+  var coll = document.getElementsByClassName("collapsible");
+  // initialize collapsible buttons (single, robust initializer)
+  for (let i = 0; i < coll.length; i++) {
+    const btn = coll[i];
+    const content = btn.nextElementSibling;
+    // set initial aria and visibility based on existing .active
+    btn.setAttribute('aria-expanded', btn.classList.contains('active') ? 'true' : 'false');
+    if (content) content.style.display = btn.classList.contains('active') ? 'block' : 'none';
+
+    btn.addEventListener('click', function() {
+      const isActive = this.classList.toggle('active');
+      const content = this.nextElementSibling;
+      this.setAttribute('aria-expanded', isActive ? 'true' : 'false');
+      if (!content) return;
+      content.style.display = isActive ? 'block' : 'none';
+    });
+  }
+  function getSelectedQuantity() {
+    let quantity = 1; // valeur par défaut
+
+    // Widget Pack: toujours achat unique
+    const checkedPlan = plansOne.querySelector("input[type=radio]:checked");
+    if (checkedPlan) {
+      const id = checkedPlan.id; // ex : "3pots"
+      const match = id.match(/(\d+)/);
+      if (match) quantity = parseInt(match[1], 10);
+    }
+
+    return quantity;
+  }
+
+
+  // Exemple d'utilisation
+  //console.log("Quantité choisie :", getSelectedQuantity());
+
+  function addToCart(variantId, quantity) {
+    const body = {
+      id: variantId,
+      quantity: quantity
+    };
+    
+    // Prix du pack (en cents depuis Liquid)
+    const packPrice = {{ product.selected_or_first_available_variant.price }};
+    const packComparePrice = {{ product.selected_or_first_available_variant.compare_at_price | default: 0 }};
+    
+    // Widget Pack: achat unique seulement
+    const checkedPlan = plansOne.querySelector("input[type=radio]:checked");
+    if (checkedPlan) {
+      const planId = checkedPlan.id;
+      let planLabel = '';
+      let totalOriginalPrice = 0;
+      let totalFinalPrice = 0;
+      
+      if (planId === "3pots") {
+        planLabel = '3 pots';
+        totalOriginalPrice = packComparePrice > 0 ? packComparePrice * 3 : packPrice * 3;
+        totalFinalPrice = packPrice * 3;
+      } else if (planId === "2pots") {
+        planLabel = '2 pots';
+        totalOriginalPrice = packComparePrice > 0 ? packComparePrice * 2 : packPrice * 2;
+        totalFinalPrice = packPrice * 2;
+      } else if (planId === "1pot") {
+        planLabel = '1 pot';
+        totalOriginalPrice = packComparePrice > 0 ? packComparePrice : packPrice;
+        totalFinalPrice = packPrice;
+      }
+      
+      const discountPercent = totalOriginalPrice > 0 && totalOriginalPrice > totalFinalPrice 
+        ? Math.round((1 - totalFinalPrice / totalOriginalPrice) * 100) 
+        : 0;
+      
+      body.properties = {
+        '_Prix_Original': (totalOriginalPrice / 100).toFixed(2) + CURRENCY_SYMBOL,
+        '_Prix_Final': (totalFinalPrice / 100).toFixed(2) + CURRENCY_SYMBOL,
+        '_Plan_Label': planLabel
+      };
+      
+      if (discountPercent > 0) {
+        body.properties['_Réduction'] = discountPercent + '%';
+      }
+    }
+    
+    // Afficher un état de chargement sur le bouton
+    const btn = document.getElementById('add-to-cart-btn');
+    const originalText = btn.innerHTML;
+    btn.disabled = true;
+    btn.innerHTML = '<span class="btn-label">Ajout...</span>';
+
+    // 🔍 DEBUG : Afficher ce qui va être envoyé
+    //console.log('🛒 Body complet envoyé:', JSON.stringify(body, null, 2));
+    
+    fetch('/cart/add.js', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(body)
+    })
+    .then(response => response.json())
+    .then(data => {
+      //console.log('✅ Produit ajouté avec succès :', data);
+      //console.log('📦 Properties envoyées:', body.properties);
+      
+      // Restaurer le bouton
+      btn.disabled = false;
+      btn.innerHTML = originalText;
+      
+      // Débloquer l'ajout après un délai de 2 secondes
+      setTimeout(() => {
+        isAddingToCart = false;
+        //console.log('✅ Prêt pour un nouvel ajout');
+      }, 2000);
+      
+      // Rafraîchir Corner Cart
+      corner.do();
+    })
+    .catch(error => {
+      console.error('❌ Erreur addToCart:', error);
+      btn.disabled = false;
+      btn.innerHTML = originalText;
+      
+      // Débloquer immédiatement en cas d'erreur
+      isAddingToCart = false;
+    });
+  }
+
+  function updateSelectedQuantity() {
+    const quantityInput = document.getElementById("selected-qty");
+
+    // Widget Pack: toujours achat unique
+    const checkedPlan = plansOne.querySelector("input[type=radio]:checked");
+    if (checkedPlan) {
+      const id = checkedPlan.id; // ex : "3pots"
+      const match = id.match(/(\d+)/);
+      if (match) {
+        quantityInput.value = parseInt(match[1], 10);
+        selectedQuantity = quantityInput.value;
+      }
+    }
+  }
+
+  // Mets à jour la quantité à chaque changement
+  document.querySelectorAll('input[type="radio"]').forEach(radio => {
+    radio.addEventListener('change', () => {
+      updateSelectedQuantity();
+      updateButtonPrice();
+    });
+  });
+
+  // Initialisation au chargement
+  updateSelectedQuantity();
+  updateButtonPrice();
+
+  // Système de blocage des ajouts multiples
+  let isAddingToCart = false;
+  
+  document.getElementById('add-to-cart-btn').addEventListener('click', () => {
+    const variantId = "{{ product.selected_or_first_available_variant.id }}";   
+    const quantity = parseInt(document.getElementById("selected-qty").value, 10);
+    
+    // Bloquer si un ajout est en cours
+    if (isAddingToCart) {
+      //console.log('⏸️ Ajout en cours, veuillez patienter...');
+      return;
+    }
+    
+    // Debug : afficher ce qui va être envoyé
+    /*
+    console.log('🛒 Ajout au panier (Pack):', {
+      variantId: variantId,
+      quantity: quantity,
+      type: 'ACHAT UNIQUE (PACK)'
+    });
+    */
+    // Marquer comme ajout en cours
+    isAddingToCart = true;
+    
+    // Widget Pack: pas de selling plan
+    addToCart(variantId, quantity);
+  });
+
+  function updateButtonPrice() {
+    const totalPriceEl = document.getElementById('total-price');
+    const totalPaidEl = document.getElementById('total-paid');
+
+    selectedQuantity = parseInt(document.getElementById("selected-qty").value, 10);
+    
+    // Prix du pack
+    const packComparePrice = {{ product.selected_or_first_available_variant.compare_at_price | default: 0 }};
+    const packPrice = {{ product.selected_or_first_available_variant.price }};
+    
+    // Prix barré (compare_at_price) × quantité
+    let totalPrice = packComparePrice > 0 
+      ? (packComparePrice * selectedQuantity / 100).toFixed(2)
+      : (packPrice * selectedQuantity / 100).toFixed(2);
+    
+    // Prix payé (price) × quantité
+    let totalPaid = (packPrice * selectedQuantity / 100).toFixed(2);
+    
+    totalPriceEl.textContent = `${totalPrice}${CURRENCY_SYMBOL}`;
+    totalPaidEl.textContent = `${totalPaid}${CURRENCY_SYMBOL}`;
+
+    // show old (struck) price only when it differs from the paid price
+    const btnOld = document.querySelector('#add-to-cart-btn .btn-old');
+    if (btnOld) {
+      const paidNum = parseFloat(totalPaid);
+      const priceNum = parseFloat(totalPrice);
+      if (Math.abs(paidNum - priceNum) < 0.01) {
+        btnOld.style.display = 'none';
+      } else {
+        btnOld.style.display = 'inline-flex';
+      }
+    }
+  }
+
+  document.getElementById("selected-qty").addEventListener("change", updateButtonPrice);
+  updateButtonPrice();
+
+  function aficherIDproduit() {
+    return {{ product.selected_or_first_available_variant.id }};
+  }
+</script>

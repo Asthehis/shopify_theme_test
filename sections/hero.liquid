@@ -1,0 +1,83 @@
+{% assign _title = section.settings.heading | default: page.title %}
+{% assign _text  = section.settings.text | default: page.content %}
+{% assign _img_obj = section.settings.image %}
+{% if _img_obj != blank %}
+  {% assign _bg_primary = _img_obj | image_url: width: 2000 %}
+  {% assign _bg_file = '' %}
+  {% assign _bg_asset = '' %}
+{% else %}
+  {%- comment -%} Fallbacks: try Files first, then theme asset {%- endcomment -%}
+  {% assign _bg_primary = '' %}
+  {% assign _bg_file = 'fond_ecran_page_ou_nous_trouver.jpg' | file_url %}
+  {% assign _bg_asset = 'fond_ecran_page_ou_nous_trouver.jpg' | asset_url %}
+{% endif %}
+
+<section class="ou-trouver-hero" style="background-image: 
+  linear-gradient(rgba(20,20,20,0.22), rgba(20,20,20,0.12))
+  {%- if _bg_primary != blank -%}, url('{{ _bg_primary }}'){%- endif -%}
+  {%- if _bg_primary == blank and _bg_file != blank -%}, url('{{ _bg_file }}'){%- endif -%}
+  {%- if _bg_primary == blank and _bg_asset != blank -%}, url('{{ _bg_asset }}'){%- endif -%}
+  ; background-size: cover; background-position: center right; background-blend-mode: multiply;">
+  <div class="ou-trouver-hero__container">
+    <h1 class="ou-trouver-hero__title">{{ _title }}</h1>
+    <div class="ou-trouver-hero__text">{{ _text }}</div>
+  </div>
+</section>
+
+<!-- debug-hero-bg: primary='{{ _bg_primary }}' file='{{ _bg_file }}' asset='{{ _bg_asset }}' -->
+
+{% schema %}
+{
+  "name": "Hero (UMA)",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text"
+    },
+    { "type": "checkbox", "id": "full_width", "label": "Full Width", "default": true }
+  ],
+  "presets": [
+    {
+      "name": "Hero"
+    }
+  ]
+}
+{% endschema %}
+
+<style>
+  .ou-trouver-hero{
+    width:100%;
+    height: 360px;
+    background-size: cover;
+    background-position: center right;
+    display:flex;align-items:center;justify-content:center;
+    margin-bottom: 48px;
+  }
+  .ou-trouver-hero__container{ max-width: 1200px; padding: 0 16px 0 0; margin: 0 auto; text-align: left; }
+  .ou-trouver-hero__title{ font-size: 34px; color:#2b2b2b; font-weight:700; margin:0 0 8px; text-align: left; }
+  .ou-trouver-hero__text{ color:#4b4b4b; max-width: 760px; margin: 0 0 0 0; text-align: left; }
+  @media (max-width: 768px){
+    /* Mobile: ensure the text stays inside the image area by using min-height + padding */
+    .ou-trouver-hero{ height: auto; min-height: 320px; padding: 32px 0; background-position: center; }
+    .ou-trouver-hero__container{ padding: 0 16px; text-align: center; }
+    .ou-trouver-hero__title{ font-size: 22px; margin-bottom: 6px; }
+    .ou-trouver-hero__text{ max-width: 100%; margin: 0 auto; }
+  }
+
+  @media (max-width: 480px){
+    .ou-trouver-hero{ min-height: 280px; }
+    .ou-trouver-hero__title{ font-size: 20px; }
+    .ou-trouver-hero__text{ font-size: 14px; }
+  }
+</style>

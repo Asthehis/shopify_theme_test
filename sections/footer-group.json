@@ -1,0 +1,175 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "custom_html_dPfHCX": {
+          "type": "custom_html",
+          "settings": {
+            "title": "",
+            "html": "<div class=\"klaviyo-form-TVv8Bk\"></div>",
+            "width": "50%",
+            "order_first": false,
+            "open_default": false
+          }
+        },
+        "1e7187ed-e82f-4909-819e-285b210ae794": {
+          "type": "newsletter",
+          "disabled": true,
+          "settings": {
+            "title": "Il est temps de changer \"le changement\".",
+            "description": "Des emails incroyables proposés par notre équipe. Pour vous tenir au courant de tout (nouveautés, cadeaux, évènements...) Ici vous savez tout avant tout le monde.",
+            "email_placeholder": "Entrez votre email",
+            "form_style": "bordered",
+            "show_social": false,
+            "show_agree_checkbox": false,
+            "width": "50%",
+            "order_first": true,
+            "open_default": true
+          }
+        },
+        "7527ffa4-1a31-4e5c-b642-96aa834daf84": {
+          "type": "menu",
+          "settings": {
+            "menu": "footer",
+            "title": "<span class=\"font-body font-semibold\">Nous</span>",
+            "width": "33%",
+            "order_first": false,
+            "open_default": false
+          }
+        },
+        "c85629c7-7aae-4666-b5f0-150990439c91": {
+          "type": "menu",
+          "settings": {
+            "menu": "menu-pied-de-page-secondaire",
+            "title": "<span class=\"font-body font-semibold\">Ressources</span>",
+            "width": "33%",
+            "order_first": false,
+            "open_default": false
+          }
+        },
+        "2ae96938-9a00-4ea7-9ca9-288b3c29de5e": {
+          "type": "menu",
+          "settings": {
+            "menu": "termes-et-conditions",
+            "title": "<span class=\"font-body font-semibold\">Vous & Nous</span>",
+            "width": "33%",
+            "order_first": false,
+            "open_default": false
+          }
+        }
+      },
+      "block_order": [
+        "custom_html_dPfHCX",
+        "1e7187ed-e82f-4909-819e-285b210ae794",
+        "7527ffa4-1a31-4e5c-b642-96aa834daf84",
+        "c85629c7-7aae-4666-b5f0-150990439c91",
+        "2ae96938-9a00-4ea7-9ca9-288b3c29de5e"
+      ],
+      "settings": {
+        "design": "footer-1",
+        "container": "container",
+        "bordered": true,
+        "copyright": "© 2024 Tous droits réservés. Laboratoires üma© | Nos produits n’ont pas pour but de diagnostiquer, traiter, soigner ou empêcher les maladies. Nos produits ne contiennent aucun ingrédient nécessitant une prescription médicale.",
+        "show_country_selector": false,
+        "show_currency_selector": true,
+        "show_language_selector": false,
+        "show_social_links": true,
+        "enable_follow_on_shop": false,
+        "show_payment_icons": true,
+        "image_custom_payment": "shopify://shop_images/payments_cardssmall.png",
+        "payment_icons_width": 400
+      }
+    },
+    "17585515045a9bfc88": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_kzPxJA": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": ""
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_kzPxJA"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "mobile-sticky-bar": {
+      "type": "mobile-sticky-bar",
+      "settings": {
+        "show_mobile_sticky": true,
+        "show_home_icon": true,
+        "show_collection_icon": false,
+        "show_cart_icon": true,
+        "show_search_icon": false,
+        "show_account_icon": true,
+        "show_wishlist_icon": false
+      }
+    },
+    "age-verifier-popup": {
+      "type": "age-verifier-popup",
+      "blocks": {
+        "block-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Confirm your age"
+          }
+        },
+        "block-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Are you 18 years old or older?</p>"
+          }
+        },
+        "block-3": {
+          "type": "buttons",
+          "settings": {
+            "decline_button": "No, I'm not",
+            "approve_button": "Yes, I am"
+          }
+        }
+      },
+      "block_order": [
+        "block-1",
+        "block-2",
+        "block-3"
+      ],
+      "settings": {
+        "design_mode": false,
+        "enable": false,
+        "bg_blur": true,
+        "decline_heading": "Come back when you're older",
+        "decline_content": "<p>Sorry, the content of this store can't be seen by a younger audience. Come back when you're older.</p>",
+        "return_button": "Oops, I entered incorrectly"
+      }
+    }
+  },
+  "order": [
+    "footer",
+    "17585515045a9bfc88",
+    "mobile-sticky-bar",
+    "age-verifier-popup"
+  ]
+}
