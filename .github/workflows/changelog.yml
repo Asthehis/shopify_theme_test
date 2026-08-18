@@ -1,0 +1,34 @@
+name: Changelog & Slack notification
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2 # nécessaire pour comparer avec le commit précédent
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run changelog + notification script
+        env:
+          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          COMMIT_SHA: ${{ github.sha }}
+          COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
+          COMMIT_URL: ${{ github.event.head_commit.url }}
+          COMMIT_AUTHOR_NAME: ${{ github.event.head_commit.author.name }}
+          COMMIT_AUTHOR_EMAIL: ${{ github.event.head_commit.author.email }}
+          COMMIT_TIMESTAMP: ${{ github.event.head_commit.timestamp }}
+        run: node scripts/notify-changelog.mjs
