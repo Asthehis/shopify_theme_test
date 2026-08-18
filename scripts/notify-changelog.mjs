@@ -70,7 +70,7 @@ async function createNotionEntry() {
             parent: { database_id: NOTION_DATABASE_ID },
             properties: {
                 // Adapte ces noms de propriétés à ceux de ta base Notion.
-                Name: {
+                Nom: {
                     title: [{ text: { content: firstLine || `Commit ${shortSha}` } }],
                 },
                 Source: {
