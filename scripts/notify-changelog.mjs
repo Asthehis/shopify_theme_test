@@ -45,11 +45,14 @@ const prNumber = prMatch ? prMatch[1] : null;
 
 // Shopify inclut le vrai auteur (compte admin) et le shop dans le corps du
 // message de commit, pas dans le nom d'auteur git (qui reste "shopify[bot]").
-// Exemple de corps de message :
-//   Committed from shop: uma-sandbox
-//   Theme last edited by: Noémie Fournel
-const shopMatch = COMMIT_MESSAGE.match(/Committed from shop:\s*(.+)/i);
-const editorMatch = COMMIT_MESSAGE.match(/Theme last edited by:\s*(.+)/i);
+// Les deux infos peuvent être sur la même ligne, ex :
+//   Committed from shop: uma-sandbox Theme last edited by: Noémie Fournel
+// On borne donc "shop" pour qu'il s'arrête avant "Theme last edited by"
+// (ou avant une fin de ligne) plutôt que de capturer tout le reste.
+const shopMatch = COMMIT_MESSAGE.match(
+    /Committed from shop:\s*(.+?)(?=\s*Theme last edited by:|\n|$)/i
+);
+const editorMatch = COMMIT_MESSAGE.match(/Theme last edited by:\s*(.+?)(?=\n|$)/i);
 const shopifyShopName = shopMatch ? shopMatch[1].trim() : null;
 const shopifyEditorName = editorMatch ? editorMatch[1].trim() : null;
 
@@ -66,7 +69,7 @@ try {
     const diff = execSync(`git diff --name-only HEAD^ HEAD`, { encoding: "utf-8" });
     changedFiles = diff.split("\n").filter(Boolean);
 } catch (e) {
-    console.warn("Impossible de calculer le diff (probablement un premier commit).");
+    console.warn("⚠️ Impossible de calculer le diff (probablement un premier commit).");
 }
 
 const shortSha = COMMIT_SHA.slice(0, 7);
@@ -92,7 +95,7 @@ async function createNotionEntry() {
                     select: { name: source },
                 },
                 Auteur: {
-                    rich_text: [{ text: { content: COMMIT_AUTHOR_NAME || "Inconnu" } }],
+                    rich_text: [{ text: { content: displayAuthorName || "Inconnu" } }],
                 },
                 Fichiers: {
                     rich_text: [
@@ -124,7 +127,7 @@ async function createNotionEntry() {
         const body = await res.text();
         fail(`Erreur Notion API (${res.status}): ${body}`);
     }
-    console.log("Entrée Notion créée.");
+    console.log("✅ Entrée Notion créée.");
 }
 
 // --- 4. Notification Slack --------------------------------------------------
@@ -139,13 +142,17 @@ async function notifySlack() {
         (changedFiles.length > 10 ? `\n… et ${changedFiles.length - 10} autre(s)` : "")
         : "_Fichiers non détectés_";
 
+    const boutiqueLine = shopifyShopName
+        ? `*Boutique :* ${shopifyShopName}`
+        : `*Boutique :* boutique principale`;
+
     const payload = {
         blocks: [
             {
                 type: "section",
                 text: {
                     type: "mrkdwn",
-                    text: `${emoji} *${label}*\n*Boutique :* boutique principale\n*Auteur :* ${COMMIT_AUTHOR_NAME || "Inconnu"}\n*Message :* ${firstLine}`,
+                    text: `${emoji} *${label}*\n${boutiqueLine}\n*Auteur :* ${displayAuthorName || "Inconnu"}\n*Message :* ${firstLine}`,
                 },
             },
             {
@@ -177,7 +184,7 @@ async function notifySlack() {
         const body = await res.text();
         fail(`Erreur Slack webhook (${res.status}): ${body}`);
     }
-    console.log("Notification Slack envoyée.");
+    console.log("✅ Notification Slack envoyée.");
 }
 
 // --- Run ---------------------------------------------------------------------
