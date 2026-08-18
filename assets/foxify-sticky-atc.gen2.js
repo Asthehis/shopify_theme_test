@@ -8,15 +8,23 @@ if (!customElements.get('x-sticky-atc-bar')) {
       }
 
       connectedCallback() {
-        this.productFormActions = document.querySelector('.x-product-form');
         this.container = this.closest('.x-sticky-atc');
+        this.stickyAtcBlock = this.closest('.x-extension\\:sticky-atc-block');
 
-        const stickyAtcBlock = this.closest('.x-extension\\:sticky-atc-block');
-        const foxifyWrapper = document.querySelector('.x-main');
-        if (stickyAtcBlock && foxifyWrapper && ![...foxifyWrapper.children].includes(stickyAtcBlock)) {
-          foxifyWrapper.appendChild(stickyAtcBlock);
+        const foxifyWrappers = [...document.querySelectorAll('.x-main')].filter(
+          (wrapper) => wrapper.id !== 'x-Age-Verifier-Modal' && !wrapper.closest('.shopify-section-group-foxify-header-group'),
+        );
+        const mainContentWrapperCandidates = [...document.querySelectorAll('#MainContent .x-app.x-main')];
+        const mainContentWrapper = mainContentWrapperCandidates.find((wrapper) => !wrapper.closest('.shopify-section-group-foxify-header-group'));
+        const foxifyWrapper = mainContentWrapper || foxifyWrappers[0];
+        if (this.stickyAtcBlock && foxifyWrapper && ![...foxifyWrapper.children].includes(this.stickyAtcBlock)) {
+          foxifyWrapper.appendChild(this.stickyAtcBlock);
+        }
+
+        if (this.querySelector('template') && !this.dataset.initialized) {
           const content = this.querySelector('template').content?.firstElementChild?.cloneNode(true);
           this.innerHTML = content.innerHTML;
+          this.dataset.initialized = 'true';
           this.init();
         }
       }
@@ -25,7 +33,6 @@ if (!customElements.get('x-sticky-atc-bar')) {
         (async () => {
           const productJson = await window.Foxify.Utils.fetchJSON(`/products/${this.dataset.productHandle}.js`);
           this.variantJson = productJson.variants;
-          console.log(this.variantJson, 'this.variantJson');
         })();
 
         this.submitButton = this.querySelector('.x-button[name="add"]');
@@ -38,21 +45,23 @@ if (!customElements.get('x-sticky-atc-bar')) {
         isMobile.addEventListener('change', this.checkDevice.bind(this));
         // Initial check
         this.checkDevice(isMobile);
-
-        const rootMargin = `0px 0px 0px 0px`;
+        const showEarlyPx = Number(this.stickyAtcBlock?.dataset.showEarlyPx) || 0;
         this.observer = new IntersectionObserver(
           (entries) => {
             entries.forEach((entry) => {
-              const method = entry.intersectionRatio !== 1 ? 'add' : 'remove';
+              const method = entry.isIntersecting ? 'remove' : 'add';
               this.container.classList[method]('x-sticky-atc--show');
             });
           },
-          { threshold: 1, rootMargin },
+          {
+            threshold: [0, 1],
+            rootMargin: `-${showEarlyPx}px 0px 0px 0px`,
+          },
         );
 
         if (this.dataset.selectedVariantAvailable !== 'true') {
-          this.submitButton && this.submitButton.setAttribute('disabled', 'true');
-          this.shopifyButton && this.shopifyButton.setAttribute('disabled', 'true');
+          if (this.submitButton) this.submitButton.setAttribute('disabled', 'true');
+          if (this.shopifyButton) this.shopifyButton.setAttribute('disabled', 'true');
         }
 
         this.setObserveTarget();
@@ -61,13 +70,20 @@ if (!customElements.get('x-sticky-atc-bar')) {
       }
 
       setObserveTarget = () => {
-        if (this.productFormActions) {
-          this.observer.observe(this.productFormActions);
-          this.observeTarget = this.productFormActions;
+        if (this.observeTarget) {
+          this.observer.unobserve(this.observeTarget);
+        }
+
+        this.observeTarget =
+          document.querySelector('.x-main-product .x-main-product__form [name="add"]') ||
+          document.querySelector('.x-main-product .x-main-product__form');
+
+        if (this.observeTarget) {
+          this.observer.observe(this.observeTarget);
         }
       };
 
-      checkDevice(e) {
+      checkDevice(_e) {
         const sectionHeight = this.clientHeight + 'px';
         document.documentElement.style.setProperty('--x-sticky-atc-bar-height', sectionHeight);
       }
@@ -82,13 +98,13 @@ if (!customElements.get('x-sticky-atc-bar')) {
         if (this.selectedVariant) {
           this.variantInput.value = this.selectedVariant.id;
           if (this.selectedVariant.available) {
-            this.submitButton && this.submitButton.removeAttribute('disabled');
-            this.shopifyButton && this.shopifyButton.removeAttribute('disabled');
-            btnLabel && (btnLabel.textContent = window.Foxify.Strings.addToCart);
+            if (this.submitButton) this.submitButton.removeAttribute('disabled');
+            if (this.shopifyButton) this.shopifyButton.removeAttribute('disabled');
+            if (btnLabel) btnLabel.textContent = window.Foxify.Strings.addToCart;
           } else {
-            this.submitButton && this.submitButton.setAttribute('disabled', 'true');
-            this.shopifyButton && this.shopifyButton.setAttribute('disabled', 'true');
-            btnLabel && (btnLabel.textContent = window.Foxify.Strings.soldOut);
+            if (this.submitButton) this.submitButton.setAttribute('disabled', 'true');
+            if (this.shopifyButton) this.shopifyButton.setAttribute('disabled', 'true');
+            if (btnLabel) btnLabel.textContent = window.Foxify.Strings.soldOut;
           }
           this.updatePrice();
           if (shouldEmit && window.Foxify && window.Foxify.Events) {
@@ -150,9 +166,9 @@ if (!customElements.get('x-sticky-atc-bar')) {
           if (source === this) return;
 
           if (!variant) {
-            btnLabel && (btnLabel.textContent = window.Foxify.Strings.unavailable);
-            this.submitButton && this.submitButton.setAttribute('disabled', 'true');
-            this.shopifyButton && this.shopifyButton.setAttribute('disabled', 'true');
+            if (btnLabel) btnLabel.textContent = window.Foxify.Strings.unavailable;
+            if (this.submitButton) this.submitButton.setAttribute('disabled', 'true');
+            if (this.shopifyButton) this.shopifyButton.setAttribute('disabled', 'true');
             return;
           }
 

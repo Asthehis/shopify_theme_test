@@ -2,6 +2,7 @@ if (!customElements.get(`x-collapsible-tab`)) {
   class FoxifyCollapsibleTab extends HTMLElement {
     constructor() {
       super();
+      this._onTriggerClick = (event) => this.toggle(event);
     }
     connectedCallback() {
       this.init();
@@ -178,7 +179,9 @@ if (!customElements.get(`x-collapsible-tab`)) {
     };
 
     attachEvents = () => {
-      this.trigger.addEventListener('click', (event) => this.toggle(event));
+      if (!this.trigger) return;
+      this.trigger.removeEventListener('click', this._onTriggerClick);
+      this.trigger.addEventListener('click', this._onTriggerClick);
     };
 
     setDefaultData = () => {
@@ -218,7 +221,10 @@ if (!customElements.get(`x-collapsible-tab`)) {
     };
 
     destroy = () => {
-      this.trigger.removeEventListener('click', (event) => this.toggle(event));
+      if (this.trigger) {
+        this.trigger.removeEventListener('click', this._onTriggerClick);
+      }
+      if (!this.content) return;
       this.content.removeAttribute('aria-hidden');
       this.content.style.height = 'auto';
       this.classList.remove(this.expandedClass, this.collapsedClass);

@@ -12,7 +12,8 @@ if (!customElements.get('f-sticky-atc-bar')) {
         this.container = this.closest('.f\\:sticky-atc');
 
         const stickyAtcBlock = this.closest('.f\\:product-single__block');
-        const foxifyWrapper = document.querySelector('.f-app');
+        const foxifyWrappers = document.querySelectorAll('.f-app');
+        const foxifyWrapper = [...foxifyWrappers].find((wrapper) => wrapper.id !== 'f:Age-Verifier-Modal');
         if (stickyAtcBlock && foxifyWrapper && ![...foxifyWrapper.children].includes(stickyAtcBlock)) {
           const formElement = document.createElement('form');
           formElement.method = 'post';

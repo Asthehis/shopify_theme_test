@@ -38,7 +38,7 @@
 {% endif %}
 {% if aliReviews != blank and aliReviews.show_product_rating %}
   <div class='{{ prefix_class }}extension:rating-badge {{ prefix_class }}extension:rating-badge--product-card'>
-    <div product-id='{{ product.id }}' class='alr-display-review-badge'></div>
+    <div product-id='{{ product.id }}' class='alireviews-review-star-rating' product-handle='{{ product.handle }}'></div>
   </div>
 {% endif %}
 {% if looxReviews != blank and looxReviews.show_product_rating %}

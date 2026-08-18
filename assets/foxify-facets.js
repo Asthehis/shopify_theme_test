@@ -206,7 +206,7 @@ if (!customElements.get('x-facet-filters-form') && !customElements.get('f-facet-
         productCount: '#X-ProductCount',
         sortFilterForm: 'x-facet-filters-form form',
         jsFacetRemove: '.js-facet-remove',
-        facetDetailsElements: '#FoxifyFacetFiltersForm .js-filter',
+        facetDetailsElements: 'x-facet-filters-form:not(.x-facets-sort) .js-filter',
         activeFacetElement: '.x-active-facets',
         facetSelected: '.x-facets__selected',
         facetSummary: '.x-facets__summary',
@@ -217,12 +217,57 @@ if (!customElements.get('x-facet-filters-form') && !customElements.get('f-facet-
       this.searchParamsPrev = window.location.search.slice(1);
     }
 
+    static renderFilters(html, event) {
+      const parsedHTML = new DOMParser().parseFromString(html, 'text/html');
+      const facetDetailsElements = parsedHTML.querySelectorAll(this.selectors.facetDetailsElements);
+      const matchesIndex = (element) => {
+        const jsFilter = event?.target?.closest?.('.js-filter');
+        if (!jsFilter) return false;
+        const eventForm = jsFilter.closest('x-facet-filters-form')?.querySelector('form');
+        const elementForm = element.closest('x-facet-filters-form')?.querySelector('form');
+        const sameForm = eventForm && elementForm && eventForm.id === elementForm.id;
+        return sameForm && element.dataset.index === jsFilter.dataset.index;
+      };
+      const facetsToRender = Array.from(facetDetailsElements).filter((element) => !matchesIndex(element));
+      const countsToRender = Array.from(facetDetailsElements).find(matchesIndex);
+
+      facetsToRender.forEach((element) => {
+        const parsedForm = element.closest('x-facet-filters-form')?.querySelector('form');
+        if (!parsedForm?.id) return;
+        const targetForm = document.getElementById(parsedForm.id);
+        if (!targetForm) return;
+        const targetFacet = targetForm.querySelector(`.js-filter[data-index="${element.dataset.index}"]`);
+        if (targetFacet) targetFacet.innerHTML = element.innerHTML;
+      });
+
+      this.renderActiveFacets(parsedHTML);
+
+      if (countsToRender && event?.target) {
+        this.renderCounts(countsToRender, event.target.closest('.js-filter'));
+      }
+    }
+
     static getSections() {
       return [
         {
           section: document.querySelector(this.selectors.productContainer).dataset.id,
         },
       ];
+    }
+
+    onSubmitHandler(event) {
+      if (event.srcElement.className === 'mobile-facets__checkbox') {
+        const searchParams = this.createSearchParams(event.target.closest('form'));
+        this.onSubmitForm(searchParams, event);
+        return;
+      }
+      const sortForm = document.querySelector('form#FoxifyFacetSortForm');
+      const facetFormFromEvent = event.target.closest('form[id^="FoxifyFacetFiltersForm"]');
+      const facetForm = facetFormFromEvent || document.querySelector('form[id^="FoxifyFacetFiltersForm"]');
+      const parts = [];
+      if (sortForm) parts.push(this.createSearchParams(sortForm));
+      if (facetForm) parts.push(this.createSearchParams(facetForm));
+      this.onSubmitForm(parts.join('&'), event);
     }
   }
   customElements.define('x-facet-filters-form', XFacetFiltersForm);

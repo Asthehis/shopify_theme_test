@@ -16,7 +16,11 @@
 
   assign prefix_class = prefix_class | default: 'f:'
   assign prefix_element = prefix_element | default: 'f'
-  assign show_count = show_product_count | default: true
+
+  assign show_count = true
+  if show_product_count != nil
+    assign show_count = show_product_count
+  endif
 
   assign results = collection
   assign sort_by = results.sort_by | default: results.default_sort_by
@@ -26,6 +30,12 @@
   assign is_gen2 = false
   if prefix_class == 'x-'
     assign is_gen2 = true
+  endif
+
+  assign facet_id = facet_id | default: ''
+  assign id_suffix = ''
+  if is_gen2 and facet_id != blank
+    assign id_suffix = '--' | append: facet_id
   endif
 
   if results.url
@@ -40,7 +50,7 @@
 {% endunless %}
 
 <{{ prefix_element }}-drawer-component
-  id='Drawer-Foxify-Facets'
+  id='Drawer-Foxify-Facets{{ id_suffix }}'
   class='{{ prefix_class }}drawer {{ prefix_class }}drawer--left {{ prefix_class }}facets-container {{ prefix_class }}facets--{{ filter_type }}'
   aria-modal='true'
   role='dialog'
@@ -51,7 +61,7 @@
       <h2 class='{{ prefix_class }}facets__heading h3 {{ prefix_class }}drawer__header-title' tabindex='-1'>
         {{ translation.products.facets.filter_by_label }}
       </h2>
-      <button id='FDrawerClose-Facets' class='{{ prefix_class }}drawer__close'>
+      <button id='FDrawerClose-Facets{{ id_suffix }}' class='{{ prefix_class }}drawer__close'>
         <svg
           xmlns='http://www.w3.org/2000/svg'
           aria-hidden='true'
@@ -71,7 +81,7 @@
     </div>
     <div class='{{ prefix_class }}drawer__scroller check-change-class'>
       <{{ prefix_element }}-facet-filters-form class='{{ prefix_class }}facets'>
-        <form id='FoxifyFacetFiltersForm' class='{{ prefix_class }}facets__form'>
+        <form id='FoxifyFacetFiltersForm{{ id_suffix }}' class='{{ prefix_class }}facets__form'>
           {%- if results.terms -%}
             <input type='hidden' name='q' value='{{ results.terms | escape }}'>
             <input name='options[prefix]' type='hidden' value='last'>
@@ -89,7 +99,7 @@
                   assign filters_selected_one = translation.products.facets.filters_selected.one | replace: '{{ count }}', filter.active_values.size
                 %}
                 <details
-                  id='Details-{{ forloop.index }}-{{ section.id }}'
+                  id='Details-{{ forloop.index }}-{{ section.id }}{{ id_suffix }}'
                   class='{{ prefix_class }}facets__block js-filter'
                   data-index='{{ forloop.index }}'
                   {% if filter_type == 'vertical' and forloop.index == 1 %}
@@ -109,7 +119,7 @@
                     </svg>
                   </summary>
                   <div
-                    id='Facet-{{ forloop.index }}-{{ section.id }}'
+                    id='Facet-{{ forloop.index }}-{{ section.id }}{{ id_suffix }}'
                     class='{{ prefix_class }}facets__block-options {{ prefix_class }}parent-display'
                   >
                     <fieldset class='{{ prefix_class }}facets-wrap'>
@@ -123,14 +133,14 @@
                           %}
                           <li class='{{ prefix_class }}facets__item{% if forloop.index > 10 %} {{ prefix_class }}show-more-item {{ prefix_class }}hidden{% endif %}{% if presentation == 'swatch' %} swatch-input-wrapper{% endif %}'>
                             <label
-                              for='Filter-{{ filter.param_name | escape }}-{{ forloop.index }}'
+                              for='Filter-{{ filter.param_name | escape }}-{{ forloop.index }}{{ id_suffix }}'
                               class='{{ prefix_class }}checkbox{% if value.count == 0 and value.active == false %} {{ prefix_class }}checkbox--disabled{% endif %}'
                             >
                               <input
                                 type='checkbox'
                                 name='{{ value.param_name }}'
                                 value='{{ value.value }}'
-                                id='Filter-{{ filter.param_name | escape }}-{{ forloop.index }}'
+                                id='Filter-{{ filter.param_name | escape }}-{{ forloop.index }}{{ id_suffix }}'
                                 {% if value.active %}
                                   checked
                                 {% endif %}
@@ -197,7 +207,7 @@
                       <{{ prefix_element }}-show-more-button>
                         <button
                           class='button-show-more no-js-hidden {{ prefix_class }}btn {{ prefix_class }}gs-link-button'
-                          id='Show-More-{{ forloop.index }}-{{ section.id }}'
+                          id='Show-More-{{ forloop.index }}-{{ section.id }}{{ id_suffix }}'
                           type='button'
                         >
                           <span class='label-show-more label-text'
@@ -223,7 +233,7 @@
                   assign max_price_label = translation.products.facets.max_price | replace: '{{ price }}', max_price_amount
                 %}
                 <details
-                  id='Details-{{ forloop.index }}-{{ section.id }}'
+                  id='Details-{{ forloop.index }}-{{ section.id }}{{ id_suffix }}'
                   class='{{ prefix_class }}facets__block js-filter'
                   data-index='{{ forloop.index }}'
                   {% if filter_type == 'vertical' and forloop.index == 1 %}
@@ -240,7 +250,7 @@
                     </svg>
                   </summary>
                   <div
-                    id='Facet-{{ forloop.index }}-{{ section.id }}'
+                    id='Facet-{{ forloop.index }}-{{ section.id }}{{ id_suffix }}'
                     class='{{ prefix_class }}facets__block-options {{ prefix_class }}parent-display'
                   >
                     <div class='{{ prefix_class }}facets__header'>
@@ -249,7 +259,7 @@
                     <{{ prefix_element }}-price-range class='{{ prefix_class }}facets__price'>
                       <div class='{{ prefix_class }}form-row' style='--gap: 16px;'>
                         <div class='{{ prefix_class }}form-field'>
-                          <label class='{{ prefix_class }}form-label' for='Filter-{{ filter.label | escape }}-GTE'>
+                          <label class='{{ prefix_class }}form-label' for='Filter-{{ filter.label | escape }}-GTE{{ id_suffix }}'>
                             {{- translation.products.facets.from -}}
                           </label>
                           <div class='{{ prefix_class }}form-control__wrapper'>
@@ -257,7 +267,7 @@
                             <input
                               class='{{ prefix_class }}form-control'
                               name='{{ filter.min_value.param_name }}'
-                              id='Filter-{{ filter.label | escape }}-GTE'
+                              id='Filter-{{ filter.label | escape }}-GTE{{ id_suffix }}'
                               {%- if filter.min_value.value -%}
                                 {%- if uses_comma_decimals -%}
                                   value='{{ filter.min_value.value | money_without_currency | replace: '.', '' | replace: ',', '.' }}'

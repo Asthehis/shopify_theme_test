@@ -77,7 +77,7 @@ template-{{ template.name | handle }} {{ template.name }}-{{ template.suffix }} 
 
     {{ 'custom-hero.css' | asset_url | stylesheet_tag }}
 
-    <script>
+    {% comment %} <script>
       window.addEventListener('CORNER_COMPONENT_CLASSES_READY', () => {
         const customElementsMap = new Map();
 
@@ -181,10 +181,13 @@ template-{{ template.name | handle }} {{ template.name }}-{{ template.suffix }} 
 
           window.CORNER_EXTENDED_CLASSES = customElementsMap;
         });
-    </script>
+    </script> {% endcomment %}
+
+    <script src="{{ 'corner-cart-extended.js' | asset_url }}"  defer="defer"></script>
+    {{ 'corner-cart-extended.css' | asset_url | stylesheet_tag }}
   </head>
 
-  <script src="{{ 'loop_bundle.js' | asset_url }}"></script>
+  <script src="{{ 'loop_bundle.js' | asset_url }}" defer="defer"></script>
   <body
     id="sf-theme"
     class="{{ body_classes }} relative min-h-screen{% if customer %} customer-logged-in{% endif %}{% if settings.page_transition %} overflow-hidden{% endif %}"
