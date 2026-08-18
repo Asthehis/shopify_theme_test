@@ -43,6 +43,21 @@ const isShopifyEditor =
 const prMatch = COMMIT_MESSAGE.match(/Merge pull request #(\d+)/i);
 const prNumber = prMatch ? prMatch[1] : null;
 
+// Shopify inclut le vrai auteur (compte admin) et le shop dans le corps du
+// message de commit, pas dans le nom d'auteur git (qui reste "shopify[bot]").
+// Exemple de corps de message :
+//   Committed from shop: uma-sandbox
+//   Theme last edited by: Noémie Fournel
+const shopMatch = COMMIT_MESSAGE.match(/Committed from shop:\s*(.+)/i);
+const editorMatch = COMMIT_MESSAGE.match(/Theme last edited by:\s*(.+)/i);
+const shopifyShopName = shopMatch ? shopMatch[1].trim() : null;
+const shopifyEditorName = editorMatch ? editorMatch[1].trim() : null;
+
+// Nom affiché : priorité au vrai éditeur si on l'a trouvé, sinon fallback sur shopify[bot]
+const displayAuthorName = isShopifyEditor
+    ? shopifyEditorName || COMMIT_AUTHOR_NAME
+    : COMMIT_AUTHOR_NAME;
+
 const source = isShopifyEditor ? "Shopify Editor" : "Pull Request";
 
 // --- 2. Fichiers modifiés dans ce commit ------------------------------------
